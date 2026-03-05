@@ -2,7 +2,7 @@ name: Weekly Higher-Ed Intel
 
 on:
   schedule:
-    - cron: "0 13 * * 1"  # Mondays 13:00 UTC
+    - cron: "0 13 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -11,8 +11,9 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -22,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r higher-ed-intel/generator/requirements.txt
+          pip install feedparser python-dateutil
 
       - name: Generate weekly brief
         run: |
@@ -30,15 +31,13 @@ jobs:
 
       - name: Commit updated data
         run: |
-          git config user.name "higher-ed-intel-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add higher-ed-intel/data/latest.json \
-                  higher-ed-intel/data/latest.md \
-                  higher-ed-intel/data/rss.xml \
-                  higher-ed-intel/data/archive
-          git diff --cached --quiet || (git commit -m "Update weekly intel" && git push)
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add higher-ed-intel/data
+          git commit -m "Auto update weekly brief" || echo "No changes"
+          git push
 
-      - name: Deploy to Hostinger via FTP
+      - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
