@@ -44,4 +44,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: higher-ed-intel/
-          server-dir: public_html/higher-ed-intel/
+          server-dir: public_html/
