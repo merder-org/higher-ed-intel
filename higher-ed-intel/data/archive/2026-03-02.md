@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-02
 
-_Generated: 2026-03-05 14:44 ET_
+_Generated: 2026-03-05 16:36 ET_
 
 ## Highlights (LinkedIn-ready drafts)
 
@@ -98,6 +98,9 @@ For student support/advising: what guardrails have worked well at your instituti
 
 ### Academic Advising
 
+- **Headlines** (AACC Community College Daily, 2026-03-05)
+  - Link: https://www.ccdaily.com/2026/03/headlines-1129/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1129
+  - Summary: Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily .
 - **Washington Watch: House Farm Bill includes new community college grant program** (AACC Community College Daily, 2026-03-05)
   - Link: https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program
   - Summary: A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .
@@ -116,9 +119,6 @@ For student support/advising: what guardrails have worked well at your instituti
 - **Expanding credit for prior learning** (AACC Community College Daily, 2026-03-03)
   - Link: https://www.ccdaily.com/2026/03/expanding-credit-for-prior-learning/?utm_source=rss&utm_medium=rss&utm_campaign=expanding-credit-for-prior-learning
   - Summary: Turning prior learning, work experience, military service and other credentials into college credit can save students time and money. Despite that benefit, it’s been underutilized. Only about 11% of adult learners, for example, have benefited... The post Expanding credit for prior learning first appeared on Community College Daily .
-- **Richmond Fed’s new findings on community college students** (AACC Community College Daily, 2026-03-02)
-  - Link: https://www.ccdaily.com/2026/03/richmond-feds-new-findings-on-community-college-students/?utm_source=rss&utm_medium=rss&utm_campaign=richmond-feds-new-findings-on-community-college-students
-  - Summary: The Federal Reserve Bank of Richmond has released some findings from its analysis of community college data from a growing list of states participating in the bank&#8217;s Survey of Community College Outcomes (SCCO). The Richmond... The post Richmond Fed’s new findings on community college students first appeared on Community College Daily .
 - **McMahon Touts First Year in Office; Dems and Students Push Back** (Inside Higher Ed, 2026-03-05)
   - Link: https://www.insidehighered.com/news/government/politics-elections/2026/03/05/mcmahon-touts-first-year-office-dems-students-push
   - Summary: McMahon Touts First Year in Office; Dems and Students Push Back jessica.blake@… Thu, 03/05/2026 - 03:00 AM The Education Department says that in just one year McMahon has secured reforms in higher ed that conservatives have championed for decades. Critics say her work is creating barriers to college access. Byline(s) Jessica Blake Katherine Knott

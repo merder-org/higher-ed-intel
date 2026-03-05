@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "week_of": "2026-03-02",
-  "generated_at": "2026-03-05 14:44 ET",
+  "generated_at": "2026-03-05 16:36 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -257,6 +257,18 @@
       "score": 6
     },
     {
+      "id": "81db594f88ff001c",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1129/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1129",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
       "id": "db41b748e8f7658b",
       "category": "Academic Advising",
       "title": "Washington Watch: House Farm Bill includes new community college grant program",
@@ -324,18 +336,6 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-03",
       "summary": "Turning prior learning, work experience, military service and other credentials into college credit can save students time and money. Despite that benefit, it’s been underutilized. Only about 11% of adult learners, for example, have benefited... The post Expanding credit for prior learning first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "b0407c0f950ac025",
-      "category": "Academic Advising",
-      "title": "Richmond Fed’s new findings on community college students",
-      "url": "https://www.ccdaily.com/2026/03/richmond-feds-new-findings-on-community-college-students/?utm_source=rss&utm_medium=rss&utm_campaign=richmond-feds-new-findings-on-community-college-students",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-02",
-      "summary": "The Federal Reserve Bank of Richmond has released some findings from its analysis of community college data from a growing list of states participating in the bank&#8217;s Survey of Community College Outcomes (SCCO). The Richmond... The post Richmond Fed’s new findings on community college students first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
