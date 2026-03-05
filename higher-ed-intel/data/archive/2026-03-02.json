@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "week_of": "2026-03-02",
-  "generated_at": "2026-03-05 12:26 ET",
+  "generated_at": "2026-03-05 14:03 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -113,6 +113,18 @@
       "score": 7
     },
     {
+      "id": "fa98dfb353a6456f",
+      "category": "Federal Policy",
+      "title": "Racist, Antisemitic Slurs Surface in Florida GOP Group Chat",
+      "url": "https://www.nytimes.com/2026/03/05/us/florida-gop-slurs-group-chat.html",
+      "source": "NYT Education",
+      "published": "2026-03-05",
+      "summary": "After the secretary of the Miami-Dade County Republican Party created the chat for college students, it devolved into slurs against Black and Jewish people.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
       "id": "5d6e183a40a2e04d",
       "category": "AI in Higher Ed",
       "title": "U.S. Schools Are Betting Big on A.I. Will New York City Be Next?",
@@ -144,18 +156,6 @@
       "source": "NYT Education",
       "published": "2026-03-03",
       "summary": "Pro-Palestinian demonstrators who had taken over Hamilton Hall in 2024 faced expulsions, suspensions and the revocation of their degrees.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "0a27267a27ea27c7",
-      "category": "Federal Policy",
-      "title": "Supreme Court Sides With Religious Parents, Blocking California’s Trans Student Policy",
-      "url": "https://www.nytimes.com/2026/03/02/us/politics/supreme-court-california-trans-students.html",
-      "source": "NYT Education",
-      "published": "2026-03-03",
-      "summary": "Christian teachers and parents challenged the state’s policies, which they say require schools to hide students’ transgender status from their parents.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
