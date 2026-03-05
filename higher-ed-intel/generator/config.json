@@ -34,33 +34,71 @@
       "score": 9
     }
   ],
-  "feeds": [
-    {
-      "name": "Inside Higher Ed",
-      "url": "https://www.insidehighered.com/rss.xml",
-      "default_category": "Academic Advising"
-    },
-    {
-      "name": "NYT Education",
-      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Education.xml",
-      "default_category": "Federal Policy"
-    },
-    {
-      "name": "U.S. Dept. of Labor (Releases)",
-      "url": "https://www.dol.gov/rss/releases.xml",
-      "default_category": "Federal Policy"
-    },
-    {
-      "name": "U.S. Dept. of Education Blog",
-      "url": "https://blog.ed.gov/feed/",
-      "default_category": "Federal Policy"
-    },
-    {
-      "name": "MassDHE News Clips (Pinboard)",
-      "url": "https://feeds.pinboard.in/rss/u:MassDHE",
-      "default_category": "MA Budget / SUCCESS"
-    }
-  ],
+"feeds": [
+  {
+    "name": "Inside Higher Ed",
+    "url": "https://www.insidehighered.com/rss.xml",
+    "default_category": "Academic Advising"
+  },
+  {
+    "name": "Higher Ed Dive",
+    "url": "https://www.highereddive.com/feeds/news/",
+    "default_category": "Federal Policy"
+  },
+  {
+    "name": "EDUCAUSE Review (all channels)",
+    "url": "https://er.educause.edu/rss",
+    "default_category": "AI in Higher Ed"
+  },
+  {
+    "name": "AACC Community College Daily",
+    "url": "https://www.ccdaily.com/feed/",
+    "default_category": "Academic Advising"
+  },
+  {
+    "name": "EdSurge",
+    "url": "https://www.edsurge.com/articles_rss",
+    "default_category": "AI in Higher Ed"
+  },
+
+  {
+    "name": "U.S. Dept. of Education Blog",
+    "url": "https://blog.ed.gov/feed/",
+    "default_category": "Federal Policy"
+  },
+  {
+    "name": "U.S. Dept. of Labor (Releases)",
+    "url": "https://www.dol.gov/rss/releases.xml",
+    "default_category": "Federal Policy"
+  },
+
+  {
+    "name": "GovInfo - Federal Register (official)",
+    "url": "https://www.govinfo.gov/rss/fr.xml",
+    "default_category": "Federal Policy"
+  },
+  {
+    "name": "GovInfo - Congressional Bills",
+    "url": "https://www.govinfo.gov/rss/bills.xml",
+    "default_category": "Federal Policy"
+  },
+  {
+    "name": "GovInfo - GAO Reports",
+    "url": "https://www.govinfo.gov/rss/gaoreports.xml",
+    "default_category": "Federal Policy"
+  },
+
+  {
+    "name": "MassDHE News Clips (Pinboard)",
+    "url": "https://feeds.pinboard.in/rss/u:MassDHE",
+    "default_category": "MA Budget / SUCCESS"
+  },
+  {
+    "name": "NYT Education",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Education.xml",
+    "default_category": "Federal Policy"
+  }
+],
   "category_rules": [
     {
       "category": "MA Budget / SUCCESS",
