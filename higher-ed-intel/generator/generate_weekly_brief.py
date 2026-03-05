@@ -192,6 +192,59 @@ def write_rss(site_title: str, site_link: str, items: List[dict], out_path: Path
     parts.append("</channel></rss>")
     out_path.write_text("\n".join(parts), encoding="utf-8")
 
+def write_markdown(brief: dict, out_path: Path):
+    lines = []
+    lines.append(f"# Higher Ed Intelligence Brief — Week of {brief['week_of']}")
+    lines.append("")
+    lines.append(f"_Generated: {brief['generated_at']}_")
+    lines.append("")
+    lines.append("## Highlights (LinkedIn-ready drafts)")
+    lines.append("")
+
+    for d in brief.get("linkedin_drafts", []):
+        lines.append(f"### {d['title']}")
+        lines.append("")
+        lines.append(d["text"].strip())
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+
+    items = brief.get("items", [])
+    by_cat = {c: [] for c in brief.get("categories", [])}
+    for it in items:
+        by_cat.setdefault(it["category"], []).append(it)
+
+    lines.append("## This week’s items")
+    lines.append("")
+
+    for cat in brief.get("categories", []):
+        cat_items = sorted(by_cat.get(cat, []), key=lambda x: x.get("score", 0), reverse=True)
+        if not cat_items:
+            continue
+
+        lines.append(f"### {cat}")
+        lines.append("")
+        for it in cat_items:
+            pub = it.get("published", "N/A")
+            src = it.get("source", "")
+            url = it.get("url", "")
+            title = it.get("title", "").strip()
+
+            lines.append(f"- **{title}** ({src}, {pub})")
+            lines.append(f"  - Link: {url}")
+
+            summary = (it.get("summary") or "").strip()
+            if summary:
+                lines.append(f"  - Summary: {summary}")
+
+            why = (it.get("why_it_matters") or "").strip()
+            if why:
+                lines.append(f"  - Why it matters: {why}")
+
+        lines.append("")
+
+    out_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
+    
 def main():
     cfg = load_config()
     DATA.mkdir(parents=True, exist_ok=True)
@@ -279,7 +332,8 @@ def main():
 
     (DATA / "latest.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
     (ARCHIVE / f"{week}.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
-
+write_markdown(brief, DATA / "latest.md")
+write_markdown(brief, ARCHIVE / f"{week}.md")
     site = cfg["site"]
     write_rss(site["title"], site["public_base_url"].rstrip("/") + "/", kept, DATA / "rss.xml", build_dt)
 
