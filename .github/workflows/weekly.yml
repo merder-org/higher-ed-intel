@@ -1,0 +1,45 @@
+name: Weekly Higher-Ed Intel
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r higher-ed-intel/generator/requirements.txt
+
+      - name: Generate weekly brief
+        run: |
+          python higher-ed-intel/generator/generate_weekly_brief.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "intel-bot"
+          git config user.email "actions@github.com"
+          git add higher-ed-intel/data/*
+          git diff --cached --quiet || (git commit -m "Update weekly intel" && git push)
+
+      - name: Deploy to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: higher-ed-intel/
+          server-dir: public_html/higher-ed-intel/
