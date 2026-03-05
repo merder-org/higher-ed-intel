@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Higher Ed Intelligence Brief</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand">
+      <div class="title">Higher Ed Intelligence Brief</div>
+      <div class="subtitle">Weekly signals for community colleges: policy • MA budget/SUCCESS • advising • AI</div>
+    </div>
+    <div class="actions">
+      <a class="btn" id="rssLink" href="data/rss.xml" target="_blank" rel="noopener">RSS</a>
+      <a class="btn" id="jsonLink" href="data/latest.json" target="_blank" rel="noopener">latest.json</a>
+      <a class="btn primary" id="copyAllBtn" href="#">Copy LinkedIn drafts</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>This week</h2>
+      <div class="meta" id="metaLine">Loading…</div>
+      <div class="grid" id="categoryGrid"></div>
+    </section>
+
+    <section class="card">
+      <h2>LinkedIn-ready drafts</h2>
+      <div class="meta">Tip: keep the page public; if you later want drafts private, split into /public/ and /private/ builds.</div>
+      <div id="linkedinDrafts"></div>
+    </section>
+
+    <section class="card">
+      <h2>Archive</h2>
+      <div class="meta">Older briefs are JSON files in <code>data/archive/</code>.</div>
+      <ul id="archiveList" class="archive"></ul>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <div>Static HTML + JSON • Built for merder.org</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

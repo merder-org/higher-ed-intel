@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "week_of": "2026-03-02",
+  "generated_at": "2026-03-05 10:45 ET",
+  "rss_url": "data/rss.xml",
+  "categories": [
+    "MA Budget / SUCCESS",
+    "Federal Policy",
+    "Academic Advising",
+    "AI in Higher Ed"
+  ],
+  "items": [
+    {
+      "id": "demo000000000000",
+      "category": "MA Budget / SUCCESS",
+      "title": "MA Budget: Community College SUCCESS Fund (7100-4002)",
+      "url": "https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/",
+      "source": "budget.digital.mass.gov",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Anchor page for tracking SUCCESS language/amounts and wraparound support intent through the FY27 budget process.",
+      "tags": [
+        "Massachusetts",
+        "SUCCESS"
+      ],
+      "score": 12
+    }
+  ],
+  "linkedin_drafts": [
+    {
+      "title": "MA budget watch: SUCCESS Fund signals",
+      "text": "Massachusetts’ Community College SUCCESS Fund (7100-4002) is one of the most concrete examples of policy translating into student-support capacity—peer mentors, skills workshops, transfer-related activities, and targeted advising.\n\nAnchor link I check during budget season: MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/)\n\nQuestion for colleagues: which SUCCESS-funded intervention has produced the clearest retention/completion gains on your campus?\n\n#CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy #Massachusetts"
+    }
+  ],
+  "archive": [
+    {
+      "label": "Week of 2026-03-02",
+      "url": "data/archive/2026-03-02.json"
+    }
+  ]
+}

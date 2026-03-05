@@ -1,0 +1,131 @@
+{
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Higher Ed Intelligence Brief"
+  },
+  "filters": {
+    "days_lookback": 14,
+    "max_items_total": 30,
+    "max_items_per_category": 10
+  },
+  "static_items": [
+    {
+      "category": "MA Budget / SUCCESS",
+      "title": "MA Budget: Community College SUCCESS Fund (7100-4002)",
+      "url": "https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/",
+      "source": "budget.digital.mass.gov",
+      "why_it_matters": "Anchor page for tracking SUCCESS language/amounts and wraparound support intent through the FY27 budget process.",
+      "tags": [
+        "Massachusetts",
+        "SUCCESS"
+      ],
+      "score": 12
+    },
+    {
+      "category": "Federal Policy",
+      "title": "U.S. Department of Labor RSS: releases.xml",
+      "url": "https://www.dol.gov/rss/releases.xml",
+      "source": "dol.gov",
+      "why_it_matters": "Federal workforce-development grants and policy signals frequently originate at DOL/ETA—high relevance for community colleges.",
+      "tags": [
+        "DOL",
+        "Workforce"
+      ],
+      "score": 9
+    }
+  ],
+  "feeds": [
+    {
+      "name": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com/rss.xml",
+      "default_category": "Academic Advising"
+    },
+    {
+      "name": "NYT Education",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Education.xml",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "U.S. Dept. of Labor (Releases)",
+      "url": "https://www.dol.gov/rss/releases.xml",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "U.S. Dept. of Education Blog",
+      "url": "https://blog.ed.gov/feed/",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "MassDHE News Clips (Pinboard)",
+      "url": "https://feeds.pinboard.in/rss/u:MassDHE",
+      "default_category": "MA Budget / SUCCESS"
+    }
+  ],
+  "category_rules": [
+    {
+      "category": "MA Budget / SUCCESS",
+      "keywords": [
+        "7100-4002",
+        "success fund",
+        "massachusetts budget",
+        "ways and means",
+        "appropriation",
+        "house 2",
+        "senate ways and means",
+        "house ways and means",
+        "community college success",
+        "massdhe",
+        "massachusetts department of higher education"
+      ]
+    },
+    {
+      "category": "Federal Policy",
+      "keywords": [
+        "department of education",
+        "ed.gov",
+        "pell",
+        "workforce pell",
+        "fafsa",
+        "rulemaking",
+        "title iv",
+        "gainful employment",
+        "dol",
+        "employment and training administration",
+        "eta",
+        "strengthening community colleges",
+        "congress",
+        "federal register"
+      ]
+    },
+    {
+      "category": "Academic Advising",
+      "keywords": [
+        "advising",
+        "advisor",
+        "student success",
+        "retention",
+        "completion",
+        "case management",
+        "guided pathways",
+        "intrusive advising",
+        "transfer advising",
+        "wraparound"
+      ]
+    },
+    {
+      "category": "AI in Higher Ed",
+      "keywords": [
+        "artificial intelligence",
+        "generative ai",
+        "chatgpt",
+        "copilot",
+        "ai policy",
+        "ai literacy",
+        "academic integrity",
+        "ai in higher education",
+        "edtech",
+        "automation"
+      ]
+    }
+  ]
+}
