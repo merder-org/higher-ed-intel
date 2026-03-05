@@ -247,6 +247,8 @@ def write_markdown(brief: dict, out_path: Path):
     
 def main():
     cfg = load_config()
+     site = cfg["site"]
+    filters = cfg["filters"]
     DATA.mkdir(parents=True, exist_ok=True)
     ARCHIVE.mkdir(parents=True, exist_ok=True)
 
@@ -334,7 +336,7 @@ def main():
     (ARCHIVE / f"{week}.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
 write_markdown(brief, DATA / "latest.md")
 write_markdown(brief, ARCHIVE / f"{week}.md")
-    site = cfg["site"]
+   
     write_rss(site["title"], site["public_base_url"].rstrip("/") + "/", kept, DATA / "rss.xml", build_dt)
 
     print(f"OK: wrote latest.json + archive/{week}.json ({len(kept)} items).")
