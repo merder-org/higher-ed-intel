@@ -1,102 +1,116 @@
+
 async function loadJSON(url){
-  const res = await fetch(url, {cache: "no-store"});
+  const res = await fetch(url, { cache: "no-store" });
   if(!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
   return await res.json();
 }
-
-function el(tag, attrs={}, children=[]){
-  const n = document.createElement(tag);
+function el(tag, attrs = {}, children = []){
+  const node = document.createElement(tag);
   for(const [k,v] of Object.entries(attrs)){
-    if(k === "class") n.className = v;
-    else if(k.startsWith("on") && typeof v === "function") n.addEventListener(k.slice(2), v);
-    else n.setAttribute(k, v);
+    if(k === "class") node.className = v;
+    else if(k.startsWith("on") && typeof v === "function") node.addEventListener(k.slice(2), v);
+    else node.setAttribute(k, v);
   }
-  for(const c of children){
-    if(typeof c === "string") n.appendChild(document.createTextNode(c));
-    else if(c) n.appendChild(c);
+  for(const child of children){
+    if(child == null) continue;
+    if(typeof child === "string") node.appendChild(document.createTextNode(child));
+    else node.appendChild(child);
   }
-  return n;
+  return node;
 }
-
-function render(data){
-  document.getElementById("metaLine").textContent =
-    `${data.week_of} • Generated ${data.generated_at} • ${data.items.length} items • v${data.schema_version}`;
-
-  document.getElementById("rssLink").href = data.rss_url || "data/rss.xml";
-
-  const grid = document.getElementById("categoryGrid");
-  grid.innerHTML = "";
-  const cats = data.categories || [];
-
-  for(const cat of cats){
-    const items = data.items.filter(x => x.category === cat);
-    const box = el("div", {class:"cat"}, [
-      el("h3", {}, [cat]),
-      el("div", {class:"meta"}, [items.length ? `${items.length} item(s)` : "No items this week."])
-    ]);
-
-    for(const it of items){
-      const badges = el("div", {class:"badges"}, [
-        ...(it.tags||[]).slice(0,6).map(t => el("span",{class:"badge"},[t])),
-        it.score != null ? el("span",{class:"badge"},[`score: ${it.score}`]) : null
-      ].filter(Boolean));
-
-      const title = el("div",{class:"title"},[
-        el("a",{href: it.url, target:"_blank", rel:"noopener"},[it.title])
-      ]);
-
-      const src = el("div",{class:"meta"},[
-        `${it.source || ""}${it.published ? " • " + it.published : ""}`
-      ]);
-
-      const why = el("div",{class:"why"},[it.why_it_matters || it.summary || ""]);
-
-      box.appendChild(el("div",{class:"item"},[title, src, why, badges]));
-    }
-
+async function copyText(text, btn){
+  await navigator.clipboard.writeText(text);
+  if(btn){
+    const old = btn.textContent;
+    btn.textContent = "Copied";
+    setTimeout(()=> btn.textContent = old, 1000);
+  }
+}
+function renderMeta(data){
+  const box = document.getElementById("metaBox");
+  const feedWarnings = (data.feed_errors || []).length;
+  box.innerHTML = `<div><strong>Week of:</strong> ${data.week_of}</div><div><strong>Generated:</strong> ${data.generated_at}</div><div><strong>Items:</strong> ${data.items.length}</div><div><strong>Feed warnings:</strong> ${feedWarnings}</div>`;
+}
+function renderDrafts(data){
+  const wrap = document.getElementById("linkedinDrafts");
+  wrap.innerHTML = "";
+  const drafts = data.linkedin_drafts || [];
+  if(!drafts.length){ wrap.appendChild(el("div", {class:"empty"}, ["No drafts available."])); return; }
+  drafts.forEach((d, i) => {
+    const btn = el("button", {class:"btn", onclick:()=>copyText(d.text || "", btn)}, ["Copy"]);
+    wrap.appendChild(el("div", {class:"draft-card"}, [
+      el("div", {class:"kicker"}, [`Draft ${i+1}`]),
+      el("h3", {}, [d.title || `Draft ${i+1}`]),
+      el("div", {class:"draft-text"}, [d.text || ""]),
+      el("div", {class:"copy-row"}, [btn])
+    ]));
+  });
+  document.getElementById("copyAllDraftsBtn").onclick = () => {
+    const all = drafts.map(d => d.text || "").join("\n\n---\n\n");
+    copyText(all, document.getElementById("copyAllDraftsBtn"));
+  };
+}
+function renderSignals(data){
+  const wrap = document.getElementById("topSignals");
+  wrap.innerHTML = "";
+  const items = (data.top_signals || []).slice(0, 6);
+  if(!items.length){ wrap.appendChild(el("div", {class:"empty"}, ["No top signals available."])); return; }
+  items.forEach((it) => {
+    wrap.appendChild(el("div", {class:"signal-card"}, [
+      el("div", {class:"kicker"}, [it.category || "Signal"]),
+      el("h3", {}, [it.title || "Untitled"]),
+      el("div", {class:"meta"}, [`${it.source || ""}${it.published ? " • " + it.published : ""}`]),
+      el("p", {class:"signal-summary"}, [it.summary_for_brief || it.summary || ""]),
+      el("p", {class:"signal-why"}, [`Why it matters: ${it.why_it_matters || ""}`]),
+      el("div", {class:"small-links"}, [el("a", {href: it.url, target:"_blank", rel:"noopener"}, ["Open source"])])
+    ]));
+  });
+}
+function renderNotes(data){
+  const wrap = document.getElementById("briefingNotes");
+  wrap.innerHTML = "";
+  const grid = el("div", {class:"note-grid"});
+  (data.categories || []).forEach(cat => {
+    const notes = (data.briefing_notes || []).filter(x => x.category === cat);
+    if(!notes.length) return;
+    const box = el("div", {class:"note-card"}, [el("div", {class:"kicker"}, [cat])]);
+    notes.slice(0, 4).forEach(it => {
+      box.appendChild(el("h3", {}, [it.title]));
+      box.appendChild(el("p", {class:"note-summary"}, [it.summary_for_brief || it.summary || ""]));
+      if(it.why_it_matters) box.appendChild(el("p", {class:"note-why"}, [`Why it matters: ${it.why_it_matters}`]));
+    });
     grid.appendChild(box);
-  }
-
-  const draftsWrap = document.getElementById("linkedinDrafts");
-  draftsWrap.innerHTML = "";
-  (data.linkedin_drafts || []).forEach((d, idx) => {
-    const copyBtn = el("a", {class:"btn", href:"#", onclick:(e)=>{e.preventDefault(); navigator.clipboard.writeText(d.text);} }, ["Copy"]);
-    draftsWrap.appendChild(
-      el("div",{class:"draft"},[
-        el("div",{class:"topline"},[
-          el("h3",{},[d.title || `Draft ${idx+1}`]),
-          copyBtn
-        ]),
-        el("pre",{},[d.text || ""])
-      ])
-    );
   });
-
-  document.getElementById("copyAllBtn").addEventListener("click", async (e)=>{
-    e.preventDefault();
-    const all = (data.linkedin_drafts||[]).map(d=>d.text).join("\n\n---\n\n");
-    await navigator.clipboard.writeText(all);
-    e.target.textContent = "Copied!";
-    setTimeout(()=>e.target.textContent="Copy LinkedIn drafts", 1200);
-  });
-
-  const archive = document.getElementById("archiveList");
-  archive.innerHTML = "";
-  (data.archive || []).forEach(a=>{
-    archive.appendChild(
-      el("li",{},[
-        el("a",{href:a.url, target:"_blank", rel:"noopener"},[a.label])
-      ])
-    );
+  if(!grid.childNodes.length) wrap.appendChild(el("div", {class:"empty"}, ["No briefing notes available."]));
+  else wrap.appendChild(grid);
+}
+function renderArchive(data){
+  const wrap = document.getElementById("archiveList");
+  wrap.innerHTML = "";
+  (data.archive || []).forEach(a => {
+    const mdUrl = a.url.replace(/\.json$/, ".md");
+    wrap.appendChild(el("li", {}, [
+      el("span", {}, [a.label + " — "]),
+      el("a", {href: mdUrl, target:"_blank", rel:"noopener"}, ["Readable"]),
+      el("span", {}, [" · "]),
+      el("a", {href: a.url, target:"_blank", rel:"noopener"}, ["Raw JSON"])
+    ]));
   });
 }
-
-(async ()=>{
+function renderFeedErrors(data){
+  const wrap = document.getElementById("feedErrors");
+  wrap.innerHTML = "";
+  const errs = data.feed_errors || [];
+  if(!errs.length){ wrap.appendChild(el("div", {class:"empty"}, ["No feed warnings this run."])); return; }
+  const ul = el("ul");
+  errs.forEach(err => ul.appendChild(el("li", {}, [err])));
+  wrap.appendChild(ul);
+}
+(async function(){
   try{
     const data = await loadJSON("data/latest.json");
-    render(data);
+    renderMeta(data); renderDrafts(data); renderSignals(data); renderNotes(data); renderArchive(data); renderFeedErrors(data);
   }catch(err){
-    document.getElementById("metaLine").textContent = err.message;
-    console.error(err);
+    document.getElementById("metaBox").textContent = err.message;
   }
 })();

@@ -7,41 +7,69 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="wrap">
-    <div class="brand">
-      <div class="title">Higher Ed Intelligence Brief</div>
-      <div class="subtitle">Weekly signals for community colleges: policy • MA budget/SUCCESS • advising • AI</div>
+  <header class="wrap topbar">
+    <div>
+      <div class="eyebrow">Twice-weekly briefing writer</div>
+      <h1>Higher Ed Intelligence Brief</h1>
+      <p class="sub">Massachusetts policy • federal higher-ed signals • advising • AI — organized for copy-ready LinkedIn use.</p>
     </div>
-    <div class="actions">
-      <a class="btn" id="rssLink" href="data/rss.xml" target="_blank" rel="noopener">RSS</a>
-      <a class="btn" id="jsonLink" href="data/latest.json" target="_blank" rel="noopener">latest.json</a>
-      <a class="btn primary" id="copyAllBtn" href="#">Copy LinkedIn drafts</a>
+    <div class="top-actions">
+      <a class="btn" href="data/latest.md" target="_blank" rel="noopener">Readable brief</a>
+      <a class="btn" href="data/latest.json" target="_blank" rel="noopener">latest.json</a>
+      <button class="btn primary" id="copyAllDraftsBtn">Copy all drafts</button>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="card">
-      <h2>This week</h2>
-      <div class="meta" id="metaLine">Loading…</div>
-      <div class="grid" id="categoryGrid"></div>
+    <section class="hero card">
+      <div class="hero-left">
+        <div class="eyebrow">Ready to post</div>
+        <h2>LinkedIn drafts</h2>
+        <p class="section-note">These should be the first thing you see on Monday and Thursday. Copy one, tweak it lightly, and post.</p>
+      </div>
+      <div class="hero-right" id="metaBox">Loading…</div>
     </section>
 
     <section class="card">
-      <h2>LinkedIn-ready drafts</h2>
-      <div class="meta">Tip: keep the page public; if you later want drafts private, split into /public/ and /private/ builds.</div>
-      <div id="linkedinDrafts"></div>
+      <div class="section-head">
+        <h2>Copy-ready drafts</h2>
+        <p class="section-note">Three drafts are always generated: Massachusetts/community college policy, federal/student-success, and AI in higher ed.</p>
+      </div>
+      <div id="linkedinDrafts" class="draft-grid"></div>
     </section>
 
     <section class="card">
-      <h2>Archive</h2>
-      <div class="meta">Older briefs are JSON files in <code>data/archive/</code>.</div>
-      <ul id="archiveList" class="archive"></ul>
+      <div class="section-head">
+        <h2>Top signals this run</h2>
+        <p class="section-note">Short summaries first. Raw feed detail comes later.</p>
+      </div>
+      <div id="topSignals" class="signal-grid"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <h2>Briefing notes</h2>
+        <p class="section-note">Organized by category for deeper context when you want it.</p>
+      </div>
+      <div id="briefingNotes"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <h2>Archive</h2>
+        <p class="section-note">Older briefings in readable and raw formats.</p>
+      </div>
+      <ul id="archiveList" class="archive-list"></ul>
+    </section>
+
+    <section class="card muted-card">
+      <div class="section-head">
+        <h2>Feed diagnostics</h2>
+        <p class="section-note">Only useful when a source is flaky.</p>
+      </div>
+      <div id="feedErrors"></div>
     </section>
   </main>
-
-  <footer class="wrap footer">
-    <div>Static HTML + JSON • Built for merder.org</div>
-  </footer>
 
   <script src="app.js"></script>
 </body>
