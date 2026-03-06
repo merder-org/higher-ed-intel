@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "week_of": "2026-03-02",
-  "generated_at": "2026-03-05 17:04 ET",
+  "generated_at": "2026-03-06 11:53 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -21,9 +21,10 @@
       "why_it_matters": "Anchor page for tracking SUCCESS language/amounts and wraparound support intent through the FY27 budget process.",
       "tags": [
         "Massachusetts",
-        "SUCCESS"
+        "SUCCESS",
+        "Budget"
       ],
-      "score": 12
+      "score": 14
     },
     {
       "id": "0b6bcdd8f44bfe68",
@@ -35,89 +36,140 @@
       "summary": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
+      "score": 13
+    },
+    {
+      "id": "6429575608f363e6",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassDHE News Clips: Community Colleges",
+      "url": "https://www.mass.edu/newsclips/ccsystem.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "MassDHE’s community college news-clips page often surfaces Massachusetts system-level developments, transfer, workforce, affordability, and funding coverage.",
+      "tags": [
+        "MassDHE",
+        "Community Colleges"
+      ],
+      "score": 11
+    },
+    {
+      "id": "db41b748e8f7658b",
+      "category": "MA Budget / SUCCESS",
+      "title": "Washington Watch: House Farm Bill includes new community college grant program",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
       "score": 10
     },
     {
-      "id": "fb4eee8bd0d73084",
+      "id": "8e89ff0ca3e0107a",
       "category": "MA Budget / SUCCESS",
-      "title": "H.R.&nbsp;7147&nbsp;(PCS) - An Act Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7147pcs",
-      "source": "GovInfo - Congressional Bills",
-      "published": "2026-03-02",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "title": "A statewide approach to CPL",
+      "url": "https://www.ccdaily.com/2026/03/a-statewide-approach-to-cpl/?utm_source=rss&utm_medium=rss&utm_campaign=a-statewide-approach-to-cpl",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 9
+      "score": 10
     },
     {
-      "id": "629ffcfb9ad5f744",
+      "id": "ad561ed4271f03ea",
       "category": "MA Budget / SUCCESS",
-      "title": "H.R.&nbsp;7744&nbsp;(IH) - Department of Homeland Security Appropriations Act, 2026",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7744ih",
-      "source": "GovInfo - Congressional Bills",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1128/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1128",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-04",
+      "summary": "Community colleges tout success of state-sponsored business partnerships Iowa Capital Dispatch Representatives from Iowa’s community colleges and their business partners gathered in the Iowa Capitol this week to showcase their unique programs and partnerships to... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 10
+    },
+    {
+      "id": "1b90c4106cc15e8e",
+      "category": "MA Budget / SUCCESS",
+      "title": "Newsmakers",
+      "url": "https://www.ccdaily.com/2026/03/newsmakers-351/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-351",
+      "source": "AACC Community College Daily",
       "published": "2026-03-03",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "summary": "New CEO Jeremy L. Pickard will become president of Southwest Wisconsin Technical College on July 1. He is currently vice chancellor of academic affairs at Eastern Iowa Community Colleges. Over his career, Pickard has built... The post Newsmakers first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 9
+      "score": 10
     },
     {
-      "id": "4ea06be61481f866",
-      "category": "MA Budget / SUCCESS",
-      "title": "H. Res.&nbsp;1095&nbsp;(RH) - Providing for consideration of the bill (H.R. 7744) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hres1095rh",
-      "source": "GovInfo - Congressional Bills",
-      "published": "2026-03-04",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "56ace344a14070aa",
-      "category": "MA Budget / SUCCESS",
-      "title": "H. Res.&nbsp;1096&nbsp;(IH) - Providing for consideration of the bill (H.R. 4213) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hres1096ih",
-      "source": "GovInfo - Congressional Bills",
-      "published": "2026-03-04",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "d8c3c96a500b4e21",
+      "id": "0d76d7e59f99b220",
       "category": "Federal Policy",
-      "title": "U.S. Department of Labor RSS: releases.xml",
-      "url": "https://www.dol.gov/rss/releases.xml",
-      "source": "dol.gov",
+      "title": "GovInfo RSS Feeds Directory",
+      "url": "https://www.govinfo.gov/feeds",
+      "source": "govinfo.gov",
       "published": "N/A",
       "summary": "",
-      "why_it_matters": "Federal workforce-development grants and policy signals frequently originate at DOL/ETA—high relevance for community colleges.",
+      "why_it_matters": "Official federal RSS directory for Federal Register, bills, GAO reports, and other primary-source policy signals.",
       "tags": [
-        "DOL",
-        "Workforce"
+        "GovInfo",
+        "Federal Register"
       ],
-      "score": 9
+      "score": 10
     },
     {
-      "id": "fff5776845f26c0a",
+      "id": "f89d648b59d2e368",
       "category": "Federal Policy",
-      "title": "Federal Register Vol. 91, No.33, February 19, 2026",
-      "url": "https://www.govinfo.gov/app/details/FR-2026-02-19",
-      "source": "GovInfo - Federal Register (official)",
-      "published": "2026-02-20",
-      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "title": "H.J. Res.&nbsp;151&nbsp;(IH) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Grand Staircase-Escalante National Monument Record of Decision and Approved Resource Management Plan.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hjres151ih",
+      "source": "GovInfo Bills",
+      "published": "2026-03-05",
+      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
       "tags": [],
-      "score": 9
+      "score": 10
+    },
+    {
+      "id": "d10373f8018fdb2b",
+      "category": "Federal Policy",
+      "title": "S.J. Res.&nbsp;109&nbsp;(IS) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Grand Staircase-Escalante National Monument Record of Decision and Approved Resource Management Plan.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres109is",
+      "source": "GovInfo Bills",
+      "published": "2026-03-06",
+      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 10
+    },
+    {
+      "id": "8f8e1fa0f4ef5908",
+      "category": "Federal Policy",
+      "title": "H.R.&nbsp;7744&nbsp;(EH) - Department of Homeland Security Appropriations Act, 2026",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7744eh",
+      "source": "GovInfo Bills",
+      "published": "2026-03-06",
+      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 10
+    },
+    {
+      "id": "1a93edea8f4f9093",
+      "category": "Federal Policy",
+      "title": "H. Res.&nbsp;1095&nbsp;(EH) - Providing for consideration of the bill (H.R. 7744) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hres1095eh",
+      "source": "GovInfo Bills",
+      "published": "2026-03-06",
+      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 10
     },
     {
       "id": "a2e7f3f2c79e7f05",
       "category": "Federal Policy",
       "title": "Federal Register Vol. 91, No.34, February 20, 2026",
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-20",
-      "source": "GovInfo - Federal Register (official)",
+      "source": "GovInfo Federal Register",
       "published": "2026-02-20",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
@@ -129,7 +181,7 @@
       "category": "Federal Policy",
       "title": "Federal Register Vol. 91, No.31, February 17, 2026",
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-17",
-      "source": "GovInfo - Federal Register (official)",
+      "source": "GovInfo Federal Register",
       "published": "2026-02-23",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
@@ -141,7 +193,7 @@
       "category": "Federal Policy",
       "title": "Federal Register Vol. 91, No.35, February 23, 2026",
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-23",
-      "source": "GovInfo - Federal Register (official)",
+      "source": "GovInfo Federal Register",
       "published": "2026-02-23",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
@@ -153,7 +205,7 @@
       "category": "Federal Policy",
       "title": "Federal Register Vol. 91, No.36, February 24, 2026",
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-24",
-      "source": "GovInfo - Federal Register (official)",
+      "source": "GovInfo Federal Register",
       "published": "2026-02-24",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
@@ -165,7 +217,7 @@
       "category": "Federal Policy",
       "title": "Federal Register Vol. 91, No.37, February 25, 2026",
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-25",
-      "source": "GovInfo - Federal Register (official)",
+      "source": "GovInfo Federal Register",
       "published": "2026-02-25",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
@@ -177,7 +229,7 @@
       "category": "Federal Policy",
       "title": "Federal Register Vol. 91, No.38, February 26, 2026",
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-26",
-      "source": "GovInfo - Federal Register (official)",
+      "source": "GovInfo Federal Register",
       "published": "2026-02-26",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
@@ -189,20 +241,8 @@
       "category": "Federal Policy",
       "title": "Federal Register Vol. 91, No.39, February 27, 2026",
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-27",
-      "source": "GovInfo - Federal Register (official)",
+      "source": "GovInfo Federal Register",
       "published": "2026-02-27",
-      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "cd89b8d275acc09a",
-      "category": "Federal Policy",
-      "title": "Federal Register Vol. 91, No.40, March 2, 2026",
-      "url": "https://www.govinfo.gov/app/details/FR-2026-03-02",
-      "source": "GovInfo - Federal Register (official)",
-      "published": "2026-03-02",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
       "tags": [],
@@ -218,7 +258,7 @@
       "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 7
+      "score": 8
     },
     {
       "id": "bd6b16c106dd8f65",
@@ -228,6 +268,30 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-04",
       "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 8
+    },
+    {
+      "id": "2b2b28cdebdea022",
+      "category": "AI in Higher Ed",
+      "title": "Journal Submissions Riddled With AI-Created Fake Citations",
+      "url": "https://www.insidehighered.com/news/faculty-issues/books-publishing/2026/03/06/journal-submissions-riddled-ai-created-fake",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-06",
+      "summary": "Journal Submissions Riddled With AI-Created Fake Citations Emma Whitford Fri, 03/06/2026 - 03:00 AM References used to be one of the last things journal editors checked before publishing a paper. Artificial intelligence is changing that. Byline(s) Emma Whitford",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "d676f16e36138ba5",
+      "category": "AI in Higher Ed",
+      "title": "Florida bill seeks further limit on out-of-state enrollment at top universities",
+      "url": "https://www.highereddive.com/news/florida-bill-seeks-further-limit-on-out-of-state-enrollment-at-top-universi/813842/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-05",
+      "summary": "The state&rsquo;s House passed a measure that would cap nonresident students to no more than 5% of first-time, full-time fall enrollment at certain institutions.&nbsp;",
       "why_it_matters": "",
       "tags": [],
       "score": 7
@@ -240,6 +304,54 @@
       "source": "EdSurge",
       "published": "2026-02-24",
       "summary": "How a lawyer-turned-teacher-turned-AI ethicist used assessment to personalize instruction before AI-powered edtech existed.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "265243cd5bf9e27e",
+      "category": "Academic Advising",
+      "title": "Report Urges California to Improve College Access",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/03/06/report-urges-california-improve-college-access",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-06",
+      "summary": "Report Urges California to Improve College Access Joshua.Bay Fri, 03/06/2026 - 03:00 AM A new report outlines reforms—from transfer improvements to credit recognition—to help the state reach its 70&nbsp;percent college attainment goal. Byline(s) Joshua Bay",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
+      "id": "81db594f88ff001c",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1129/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1129",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
+      "id": "43292c26e6f526e6",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1127/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1127",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-03",
+      "summary": "Commentary: Trump and the right’s odd relationship with a good workforce idea. Jobs That Work (blog) A pretty good bipartisan bill has the potential to expand a great hiring strategy that the Trump administration has... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
+      "id": "c777618586c3dbef",
+      "category": "Academic Advising",
+      "title": "Expanding credit for prior learning",
+      "url": "https://www.ccdaily.com/2026/03/expanding-credit-for-prior-learning/?utm_source=rss&utm_medium=rss&utm_campaign=expanding-credit-for-prior-learning",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-03",
+      "summary": "Turning prior learning, work experience, military service and other credentials into college credit can save students time and money. Despite that benefit, it’s been underutilized. Only about 11% of adult learners, for example, have benefited... The post Expanding credit for prior learning first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 6
@@ -257,121 +369,85 @@
       "score": 6
     },
     {
-      "id": "81db594f88ff001c",
+      "id": "004e4342663f29ab",
       "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1129/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1129",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-05",
-      "summary": "Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "db41b748e8f7658b",
-      "category": "Academic Advising",
-      "title": "Washington Watch: House Farm Bill includes new community college grant program",
-      "url": "https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-05",
-      "summary": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "8e89ff0ca3e0107a",
-      "category": "Academic Advising",
-      "title": "A statewide approach to CPL",
-      "url": "https://www.ccdaily.com/2026/03/a-statewide-approach-to-cpl/?utm_source=rss&utm_medium=rss&utm_campaign=a-statewide-approach-to-cpl",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-05",
-      "summary": "Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "ad561ed4271f03ea",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1128/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1128",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "Community colleges tout success of state-sponsored business partnerships Iowa Capital Dispatch Representatives from Iowa’s community colleges and their business partners gathered in the Iowa Capitol this week to showcase their unique programs and partnerships to... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "1b90c4106cc15e8e",
-      "category": "Academic Advising",
-      "title": "Newsmakers",
-      "url": "https://www.ccdaily.com/2026/03/newsmakers-351/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-351",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-03",
-      "summary": "New CEO Jeremy L. Pickard will become president of Southwest Wisconsin Technical College on July 1. He is currently vice chancellor of academic affairs at Eastern Iowa Community Colleges. Over his career, Pickard has built... The post Newsmakers first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "43292c26e6f526e6",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1127/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1127",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-03",
-      "summary": "Commentary: Trump and the right’s odd relationship with a good workforce idea. Jobs That Work (blog) A pretty good bipartisan bill has the potential to expand a great hiring strategy that the Trump administration has... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "c777618586c3dbef",
-      "category": "Academic Advising",
-      "title": "Expanding credit for prior learning",
-      "url": "https://www.ccdaily.com/2026/03/expanding-credit-for-prior-learning/?utm_source=rss&utm_medium=rss&utm_campaign=expanding-credit-for-prior-learning",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-03",
-      "summary": "Turning prior learning, work experience, military service and other credentials into college credit can save students time and money. Despite that benefit, it’s been underutilized. Only about 11% of adult learners, for example, have benefited... The post Expanding credit for prior learning first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "7b396c649e4082a9",
-      "category": "Academic Advising",
-      "title": "McMahon Touts First Year in Office; Dems and Students Push Back",
-      "url": "https://www.insidehighered.com/news/government/politics-elections/2026/03/05/mcmahon-touts-first-year-office-dems-students-push",
+      "title": "Legal Advocacy Group Raises Concern About AI Use in Federal Student Aid",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/06/advocacy-group-raises-concern-about-ai-federal-student-aid",
       "source": "Inside Higher Ed",
-      "published": "2026-03-05",
-      "summary": "McMahon Touts First Year in Office; Dems and Students Push Back jessica.blake@… Thu, 03/05/2026 - 03:00 AM The Education Department says that in just one year McMahon has secured reforms in higher ed that conservatives have championed for decades. Critics say her work is creating barriers to college access. Byline(s) Jessica Blake Katherine Knott",
+      "published": "2026-03-06",
+      "summary": "Legal Advocacy Group Raises Concern About AI Use in Federal Student Aid jessica.blake@… Fri, 03/06/2026 - 03:00 AM Byline(s) Jessica Blake",
       "why_it_matters": "",
       "tags": [],
-      "score": 4
+      "score": 5
     },
     {
-      "id": "b11a1145433d1229",
+      "id": "1dacc7dbce66b2e1",
       "category": "Academic Advising",
-      "title": "Rider University Sells Part of Campus to County in $10M Deal",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/05/rider-university-sells-part-campus-county-10m-deal",
+      "title": "RFK Jr. Secures Pledges From Medical Schools to Beef Up Nutrition Education",
+      "url": "https://www.insidehighered.com/news/faculty-issues/curriculum/2026/03/06/53-medical-schools-pledge-beef-nutrition-education",
       "source": "Inside Higher Ed",
-      "published": "2026-03-05",
-      "summary": "Rider University Sells Part of Campus to County in $10M Deal sara.custer@in… Thu, 03/05/2026 - 03:00 AM Byline(s) Sara Custer",
+      "published": "2026-03-06",
+      "summary": "RFK Jr. Secures Pledges From Medical Schools to Beef Up Nutrition Education kathryn.palmer… Fri, 03/06/2026 - 03:00 AM The push is part of Robert F. Kennedy Jr.’s “Make America Healthy Again” agenda, but officials say they aren’t dictating curriculum. Some experts are skeptical. Byline(s) Kathryn Palmer",
       "why_it_matters": "",
       "tags": [],
-      "score": 4
+      "score": 5
     },
     {
-      "id": "61e46b529ac2c320",
+      "id": "f2f5466b14550f9f",
       "category": "Academic Advising",
-      "title": "In-Person Classes Aren’t Safe From the AI Cheating Boom",
-      "url": "https://www.insidehighered.com/news/students/academics/2026/03/05/person-classes-arent-safe-ai-cheating-boom",
+      "title": "An Article I’d Love to Read",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/03/06/article-id-love-read",
       "source": "Inside Higher Ed",
-      "published": "2026-03-05",
-      "summary": "In-Person Classes Aren’t Safe From the AI Cheating Boom kathryn.palmer… Thu, 03/05/2026 - 03:00 AM One professor was surprised to learn how easy digital technology makes it for students to cheat on class participation assignments and some exams. Byline(s) Kathryn Palmer",
+      "published": "2026-03-06",
+      "summary": "An Article I’d Love to Read Sara Brady Fri, 03/06/2026 - 03:00 AM Cutting the budget—painlessly. Byline(s) Matt Reed",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "6d37534d89477593",
+      "category": "AI in Higher Ed",
+      "title": "With Teens Comfortable Confiding in AI, Should Schools Embrace It for Mental Health Care?",
+      "url": "https://www.edsurge.com/news/2026-03-03-with-teens-comfortable-confiding-in-ai-should-schools-embrace-it-for-mental-health-care",
+      "source": "EdSurge",
+      "published": "2026-03-03",
+      "summary": "Why are students so comfortable using AI for emotional support?",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "1ffdde6c963e3940",
+      "category": "AI in Higher Ed",
+      "title": "The Role of Faculty in the University of the Future",
+      "url": "https://er.educause.edu/articles/2026/3/the-role-of-faculty-in-the-university-of-the-future",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-03",
+      "summary": "In the age of AI, the true future of higher education lies not in replacing faculty but in freeing them to do what only humans can—build meaningful relationships, cultivate wisdom, and guide students through the ethical and intellectual challenges machines cannot navigate.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "53faf5bdd3df80de",
+      "category": "AI in Higher Ed",
+      "title": "Smart Spending: Inexpensive Strategies for IT Professional Development in Higher Education",
+      "url": "https://er.educause.edu/articles/2026/3/smart-spending-inexpensive-strategies-for-it-professional-development-in-higher-education",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-02",
+      "summary": "By adopting practical, cost-effective strategies, higher education IT leaders can support continuous learning and career development for staff, even during budget-constrained times.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "55f7dfff2ca460d5",
+      "category": "Academic Advising",
+      "title": "NIH Will No Longer Recognize Union of Early-Career Researchers",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/06/nih-moves-derecognize-union-early-career-researchers",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-06",
+      "summary": "NIH Will No Longer Recognize Union of Early-Career Researchers Susan H. Greenberg Fri, 03/06/2026 - 03:00 AM Byline(s) Susan H. Greenberg",
       "why_it_matters": "",
       "tags": [],
       "score": 4
@@ -379,16 +455,16 @@
   ],
   "linkedin_drafts": [
     {
-      "title": "MA budget watch: SUCCESS Fund signals",
-      "text": "Massachusetts’ Community College SUCCESS Fund (7100-4002) is one of the most concrete examples of policy translating into student-support capacity—peer mentors, skills workshops, transfer-related activities, and targeted advising.\n\nAnchor link I check during budget season: MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/)\n\nQuestion for colleagues: which SUCCESS-funded intervention has produced the clearest retention/completion gains on your campus?\n\n#CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy #Massachusetts"
+      "title": "Massachusetts community college policy watch",
+      "text": "One Massachusetts item I’m tracking this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nI’m especially interested in how state funding, transfer policy, and wraparound supports translate into day-to-day student success work on community college campuses.\n\nWhat Massachusetts policy development is most likely to affect advising and persistence where you are?\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
     },
     {
-      "title": "Federal policy watch: what community colleges can act on",
-      "text": "Federal policy and funding signals matter most when they change what colleges can *do* this semester: aid eligibility, workforce grants, reporting requirements, or program approval.\n\nOne item on my radar: U.S. Department of Labor RSS: releases.xml (https://www.dol.gov/rss/releases.xml)\n\nIf you’re in advising or student success, what’s the most helpful way you’ve communicated major policy shifts to students—FAQs, short videos, office hours, or targeted messaging?\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
+      "title": "Federal higher-ed policy watch",
+      "text": "A federal item on my radar this week: GovInfo RSS Feeds Directory (https://www.govinfo.gov/feeds).\n\nFor community colleges, the most important question is never just what changed in policy language—it’s how quickly the change affects advising, aid eligibility, workforce programs, or student support operations.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
     },
     {
-      "title": "AI in higher ed: governance beats hype",
-      "text": "AI adoption in higher education is increasingly a governance challenge: approved use cases, human oversight, privacy/procurement, and how we measure impact.\n\nOne item I’m tracking: WIOA revamp needed to boost employer-led training (https://www.ccdaily.com/2026/03/wiao-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wiao-revap-needed-to-boost-employer-led-training)\n\nFor student support/advising: what guardrails have worked well at your institution?\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
+      "title": "AI in higher ed: governance over hype",
+      "text": "One AI-in-higher-ed item I’m tracking this week: WIOA revamp needed to boost employer-led training (https://www.ccdaily.com/2026/03/wiao-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wiao-revap-needed-to-boost-employer-led-training).\n\nThe institutions that benefit most from AI will be the ones that define clear use cases, human oversight, and measurable outcomes—especially in teaching, advising, and student support.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
     }
   ],
   "archive": [
@@ -400,5 +476,10 @@
       "label": "Week of 2026-03-02",
       "url": "data/archive/2026-03-02.json"
     }
+  ],
+  "feed_errors": [
+    "U.S. Department of Education Blog: <unknown>:25:14: not well-formed (invalid token)",
+    "GovInfo Bills: document declared as us-ascii, but parsed as utf-8",
+    "MassDHE Pinboard: <unknown>:2:0: syntax error"
   ]
 }
