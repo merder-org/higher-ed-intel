@@ -1,8 +1,9 @@
-name: Weekly Higher-Ed Intel
+name: Higher-Ed Intel Twice Weekly
 
 on:
   schedule:
     - cron: "0 13 * * 1"
+    - cron: "0 13 * * 4"
   workflow_dispatch:
 
 permissions:
@@ -11,7 +12,6 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,16 +25,16 @@ jobs:
         run: |
           pip install feedparser python-dateutil
 
-      - name: Generate weekly brief
+      - name: Generate briefing
         run: |
           python higher-ed-intel/generator/generate_weekly_brief.py
 
-      - name: Commit updated data
+      - name: Commit updated briefing files
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add higher-ed-intel/data
-          git commit -m "Auto update weekly brief" || echo "No changes"
+          git commit -m "Auto update higher-ed briefing" || echo "No changes"
           git push
 
       - name: Deploy to Hostinger
