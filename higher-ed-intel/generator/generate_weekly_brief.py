@@ -43,17 +43,12 @@ def pick_category(text: str, rules: List[dict]) -> Tuple[Optional[str], int]:
 
 def score(category: str, hits: int, text: str) -> int:
     s = hits * 2
-    if category == "MA Budget / SUCCESS":
-        s += 6
-    if category == "Federal Policy":
-        s += 5
-    if category == "Academic Advising":
-        s += 4
-    if category == "AI in Higher Ed":
-        s += 4
-    tl = (text or "").lower()
+    if category == "MA Budget / SUCCESS": s += 6
+    if category == "Federal Policy": s += 5
+    if category == "Academic Advising": s += 4
+    if category == "AI in Higher Ed": s += 4
     for kw in ["community college","massachusetts","pell","workforce pell","fafsa","rulemaking","appropriation","ways and means","student success","transfer","ai"]:
-        if kw in tl:
+        if kw in (text or "").lower():
             s += 1
     return s
 
@@ -68,109 +63,82 @@ def parse_dt(entry) -> Optional[datetime]:
     return None
 
 def clamp_summary(s: str, n: int = 420) -> str:
-    s = normalize(re.sub(r"<[^>]+>", " ", s or ""))
-    return s[:n]
+    return normalize(re.sub(r"<[^>]+>", " ", s or ""))[:n]
 
 def inject_static_items(cfg: dict) -> List[dict]:
     out = []
     for a in cfg.get("static_items", []):
-        out.append({
-            "id": fingerprint(a["title"], a["url"]),
-            "category": a["category"],
-            "title": a["title"],
-            "url": a["url"],
-            "source": a.get("source", "Static"),
-            "published": a.get("published", "N/A"),
-            "summary": a.get("summary", ""),
-            "why_it_matters": a.get("why_it_matters", ""),
-            "tags": a.get("tags", []),
-            "score": int(a.get("score", 10)),
-        })
+        out.append({"id": fingerprint(a["title"], a["url"]), "category": a["category"], "title": a["title"], "url": a["url"], "source": a.get("source", "Static"), "published": a.get("published", "N/A"), "summary": a.get("summary", ""), "why_it_matters": a.get("why_it_matters", ""), "tags": a.get("tags", []), "score": int(a.get("score", 10))})
     return out
 
-def build_linkedin_drafts(brief: dict) -> List[dict]:
-    items = sorted(brief.get("items", []), key=lambda x: x.get("score", 0), reverse=True)
-    def top(cat: str):
-        return next((x for x in items if x.get("category") == cat), None)
-    ma = top("MA Budget / SUCCESS")
-    fed = top("Federal Policy")
-    ai = top("AI in Higher Ed")
-    drafts = []
-    if ma:
-        drafts.append({"title":"Massachusetts community college policy watch","text":(
-            f"One Massachusetts item I’m tracking this week is {ma['title']} ({ma['url']}).\n\n"
-            "I’m especially interested in how state funding, transfer policy, and wraparound supports translate into day-to-day student success work on community college campuses.\n\n"
-            "What Massachusetts policy development is most likely to affect advising and persistence where you are?\n\n"
-            "#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy")})
-    if fed:
-        drafts.append({"title":"Federal higher-ed policy watch","text":(
-            f"A federal item on my radar this week: {fed['title']} ({fed['url']}).\n\n"
-            "For community colleges, the most important question is never just what changed in policy language—it’s how quickly the change affects advising, aid eligibility, workforce programs, or student support operations.\n\n"
-            "#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising")})
-    if ai:
-        drafts.append({"title":"AI in higher ed: governance over hype","text":(
-            f"One AI-in-higher-ed item I’m tracking this week: {ai['title']} ({ai['url']}).\n\n"
-            "The institutions that benefit most from AI will be the ones that define clear use cases, human oversight, and measurable outcomes—especially in teaching, advising, and student support.\n\n"
-            "#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech")})
-    if not drafts:
-        drafts.append({"title":"Weekly higher-ed signals","text":(
-            "This week’s higher-ed signals: policy, student success, and AI.\n\n"
-            "I’m building a weekly digest focused on what community colleges can act on—changes that affect advising capacity, funding, and implementation realities.\n\n"
-            "#HigherEd #CommunityColleges #StudentSuccess #AcademicAdvising #AIinEducation")})
-    return drafts[:3]
+def make_summary_for_brief(item: dict) -> str:
+    base = (item.get("summary") or item.get("why_it_matters") or "").strip()
+    if not base:
+        return f"{item.get('title','This item')} surfaced in this run and scored highly for {item.get('category','higher ed')} relevance."
+    return base
+
+def make_why_it_matters(item: dict) -> str:
+    existing = (item.get("why_it_matters") or "").strip()
+    if existing:
+        return existing
+    cat = item.get("category", "")
+    if cat == "MA Budget / SUCCESS":
+        return "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work."
+    if cat == "Federal Policy":
+        return "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning."
+    if cat == "Academic Advising":
+        return "Relevant to advising practice, student persistence, retention strategy, or transfer support."
+    if cat == "AI in Higher Ed":
+        return "Relevant to AI governance, classroom use, advising operations, or institutional implementation."
+    return "Potentially useful to community-college leaders and student-success practitioners."
+
+def build_top_signals(items: List[dict]) -> List[dict]:
+    return [{**it, "summary_for_brief": make_summary_for_brief(it), "why_it_matters": make_why_it_matters(it)} for it in sorted(items, key=lambda x: x.get("score", 0), reverse=True)[:6]]
+
+def build_briefing_notes(items: List[dict], cats: List[str]) -> List[dict]:
+    notes = []
+    for cat in cats:
+        cat_items = [x for x in items if x.get("category") == cat]
+        for it in sorted(cat_items, key=lambda x: x.get("score", 0), reverse=True)[:4]:
+            notes.append({**it, "summary_for_brief": make_summary_for_brief(it), "why_it_matters": make_why_it_matters(it)})
+    return notes
+
+def build_linkedin_drafts(items: List[dict]) -> List[dict]:
+    ordered = sorted(items, key=lambda x: x.get("score", 0), reverse=True)
+    def top(cat):
+        return next((x for x in ordered if x.get("category") == cat), None)
+    ma = top("MA Budget / SUCCESS") or ordered[0]
+    fed = top("Federal Policy") or ordered[min(1, len(ordered)-1)]
+    ai = top("AI in Higher Ed") or top("Academic Advising") or ordered[min(2, len(ordered)-1)]
+    return [
+      {"title": "Massachusetts community college policy watch", "text": f"One Massachusetts item I’m tracking this week is {ma['title']} ({ma['url']}).\n\n{make_summary_for_brief(ma)}\n\nWhy it matters for community colleges: {make_why_it_matters(ma)}\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"},
+      {"title": "Federal higher-ed policy watch", "text": f"A federal higher-ed item on my radar this week is {fed['title']} ({fed['url']}).\n\n{make_summary_for_brief(fed)}\n\nWhy it matters for community colleges: {make_why_it_matters(fed)}\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"},
+      {"title": "AI in higher ed: practical implications", "text": f"One AI-in-higher-ed item I’m tracking this week is {ai['title']} ({ai['url']}).\n\n{make_summary_for_brief(ai)}\n\nWhy it matters for colleges: {make_why_it_matters(ai)}\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"}
+    ]
 
 def write_rss(site_title: str, site_link: str, items: List[dict], out_path: Path, build_dt: datetime) -> None:
     now = build_dt.strftime("%a, %d %b %Y %H:%M:%S %z")
     top = sorted(items, key=lambda x: x.get("score", 0), reverse=True)[:25]
-    parts = ['<?xml version="1.0" encoding="UTF-8" ?>','<rss version="2.0"><channel>',f"<title>{escape(site_title)}</title>",f"<link>{escape(site_link)}</link>",f"<description>{escape('Weekly briefing with links and LinkedIn-ready drafts.')}</description>",f"<lastBuildDate>{escape(now)}</lastBuildDate>"]
+    parts = ['<?xml version="1.0" encoding="UTF-8" ?>', '<rss version="2.0"><channel>', f"<title>{escape(site_title)}</title>", f"<link>{escape(site_link)}</link>", f"<description>{escape('Twice-weekly higher ed briefing.')}</description>", f"<lastBuildDate>{escape(now)}</lastBuildDate>"]
     for it in top:
         parts.append("<item>")
-        parts.append(f"<title>{escape(it.get('title', ''))}</title>")
-        parts.append(f"<link>{escape(it.get('url', ''))}</link>")
-        parts.append(f"<guid>{escape(it.get('url', ''))}</guid>")
-        parts.append(f"<category>{escape(it.get('category', ''))}</category>")
-        desc = it.get("summary") or it.get("why_it_matters") or ""
-        parts.append(f"<description>{escape((desc or '')[:900])}</description>")
+        parts.append(f"<title>{escape(it.get('title',''))}</title>")
+        parts.append(f"<link>{escape(it.get('url',''))}</link>")
+        parts.append(f"<guid>{escape(it.get('url',''))}</guid>")
+        parts.append(f"<category>{escape(it.get('category',''))}</category>")
+        desc = it.get("summary_for_brief") or it.get("summary") or it.get("why_it_matters") or ""
+        parts.append(f"<description>{escape(desc[:900])}</description>")
         parts.append("</item>")
     parts.append("</channel></rss>")
     out_path.write_text("\n".join(parts), encoding="utf-8")
 
 def write_markdown(brief: dict, out_path: Path) -> None:
-    lines = []
-    lines.append(f"# Higher Ed Intelligence Brief — Week of {brief['week_of']}")
-    lines.append("")
-    lines.append(f"_Generated: {brief['generated_at']}_")
-    lines.append("")
-    lines.append("## LinkedIn-ready drafts")
-    lines.append("")
+    lines = [f"# Higher Ed Intelligence Brief — Week of {brief['week_of']}", "", f"_Generated: {brief['generated_at']}_", "", "## LinkedIn-ready drafts", ""]
     for d in brief.get("linkedin_drafts", []):
-        lines.append(f"### {d.get('title', '')}")
-        lines.append("")
-        lines.append((d.get("text", "") or "").strip())
-        lines.append("")
-        lines.append("---")
-        lines.append("")
-    by_cat = {c: [] for c in brief.get("categories", [])}
-    for it in brief.get("items", []):
-        by_cat.setdefault(it.get("category", "Other"), []).append(it)
-    lines.append("## This week’s items")
-    lines.append("")
-    for cat in brief.get("categories", []):
-        cat_items = sorted(by_cat.get(cat, []), key=lambda x: x.get("score", 0), reverse=True)
-        if not cat_items:
-            continue
-        lines.append(f"### {cat}")
-        lines.append("")
-        for it in cat_items:
-            lines.append(f"- **{(it.get('title', '') or '').strip()}** ({it.get('source','')}, {it.get('published','N/A')})")
-            lines.append(f"  - Link: {it.get('url','')}")
-            summary = (it.get("summary") or "").strip()
-            if summary:
-                lines.append(f"  - Summary: {summary}")
-            why = (it.get("why_it_matters") or "").strip()
-            if why:
-                lines.append(f"  - Why it matters: {why}")
-        lines.append("")
+        lines.extend([f"### {d.get('title','')}", "", d.get("text","").strip(), "", "---", ""])
+    lines.extend(["## Top signals this run", ""])
+    for it in brief.get("top_signals", []):
+        lines.extend([f"### {it.get('title','')}", "", f"- Category: {it.get('category','')}", f"- Source: {it.get('source','')} ({it.get('published','N/A')})", f"- Link: {it.get('url','')}", f"- Summary: {it.get('summary_for_brief','')}", f"- Why it matters: {it.get('why_it_matters','')}", ""])
     out_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
 
 def main() -> None:
@@ -181,20 +149,15 @@ def main() -> None:
     ARCHIVE.mkdir(parents=True, exist_ok=True)
     build_dt = now_et()
     cutoff = build_dt - timedelta(days=int(filters["days_lookback"]))
-    items = []
-    seen_ids = set()
+    items, seen_ids, feed_errors = [], set(), []
     for a in inject_static_items(cfg):
         if a["id"] not in seen_ids:
-            items.append(a)
-            seen_ids.add(a["id"])
-    feed_errors = []
+            items.append(a); seen_ids.add(a["id"])
     for feed in cfg.get("feeds", []):
         try:
             parsed = feedparser.parse(feed["url"])
-            if getattr(parsed, "bozo", 0):
-                exc = getattr(parsed, "bozo_exception", None)
-                if exc:
-                    feed_errors.append(f"{feed.get('name','Feed')}: {exc}")
+            if getattr(parsed, "bozo", 0) and getattr(parsed, "bozo_exception", None):
+                feed_errors.append(f"{feed.get('name','Feed')}: {parsed.bozo_exception}")
             for e in getattr(parsed, "entries", []):
                 title = normalize(getattr(e, "title", ""))
                 link = normalize(getattr(e, "link", ""))
@@ -206,54 +169,32 @@ def main() -> None:
                 cat, hits = pick_category(text, cfg.get("category_rules", []))
                 if not cat:
                     cat = feed.get("default_category", "Academic Advising")
-                it = {
-                    "id": fingerprint(title, link),
-                    "category": cat,
-                    "title": title,
-                    "url": link,
-                    "source": feed.get("name", "Feed"),
-                    "published": dt.strftime("%Y-%m-%d") if dt else "N/A",
-                    "summary": summary,
-                    "why_it_matters": "",
-                    "tags": [],
-                    "score": score(cat, hits, text),
-                }
+                it = {"id": fingerprint(title, link), "category": cat, "title": title, "url": link, "source": feed.get("name", "Feed"), "published": dt.strftime("%Y-%m-%d") if dt else "N/A", "summary": summary, "why_it_matters": "", "tags": [], "score": score(cat, hits, text)}
                 if it["id"] in seen_ids:
                     continue
-                items.append(it)
-                seen_ids.add(it["id"])
+                items.append(it); seen_ids.add(it["id"])
         except Exception as exc:
             feed_errors.append(f"{feed.get('name','Feed')}: {exc}")
-    max_total = int(filters["max_items_total"])
-    max_per_cat = int(filters["max_items_per_category"])
+    max_total = int(filters["max_items_total"]); max_per_cat = int(filters["max_items_per_category"])
     cats = [r["category"] for r in cfg.get("category_rules", [])]
     kept = []
     for c in cats:
-        c_items = [x for x in items if x.get("category") == c]
-        c_items = sorted(c_items, key=lambda x: x.get("score", 0), reverse=True)[:max_per_cat]
-        kept.extend(c_items)
+        cat_items = [x for x in items if x.get("category") == c]
+        kept.extend(sorted(cat_items, key=lambda x: x.get("score", 0), reverse=True)[:max_per_cat])
     kept = sorted(kept, key=lambda x: x.get("score", 0), reverse=True)[:max_total]
     week = monday_of_week(build_dt.date()).isoformat()
     existing = sorted(ARCHIVE.glob("*.json"), reverse=True)[:16]
     archive_list = [{"label": f"Week of {p.stem}", "url": f"data/archive/{p.name}"} for p in existing]
     archive_list.insert(0, {"label": f"Week of {week}", "url": f"data/archive/{week}.json"})
-    brief = {
-        "schema_version": "1.1",
-        "week_of": week,
-        "generated_at": build_dt.strftime("%Y-%m-%d %H:%M ET"),
-        "rss_url": "data/rss.xml",
-        "categories": cats,
-        "items": kept,
-        "linkedin_drafts": [],
-        "archive": archive_list,
-        "feed_errors": feed_errors,
-    }
-    brief["linkedin_drafts"] = build_linkedin_drafts(brief)
+    top_signals = build_top_signals(kept)
+    briefing_notes = build_briefing_notes(kept, cats)
+    linkedin_drafts = build_linkedin_drafts(top_signals if top_signals else kept)
+    brief = {"schema_version": "2.0", "week_of": week, "generated_at": build_dt.strftime("%Y-%m-%d %H:%M ET"), "rss_url": "data/rss.xml", "categories": cats, "items": kept, "top_signals": top_signals, "briefing_notes": briefing_notes, "linkedin_drafts": linkedin_drafts, "archive": archive_list, "feed_errors": feed_errors}
     (DATA / "latest.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
     (ARCHIVE / f"{week}.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
     write_markdown(brief, DATA / "latest.md")
     write_markdown(brief, ARCHIVE / f"{week}.md")
-    write_rss(site["title"], site["public_base_url"].rstrip("/") + "/", kept, DATA / "rss.xml", build_dt)
+    write_rss(site["title"], site["public_base_url"].rstrip("/") + "/", top_signals if top_signals else kept, DATA / "rss.xml", build_dt)
     print(f"OK: wrote latest.json + latest.md + archive/{week}.json + archive/{week}.md ({len(kept)} items).")
     if feed_errors:
         print("Feed warnings:")

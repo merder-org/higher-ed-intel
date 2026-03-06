@@ -14,7 +14,7 @@
       "title": "MA Budget: Community College SUCCESS Fund (7100-4002)",
       "url": "https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/",
       "source": "budget.digital.mass.gov",
-      "why_it_matters": "Anchor page for tracking SUCCESS language/amounts and wraparound support intent through the FY27 budget process.",
+      "why_it_matters": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.",
       "tags": [
         "Massachusetts",
         "SUCCESS",
@@ -27,24 +27,12 @@
       "title": "MassDHE News Clips: Community Colleges",
       "url": "https://www.mass.edu/newsclips/ccsystem.asp",
       "source": "mass.edu",
-      "why_it_matters": "MassDHE’s community college news-clips page often surfaces Massachusetts system-level developments, transfer, workforce, affordability, and funding coverage.",
+      "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
       "tags": [
         "MassDHE",
         "Community Colleges"
       ],
       "score": 11
-    },
-    {
-      "category": "Federal Policy",
-      "title": "GovInfo RSS Feeds Directory",
-      "url": "https://www.govinfo.gov/feeds",
-      "source": "govinfo.gov",
-      "why_it_matters": "Official federal RSS directory for Federal Register, bills, GAO reports, and other primary-source policy signals.",
-      "tags": [
-        "GovInfo",
-        "Federal Register"
-      ],
-      "score": 10
     }
   ],
   "feeds": [
