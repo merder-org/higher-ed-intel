@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0",
   "week_of": "2026-03-02",
-  "generated_at": "2026-03-06 11:53 ET",
+  "generated_at": "2026-03-06 15:59 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -18,7 +18,7 @@
       "source": "budget.digital.mass.gov",
       "published": "N/A",
       "summary": "",
-      "why_it_matters": "Anchor page for tracking SUCCESS language/amounts and wraparound support intent through the FY27 budget process.",
+      "why_it_matters": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.",
       "tags": [
         "Massachusetts",
         "SUCCESS",
@@ -39,6 +39,18 @@
       "score": 13
     },
     {
+      "id": "e873ed0125344147",
+      "category": "Federal Policy",
+      "title": "ED releases proposed Workforce Pell regs",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-06",
+      "summary": "The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 13
+    },
+    {
       "id": "6429575608f363e6",
       "category": "MA Budget / SUCCESS",
       "title": "MassDHE News Clips: Community Colleges",
@@ -46,7 +58,7 @@
       "source": "mass.edu",
       "published": "N/A",
       "summary": "",
-      "why_it_matters": "MassDHE’s community college news-clips page often surfaces Massachusetts system-level developments, transfer, workforce, affordability, and funding coverage.",
+      "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
       "tags": [
         "MassDHE",
         "Community Colleges"
@@ -102,21 +114,6 @@
       "score": 10
     },
     {
-      "id": "0d76d7e59f99b220",
-      "category": "Federal Policy",
-      "title": "GovInfo RSS Feeds Directory",
-      "url": "https://www.govinfo.gov/feeds",
-      "source": "govinfo.gov",
-      "published": "N/A",
-      "summary": "",
-      "why_it_matters": "Official federal RSS directory for Federal Register, bills, GAO reports, and other primary-source policy signals.",
-      "tags": [
-        "GovInfo",
-        "Federal Register"
-      ],
-      "score": 10
-    },
-    {
       "id": "f89d648b59d2e368",
       "category": "Federal Policy",
       "title": "H.J. Res.&nbsp;151&nbsp;(IH) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Grand Staircase-Escalante National Monument Record of Decision and Approved Resource Management Plan.",
@@ -163,18 +160,6 @@
       "why_it_matters": "",
       "tags": [],
       "score": 10
-    },
-    {
-      "id": "a2e7f3f2c79e7f05",
-      "category": "Federal Policy",
-      "title": "Federal Register Vol. 91, No.34, February 20, 2026",
-      "url": "https://www.govinfo.gov/app/details/FR-2026-02-20",
-      "source": "GovInfo Federal Register",
-      "published": "2026-02-20",
-      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
     },
     {
       "id": "f5e4099465f05226",
@@ -243,6 +228,18 @@
       "url": "https://www.govinfo.gov/app/details/FR-2026-02-27",
       "source": "GovInfo Federal Register",
       "published": "2026-02-27",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 9
+    },
+    {
+      "id": "cd89b8d275acc09a",
+      "category": "Federal Policy",
+      "title": "Federal Register Vol. 91, No.40, March 2, 2026",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-03-02",
+      "source": "GovInfo Federal Register",
+      "published": "2026-03-02",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
       "tags": [],
@@ -345,18 +342,6 @@
       "score": 6
     },
     {
-      "id": "c777618586c3dbef",
-      "category": "Academic Advising",
-      "title": "Expanding credit for prior learning",
-      "url": "https://www.ccdaily.com/2026/03/expanding-credit-for-prior-learning/?utm_source=rss&utm_medium=rss&utm_campaign=expanding-credit-for-prior-learning",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-03",
-      "summary": "Turning prior learning, work experience, military service and other credentials into college credit can save students time and money. Despite that benefit, it’s been underutilized. Only about 11% of adult learners, for example, have benefited... The post Expanding credit for prior learning first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
       "id": "5d6e183a40a2e04d",
       "category": "AI in Higher Ed",
       "title": "U.S. Schools Are Betting Big on A.I. Will New York City Be Next?",
@@ -451,20 +436,336 @@
       "why_it_matters": "",
       "tags": [],
       "score": 4
+    },
+    {
+      "id": "a0f55ab149b56174",
+      "category": "Academic Advising",
+      "title": "Owens Will Not Run for Re-Election",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/06/owens-will-not-run-re-election",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-06",
+      "summary": "Owens Will Not Run for Re-Election jessica.blake@… Fri, 03/06/2026 - 03:00 AM Byline(s) Jessica Blake",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    }
+  ],
+  "top_signals": [
+    {
+      "id": "d7f477008fcb38b2",
+      "category": "MA Budget / SUCCESS",
+      "title": "MA Budget: Community College SUCCESS Fund (7100-4002)",
+      "url": "https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/",
+      "source": "budget.digital.mass.gov",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.",
+      "tags": [
+        "Massachusetts",
+        "SUCCESS",
+        "Budget"
+      ],
+      "score": 14,
+      "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process."
+    },
+    {
+      "id": "0b6bcdd8f44bfe68",
+      "category": "MA Budget / SUCCESS",
+      "title": "Will funding follow the kudos?",
+      "url": "https://www.ccdaily.com/2026/03/will-funding-follow-the-kudos/?utm_source=rss&utm_medium=rss&utm_campaign=will-funding-follow-the-kudos",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-04",
+      "summary": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily .",
+      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "tags": [],
+      "score": 13,
+      "summary_for_brief": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily ."
+    },
+    {
+      "id": "e873ed0125344147",
+      "category": "Federal Policy",
+      "title": "ED releases proposed Workforce Pell regs",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-06",
+      "summary": "The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .",
+      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "tags": [],
+      "score": 13,
+      "summary_for_brief": "The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily ."
+    },
+    {
+      "id": "6429575608f363e6",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassDHE News Clips: Community Colleges",
+      "url": "https://www.mass.edu/newsclips/ccsystem.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
+      "tags": [
+        "MassDHE",
+        "Community Colleges"
+      ],
+      "score": 11,
+      "summary_for_brief": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments."
+    },
+    {
+      "id": "db41b748e8f7658b",
+      "category": "MA Budget / SUCCESS",
+      "title": "Washington Watch: House Farm Bill includes new community college grant program",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .",
+      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily ."
+    },
+    {
+      "id": "8e89ff0ca3e0107a",
+      "category": "MA Budget / SUCCESS",
+      "title": "A statewide approach to CPL",
+      "url": "https://www.ccdaily.com/2026/03/a-statewide-approach-to-cpl/?utm_source=rss&utm_medium=rss&utm_campaign=a-statewide-approach-to-cpl",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily .",
+      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily ."
+    }
+  ],
+  "briefing_notes": [
+    {
+      "id": "d7f477008fcb38b2",
+      "category": "MA Budget / SUCCESS",
+      "title": "MA Budget: Community College SUCCESS Fund (7100-4002)",
+      "url": "https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/",
+      "source": "budget.digital.mass.gov",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.",
+      "tags": [
+        "Massachusetts",
+        "SUCCESS",
+        "Budget"
+      ],
+      "score": 14,
+      "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process."
+    },
+    {
+      "id": "0b6bcdd8f44bfe68",
+      "category": "MA Budget / SUCCESS",
+      "title": "Will funding follow the kudos?",
+      "url": "https://www.ccdaily.com/2026/03/will-funding-follow-the-kudos/?utm_source=rss&utm_medium=rss&utm_campaign=will-funding-follow-the-kudos",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-04",
+      "summary": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily .",
+      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "tags": [],
+      "score": 13,
+      "summary_for_brief": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily ."
+    },
+    {
+      "id": "6429575608f363e6",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassDHE News Clips: Community Colleges",
+      "url": "https://www.mass.edu/newsclips/ccsystem.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
+      "tags": [
+        "MassDHE",
+        "Community Colleges"
+      ],
+      "score": 11,
+      "summary_for_brief": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments."
+    },
+    {
+      "id": "db41b748e8f7658b",
+      "category": "MA Budget / SUCCESS",
+      "title": "Washington Watch: House Farm Bill includes new community college grant program",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .",
+      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily ."
+    },
+    {
+      "id": "e873ed0125344147",
+      "category": "Federal Policy",
+      "title": "ED releases proposed Workforce Pell regs",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-06",
+      "summary": "The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .",
+      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "tags": [],
+      "score": 13,
+      "summary_for_brief": "The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily ."
+    },
+    {
+      "id": "f89d648b59d2e368",
+      "category": "Federal Policy",
+      "title": "H.J. Res.&nbsp;151&nbsp;(IH) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Grand Staircase-Escalante National Monument Record of Decision and Approved Resource Management Plan.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hjres151ih",
+      "source": "GovInfo Bills",
+      "published": "2026-03-05",
+      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "id": "d10373f8018fdb2b",
+      "category": "Federal Policy",
+      "title": "S.J. Res.&nbsp;109&nbsp;(IS) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Grand Staircase-Escalante National Monument Record of Decision and Approved Resource Management Plan.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres109is",
+      "source": "GovInfo Bills",
+      "published": "2026-03-06",
+      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "id": "8f8e1fa0f4ef5908",
+      "category": "Federal Policy",
+      "title": "H.R.&nbsp;7744&nbsp;(EH) - Department of Homeland Security Appropriations Act, 2026",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7744eh",
+      "source": "GovInfo Bills",
+      "published": "2026-03-06",
+      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "id": "265243cd5bf9e27e",
+      "category": "Academic Advising",
+      "title": "Report Urges California to Improve College Access",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/03/06/report-urges-california-improve-college-access",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-06",
+      "summary": "Report Urges California to Improve College Access Joshua.Bay Fri, 03/06/2026 - 03:00 AM A new report outlines reforms—from transfer improvements to credit recognition—to help the state reach its 70&nbsp;percent college attainment goal. Byline(s) Joshua Bay",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "Report Urges California to Improve College Access Joshua.Bay Fri, 03/06/2026 - 03:00 AM A new report outlines reforms—from transfer improvements to credit recognition—to help the state reach its 70&nbsp;percent college attainment goal. Byline(s) Joshua Bay"
+    },
+    {
+      "id": "81db594f88ff001c",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1129/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1129",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily ."
+    },
+    {
+      "id": "43292c26e6f526e6",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1127/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1127",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-03",
+      "summary": "Commentary: Trump and the right’s odd relationship with a good workforce idea. Jobs That Work (blog) A pretty good bipartisan bill has the potential to expand a great hiring strategy that the Trump administration has... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "Commentary: Trump and the right’s odd relationship with a good workforce idea. Jobs That Work (blog) A pretty good bipartisan bill has the potential to expand a great hiring strategy that the Trump administration has... The post Headlines first appeared on Community College Daily ."
+    },
+    {
+      "id": "004e4342663f29ab",
+      "category": "Academic Advising",
+      "title": "Legal Advocacy Group Raises Concern About AI Use in Federal Student Aid",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/06/advocacy-group-raises-concern-about-ai-federal-student-aid",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-06",
+      "summary": "Legal Advocacy Group Raises Concern About AI Use in Federal Student Aid jessica.blake@… Fri, 03/06/2026 - 03:00 AM Byline(s) Jessica Blake",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "tags": [],
+      "score": 5,
+      "summary_for_brief": "Legal Advocacy Group Raises Concern About AI Use in Federal Student Aid jessica.blake@… Fri, 03/06/2026 - 03:00 AM Byline(s) Jessica Blake"
+    },
+    {
+      "id": "1402ce078647b0b4",
+      "category": "AI in Higher Ed",
+      "title": "WIOA revamp needed to boost employer-led training",
+      "url": "https://www.ccdaily.com/2026/03/wiao-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wiao-revap-needed-to-boost-employer-led-training",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-04",
+      "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "tags": [],
+      "score": 8,
+      "summary_for_brief": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily ."
+    },
+    {
+      "id": "bd6b16c106dd8f65",
+      "category": "AI in Higher Ed",
+      "title": "WIOA revamp needed to boost employer-led training",
+      "url": "https://www.ccdaily.com/2026/03/wioa-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wioa-revap-needed-to-boost-employer-led-training",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-04",
+      "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "tags": [],
+      "score": 8,
+      "summary_for_brief": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily ."
+    },
+    {
+      "id": "2b2b28cdebdea022",
+      "category": "AI in Higher Ed",
+      "title": "Journal Submissions Riddled With AI-Created Fake Citations",
+      "url": "https://www.insidehighered.com/news/faculty-issues/books-publishing/2026/03/06/journal-submissions-riddled-ai-created-fake",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-06",
+      "summary": "Journal Submissions Riddled With AI-Created Fake Citations Emma Whitford Fri, 03/06/2026 - 03:00 AM References used to be one of the last things journal editors checked before publishing a paper. Artificial intelligence is changing that. Byline(s) Emma Whitford",
+      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "Journal Submissions Riddled With AI-Created Fake Citations Emma Whitford Fri, 03/06/2026 - 03:00 AM References used to be one of the last things journal editors checked before publishing a paper. Artificial intelligence is changing that. Byline(s) Emma Whitford"
+    },
+    {
+      "id": "d676f16e36138ba5",
+      "category": "AI in Higher Ed",
+      "title": "Florida bill seeks further limit on out-of-state enrollment at top universities",
+      "url": "https://www.highereddive.com/news/florida-bill-seeks-further-limit-on-out-of-state-enrollment-at-top-universi/813842/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-05",
+      "summary": "The state&rsquo;s House passed a measure that would cap nonresident students to no more than 5% of first-time, full-time fall enrollment at certain institutions.&nbsp;",
+      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "The state&rsquo;s House passed a measure that would cap nonresident students to no more than 5% of first-time, full-time fall enrollment at certain institutions.&nbsp;"
     }
   ],
   "linkedin_drafts": [
     {
       "title": "Massachusetts community college policy watch",
-      "text": "One Massachusetts item I’m tracking this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nI’m especially interested in how state funding, transfer policy, and wraparound supports translate into day-to-day student success work on community college campuses.\n\nWhat Massachusetts policy development is most likely to affect advising and persistence where you are?\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
+      "text": "One Massachusetts item I’m tracking this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nAnchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nWhy it matters for community colleges: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
     },
     {
       "title": "Federal higher-ed policy watch",
-      "text": "A federal item on my radar this week: GovInfo RSS Feeds Directory (https://www.govinfo.gov/feeds).\n\nFor community colleges, the most important question is never just what changed in policy language—it’s how quickly the change affects advising, aid eligibility, workforce programs, or student support operations.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
+      "text": "A federal higher-ed item on my radar this week is ED releases proposed Workforce Pell regs (https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs).\n\nThe U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .\n\nWhy it matters for community colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
     },
     {
-      "title": "AI in higher ed: governance over hype",
-      "text": "One AI-in-higher-ed item I’m tracking this week: WIOA revamp needed to boost employer-led training (https://www.ccdaily.com/2026/03/wiao-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wiao-revap-needed-to-boost-employer-led-training).\n\nThe institutions that benefit most from AI will be the ones that define clear use cases, human oversight, and measurable outcomes—especially in teaching, advising, and student support.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
+      "title": "AI in higher ed: practical implications",
+      "text": "One AI-in-higher-ed item I’m tracking this week is ED releases proposed Workforce Pell regs (https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs).\n\nThe U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .\n\nWhy it matters for colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
     }
   ],
   "archive": [
