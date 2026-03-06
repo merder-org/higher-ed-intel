@@ -5,8 +5,8 @@
   },
   "filters": {
     "days_lookback": 14,
-    "max_items_total": 30,
-    "max_items_per_category": 10
+    "max_items_total": 36,
+    "max_items_per_category": 12
   },
   "static_items": [
     {
@@ -17,88 +17,98 @@
       "why_it_matters": "Anchor page for tracking SUCCESS language/amounts and wraparound support intent through the FY27 budget process.",
       "tags": [
         "Massachusetts",
-        "SUCCESS"
+        "SUCCESS",
+        "Budget"
       ],
-      "score": 12
+      "score": 14
+    },
+    {
+      "category": "MA Budget / SUCCESS",
+      "title": "MassDHE News Clips: Community Colleges",
+      "url": "https://www.mass.edu/newsclips/ccsystem.asp",
+      "source": "mass.edu",
+      "why_it_matters": "MassDHE’s community college news-clips page often surfaces Massachusetts system-level developments, transfer, workforce, affordability, and funding coverage.",
+      "tags": [
+        "MassDHE",
+        "Community Colleges"
+      ],
+      "score": 11
     },
     {
       "category": "Federal Policy",
-      "title": "U.S. Department of Labor RSS: releases.xml",
-      "url": "https://www.dol.gov/rss/releases.xml",
-      "source": "dol.gov",
-      "why_it_matters": "Federal workforce-development grants and policy signals frequently originate at DOL/ETA—high relevance for community colleges.",
+      "title": "GovInfo RSS Feeds Directory",
+      "url": "https://www.govinfo.gov/feeds",
+      "source": "govinfo.gov",
+      "why_it_matters": "Official federal RSS directory for Federal Register, bills, GAO reports, and other primary-source policy signals.",
       "tags": [
-        "DOL",
-        "Workforce"
+        "GovInfo",
+        "Federal Register"
       ],
-      "score": 9
+      "score": 10
     }
   ],
-"feeds": [
-  {
-    "name": "Inside Higher Ed",
-    "url": "https://www.insidehighered.com/rss.xml",
-    "default_category": "Academic Advising"
-  },
-  {
-    "name": "Higher Ed Dive",
-    "url": "https://www.highereddive.com/feeds/news/",
-    "default_category": "Federal Policy"
-  },
-  {
-    "name": "EDUCAUSE Review (all channels)",
-    "url": "https://er.educause.edu/rss",
-    "default_category": "AI in Higher Ed"
-  },
-  {
-    "name": "AACC Community College Daily",
-    "url": "https://www.ccdaily.com/feed/",
-    "default_category": "Academic Advising"
-  },
-  {
-    "name": "EdSurge",
-    "url": "https://www.edsurge.com/articles_rss",
-    "default_category": "AI in Higher Ed"
-  },
-
-  {
-    "name": "U.S. Dept. of Education Blog",
-    "url": "https://blog.ed.gov/feed/",
-    "default_category": "Federal Policy"
-  },
-  {
-    "name": "U.S. Dept. of Labor (Releases)",
-    "url": "https://www.dol.gov/rss/releases.xml",
-    "default_category": "Federal Policy"
-  },
-
-  {
-    "name": "GovInfo - Federal Register (official)",
-    "url": "https://www.govinfo.gov/rss/fr.xml",
-    "default_category": "Federal Policy"
-  },
-  {
-    "name": "GovInfo - Congressional Bills",
-    "url": "https://www.govinfo.gov/rss/bills.xml",
-    "default_category": "Federal Policy"
-  },
-  {
-    "name": "GovInfo - GAO Reports",
-    "url": "https://www.govinfo.gov/rss/gaoreports.xml",
-    "default_category": "Federal Policy"
-  },
-
-  {
-    "name": "MassDHE News Clips (Pinboard)",
-    "url": "https://feeds.pinboard.in/rss/u:MassDHE",
-    "default_category": "MA Budget / SUCCESS"
-  },
-  {
-    "name": "NYT Education",
-    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Education.xml",
-    "default_category": "Federal Policy"
-  }
-],
+  "feeds": [
+    {
+      "name": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com/rss.xml",
+      "default_category": "Academic Advising"
+    },
+    {
+      "name": "Higher Ed Dive",
+      "url": "https://www.highereddive.com/feeds/news/",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "AACC Community College Daily",
+      "url": "https://www.ccdaily.com/feed/",
+      "default_category": "Academic Advising"
+    },
+    {
+      "name": "EdSurge",
+      "url": "https://www.edsurge.com/articles_rss",
+      "default_category": "AI in Higher Ed"
+    },
+    {
+      "name": "EDUCAUSE Review",
+      "url": "https://er.educause.edu/rss",
+      "default_category": "AI in Higher Ed"
+    },
+    {
+      "name": "NYT Education",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Education.xml",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "U.S. Department of Education Blog",
+      "url": "https://blog.ed.gov/feed/",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "U.S. Department of Labor Releases",
+      "url": "https://www.dol.gov/rss/releases.xml",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "GovInfo Federal Register",
+      "url": "https://www.govinfo.gov/rss/fr.xml",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "GovInfo Bills",
+      "url": "https://www.govinfo.gov/rss/bills.xml",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "GovInfo GAO Reports",
+      "url": "https://www.govinfo.gov/rss/gaoreports.xml",
+      "default_category": "Federal Policy"
+    },
+    {
+      "name": "MassDHE Pinboard",
+      "url": "https://feeds.pinboard.in/rss/u:MassDHE",
+      "default_category": "MA Budget / SUCCESS"
+    }
+  ],
   "category_rules": [
     {
       "category": "MA Budget / SUCCESS",
@@ -106,14 +116,17 @@
         "7100-4002",
         "success fund",
         "massachusetts budget",
-        "ways and means",
-        "appropriation",
-        "house 2",
-        "senate ways and means",
         "house ways and means",
+        "senate ways and means",
+        "appropriation",
         "community college success",
         "massdhe",
-        "massachusetts department of higher education"
+        "massachusetts department of higher education",
+        "mass transfer",
+        "massreconnect",
+        "masseducate",
+        "community colleges",
+        "transfer guarantee"
       ]
     },
     {
@@ -132,7 +145,10 @@
         "eta",
         "strengthening community colleges",
         "congress",
-        "federal register"
+        "federal register",
+        "gao",
+        "appropriations",
+        "federal grant"
       ]
     },
     {
@@ -147,7 +163,10 @@
         "guided pathways",
         "intrusive advising",
         "transfer advising",
-        "wraparound"
+        "wraparound",
+        "coaching",
+        "first-generation",
+        "persistence"
       ]
     },
     {
@@ -162,7 +181,9 @@
         "academic integrity",
         "ai in higher education",
         "edtech",
-        "automation"
+        "automation",
+        "llm",
+        "student support chatbot"
       ]
     }
   ]
