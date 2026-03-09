@@ -2,7 +2,7 @@ name: Higher-Ed Intel Twice Weekly
 
 on:
   schedule:
-    - cron: "47 18 * * 1,4"
+    - cron: "47 10 * * 1,4"
   workflow_dispatch:
 
 permissions:
