@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "week_of": "2026-03-09",
-  "generated_at": "2026-03-09 10:05 ET",
+  "generated_at": "2026-03-09 12:40 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -222,10 +222,10 @@
       "score": 10
     },
     {
-      "id": "f5e4099465f05226",
+      "id": "cea997b9eabf2d3c",
       "category": "Federal Policy",
-      "title": "Federal Register Vol. 91, No.31, February 17, 2026",
-      "url": "https://www.govinfo.gov/app/details/FR-2026-02-17",
+      "title": "Federal Register Vol. 91, No.35, February 23, 2026",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-23",
       "source": "GovInfo Federal Register",
       "published": "2026-02-23",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
@@ -234,12 +234,12 @@
       "score": 9
     },
     {
-      "id": "cea997b9eabf2d3c",
+      "id": "2d0f6e905788a72e",
       "category": "Federal Policy",
-      "title": "Federal Register Vol. 91, No.35, February 23, 2026",
-      "url": "https://www.govinfo.gov/app/details/FR-2026-02-23",
+      "title": "Federal Register Vol. 91, No.36, February 24, 2026",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-24",
       "source": "GovInfo Federal Register",
-      "published": "2026-02-23",
+      "published": "2026-02-24",
       "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
       "why_it_matters": "",
       "tags": [],
@@ -378,6 +378,18 @@
       "score": 5
     },
     {
+      "id": "c7c6c1610b554339",
+      "category": "AI in Higher Ed",
+      "title": "Trump Signs AI Executive Order as States Implement AI Laws",
+      "url": "https://er.educause.edu/articles/2026/3/trump-signs-ai-executive-order-as-states-implement-ai-laws",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-09",
+      "summary": "",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
       "id": "1ffdde6c963e3940",
       "category": "AI in Higher Ed",
       "title": "The Role of Faculty in the University of the Future",
@@ -433,18 +445,6 @@
       "source": "Inside Higher Ed",
       "published": "2026-03-09",
       "summary": "Readers Respond: Budget Cuts That Don’t Hurt Sara Brady Mon, 03/09/2026 - 03:00 AM Wise and worldly readers weigh in on how to trim fat without cutting the bone. Byline(s) Matt Reed",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "a81ce8b3d56b0b6b",
-      "category": "Academic Advising",
-      "title": "Book Review: ‘The Opinionated University’",
-      "url": "https://www.insidehighered.com/opinion/columns/debatable-ideas/2026/03/09/book-review-opinionated-university",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-09",
-      "summary": "Book Review: ‘The Opinionated University’ Sara Brady Mon, 03/09/2026 - 03:00 AM Soucek has a better and more nuanced approach to allowing departmental speech without infringing upon individual rights. Byline(s) John K. Wilson",
       "why_it_matters": "",
       "tags": [],
       "score": 4
@@ -769,6 +769,10 @@
     }
   ],
   "archive": [
+    {
+      "label": "Week of 2026-03-09",
+      "url": "data/archive/2026-03-09.json"
+    },
     {
       "label": "Week of 2026-03-09",
       "url": "data/archive/2026-03-09.json"

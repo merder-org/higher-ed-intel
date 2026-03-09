@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-09
 
-_Generated: 2026-03-09 10:05 ET_
+_Generated: 2026-03-09 12:40 ET_
 
 ## LinkedIn-ready drafts
 
