@@ -12,6 +12,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,7 +38,7 @@ jobs:
           git commit -m "Auto update higher-ed briefing" || echo "No changes"
           git push
 
-           - name: Deploy to Hostinger (attempt 1)
+      - name: Deploy to Hostinger (attempt 1)
         id: ftp_deploy_1
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
