@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-09
 
-_Generated: 2026-03-09 12:40 ET_
+_Generated: 2026-03-09 15:27 ET_
 
 ## LinkedIn-ready drafts
 
@@ -30,11 +30,11 @@ Why it matters for community colleges: Could affect aid eligibility, workforce p
 
 ### AI in higher ed: practical implications
 
-One AI-in-higher-ed item I’m tracking this week is ED releases proposed Workforce Pell regs (https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs).
+One AI-in-higher-ed item I’m tracking this week is MassDHE News Clips: Community Colleges (https://www.mass.edu/newsclips/ccsystem.asp).
 
-The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .
+MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 
-Why it matters for colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
+Why it matters for colleges: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 
 #AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech
 
@@ -49,14 +49,6 @@ Why it matters for colleges: Could affect aid eligibility, workforce programming
 - Link: https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/
 - Summary: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
 - Why it matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
-
-### Will funding follow the kudos?
-
-- Category: MA Budget / SUCCESS
-- Source: AACC Community College Daily (2026-03-04)
-- Link: https://www.ccdaily.com/2026/03/will-funding-follow-the-kudos/?utm_source=rss&utm_medium=rss&utm_campaign=will-funding-follow-the-kudos
-- Summary: During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily .
-- Why it matters: Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.
 
 ### ED releases proposed Workforce Pell regs
 
@@ -88,4 +80,12 @@ Why it matters for colleges: Could affect aid eligibility, workforce programming
 - Source: AACC Community College Daily (2026-03-05)
 - Link: https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program
 - Summary: A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .
+- Why it matters: Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.
+
+### A statewide approach to CPL
+
+- Category: MA Budget / SUCCESS
+- Source: AACC Community College Daily (2026-03-05)
+- Link: https://www.ccdaily.com/2026/03/a-statewide-approach-to-cpl/?utm_source=rss&utm_medium=rss&utm_campaign=a-statewide-approach-to-cpl
+- Summary: Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily .
 - Why it matters: Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.

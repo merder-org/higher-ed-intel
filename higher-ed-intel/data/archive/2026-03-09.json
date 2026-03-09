@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "week_of": "2026-03-09",
-  "generated_at": "2026-03-09 12:40 ET",
+  "generated_at": "2026-03-09 15:27 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -25,18 +25,6 @@
         "Budget"
       ],
       "score": 14
-    },
-    {
-      "id": "0b6bcdd8f44bfe68",
-      "category": "MA Budget / SUCCESS",
-      "title": "Will funding follow the kudos?",
-      "url": "https://www.ccdaily.com/2026/03/will-funding-follow-the-kudos/?utm_source=rss&utm_medium=rss&utm_campaign=will-funding-follow-the-kudos",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 13
     },
     {
       "id": "e873ed0125344147",
@@ -246,25 +234,25 @@
       "score": 9
     },
     {
-      "id": "1402ce078647b0b4",
-      "category": "AI in Higher Ed",
-      "title": "WIOA revamp needed to boost employer-led training",
-      "url": "https://www.ccdaily.com/2026/03/wiao-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wiao-revap-needed-to-boost-employer-led-training",
+      "id": "f3d3403d90f2d4bc",
+      "category": "Academic Advising",
+      "title": "Funding roundup",
+      "url": "https://www.ccdaily.com/2026/03/funding-roundup-435/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-435",
       "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
+      "published": "2026-03-09",
+      "summary": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 8
+      "score": 9
     },
     {
-      "id": "bd6b16c106dd8f65",
-      "category": "AI in Higher Ed",
-      "title": "WIOA revamp needed to boost employer-led training",
-      "url": "https://www.ccdaily.com/2026/03/wioa-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wioa-revap-needed-to-boost-employer-led-training",
+      "id": "81737811e752787e",
+      "category": "Academic Advising",
+      "title": "Broadening for impact",
+      "url": "https://www.ccdaily.com/2026/03/broadening-for-impact/?utm_source=rss&utm_medium=rss&utm_campaign=broadening-for-impact",
       "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
+      "published": "2026-03-09",
+      "summary": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 8
@@ -292,6 +280,30 @@
       "why_it_matters": "",
       "tags": [],
       "score": 7
+    },
+    {
+      "id": "c7c6c1610b554339",
+      "category": "AI in Higher Ed",
+      "title": "Trump Signs AI Executive Order as States Implement AI Laws",
+      "url": "https://er.educause.edu/articles/2026/3/trump-signs-ai-executive-order-as-states-implement-ai-laws",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-09",
+      "summary": "In December 2025, President Trump issued an executive order establishing a national artificial intelligence (AI) policy framework, challenging stricter state AI laws, and tying certain federal funding to state compliance.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "7d56e25a97a86932",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1131/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1131",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-09",
+      "summary": "With an economy in flux, more Oregon students are choosing hands-on education Jefferson Public Radio More colleges are partnering with four-year institutions and other organizations in developing programs and pathways to serve a growing demand... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
     },
     {
       "id": "35699ef6c2315677",
@@ -378,18 +390,6 @@
       "score": 5
     },
     {
-      "id": "c7c6c1610b554339",
-      "category": "AI in Higher Ed",
-      "title": "Trump Signs AI Executive Order as States Implement AI Laws",
-      "url": "https://er.educause.edu/articles/2026/3/trump-signs-ai-executive-order-as-states-implement-ai-laws",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-09",
-      "summary": "",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
       "id": "1ffdde6c963e3940",
       "category": "AI in Higher Ed",
       "title": "The Role of Faculty in the University of the Future",
@@ -469,19 +469,6 @@
       "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process."
     },
     {
-      "id": "0b6bcdd8f44bfe68",
-      "category": "MA Budget / SUCCESS",
-      "title": "Will funding follow the kudos?",
-      "url": "https://www.ccdaily.com/2026/03/will-funding-follow-the-kudos/?utm_source=rss&utm_medium=rss&utm_campaign=will-funding-follow-the-kudos",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
-      "tags": [],
-      "score": 13,
-      "summary_for_brief": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily ."
-    },
-    {
       "id": "e873ed0125344147",
       "category": "Federal Policy",
       "title": "ED releases proposed Workforce Pell regs",
@@ -535,6 +522,19 @@
       "tags": [],
       "score": 10,
       "summary_for_brief": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily ."
+    },
+    {
+      "id": "8e89ff0ca3e0107a",
+      "category": "MA Budget / SUCCESS",
+      "title": "A statewide approach to CPL",
+      "url": "https://www.ccdaily.com/2026/03/a-statewide-approach-to-cpl/?utm_source=rss&utm_medium=rss&utm_campaign=a-statewide-approach-to-cpl",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily .",
+      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily ."
     }
   ],
   "briefing_notes": [
@@ -554,19 +554,6 @@
       ],
       "score": 14,
       "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process."
-    },
-    {
-      "id": "0b6bcdd8f44bfe68",
-      "category": "MA Budget / SUCCESS",
-      "title": "Will funding follow the kudos?",
-      "url": "https://www.ccdaily.com/2026/03/will-funding-follow-the-kudos/?utm_source=rss&utm_medium=rss&utm_campaign=will-funding-follow-the-kudos",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
-      "tags": [],
-      "score": 13,
-      "summary_for_brief": "During a House Appropriations subcommittee hearing on Wednesday, Democrats and Republicans lauded community colleges for their critical role in preparing students for in-demand jobs. However, the question is whether appropriators will back that enthusiasm with... The post Will funding follow the kudos? first appeared on Community College Daily ."
     },
     {
       "id": "6429575608f363e6",
@@ -596,6 +583,19 @@
       "tags": [],
       "score": 10,
       "summary_for_brief": "The Community College Innovation Challenge, co-sponsored by the American Association of Community Colleges and the National Science Foundation, challenges students to pitch a STEM-based innovation to address a real-world problem, with guidance from a faculty... The post Lessons from last year’s CCIC-winning team first appeared on Community College Daily ."
+    },
+    {
+      "id": "db41b748e8f7658b",
+      "category": "MA Budget / SUCCESS",
+      "title": "Washington Watch: House Farm Bill includes new community college grant program",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-05",
+      "summary": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .",
+      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily ."
     },
     {
       "id": "e873ed0125344147",
@@ -650,6 +650,45 @@
       "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
     },
     {
+      "id": "f3d3403d90f2d4bc",
+      "category": "Academic Advising",
+      "title": "Funding roundup",
+      "url": "https://www.ccdaily.com/2026/03/funding-roundup-435/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-435",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-09",
+      "summary": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "tags": [],
+      "score": 9,
+      "summary_for_brief": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily ."
+    },
+    {
+      "id": "81737811e752787e",
+      "category": "Academic Advising",
+      "title": "Broadening for impact",
+      "url": "https://www.ccdaily.com/2026/03/broadening-for-impact/?utm_source=rss&utm_medium=rss&utm_campaign=broadening-for-impact",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-09",
+      "summary": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "tags": [],
+      "score": 8,
+      "summary_for_brief": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily ."
+    },
+    {
+      "id": "7d56e25a97a86932",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1131/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1131",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-09",
+      "summary": "With an economy in flux, more Oregon students are choosing hands-on education Jefferson Public Radio More colleges are partnering with four-year institutions and other organizations in developing programs and pathways to serve a growing demand... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "With an economy in flux, more Oregon students are choosing hands-on education Jefferson Public Radio More colleges are partnering with four-year institutions and other organizations in developing programs and pathways to serve a growing demand... The post Headlines first appeared on Community College Daily ."
+    },
+    {
       "id": "35699ef6c2315677",
       "category": "Academic Advising",
       "title": "Headlines",
@@ -661,71 +700,6 @@
       "tags": [],
       "score": 6,
       "summary_for_brief": "San Antonio college leaders pledge to ensure 45% of residents have college degrees by 2030 Texas Public Radio Local college presidents have announced a joint commitment to boosting the number of college graduates living in... The post Headlines first appeared on Community College Daily ."
-    },
-    {
-      "id": "81db594f88ff001c",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1129/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1129",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-05",
-      "summary": "Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
-      "tags": [],
-      "score": 6,
-      "summary_for_brief": "Tennessee lawmakers consider two-year pathway to address teacher shortages WKRN Tennessee could soon become the first state in the nation to offer an associate degree pathway for aspiring teachers, under a proposal lawmakers claim aims... The post Headlines first appeared on Community College Daily ."
-    },
-    {
-      "id": "4b2fbcd9ea96f0e4",
-      "category": "Academic Advising",
-      "title": "Georgia to Launch Need-Based DREAMS Scholarship",
-      "url": "https://www.insidehighered.com/news/students/financial-aid/2026/03/09/georgia-introduce-need-based-financial-aid",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-09",
-      "summary": "Georgia to Launch Need-Based DREAMS Scholarship Johanna Alonso Mon, 03/09/2026 - 03:00 AM For years, the state’s main source of funds for college students was its merit-based HOPE Scholarship. Now, lawmakers are allocating $325&nbsp;million to a need-based program in hopes it will encourage students to study in the state. Byline(s) Johanna Alonso",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
-      "tags": [],
-      "score": 5,
-      "summary_for_brief": "Georgia to Launch Need-Based DREAMS Scholarship Johanna Alonso Mon, 03/09/2026 - 03:00 AM For years, the state’s main source of funds for college students was its merit-based HOPE Scholarship. Now, lawmakers are allocating $325&nbsp;million to a need-based program in hopes it will encourage students to study in the state. Byline(s) Johanna Alonso"
-    },
-    {
-      "id": "b004b019a61ea123",
-      "category": "Academic Advising",
-      "title": "State Lawmakers Step In to Support Minority-Serving Institutions",
-      "url": "https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/03/09/states-step-support-minority-serving",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-09",
-      "summary": "State Lawmakers Step In to Support Minority-Serving Institutions Sara Weissman Mon, 03/09/2026 - 03:00 AM Since the Education Department axed funding to MSIs last fall, state policymakers have proposed bills to recognize and sustain such colleges and universities moving forward. Byline(s) Sara Weissman",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
-      "tags": [],
-      "score": 5,
-      "summary_for_brief": "State Lawmakers Step In to Support Minority-Serving Institutions Sara Weissman Mon, 03/09/2026 - 03:00 AM Since the Education Department axed funding to MSIs last fall, state policymakers have proposed bills to recognize and sustain such colleges and universities moving forward. Byline(s) Sara Weissman"
-    },
-    {
-      "id": "1402ce078647b0b4",
-      "category": "AI in Higher Ed",
-      "title": "WIOA revamp needed to boost employer-led training",
-      "url": "https://www.ccdaily.com/2026/03/wiao-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wiao-revap-needed-to-boost-employer-led-training",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
-      "tags": [],
-      "score": 8,
-      "summary_for_brief": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily ."
-    },
-    {
-      "id": "bd6b16c106dd8f65",
-      "category": "AI in Higher Ed",
-      "title": "WIOA revamp needed to boost employer-led training",
-      "url": "https://www.ccdaily.com/2026/03/wioa-revap-needed-to-boost-employer-led-training/?utm_source=rss&utm_medium=rss&utm_campaign=wioa-revap-needed-to-boost-employer-led-training",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-04",
-      "summary": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
-      "tags": [],
-      "score": 8,
-      "summary_for_brief": "As the demand for workers with technical skills and knowledge of artificial intelligence (AI) increases, so is the call for the reauthorization and modernization of the Workforce Innovation and Opportunity Act (WIOA). At a March... The post WIOA revamp needed to boost employer-led training first appeared on Community College Daily ."
     },
     {
       "id": "d676f16e36138ba5",
@@ -752,6 +726,32 @@
       "tags": [],
       "score": 7,
       "summary_for_brief": "How a lawyer-turned-teacher-turned-AI ethicist used assessment to personalize instruction before AI-powered edtech existed."
+    },
+    {
+      "id": "c7c6c1610b554339",
+      "category": "AI in Higher Ed",
+      "title": "Trump Signs AI Executive Order as States Implement AI Laws",
+      "url": "https://er.educause.edu/articles/2026/3/trump-signs-ai-executive-order-as-states-implement-ai-laws",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-09",
+      "summary": "In December 2025, President Trump issued an executive order establishing a national artificial intelligence (AI) policy framework, challenging stricter state AI laws, and tying certain federal funding to state compliance.",
+      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "In December 2025, President Trump issued an executive order establishing a national artificial intelligence (AI) policy framework, challenging stricter state AI laws, and tying certain federal funding to state compliance."
+    },
+    {
+      "id": "77194ef2f737fbb1",
+      "category": "AI in Higher Ed",
+      "title": "Screen-Free Schools? Some Legislators Push for a New Normal",
+      "url": "https://www.edsurge.com/news/2026-03-09-screen-free-schools-some-legislators-push-for-a-new-normal",
+      "source": "EdSurge",
+      "published": "2026-03-09",
+      "summary": "First, it was no phones in schools. Now, amid the debate around edtech, schools are looking to go screen free.",
+      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "First, it was no phones in schools. Now, amid the debate around edtech, schools are looking to go screen free."
     }
   ],
   "linkedin_drafts": [
@@ -765,7 +765,7 @@
     },
     {
       "title": "AI in higher ed: practical implications",
-      "text": "One AI-in-higher-ed item I’m tracking this week is ED releases proposed Workforce Pell regs (https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs).\n\nThe U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .\n\nWhy it matters for colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
+      "text": "One AI-in-higher-ed item I’m tracking this week is MassDHE News Clips: Community Colleges (https://www.mass.edu/newsclips/ccsystem.asp).\n\nMassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.\n\nWhy it matters for colleges: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
     }
   ],
   "archive": [
