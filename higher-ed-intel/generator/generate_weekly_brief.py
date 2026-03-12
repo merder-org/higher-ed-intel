@@ -7,6 +7,7 @@ from typing import List, Optional, Tuple
 import feedparser
 from dateutil import tz
 from xml.sax.saxutils import escape
+import html
 
 ET = tz.gettz("America/New_York")
 ROOT = Path(__file__).resolve().parents[1]
@@ -63,7 +64,19 @@ def parse_dt(entry) -> Optional[datetime]:
     return None
 
 def clamp_summary(s: str, n: int = 420) -> str:
-    return normalize(re.sub(r"<[^>]+>", " ", s or ""))[:n]
+    # Decode HTML entities (&nbsp;, &amp;, etc.)
+    s = html.unescape(s or "")
+
+    # Remove HTML tags
+    s = re.sub(r"<[^>]+>", " ", s)
+
+    # Replace non-breaking spaces
+    s = s.replace("\xa0", " ")
+
+    # Normalize whitespace
+    s = normalize(s)
+
+    return s[:n]
 
 def inject_static_items(cfg: dict) -> List[dict]:
     out = []
