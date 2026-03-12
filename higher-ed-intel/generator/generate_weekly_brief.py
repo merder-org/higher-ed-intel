@@ -63,21 +63,39 @@ def parse_dt(entry) -> Optional[datetime]:
                 pass
     return None
 
-def clamp_summary(s: str, n: int = 420) -> str:
-    # Decode HTML entities (&nbsp;, &amp;, etc.)
-    s = html.unescape(s or "")
+import html
 
-    # Remove HTML tags
+def clamp_summary(s: str, n: int = 420) -> str:
+
+    if not s:
+        return ""
+
+    # decode HTML entities
+    s = html.unescape(s)
+
+    # remove HTML tags
     s = re.sub(r"<[^>]+>", " ", s)
 
-    # Replace non-breaking spaces
+    # remove common junk strings
+    junk_patterns = [
+        r"Content Files.*",
+        r"Metadata download.*",
+        r"All Content and Metadata.*",
+        r"Descriptive Metadata.*",
+        r"Preservation Metadata.*",
+        r"PDF XML TEXT.*"
+    ]
+
+    for p in junk_patterns:
+        s = re.sub(p, "", s, flags=re.IGNORECASE)
+
+    # remove non-breaking spaces
     s = s.replace("\xa0", " ")
 
-    # Normalize whitespace
-    s = normalize(s)
+    # normalize whitespace
+    s = re.sub(r"\s+", " ", s).strip()
 
     return s[:n]
-
 def inject_static_items(cfg: dict) -> List[dict]:
     out = []
     for a in cfg.get("static_items", []):
@@ -152,12 +170,20 @@ def build_linkedin_drafts(items: List[dict]) -> List[dict]:
     drafts.append({
         "title": "Massachusetts community college policy watch",
         "text": (
-            f"One Massachusetts development worth watching this week is {ma['title']} ({ma['url']}).\\n\\n"
-            f"{summary(ma)}\\n\\n"
+            f"One Massachusetts development worth watching this week is {ma['title']} ({ma['url']}).
+
+"
+            f"{summary(ma)}
+
+"
             "What stands out to me is that Massachusetts community college policy is increasingly about more than access alone. "
             "The real question is whether institutions have the advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\\n\\n"
-            f"Why this matters: {why(ma)}\\n\\n"
-            "For community college leaders and student-success teams, that is where the real work is.\\n\\n"
+            f"Why this matters: {why(ma)}
+
+"
+            "For community college leaders and student-success teams, that is where the real work is.
+
+"
             "#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
         )
     })
@@ -165,8 +191,12 @@ def build_linkedin_drafts(items: List[dict]) -> List[dict]:
     drafts.append({
         "title": "Federal higher-ed policy watch",
         "text": (
-            f"A federal higher-ed development on my radar this week is {fed['title']} ({fed['url']}).\\n\\n"
-            f"{summary(fed)}\\n\\n"
+            f"A federal higher-ed development on my radar this week is {fed['title']} ({fed['url']}).
+
+"
+            f"{summary(fed)}
+
+"
             "The most important thing about changes like this is not just the policy language itself. "
             "It is the operational effect on colleges: advising conversations, financial-aid guidance, workforce programming, reporting obligations, and institutional planning.\\n\\n"
             f"Why this matters: {why(fed)}\\n\\n"
@@ -178,12 +208,12 @@ def build_linkedin_drafts(items: List[dict]) -> List[dict]:
     drafts.append({
         "title": "AI in higher ed: practical implications",
         "text": (
-            f"One AI-related higher-ed signal I’m tracking this week is {ai['title']} ({ai['url']}).\\n\\n"
-            f"{summary(ai)}\\n\\n"
+            f"One AI-related higher-ed signal I’m tracking this week is {ai['title']} ({ai['url']}).\n\n"
+            f"{summary(ai)}\n\n"
             "My view is that the real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. "
-            "That is especially important in advising, teaching, and student-support settings.\\n\\n"
-            f"Why this matters: {why(ai)}\\n\\n"
-            "The colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\\n\\n"
+            "That is especially important in advising, teaching, and student-support settings.\n\n"
+            f"Why this matters: {why(ai)}\n\n"
+            "The colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\n\n"
             "#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
         )
     })
