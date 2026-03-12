@@ -170,7 +170,7 @@ def build_linkedin_drafts(items: List[dict]) -> List[dict]:
     drafts.append({
         "title": "Massachusetts community college policy watch",
         "text": (
-            f"One Massachusetts development worth watching this week is {ma['title']} ({ma['url']}).
+            "One Massachusetts development worth watching this week is {ma['title']} ({ma['url']}).
 
 "
             f"{summary(ma)}
