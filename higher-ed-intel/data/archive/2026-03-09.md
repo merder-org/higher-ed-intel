@@ -1,42 +1,24 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-09
 
-_Generated: 2026-03-12 11:58 ET_
+_Generated: 2026-03-12 12:05 ET_
 
 ## LinkedIn-ready drafts
 
 ### Massachusetts community college policy watch
 
-One Massachusetts item I’m tracking this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).
-
-Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
-
-Why it matters for community colleges: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
-
-#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy
+One Massachusetts development worth watching this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nAnchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nWhat stands out to me is that Massachusetts community college policy is increasingly about more than access alone. The real question is whether institutions have the advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\n\nWhy this matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nFor community college leaders and student-success teams, that is where the real work is.\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy
 
 ---
 
 ### Federal higher-ed policy watch
 
-A federal higher-ed item on my radar this week is Public comment period for Workforce Pell regulations opens (https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/).
-
-The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.
-
-Why it matters for community colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
-
-#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising
+A federal higher-ed development on my radar this week is Public comment period for Workforce Pell regulations opens (https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/).\n\nThe U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.\n\nThe most important thing about changes like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, financial-aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.\n\nCommunity colleges are often the institutions that feel these shifts first, because they sit at the intersection of access, affordability, workforce preparation, and transfer.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising
 
 ---
 
 ### AI in higher ed: practical implications
 
-One AI-in-higher-ed item I’m tracking this week is H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes. (https://www.govinfo.gov/app/details/BILLS-119hr7617ih).
-
-Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP
-
-Why it matters for colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
-
-#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech
+One AI-related higher-ed signal I’m tracking this week is H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes. (https://www.govinfo.gov/app/details/BILLS-119hr7617ih).\n\nContent Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP\n\nMy view is that the real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. That is especially important in advising, teaching, and student-support settings.\n\nWhy this matters: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.\n\nThe colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech
 
 ---
 
