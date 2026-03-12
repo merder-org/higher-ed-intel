@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "week_of": "2026-03-09",
-  "generated_at": "2026-03-12 07:20 ET",
+  "generated_at": "2026-03-12 11:26 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -258,6 +258,18 @@
       "score": 7
     },
     {
+      "id": "b85d678a6883c39b",
+      "category": "Academic Advising",
+      "title": "Funding roundup",
+      "url": "https://www.ccdaily.com/2026/03/funding-roundup-436/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-436",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-12",
+      "summary": "San Diego College of Continuing Education (SDCCE) can make utility and water infrastructure improvements thanks to $500,000 in new federal funding secured by Rep. Juan Vargas (D-California). The funding was included in the House fiscal... The post Funding roundup first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
       "id": "e467cc399d09d88f",
       "category": "Academic Advising",
       "title": "Headlines",
@@ -289,18 +301,6 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-09",
       "summary": "With an economy in flux, more Oregon students are choosing hands-on education Jefferson Public Radio More colleges are partnering with four-year institutions and other organizations in developing programs and pathways to serve a growing demand... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
-      "id": "35699ef6c2315677",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1130/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1130",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-08",
-      "summary": "San Antonio college leaders pledge to ensure 45% of residents have college degrees by 2030 Texas Public Radio Local college presidents have announced a joint commitment to boosting the number of college graduates living in... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 6
@@ -689,17 +689,17 @@
       "summary_for_brief": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily ."
     },
     {
-      "id": "e467cc399d09d88f",
+      "id": "b85d678a6883c39b",
       "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1133/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1133",
+      "title": "Funding roundup",
+      "url": "https://www.ccdaily.com/2026/03/funding-roundup-436/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-436",
       "source": "AACC Community College Daily",
-      "published": "2026-03-11",
-      "summary": "Exploring state postsecondary policy priorities of 2026 Education Commission of the States (blog) Early legislative activity points to states concentrating on five primary trends, according to the Education Commission of the States&#8217; bill tracker, which... The post Headlines first appeared on Community College Daily .",
+      "published": "2026-03-12",
+      "summary": "San Diego College of Continuing Education (SDCCE) can make utility and water infrastructure improvements thanks to $500,000 in new federal funding secured by Rep. Juan Vargas (D-California). The funding was included in the House fiscal... The post Funding roundup first appeared on Community College Daily .",
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
       "tags": [],
       "score": 6,
-      "summary_for_brief": "Exploring state postsecondary policy priorities of 2026 Education Commission of the States (blog) Early legislative activity points to states concentrating on five primary trends, according to the Education Commission of the States&#8217; bill tracker, which... The post Headlines first appeared on Community College Daily ."
+      "summary_for_brief": "San Diego College of Continuing Education (SDCCE) can make utility and water infrastructure improvements thanks to $500,000 in new federal funding secured by Rep. Juan Vargas (D-California). The funding was included in the House fiscal... The post Funding roundup first appeared on Community College Daily ."
     },
     {
       "id": "c7c6c1610b554339",
