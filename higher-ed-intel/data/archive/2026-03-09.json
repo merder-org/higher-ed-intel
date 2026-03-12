@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
   "week_of": "2026-03-09",
-  "generated_at": "2026-03-12 12:46 ET",
+  "generated_at": "2026-03-12 15:29 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -90,18 +90,6 @@
       "score": 8
     },
     {
-      "id": "f3d3403d90f2d4bc",
-      "category": "Academic Advising",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/03/funding-roundup-435/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-435",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-09",
-      "summary": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 8
-    },
-    {
       "id": "ff423930b0bb2ad2",
       "category": "Federal Policy",
       "title": "GSA plan would ban DEI for all federal funding recipients — including colleges",
@@ -145,6 +133,18 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-09",
       "summary": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "b131fd530f3d63d8",
+      "category": "AI in Higher Ed",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1134/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1134",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-12",
+      "summary": "Groups seek funding fix to help Michigan grow dual enrollment even more The 74 To get even more high school students to participate, groups are asking the state to explore funding sources and take financial... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 7
@@ -282,6 +282,18 @@
       "score": 5
     },
     {
+      "id": "f3311914ee30139c",
+      "category": "Academic Advising",
+      "title": "Start with a marketing strategy",
+      "url": "https://www.ccdaily.com/2026/03/start-with-a-marketing-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=start-with-a-marketing-strategy",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-12",
+      "summary": "Community college marketers know the e-mail well. It usually arrives a few weeks before the start of the following semester. The subject line is brief: “Can you promote my program?” The message is not unreasonable,... The post Start with a marketing strategy first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
       "id": "b85d678a6883c39b",
       "category": "Academic Advising",
       "title": "Funding roundup",
@@ -313,18 +325,6 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-10",
       "summary": "According to a March 2026 economic news release from the U.S. Bureau of Labor Statistics, the number of people not in the labor force but seeking employment remains at 6 million. The number of long-term... The post Workforce development is not a department — it’s higher education’s shared mission first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "7d56e25a97a86932",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1131/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1131",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-09",
-      "summary": "With an economy in flux, more Oregon students are choosing hands-on education Jefferson Public Radio More colleges are partnering with four-year institutions and other organizations in developing programs and pathways to serve a growing demand... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -626,19 +626,6 @@
       "summary_for_brief": "After the secretary of the Miami-Dade County Republican Party created the chat for college students, it devolved into slurs against Black and Jewish people."
     },
     {
-      "id": "f3d3403d90f2d4bc",
-      "category": "Academic Advising",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/03/funding-roundup-435/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-435",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-09",
-      "summary": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
-      "tags": [],
-      "score": 8,
-      "summary_for_brief": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily ."
-    },
-    {
       "id": "87552be5d3548acd",
       "category": "Academic Advising",
       "title": "The long-term labor benefits of student supports",
@@ -678,6 +665,32 @@
       "summary_for_brief": "Holistic Support Boosts Community College Outcomes Joshua.Bay Thu, 03/12/2026 - 03:00 AM A long-term study finds that students in Chicago’s One Million Degrees program increase their likelihood of graduating, securing stable jobs and earning a livable wage. Byline(s) Joshua Bay"
     },
     {
+      "id": "fe06f4a984a331c6",
+      "category": "Academic Advising",
+      "title": "College Student Athletes Using NIL, Transfer Portal to Speak Up for Social Injustice",
+      "url": "https://www.insidehighered.com/opinion/columns/resident-scholar/2026/03/12/student-athletes-using-nil-transfer-portal-speak",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-12",
+      "summary": "College Student Athletes Using NIL, Transfer Portal to Speak Up for Social Injustice Sara Brady Thu, 03/12/2026 - 03:00 AM The ability to transfer to less repressive playing environments gives student athletes the ability to disrupt injustices in our broader society. Byline(s) Shaun Harper",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 5,
+      "summary_for_brief": "College Student Athletes Using NIL, Transfer Portal to Speak Up for Social Injustice Sara Brady Thu, 03/12/2026 - 03:00 AM The ability to transfer to less repressive playing environments gives student athletes the ability to disrupt injustices in our broader society. Byline(s) Shaun Harper"
+    },
+    {
+      "id": "b131fd530f3d63d8",
+      "category": "AI in Higher Ed",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1134/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1134",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-12",
+      "summary": "Groups seek funding fix to help Michigan grow dual enrollment even more The 74 To get even more high school students to participate, groups are asking the state to explore funding sources and take financial... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "Groups seek funding fix to help Michigan grow dual enrollment even more The 74 To get even more high school students to participate, groups are asking the state to explore funding sources and take financial... The post Headlines first appeared on Community College Daily ."
+    },
+    {
       "id": "77194ef2f737fbb1",
       "category": "AI in Higher Ed",
       "title": "Screen-Free Schools? Some Legislators Push for a New Normal",
@@ -715,19 +728,6 @@
       "tags": [],
       "score": 4,
       "summary_for_brief": "Sophie and Jenay talk with a team from the University of Notre Dame about their research on using smart glasses to support accessibility in teaching and learning."
-    },
-    {
-      "id": "f40d93b1d9cdc90b",
-      "category": "AI in Higher Ed",
-      "title": "Careers Grow Where Community Exists",
-      "url": "https://er.educause.edu/podcasts/educause-rising-voices/2026/careers-grow-where-community-exists",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-05",
-      "summary": "Many young professionals struggle to find their footing as they build their careers. This conversation explores how community, mentorship, and shared experiences within higher education technology create confidence, spark growth, and open unexpected opportunities for those seeking connection and meaningful professional pathways.",
-      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
-      "tags": [],
-      "score": 4,
-      "summary_for_brief": "Many young professionals struggle to find their footing as they build their careers. This conversation explores how community, mentorship, and shared experiences within higher education technology create confidence, spark growth, and open unexpected opportunities for those seeking connection and meaningful professional pathways."
     }
   ],
   "linkedin_drafts": [
