@@ -118,16 +118,77 @@ def build_briefing_notes(items: List[dict], cats: List[str]) -> List[dict]:
 
 def build_linkedin_drafts(items: List[dict]) -> List[dict]:
     ordered = sorted(items, key=lambda x: x.get("score", 0), reverse=True)
-    def top(cat):
+
+    def top(cat: str):
         return next((x for x in ordered if x.get("category") == cat), None)
+
+    def summary(item: dict) -> str:
+        text = (item.get("summary_for_brief") or item.get("summary") or "").strip()
+        if not text:
+            text = item.get("title", "").strip()
+        return text
+
+    def why(item: dict) -> str:
+        text = (item.get("why_it_matters") or "").strip()
+        if not text:
+            cat = item.get("category", "")
+            if cat == "MA Budget / SUCCESS":
+                return "This has implications for state funding, wraparound supports, transfer, and student-success infrastructure."
+            if cat == "Federal Policy":
+                return "This could affect financial aid, workforce pathways, compliance, grants, or institutional planning."
+            if cat == "Academic Advising":
+                return "This is relevant to advising models, retention strategy, persistence, and transfer support."
+            if cat == "AI in Higher Ed":
+                return "This has implications for AI governance, staff development, teaching practice, and student support."
+            return "This appears relevant to community colleges and student success work."
+        return text
+
     ma = top("MA Budget / SUCCESS") or ordered[0]
-    fed = top("Federal Policy") or ordered[min(1, len(ordered)-1)]
-    ai = top("AI in Higher Ed") or top("Academic Advising") or ordered[min(2, len(ordered)-1)]
-    return [
-      {"title": "Massachusetts community college policy watch", "text": f"One Massachusetts item I’m tracking this week is {ma['title']} ({ma['url']}).\n\n{make_summary_for_brief(ma)}\n\nWhy it matters for community colleges: {make_why_it_matters(ma)}\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"},
-      {"title": "Federal higher-ed policy watch", "text": f"A federal higher-ed item on my radar this week is {fed['title']} ({fed['url']}).\n\n{make_summary_for_brief(fed)}\n\nWhy it matters for community colleges: {make_why_it_matters(fed)}\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"},
-      {"title": "AI in higher ed: practical implications", "text": f"One AI-in-higher-ed item I’m tracking this week is {ai['title']} ({ai['url']}).\n\n{make_summary_for_brief(ai)}\n\nWhy it matters for colleges: {make_why_it_matters(ai)}\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"}
-    ]
+    fed = top("Federal Policy") or top("Academic Advising") or ordered[min(1, len(ordered)-1)]
+    ai = top("AI in Higher Ed") or ordered[min(2, len(ordered)-1)]
+
+    drafts = []
+
+    drafts.append({
+        "title": "Massachusetts community college policy watch",
+        "text": (
+            f"One Massachusetts development worth watching this week is {ma['title']} ({ma['url']}).\\n\\n"
+            f"{summary(ma)}\\n\\n"
+            "What stands out to me is that Massachusetts community college policy is increasingly about more than access alone. "
+            "The real question is whether institutions have the advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\\n\\n"
+            f"Why this matters: {why(ma)}\\n\\n"
+            "For community college leaders and student-success teams, that is where the real work is.\\n\\n"
+            "#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
+        )
+    })
+
+    drafts.append({
+        "title": "Federal higher-ed policy watch",
+        "text": (
+            f"A federal higher-ed development on my radar this week is {fed['title']} ({fed['url']}).\\n\\n"
+            f"{summary(fed)}\\n\\n"
+            "The most important thing about changes like this is not just the policy language itself. "
+            "It is the operational effect on colleges: advising conversations, financial-aid guidance, workforce programming, reporting obligations, and institutional planning.\\n\\n"
+            f"Why this matters: {why(fed)}\\n\\n"
+            "Community colleges are often the institutions that feel these shifts first, because they sit at the intersection of access, affordability, workforce preparation, and transfer.\\n\\n"
+            "#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
+        )
+    })
+
+    drafts.append({
+        "title": "AI in higher ed: practical implications",
+        "text": (
+            f"One AI-related higher-ed signal I’m tracking this week is {ai['title']} ({ai['url']}).\\n\\n"
+            f"{summary(ai)}\\n\\n"
+            "My view is that the real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. "
+            "That is especially important in advising, teaching, and student-support settings.\\n\\n"
+            f"Why this matters: {why(ai)}\\n\\n"
+            "The colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\\n\\n"
+            "#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
+        )
+    })
+
+    return drafts
 
 def write_rss(site_title: str, site_link: str, items: List[dict], out_path: Path, build_dt: datetime) -> None:
     now = build_dt.strftime("%a, %d %b %Y %H:%M:%S %z")
