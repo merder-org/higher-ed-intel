@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-09
 
-_Generated: 2026-03-12 11:26 ET_
+_Generated: 2026-03-12 11:58 ET_
 
 ## LinkedIn-ready drafts
 
@@ -20,7 +20,7 @@ Why it matters for community colleges: Anchor page for tracking SUCCESS language
 
 A federal higher-ed item on my radar this week is Public comment period for Workforce Pell regulations opens (https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/).
 
-The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.&nbsp;
+The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.
 
 Why it matters for community colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
 
@@ -55,7 +55,7 @@ Why it matters for colleges: Could affect aid eligibility, workforce programming
 - Category: Federal Policy
 - Source: Higher Ed Dive (2026-03-09)
 - Link: https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/
-- Summary: The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.&nbsp;
+- Summary: The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.
 - Why it matters: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
 
 ### H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes.
