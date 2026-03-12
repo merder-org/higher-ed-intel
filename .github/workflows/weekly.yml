@@ -2,7 +2,7 @@ name: Higher-Ed Intel Twice Weekly
 
 on:
   schedule:
-    - cron: "47 10 * * 1,4"
+    - cron: "47 18 * * 1,4"
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -38,22 +38,24 @@ jobs:
           git commit -m "Auto update higher-ed briefing" || echo "No changes"
           git push
 
-      - name: Deploy to Hostinger (attempt 1)
-        id: ftp_deploy_1
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: higher-ed-intel/
-          server-dir: higher-ed-intel/
+      - name: Install lftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
 
-      - name: Deploy to Hostinger (retry if first attempt fails)
-        if: failure() && steps.ftp_deploy_1.outcome == 'failure'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: higher-ed-intel/
-          server-dir: higher-ed-intel/
+      - name: Deploy to Hostinger with lftp
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -e "
+          set ssl:verify-certificate no;
+          set ftp:passive-mode true;
+          set net:max-retries 5;
+          set net:reconnect-interval-base 5;
+          set net:timeout 20;
+          open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
+          mirror -R --delete --verbose higher-ed-intel/ higher-ed-intel/;
+          bye
+          "
