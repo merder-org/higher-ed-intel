@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-09
 
-_Generated: 2026-03-09 15:27 ET_
+_Generated: 2026-03-12 07:20 ET_
 
 ## LinkedIn-ready drafts
 
@@ -18,9 +18,9 @@ Why it matters for community colleges: Anchor page for tracking SUCCESS language
 
 ### Federal higher-ed policy watch
 
-A federal higher-ed item on my radar this week is ED releases proposed Workforce Pell regs (https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs).
+A federal higher-ed item on my radar this week is Public comment period for Workforce Pell regulations opens (https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/).
 
-The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .
+The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.&nbsp;
 
 Why it matters for community colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
 
@@ -30,11 +30,11 @@ Why it matters for community colleges: Could affect aid eligibility, workforce p
 
 ### AI in higher ed: practical implications
 
-One AI-in-higher-ed item I’m tracking this week is MassDHE News Clips: Community Colleges (https://www.mass.edu/newsclips/ccsystem.asp).
+One AI-in-higher-ed item I’m tracking this week is H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes. (https://www.govinfo.gov/app/details/BILLS-119hr7617ih).
 
-MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
+Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP
 
-Why it matters for colleges: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
+Why it matters for colleges: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
 
 #AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech
 
@@ -50,12 +50,20 @@ Why it matters for colleges: MassDHE’s community college clips often surface s
 - Summary: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
 - Why it matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
 
-### ED releases proposed Workforce Pell regs
+### Public comment period for Workforce Pell regulations opens
 
 - Category: Federal Policy
-- Source: AACC Community College Daily (2026-03-06)
-- Link: https://www.ccdaily.com/2026/03/washington-watch-ed-releases-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-proposed-workforce-pell-regs
-- Summary: The U.S. Education Department (ED) on Friday posted its proposed rules for the new Workforce Grant Program. The public will have 30 days to comment on the rules, starting March 9, when the official Notice... The post ED releases proposed Workforce Pell regs first appeared on Community College Daily .
+- Source: Higher Ed Dive (2026-03-09)
+- Link: https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/
+- Summary: The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.&nbsp;
+- Why it matters: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
+
+### H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes.
+
+- Category: Federal Policy
+- Source: GovInfo Bills (2026-03-10)
+- Link: https://www.govinfo.gov/app/details/BILLS-119hr7617ih
+- Summary: Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP
 - Why it matters: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.
 
 ### MassDHE News Clips: Community Colleges
@@ -66,26 +74,18 @@ Why it matters for colleges: MassDHE’s community college clips often surface s
 - Summary: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 - Why it matters: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 
-### Lessons from last year’s CCIC-winning team
+### Headlines
 
 - Category: MA Budget / SUCCESS
-- Source: AACC Community College Daily (2026-03-08)
-- Link: https://www.ccdaily.com/2026/03/lessons-from-last-years-ccic-winning-team/?utm_source=rss&utm_medium=rss&utm_campaign=lessons-from-last-years-ccic-winning-team
-- Summary: The Community College Innovation Challenge, co-sponsored by the American Association of Community Colleges and the National Science Foundation, challenges students to pitch a STEM-based innovation to address a real-world problem, with guidance from a faculty... The post Lessons from last year’s CCIC-winning team first appeared on Community College Daily .
+- Source: AACC Community College Daily (2026-03-10)
+- Link: https://www.ccdaily.com/2026/03/headlines-1132/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1132
+- Summary: Budget leader proposes massive overhaul of Missouri higher education funding Missouri Independent State Rep. Dirk Deaton, chairman of the House Budget Committee, said he wants to overhaul state support for community colleges and universities by... The post Headlines first appeared on Community College Daily .
 - Why it matters: Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.
 
-### Washington Watch: House Farm Bill includes new community college grant program
+### A quick look at key community college stats
 
 - Category: MA Budget / SUCCESS
-- Source: AACC Community College Daily (2026-03-05)
-- Link: https://www.ccdaily.com/2026/03/washington-watch-house-farm-bill-includes-new-community-college-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-farm-bill-includes-new-community-college-grant-program
-- Summary: A committee-passed House bill to reauthorize the Farm Bill includes a new competitive grant program for community colleges to provide agricultural workforce training. The House Agriculture Committee on Thursday advanced the Food, Farm and National... The post Washington Watch: House Farm Bill includes new community college grant program first appeared on Community College Daily .
-- Why it matters: Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.
-
-### A statewide approach to CPL
-
-- Category: MA Budget / SUCCESS
-- Source: AACC Community College Daily (2026-03-05)
-- Link: https://www.ccdaily.com/2026/03/a-statewide-approach-to-cpl/?utm_source=rss&utm_medium=rss&utm_campaign=a-statewide-approach-to-cpl
-- Summary: Editor’s note: This is the second of two articles exploring how some community colleges are expanding the use of credit for prior learning. The first piece is here. In California, the statewide approach to awarding... The post A statewide approach to CPL first appeared on Community College Daily .
+- Source: AACC Community College Daily (2026-03-10)
+- Link: https://www.ccdaily.com/2026/03/a-quick-look-at-key-community-college-stats/?utm_source=rss&utm_medium=rss&utm_campaign=a-quick-look-at-key-community-college-stats
+- Summary: The number of credentials awarded at community colleges in 2023-24 increased by more than 90,000 from the prior year, according to the just-released Fast Facts 2026 from the American Association of Community Colleges (AACC). Source:... The post A quick look at key community college stats first appeared on Community College Daily .
 - Why it matters: Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.
