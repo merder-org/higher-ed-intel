@@ -1,7 +1,7 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "week_of": "2026-03-09",
-  "generated_at": "2026-03-12 12:05 ET",
+  "generated_at": "2026-03-12 12:46 ET",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
@@ -39,18 +39,6 @@
       "score": 13
     },
     {
-      "id": "bc8dad558eefcbdf",
-      "category": "Federal Policy",
-      "title": "H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7617ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 12
-    },
-    {
       "id": "6429575608f363e6",
       "category": "MA Budget / SUCCESS",
       "title": "MassDHE News Clips: Community Colleges",
@@ -75,7 +63,7 @@
       "summary": "Budget leader proposes massive overhaul of Missouri higher education funding Missouri Independent State Rep. Dirk Deaton, chairman of the House Budget Committee, said he wants to overhaul state support for community colleges and universities by... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 10
+      "score": 9
     },
     {
       "id": "a1e39cbbea975269",
@@ -87,91 +75,7 @@
       "summary": "The number of credentials awarded at community colleges in 2023-24 increased by more than 90,000 from the prior year, according to the just-released Fast Facts 2026 from the American Association of Community Colleges (AACC). Source:... The post A quick look at key community college stats first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 10
-    },
-    {
-      "id": "5c76cc44ca8ce82d",
-      "category": "Federal Policy",
-      "title": "S.J. Res.&nbsp;115&nbsp;(IS) - To direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres115is",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
-    },
-    {
-      "id": "629ffcfb9ad5f744",
-      "category": "Federal Policy",
-      "title": "H.R.&nbsp;7744&nbsp;(IH) - Department of Homeland Security Appropriations Act, 2026",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7744ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
-    },
-    {
-      "id": "8f8e1fa0f4ef5908",
-      "category": "Federal Policy",
-      "title": "H.R.&nbsp;7744&nbsp;(EH) - Department of Homeland Security Appropriations Act, 2026",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7744eh",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
-    },
-    {
-      "id": "c940dd4b3b463d50",
-      "category": "Federal Policy",
-      "title": "S.J. Res.&nbsp;119&nbsp;(IS) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to Air Plan Approval; Montana; Regional Haze Plan for the Second Implementation Period.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres119is",
-      "source": "GovInfo Bills",
-      "published": "2026-03-11",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
-    },
-    {
-      "id": "e9b009aea9eb826c",
-      "category": "Federal Policy",
-      "title": "S.J. Res.&nbsp;122&nbsp;(IS) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to Air Plan Approval; Indiana; Regional Haze Plan for the Second Implementation Period.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres122is",
-      "source": "GovInfo Bills",
-      "published": "2026-03-11",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
-    },
-    {
-      "id": "b01d3cc2c0f508b2",
-      "category": "Federal Policy",
-      "title": "H.R.&nbsp;7744&nbsp;(RFS) - Department of Homeland Security Appropriations Act, 2026",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7744rfs",
-      "source": "GovInfo Bills",
-      "published": "2026-03-11",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
-    },
-    {
-      "id": "4b02a22a66bfd6f6",
-      "category": "Federal Policy",
-      "title": "S.J. Res.&nbsp;123&nbsp;(IS) - To direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres123is",
-      "source": "GovInfo Bills",
-      "published": "2026-03-12",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
+      "score": 9
     },
     {
       "id": "9a959f6dfab4ef26",
@@ -183,31 +87,7 @@
       "summary": "New DOL guidance on registered apprenticeships Arizona college keeps expanding into three-year degrees Kansas college to offer its first baccalaureate Concerns about loan services support for students New DOL guidance on registered apprenticeships The U.S.... The post Reporter’s notebook first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 9
-    },
-    {
-      "id": "a01f8c325f9b4df7",
-      "category": "Federal Policy",
-      "title": "Federal Register Vol. 91, No.38, February 26, 2026",
-      "url": "https://www.govinfo.gov/app/details/FR-2026-02-26",
-      "source": "GovInfo Federal Register",
-      "published": "2026-02-26",
-      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "f68fec251f420216",
-      "category": "Federal Policy",
-      "title": "Federal Register Vol. 91, No.39, February 27, 2026",
-      "url": "https://www.govinfo.gov/app/details/FR-2026-02-27",
-      "source": "GovInfo Federal Register",
-      "published": "2026-02-27",
-      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
+      "score": 8
     },
     {
       "id": "f3d3403d90f2d4bc",
@@ -219,7 +99,31 @@
       "summary": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 9
+      "score": 8
+    },
+    {
+      "id": "ff423930b0bb2ad2",
+      "category": "Federal Policy",
+      "title": "GSA plan would ban DEI for all federal funding recipients — including colleges",
+      "url": "https://www.highereddive.com/news/gsa-plan-would-ban-dei-for-all-federal-funding-recipients-including-schoo/814353/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-11",
+      "summary": "The General Services Administration proposal comes after a similar policy from the U.S. Department of Education was blocked in courts.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "fa98dfb353a6456f",
+      "category": "Federal Policy",
+      "title": "Racist, Antisemitic Slurs Surface in Florida GOP Group Chat",
+      "url": "https://www.nytimes.com/2026/03/05/us/florida-gop-slurs-group-chat.html",
+      "source": "NYT Education",
+      "published": "2026-03-05",
+      "summary": "After the secretary of the Miami-Dade County Republican Party created the chat for college students, it devolved into slurs against Black and Jewish people.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
     },
     {
       "id": "87552be5d3548acd",
@@ -231,7 +135,7 @@
       "summary": "A new study sheds light on the long-term benefits of wraparound student supports on students’ employment and earnings. The University of Chicago Inclusive Economy Lab examined how City Colleges of Chicago students who participated in... The post The long-term labor benefits of student supports first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 8
+      "score": 7
     },
     {
       "id": "81737811e752787e",
@@ -243,76 +147,28 @@
       "summary": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 8
-    },
-    {
-      "id": "c7c6c1610b554339",
-      "category": "AI in Higher Ed",
-      "title": "Trump Signs AI Executive Order as States Implement AI Laws",
-      "url": "https://er.educause.edu/articles/2026/3/trump-signs-ai-executive-order-as-states-implement-ai-laws",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-09",
-      "summary": "In December 2025, President Trump issued an executive order establishing a national artificial intelligence (AI) policy framework, challenging stricter state AI laws, and tying certain federal funding to state compliance.",
-      "why_it_matters": "",
-      "tags": [],
       "score": 7
     },
     {
-      "id": "b85d678a6883c39b",
-      "category": "Academic Advising",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/03/funding-roundup-436/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-436",
-      "source": "AACC Community College Daily",
+      "id": "2a854beeea0704a9",
+      "category": "Federal Policy",
+      "title": "Portland Community College faculty and staff unions go on strike",
+      "url": "https://www.highereddive.com/news/portland-community-college-faculty-staff-strike/814493/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-11",
+      "summary": "The public institution went remote on Wednesday as unions issued a work-stoppage to win stronger pay increases for employees.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
+      "id": "799d9923206ff56c",
+      "category": "Federal Policy",
+      "title": "H.R. 7673 (IH) - To amend the Organic Act of Guam to provide an exception to the public purpose requirement for certain land transfers in the case of a transfer restoring such land to the original landowner or heirs, and for other purposes.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7673ih",
+      "source": "GovInfo Bills",
       "published": "2026-03-12",
-      "summary": "San Diego College of Continuing Education (SDCCE) can make utility and water infrastructure improvements thanks to $500,000 in new federal funding secured by Rep. Juan Vargas (D-California). The funding was included in the House fiscal... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
-      "id": "e467cc399d09d88f",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1133/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1133",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-11",
-      "summary": "Exploring state postsecondary policy priorities of 2026 Education Commission of the States (blog) Early legislative activity points to states concentrating on five primary trends, according to the Education Commission of the States’ bill tracker, which... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
-      "id": "994a028e853eb1a5",
-      "category": "Academic Advising",
-      "title": "Workforce development is not a department — it’s higher education’s shared mission",
-      "url": "https://www.ccdaily.com/2026/03/workforce-development-is-not-a-department-its-higher-educations-shared-mission/?utm_source=rss&utm_medium=rss&utm_campaign=workforce-development-is-not-a-department-its-higher-educations-shared-mission",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-10",
-      "summary": "According to a March 2026 economic news release from the U.S. Bureau of Labor Statistics, the number of people not in the labor force but seeking employment remains at 6 million. The number of long-term... The post Workforce development is not a department — it’s higher education’s shared mission first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
-      "id": "7d56e25a97a86932",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1131/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1131",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-09",
-      "summary": "With an economy in flux, more Oregon students are choosing hands-on education Jefferson Public Radio More colleges are partnering with four-year institutions and other organizations in developing programs and pathways to serve a growing demand... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
-      "id": "4ab687d610074d20",
-      "category": "Academic Advising",
-      "title": "Why NYC Schools Invested in Coaching for Staff Outside the Classroom",
-      "url": "https://www.edsurge.com/news/2026-03-11-why-nyc-schools-invested-in-coaching-for-staff-outside-the-classroom",
-      "source": "EdSurge",
-      "published": "2026-03-11",
-      "summary": "In a system serving nearly 1 million students across more than 1,800 schools, the distance between a central office cubicle and a second grade ...",
+      "summary": "PDF XML TEXT",
       "why_it_matters": "",
       "tags": [],
       "score": 6
@@ -330,25 +186,73 @@
       "score": 6
     },
     {
-      "id": "81062e90f0bf2c1e",
-      "category": "Academic Advising",
-      "title": "Want to Attract Students? Try Improving the Weather.",
-      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/03/12/bad-weather-casts-cloud-over-college-application",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-12",
-      "summary": "Want to Attract Students? Try Improving the Weather. Johanna Alonso Thu, 03/12/2026 - 03:00 AM Using data from a college in the Northeast, researchers found that prospective students who toured on a rainy or hot day were less likely to apply. Byline(s) Johanna Alonso",
+      "id": "69769f4be3db6e97",
+      "category": "Federal Policy",
+      "title": "Portland State University could close 3 departments, trim over a dozen others",
+      "url": "https://www.highereddive.com/news/portland-state-university-could-close-departments/814354/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-11",
+      "summary": "The public institution is grappling with a $35 million budget hole, but some faculty criticized the plan for cuts as “hasty and unimaginative.”",
       "why_it_matters": "",
       "tags": [],
       "score": 5
     },
     {
-      "id": "504a4398dc99d9c6",
-      "category": "Academic Advising",
-      "title": "Trump Appoints Erika Kirk to U.S. Air Force Academy Board",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/12/trump-appoints-erika-kirk-us-air-force-academy-board",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-12",
-      "summary": "Trump Appoints Erika Kirk to U.S. Air Force Academy Board Sara Weissman Thu, 03/12/2026 - 03:00 AM Byline(s) Sara Weissman",
+      "id": "8c1bf0a16ca0bd4e",
+      "category": "Federal Policy",
+      "title": "Cal State sues Trump administration over Title IX funding threats",
+      "url": "https://www.highereddive.com/news/cal-state-sues-trump-administration-over-title-ix-funding-threats/814351/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-10",
+      "summary": "The administration is threatening San José State University's funding over a transgender student-athlete's previous participation in women's sports.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "6ac61cf89932ef90",
+      "category": "Federal Policy",
+      "title": "University of Wyoming must review programs and staffing for possible cuts",
+      "url": "https://www.highereddive.com/news/university-of-wyoming-review-programs-staffing-possible-cuts-state-budget-funding/814243/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-09",
+      "summary": "The public institution came out of a cut-hungry legislative session with its funding intact, but it now has a state mandate to look for reductions.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "c91d881478a459b1",
+      "category": "Federal Policy",
+      "title": "Ohio State University president resigns over ‘inappropriate relationship’",
+      "url": "https://www.highereddive.com/news/ohio-state-university-president-resigns-over-inappropriate-relationship/814223/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-09",
+      "summary": "Ted Carter abruptly stepped down from the public flagship this weekend and said Monday he had allowed \"inappropriate access to Ohio State leadership.”",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "51250de2c603f2fb",
+      "category": "Federal Policy",
+      "title": "Culture at Columbia Shielded Sexual Assault by Physician, Report Finds",
+      "url": "https://www.nytimes.com/2026/03/10/nyregion/columbia-hospitals-hadden-resignation.html",
+      "source": "NYT Education",
+      "published": "2026-03-10",
+      "summary": "Two doctors affiliated with the university and NewYork-Presbyterian Hospital stepped down after an external report found that the administrators mishandled allegations of abuse against Robert Hadden.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "bf4db2f5bdfa9912",
+      "category": "Federal Policy",
+      "title": "Judge Is Skeptical of Penn’s Argument Against Trump Demand for List of Jews",
+      "url": "https://www.nytimes.com/2026/03/10/us/trump-penn-list-of-jews-subpoena.html",
+      "source": "NYT Education",
+      "published": "2026-03-10",
+      "summary": "A federal judge appeared receptive to the Trump administration’s demands for information about the University of Pennsylvania’s Jewish faculty and staff as the government pursues an antisemitism investigation.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -378,16 +282,124 @@
       "score": 5
     },
     {
-      "id": "6d37534d89477593",
-      "category": "AI in Higher Ed",
-      "title": "With Teens Comfortable Confiding in AI, Should Schools Embrace It for Mental Health Care?",
-      "url": "https://www.edsurge.com/news/2026-03-03-with-teens-comfortable-confiding-in-ai-should-schools-embrace-it-for-mental-health-care",
-      "source": "EdSurge",
-      "published": "2026-03-03",
-      "summary": "Why are students so comfortable using AI for emotional support?",
+      "id": "b85d678a6883c39b",
+      "category": "Academic Advising",
+      "title": "Funding roundup",
+      "url": "https://www.ccdaily.com/2026/03/funding-roundup-436/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-436",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-12",
+      "summary": "San Diego College of Continuing Education (SDCCE) can make utility and water infrastructure improvements thanks to $500,000 in new federal funding secured by Rep. Juan Vargas (D-California). The funding was included in the House fiscal... The post Funding roundup first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
+    },
+    {
+      "id": "e467cc399d09d88f",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1133/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1133",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-11",
+      "summary": "Exploring state postsecondary policy priorities of 2026 Education Commission of the States (blog) Early legislative activity points to states concentrating on five primary trends, according to the Education Commission of the States’ bill tracker, which... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "994a028e853eb1a5",
+      "category": "Academic Advising",
+      "title": "Workforce development is not a department — it’s higher education’s shared mission",
+      "url": "https://www.ccdaily.com/2026/03/workforce-development-is-not-a-department-its-higher-educations-shared-mission/?utm_source=rss&utm_medium=rss&utm_campaign=workforce-development-is-not-a-department-its-higher-educations-shared-mission",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-10",
+      "summary": "According to a March 2026 economic news release from the U.S. Bureau of Labor Statistics, the number of people not in the labor force but seeking employment remains at 6 million. The number of long-term... The post Workforce development is not a department — it’s higher education’s shared mission first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "7d56e25a97a86932",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1131/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1131",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-09",
+      "summary": "With an economy in flux, more Oregon students are choosing hands-on education Jefferson Public Radio More colleges are partnering with four-year institutions and other organizations in developing programs and pathways to serve a growing demand... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "dfba6a71e14100ca",
+      "category": "Academic Advising",
+      "title": "This Is What Democracy Looks Like",
+      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/03/12/what-democracy-looks",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-12",
+      "summary": "This Is What Democracy Looks Like sara.custer@in… Thu, 03/12/2026 - 03:00 AM Under pressure to teach American values, colleges can model civic engagement by joining efforts to strengthen at-risk voter protections. Byline(s) Sara Custer",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    },
+    {
+      "id": "81062e90f0bf2c1e",
+      "category": "Academic Advising",
+      "title": "Want to Attract Students? Try Improving the Weather.",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/03/12/bad-weather-casts-cloud-over-college-application",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-12",
+      "summary": "Want to Attract Students? Try Improving the Weather. Johanna Alonso Thu, 03/12/2026 - 03:00 AM Using data from a college in the Northeast, researchers found that prospective students who toured on a rainy or hot day were less likely to apply. Byline(s) Johanna Alonso",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    },
+    {
+      "id": "5575198857e34ed9",
+      "category": "AI in Higher Ed",
+      "title": "Hotline: Cybersecurity and Privacy | March 2026",
+      "url": "https://er.educause.edu/articles/2026/3/hotline-cybersecurity-and-privacy-march-2026",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-10",
+      "summary": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    },
+    {
+      "id": "50c36c9bd19d40dc",
+      "category": "AI in Higher Ed",
+      "title": "Are Wearables the Next Big Thing in Higher Ed Tech?",
+      "url": "https://er.educause.edu/podcasts/educause-shop-talk/2026/are-wearables-the-next-big-thing-in-higher-ed-tech",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-09",
+      "summary": "Sophie and Jenay talk with a team from the University of Notre Dame about their research on using smart glasses to support accessibility in teaching and learning.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    },
+    {
+      "id": "f40d93b1d9cdc90b",
+      "category": "AI in Higher Ed",
+      "title": "Careers Grow Where Community Exists",
+      "url": "https://er.educause.edu/podcasts/educause-rising-voices/2026/careers-grow-where-community-exists",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-05",
+      "summary": "Many young professionals struggle to find their footing as they build their careers. This conversation explores how community, mentorship, and shared experiences within higher education technology create confidence, spark growth, and open unexpected opportunities for those seeking connection and meaningful professional pathways.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    },
+    {
+      "id": "56ed8583d5e47715",
+      "category": "AI in Higher Ed",
+      "title": "The Penn Instructional Design Working Group: Professional Learning and Growth for ID Professionals",
+      "url": "https://er.educause.edu/articles/2026/3/the-penn-instructional-design-working-group-professional-learning-and-growth-for-id-professionals",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-04",
+      "summary": "At the University of Pennsylvania, the Instructional Design Working Group is blending professional growth and peer connection to transform how instructional designers learn, lead, and support one another. Its success offers a practical model that other higher education institutions can adapt to strengthen their own instructional design communities.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
     },
     {
       "id": "1ffdde6c963e3940",
@@ -399,7 +411,7 @@
       "summary": "In the age of AI, the true future of higher education lies not in replacing faculty but in freeing them to do what only humans can—build meaningful relationships, cultivate wisdom, and guide students through the ethical and intellectual challenges machines cannot navigate.",
       "why_it_matters": "",
       "tags": [],
-      "score": 5
+      "score": 4
     },
     {
       "id": "53faf5bdd3df80de",
@@ -409,42 +421,6 @@
       "source": "EDUCAUSE Review",
       "published": "2026-03-02",
       "summary": "By adopting practical, cost-effective strategies, higher education IT leaders can support continuous learning and career development for staff, even during budget-constrained times.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "c93f6595bce73680",
-      "category": "AI in Higher Ed",
-      "title": "The First Screen My Daughter Ever Saw",
-      "url": "https://www.edsurge.com/news/2026-03-10-the-first-screen-my-daughter-ever-saw",
-      "source": "EdSurge",
-      "published": "2026-03-10",
-      "summary": "A premature baby, a pandemic and new pediatric research reveal why the screen-time debate is more nuanced than simply counting minutes.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "803ca697a9a5a11c",
-      "category": "AI in Higher Ed",
-      "title": "Schools Keep Facing the Same Challenges. Students and Educators Know What Needs to Change.",
-      "url": "https://www.edsurge.com/news/2026-03-04-schools-keep-facing-the-same-challenges-students-and-educators-know-what-needs-to-change",
-      "source": "EdSurge",
-      "published": "2026-03-04",
-      "summary": "Educators have seen wave after wave of “innovative” solutions promise to address long-standing challenges — from personalization and engagement to ...",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "fb0cdfbb5fa4ce0a",
-      "category": "AI in Higher Ed",
-      "title": "Why Not Ask Why: 'Digital Delusion' Author Urges Educators to Rethink Technology’s Reach",
-      "url": "https://www.edsurge.com/news/2026-02-27-why-not-ask-why-neuroscientist-urges-educators-to-reconsider-technology-s-reach",
-      "source": "EdSurge",
-      "published": "2026-02-27",
-      "summary": "Education needs an analog reboot, says neuroscientist Jared Cooney Horvath in his new book, “The Digital Delusion,” which lays out how technology has ...",
       "why_it_matters": "",
       "tags": [],
       "score": 4
@@ -476,23 +452,10 @@
       "source": "Higher Ed Dive",
       "published": "2026-03-09",
       "summary": "The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.",
-      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 13,
       "summary_for_brief": "The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks."
-    },
-    {
-      "id": "bc8dad558eefcbdf",
-      "category": "Federal Policy",
-      "title": "H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7617ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
-      "tags": [],
-      "score": 12,
-      "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
     },
     {
       "id": "6429575608f363e6",
@@ -518,9 +481,9 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-10",
       "summary": "Budget leader proposes massive overhaul of Missouri higher education funding Missouri Independent State Rep. Dirk Deaton, chairman of the House Budget Committee, said he wants to overhaul state support for community colleges and universities by... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
       "tags": [],
-      "score": 10,
+      "score": 9,
       "summary_for_brief": "Budget leader proposes massive overhaul of Missouri higher education funding Missouri Independent State Rep. Dirk Deaton, chairman of the House Budget Committee, said he wants to overhaul state support for community colleges and universities by... The post Headlines first appeared on Community College Daily ."
     },
     {
@@ -531,10 +494,23 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-10",
       "summary": "The number of credentials awarded at community colleges in 2023-24 increased by more than 90,000 from the prior year, according to the just-released Fast Facts 2026 from the American Association of Community Colleges (AACC). Source:... The post A quick look at key community college stats first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
       "tags": [],
-      "score": 10,
+      "score": 9,
       "summary_for_brief": "The number of credentials awarded at community colleges in 2023-24 increased by more than 90,000 from the prior year, according to the just-released Fast Facts 2026 from the American Association of Community Colleges (AACC). Source:... The post A quick look at key community college stats first appeared on Community College Daily ."
+    },
+    {
+      "id": "9a959f6dfab4ef26",
+      "category": "Federal Policy",
+      "title": "Reporter’s notebook",
+      "url": "https://www.ccdaily.com/2026/03/reporters-notebook-238/?utm_source=rss&utm_medium=rss&utm_campaign=reporters-notebook-238",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-11",
+      "summary": "New DOL guidance on registered apprenticeships Arizona college keeps expanding into three-year degrees Kansas college to offer its first baccalaureate Concerns about loan services support for students New DOL guidance on registered apprenticeships The U.S.... The post Reporter’s notebook first appeared on Community College Daily .",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "tags": [],
+      "score": 8,
+      "summary_for_brief": "New DOL guidance on registered apprenticeships Arizona college keeps expanding into three-year degrees Kansas college to offer its first baccalaureate Concerns about loan services support for students New DOL guidance on registered apprenticeships The U.S.... The post Reporter’s notebook first appeared on Community College Daily ."
     }
   ],
   "briefing_notes": [
@@ -579,9 +555,9 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-10",
       "summary": "Budget leader proposes massive overhaul of Missouri higher education funding Missouri Independent State Rep. Dirk Deaton, chairman of the House Budget Committee, said he wants to overhaul state support for community colleges and universities by... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
       "tags": [],
-      "score": 10,
+      "score": 9,
       "summary_for_brief": "Budget leader proposes massive overhaul of Missouri higher education funding Missouri Independent State Rep. Dirk Deaton, chairman of the House Budget Committee, said he wants to overhaul state support for community colleges and universities by... The post Headlines first appeared on Community College Daily ."
     },
     {
@@ -592,9 +568,9 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-10",
       "summary": "The number of credentials awarded at community colleges in 2023-24 increased by more than 90,000 from the prior year, according to the just-released Fast Facts 2026 from the American Association of Community Colleges (AACC). Source:... The post A quick look at key community college stats first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts community-college funding, wraparound supports, transfer, or state-level student success work.",
+      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
       "tags": [],
-      "score": 10,
+      "score": 9,
       "summary_for_brief": "The number of credentials awarded at community colleges in 2023-24 increased by more than 90,000 from the prior year, according to the just-released Fast Facts 2026 from the American Association of Community Colleges (AACC). Source:... The post A quick look at key community college stats first appeared on Community College Daily ."
     },
     {
@@ -605,49 +581,49 @@
       "source": "Higher Ed Dive",
       "published": "2026-03-09",
       "summary": "The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.",
-      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 13,
       "summary_for_brief": "The U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks."
     },
     {
-      "id": "bc8dad558eefcbdf",
+      "id": "9a959f6dfab4ef26",
       "category": "Federal Policy",
-      "title": "H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7617ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "title": "Reporter’s notebook",
+      "url": "https://www.ccdaily.com/2026/03/reporters-notebook-238/?utm_source=rss&utm_medium=rss&utm_campaign=reporters-notebook-238",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-11",
+      "summary": "New DOL guidance on registered apprenticeships Arizona college keeps expanding into three-year degrees Kansas college to offer its first baccalaureate Concerns about loan services support for students New DOL guidance on registered apprenticeships The U.S.... The post Reporter’s notebook first appeared on Community College Daily .",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 12,
-      "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+      "score": 8,
+      "summary_for_brief": "New DOL guidance on registered apprenticeships Arizona college keeps expanding into three-year degrees Kansas college to offer its first baccalaureate Concerns about loan services support for students New DOL guidance on registered apprenticeships The U.S.... The post Reporter’s notebook first appeared on Community College Daily ."
     },
     {
-      "id": "5c76cc44ca8ce82d",
+      "id": "ff423930b0bb2ad2",
       "category": "Federal Policy",
-      "title": "S.J. Res.&nbsp;115&nbsp;(IS) - To direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres115is",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "title": "GSA plan would ban DEI for all federal funding recipients — including colleges",
+      "url": "https://www.highereddive.com/news/gsa-plan-would-ban-dei-for-all-federal-funding-recipients-including-schoo/814353/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-11",
+      "summary": "The General Services Administration proposal comes after a similar policy from the U.S. Department of Education was blocked in courts.",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 10,
-      "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+      "score": 7,
+      "summary_for_brief": "The General Services Administration proposal comes after a similar policy from the U.S. Department of Education was blocked in courts."
     },
     {
-      "id": "629ffcfb9ad5f744",
+      "id": "fa98dfb353a6456f",
       "category": "Federal Policy",
-      "title": "H.R.&nbsp;7744&nbsp;(IH) - Department of Homeland Security Appropriations Act, 2026",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7744ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-10",
-      "summary": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-      "why_it_matters": "Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.",
+      "title": "Racist, Antisemitic Slurs Surface in Florida GOP Group Chat",
+      "url": "https://www.nytimes.com/2026/03/05/us/florida-gop-slurs-group-chat.html",
+      "source": "NYT Education",
+      "published": "2026-03-05",
+      "summary": "After the secretary of the Miami-Dade County Republican Party created the chat for college students, it devolved into slurs against Black and Jewish people.",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 10,
-      "summary_for_brief": "Content Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+      "score": 7,
+      "summary_for_brief": "After the secretary of the Miami-Dade County Republican Party created the chat for college students, it devolved into slurs against Black and Jewish people."
     },
     {
       "id": "f3d3403d90f2d4bc",
@@ -657,9 +633,9 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-09",
       "summary": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
-      "score": 9,
+      "score": 8,
       "summary_for_brief": "U.S. Rep. Dan Goldman (D-New York) this month presented a $357,000 Community Project Funding award to the Borough of Manhattan Community College (BMCC) for its Project Impact program, which aims to increase student success and... The post Funding roundup first appeared on Community College Daily ."
     },
     {
@@ -670,9 +646,9 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-11",
       "summary": "A new study sheds light on the long-term benefits of wraparound student supports on students’ employment and earnings. The University of Chicago Inclusive Economy Lab examined how City Colleges of Chicago students who participated in... The post The long-term labor benefits of student supports first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
-      "score": 8,
+      "score": 7,
       "summary_for_brief": "A new study sheds light on the long-term benefits of wraparound student supports on students’ employment and earnings. The University of Chicago Inclusive Economy Lab examined how City Colleges of Chicago students who participated in... The post The long-term labor benefits of student supports first appeared on Community College Daily ."
     },
     {
@@ -683,36 +659,23 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-09",
       "summary": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
-      "score": 8,
+      "score": 7,
       "summary_for_brief": "Brandon Dyer owes his career in higher education to the federal TRIO program, which is designed to help low-income students, first-generation college students and individuals with disabilities progress through the academic pipeline from middle school... The post Broadening for impact first appeared on Community College Daily ."
     },
     {
-      "id": "b85d678a6883c39b",
+      "id": "3c8a7655f1cf5d86",
       "category": "Academic Advising",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/03/funding-roundup-436/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-436",
-      "source": "AACC Community College Daily",
+      "title": "Holistic Support Boosts Community College Outcomes",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/03/12/holistic-support-boosts-community-college",
+      "source": "Inside Higher Ed",
       "published": "2026-03-12",
-      "summary": "San Diego College of Continuing Education (SDCCE) can make utility and water infrastructure improvements thanks to $500,000 in new federal funding secured by Rep. Juan Vargas (D-California). The funding was included in the House fiscal... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, or transfer support.",
+      "summary": "Holistic Support Boosts Community College Outcomes Joshua.Bay Thu, 03/12/2026 - 03:00 AM A long-term study finds that students in Chicago’s One Million Degrees program increase their likelihood of graduating, securing stable jobs and earning a livable wage. Byline(s) Joshua Bay",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
-      "score": 6,
-      "summary_for_brief": "San Diego College of Continuing Education (SDCCE) can make utility and water infrastructure improvements thanks to $500,000 in new federal funding secured by Rep. Juan Vargas (D-California). The funding was included in the House fiscal... The post Funding roundup first appeared on Community College Daily ."
-    },
-    {
-      "id": "c7c6c1610b554339",
-      "category": "AI in Higher Ed",
-      "title": "Trump Signs AI Executive Order as States Implement AI Laws",
-      "url": "https://er.educause.edu/articles/2026/3/trump-signs-ai-executive-order-as-states-implement-ai-laws",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-09",
-      "summary": "In December 2025, President Trump issued an executive order establishing a national artificial intelligence (AI) policy framework, challenging stricter state AI laws, and tying certain federal funding to state compliance.",
-      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
-      "tags": [],
-      "score": 7,
-      "summary_for_brief": "In December 2025, President Trump issued an executive order establishing a national artificial intelligence (AI) policy framework, challenging stricter state AI laws, and tying certain federal funding to state compliance."
+      "score": 5,
+      "summary_for_brief": "Holistic Support Boosts Community College Outcomes Joshua.Bay Thu, 03/12/2026 - 03:00 AM A long-term study finds that students in Chicago’s One Million Degrees program increase their likelihood of graduating, securing stable jobs and earning a livable wage. Byline(s) Joshua Bay"
     },
     {
       "id": "77194ef2f737fbb1",
@@ -722,50 +685,63 @@
       "source": "EdSurge",
       "published": "2026-03-09",
       "summary": "First, it was no phones in schools. Now, amid the debate around edtech, schools are looking to go screen free.",
-      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
       "score": 6,
       "summary_for_brief": "First, it was no phones in schools. Now, amid the debate around edtech, schools are looking to go screen free."
     },
     {
-      "id": "6d37534d89477593",
+      "id": "5575198857e34ed9",
       "category": "AI in Higher Ed",
-      "title": "With Teens Comfortable Confiding in AI, Should Schools Embrace It for Mental Health Care?",
-      "url": "https://www.edsurge.com/news/2026-03-03-with-teens-comfortable-confiding-in-ai-should-schools-embrace-it-for-mental-health-care",
-      "source": "EdSurge",
-      "published": "2026-03-03",
-      "summary": "Why are students so comfortable using AI for emotional support?",
-      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "title": "Hotline: Cybersecurity and Privacy | March 2026",
+      "url": "https://er.educause.edu/articles/2026/3/hotline-cybersecurity-and-privacy-march-2026",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-10",
+      "summary": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities.",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
-      "score": 5,
-      "summary_for_brief": "Why are students so comfortable using AI for emotional support?"
+      "score": 4,
+      "summary_for_brief": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities."
     },
     {
-      "id": "1ffdde6c963e3940",
+      "id": "50c36c9bd19d40dc",
       "category": "AI in Higher Ed",
-      "title": "The Role of Faculty in the University of the Future",
-      "url": "https://er.educause.edu/articles/2026/3/the-role-of-faculty-in-the-university-of-the-future",
+      "title": "Are Wearables the Next Big Thing in Higher Ed Tech?",
+      "url": "https://er.educause.edu/podcasts/educause-shop-talk/2026/are-wearables-the-next-big-thing-in-higher-ed-tech",
       "source": "EDUCAUSE Review",
-      "published": "2026-03-03",
-      "summary": "In the age of AI, the true future of higher education lies not in replacing faculty but in freeing them to do what only humans can—build meaningful relationships, cultivate wisdom, and guide students through the ethical and intellectual challenges machines cannot navigate.",
-      "why_it_matters": "Relevant to AI governance, classroom use, advising operations, or institutional implementation.",
+      "published": "2026-03-09",
+      "summary": "Sophie and Jenay talk with a team from the University of Notre Dame about their research on using smart glasses to support accessibility in teaching and learning.",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
-      "score": 5,
-      "summary_for_brief": "In the age of AI, the true future of higher education lies not in replacing faculty but in freeing them to do what only humans can—build meaningful relationships, cultivate wisdom, and guide students through the ethical and intellectual challenges machines cannot navigate."
+      "score": 4,
+      "summary_for_brief": "Sophie and Jenay talk with a team from the University of Notre Dame about their research on using smart glasses to support accessibility in teaching and learning."
+    },
+    {
+      "id": "f40d93b1d9cdc90b",
+      "category": "AI in Higher Ed",
+      "title": "Careers Grow Where Community Exists",
+      "url": "https://er.educause.edu/podcasts/educause-rising-voices/2026/careers-grow-where-community-exists",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-05",
+      "summary": "Many young professionals struggle to find their footing as they build their careers. This conversation explores how community, mentorship, and shared experiences within higher education technology create confidence, spark growth, and open unexpected opportunities for those seeking connection and meaningful professional pathways.",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
+      "tags": [],
+      "score": 4,
+      "summary_for_brief": "Many young professionals struggle to find their footing as they build their careers. This conversation explores how community, mentorship, and shared experiences within higher education technology create confidence, spark growth, and open unexpected opportunities for those seeking connection and meaningful professional pathways."
     }
   ],
   "linkedin_drafts": [
     {
       "title": "Massachusetts community college policy watch",
-      "text": "One Massachusetts development worth watching this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\\n\\nAnchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\\n\\nWhat stands out to me is that Massachusetts community college policy is increasingly about more than access alone. The real question is whether institutions have the advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\\n\\nWhy this matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\\n\\nFor community college leaders and student-success teams, that is where the real work is.\\n\\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
+      "text": "One Massachusetts development worth watching this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nAnchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nWhat stands out to me is that community college policy in Massachusetts is increasingly about more than access alone. The deeper issue is whether institutions have enough advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\n\nWhy this matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nFor colleges, that is where the real work is.\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
     },
     {
       "title": "Federal higher-ed policy watch",
-      "text": "A federal higher-ed development on my radar this week is Public comment period for Workforce Pell regulations opens (https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/).\\n\\nThe U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.\\n\\nThe most important thing about changes like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, financial-aid guidance, workforce programming, reporting obligations, and institutional planning.\\n\\nWhy this matters: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.\\n\\nCommunity colleges are often the institutions that feel these shifts first, because they sit at the intersection of access, affordability, workforce preparation, and transfer.\\n\\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
+      "text": "A federal higher-ed development on my radar this week is Public comment period for Workforce Pell regulations opens (https://www.highereddive.com/news/public-comment-workforce-pell-regulations/814247/).\n\nThe U.S. Department of Education issued its proposed rule to govern the expansion of Pell Grants to programs as short as eight weeks.\n\nThe most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.\n\nCommunity colleges are often the institutions that feel these shifts first.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
     },
     {
       "title": "AI in higher ed: practical implications",
-      "text": "One AI-related higher-ed signal I’m tracking this week is H.R.&nbsp;7617&nbsp;(IH) - To provide funding for administrative expenses of the Department of Homeland Security during any lapse in appropriations during fiscal year 2026, to require that the Department be responsive to congressional offices during such a lapse in appropriations, and for other purposes. (https://www.govinfo.gov/app/details/BILLS-119hr7617ih).\\n\\nContent Files PDF XML TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP\\n\\nMy view is that the real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. That is especially important in advising, teaching, and student-support settings.\\n\\nWhy this matters: Could affect aid eligibility, workforce programming, reporting, grants, or compliance planning.\\n\\nThe colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\\n\\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
+      "text": "One AI-related higher-ed signal I’m tracking this week is MassDHE News Clips: Community Colleges (https://www.mass.edu/newsclips/ccsystem.asp).\n\nMassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.\n\nThe real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. That is especially important in advising, teaching, and student-support settings.\n\nWhy this matters: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.\n\nThe colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
     }
   ],
   "archive": [
