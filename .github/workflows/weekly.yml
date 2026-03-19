@@ -4,14 +4,38 @@ on:
   schedule:
     - cron: "47 18 * * 1,4"
   workflow_dispatch:
+    inputs:
+      force_story_url:
+        description: "Optional: specific article URL to build a comparative story around"
+        required: false
+        type: string
+      target_state:
+        description: "Primary state lens for policy comparison"
+        required: false
+        default: "Massachusetts"
+        type: string
+      comparative_mode:
+        description: "Enable comparative policy framing"
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
 
+concurrency:
+  group: higher-ed-intel
+  cancel-in-progress: true
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+
+    env:
+      TARGET_STATE: ${{ inputs.target_state || 'Massachusetts' }}
+      COMPARATIVE_MODE: ${{ inputs.comparative_mode || 'true' }}
+      FORCE_STORY_URL: ${{ inputs.force_story_url || '' }}
 
     steps:
       - name: Checkout repository
@@ -21,29 +45,64 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
-          pip install feedparser python-dateutil
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install feedparser python-dateutil requests openai
+          fi
 
       - name: Generate briefing
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python higher-ed-intel/generator/generate_weekly_brief.py
+          python higher-ed-intel/generator/generate_weekly_brief.py \
+            --target-state "$TARGET_STATE" \
+            --comparative-mode "$COMPARATIVE_MODE" \
+            ${FORCE_STORY_URL:+--force-story-url "$FORCE_STORY_URL"}
+
+      - name: Validate briefing structure
+        run: |
+          python higher-ed-intel/generator/validate_brief.py
+
+      - name: Upload generated briefing artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: higher-ed-intel-output
+          path: |
+            higher-ed-intel/data
+            higher-ed-intel/*.html
+          if-no-files-found: warn
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet --exit-code higher-ed-intel/data higher-ed-intel; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit updated briefing files
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add higher-ed-intel/data
-          git commit -m "Auto update higher-ed briefing" || echo "No changes"
+          git add higher-ed-intel
+          git commit -m "Auto update higher-ed briefing"
           git push
 
       - name: Install lftp
+        if: steps.changes.outputs.changed == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y lftp
 
       - name: Deploy to Hostinger with lftp
+        if: steps.changes.outputs.changed == 'true'
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
