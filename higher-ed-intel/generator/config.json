@@ -5,8 +5,8 @@
   },
   "filters": {
     "days_lookback": 14,
-    "max_items_total": 36,
-    "max_items_per_category": 12
+    "max_items_total": 40,
+    "max_items_per_category": 10
   },
   "static_items": [
     {
@@ -29,8 +29,48 @@
       "source": "mass.edu",
       "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
       "tags": [
+        "Massachusetts",
         "MassDHE",
         "Community Colleges"
+      ],
+      "score": 11
+    },
+    {
+      "category": "MA Budget / SUCCESS",
+      "title": "MassEducate",
+      "url": "https://www.mass.edu/osfa/programs/masseducate.asp",
+      "source": "mass.edu",
+      "why_it_matters": "Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.",
+      "tags": [
+        "Massachusetts",
+        "MassEducate",
+        "Affordability"
+      ],
+      "score": 12
+    },
+    {
+      "category": "MA Budget / SUCCESS",
+      "title": "MassReconnect",
+      "url": "https://www.mass.edu/osfa/programs/massreconnect.asp",
+      "source": "mass.edu",
+      "why_it_matters": "Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.",
+      "tags": [
+        "Massachusetts",
+        "MassReconnect",
+        "Adult Learners"
+      ],
+      "score": 12
+    },
+    {
+      "category": "MA Budget / SUCCESS",
+      "title": "MassTransfer",
+      "url": "https://www.mass.edu/masstransfer/",
+      "source": "mass.edu",
+      "why_it_matters": "Anchor page for Massachusetts transfer policy, useful when comparing other states’ transfer, articulation, and pathway reforms.",
+      "tags": [
+        "Massachusetts",
+        "MassTransfer",
+        "Transfer"
       ],
       "score": 11
     }
@@ -101,20 +141,18 @@
     {
       "category": "MA Budget / SUCCESS",
       "keywords": [
-        "7100-4002",
-        "success fund",
-        "massachusetts budget",
-        "house ways and means",
-        "senate ways and means",
-        "appropriation",
-        "community college success",
+        "massachusetts",
         "massdhe",
         "massachusetts department of higher education",
         "mass transfer",
+        "masstransfer",
         "massreconnect",
         "masseducate",
-        "community colleges",
-        "transfer guarantee"
+        "7100-4002",
+        "success fund",
+        "community college success fund",
+        "house ways and means",
+        "senate ways and means"
       ]
     },
     {
@@ -172,6 +210,25 @@
         "automation",
         "llm",
         "student support chatbot"
+      ]
+    },
+    {
+      "category": "State Systems / Innovation",
+      "keywords": [
+        "state system",
+        "statewide initiative",
+        "community college system",
+        "governor proposed",
+        "state budget",
+        "appropriation",
+        "credit for prior learning",
+        "prior learning assessment",
+        "cpl",
+        "pla",
+        "transfer reform",
+        "articulation reform",
+        "systemwide",
+        "adult learner re-engagement"
       ]
     }
   ]
