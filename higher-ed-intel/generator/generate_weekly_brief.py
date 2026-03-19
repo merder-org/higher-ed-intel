@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import hashlib
 import html
 import json
@@ -102,6 +103,8 @@ def relevant_to_higher_ed(text: str) -> bool:
         "student success",
         "retention",
         "transfer",
+        "credit for prior learning",
+        "prior learning assessment",
         "ai in education",
         "education technology",
         "edtech",
@@ -139,16 +142,16 @@ def score(category: str, hits: int, text: str) -> int:
     bonus = [
         "community college",
         "massachusetts",
-        "pell",
-        "workforce pell",
-        "fafsa",
-        "rulemaking",
+        "california",
+        "governor",
+        "budget",
         "appropriation",
-        "ways and means",
         "student success",
         "transfer",
         "retention",
         "artificial intelligence",
+        "credit for prior learning",
+        "prior learning assessment",
         "chatgpt",
     ]
     for kw in bonus:
@@ -207,31 +210,229 @@ def make_why_it_matters(item: dict) -> str:
     return "Potentially relevant to community-college leadership, advising, or policy planning."
 
 
-def build_top_signals(items: List[dict]) -> List[dict]:
+def detect_story_tags(item: dict) -> List[str]:
+    text = f"{item.get('title', '')} {item.get('summary', '')} {item.get('why_it_matters', '')}".lower()
+    tags = []
+
+    tag_rules = {
+        "state_budget": [
+            "governor",
+            "budget",
+            "appropriation",
+            "state funding",
+            "proposed budget",
+            "investment",
+        ],
+        "credit_for_prior_learning": [
+            "credit for prior learning",
+            "prior learning assessment",
+            "cpl",
+            "pla",
+        ],
+        "artificial_intelligence_in_higher_ed": [
+            "artificial intelligence",
+            "ai",
+            "generative ai",
+            "chatgpt",
+        ],
+        "transfer_reform": [
+            "transfer",
+            "articulation",
+            "credit mobility",
+        ],
+        "student_support_infrastructure": [
+            "student success",
+            "advising",
+            "retention",
+            "completion",
+            "wraparound",
+        ],
+    }
+
+    for tag, keywords in tag_rules.items():
+        if any(kw in text for kw in keywords):
+            tags.append(tag)
+
+    return sorted(set(tags))
+
+
+def needs_state_comparison(item: dict, target_state: str, comparative_mode: bool) -> bool:
+    if not comparative_mode:
+        return False
+
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    source = (item.get("source") or "").lower()
+    tags = detect_story_tags(item)
+
+    if target_state.lower() in text:
+        return False
+
+    trigger_tags = {
+        "state_budget",
+        "credit_for_prior_learning",
+        "artificial_intelligence_in_higher_ed",
+        "transfer_reform",
+        "student_support_infrastructure",
+    }
+
+    if any(tag in trigger_tags for tag in tags):
+        return True
+
+    if "california" in text or "state" in source:
+        return True
+
+    return False
+
+
+def build_comparison_points(item: dict, target_state: str) -> List[str]:
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    points: List[str] = []
+
+    if "california" in text:
+        points.append(
+            f"This appears to be a system-level initiative outside {target_state}, which makes it useful as a benchmark rather than just a local news item."
+        )
+
+    if "credit for prior learning" in text or "prior learning" in text or "cpl" in text:
+        points.append(
+            f"The underlying issue for {target_state} is whether community colleges are being given enough policy and operational support to scale credit for prior learning rather than treating it as a niche practice."
+        )
+
+    if "artificial intelligence" in text or " ai " in f" {text} ":
+        points.append(
+            f"For {target_state}, the more important question is not whether AI tools exist, but whether there is meaningful investment in governed, student-centered implementation."
+        )
+
+    if "budget" in text or "investment" in text or "appropriation" in text or "governor" in text:
+        points.append(
+            f"This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in {target_state}?"
+        )
+
+    if not points:
+        points.append(
+            f"This story may offer a useful comparison point for policy and practice in {target_state}, especially if leaders are asking whether ambition is matched by implementation capacity."
+        )
+
+    return points
+
+
+def build_core_story(item: dict, target_state: str, comparative_mode: bool) -> str:
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+
+    if needs_state_comparison(item, target_state, comparative_mode):
+        if "credit for prior learning" in text or "prior learning" in text or "cpl" in text:
+            return (
+                "This is not just a technology or innovation story. It is a public-investment story about whether a state is building enough system capacity to recognize learning, accelerate mobility, and modernize student pathways."
+            )
+        if "artificial intelligence" in text or " ai " in f" {text} ":
+            return (
+                "The deeper issue is whether institutions are moving from AI curiosity to real implementation supported by governance, staffing, and strategy."
+            )
+        if "budget" in text or "investment" in text or "appropriation" in text:
+            return (
+                "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity."
+            )
+
+    cat = item.get("category", "")
+    if cat == "MA Budget / SUCCESS":
+        return "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion."
+    if cat == "Federal Policy":
+        return "The core story is how policy shifts translate into operational consequences for colleges and students."
+    if cat == "AI in Higher Ed":
+        return "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support."
+
+    return "The core story is the operational and strategic meaning of this development for community colleges."
+
+
+def build_state_relevance(item: dict, target_state: str, comparative_mode: bool) -> str:
+    if needs_state_comparison(item, target_state, comparative_mode):
+        return (
+            f"For {target_state}, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them."
+        )
+
+    return (
+        f"This may be relevant to community-college leaders in {target_state} because it touches policy, advising, student support, transfer, or institutional operations."
+    )
+
+
+def build_recommended_angle(item: dict, target_state: str, comparative_mode: bool) -> str:
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+
+    if needs_state_comparison(item, target_state, comparative_mode):
+        if "credit for prior learning" in text or "prior learning" in text or "cpl" in text:
+            return (
+                f"Use this as a {target_state}-facing policy brief: if another large public system is investing in AI-enabled credit for prior learning, what would it take for {target_state} to build similar capacity?"
+            )
+        if "budget" in text or "investment" in text or "appropriation" in text:
+            return (
+                f"Frame this as an investment-gap question for {target_state}: are leaders expecting community colleges to do system-changing work without system-level funding?"
+            )
+        return (
+            f"Use this as a policy comparison story that helps leaders in {target_state} think about investment, implementation, and institutional capacity."
+        )
+
+    return "Use this as a straight higher-ed signal with practical implications for policy and operations."
+
+
+def enrich_item(item: dict, target_state: str, comparative_mode: bool) -> dict:
+    enriched = dict(item)
+    enriched["summary_for_brief"] = make_summary_for_brief(item)
+    enriched["why_it_matters"] = make_why_it_matters(item)
+    enriched["story_tags"] = detect_story_tags(item)
+    enriched["core_story"] = build_core_story(item, target_state, comparative_mode)
+    enriched["state_relevance"] = build_state_relevance(item, target_state, comparative_mode)
+    enriched["comparison_points"] = build_comparison_points(item, target_state) if needs_state_comparison(item, target_state, comparative_mode) else []
+    enriched["recommended_angle"] = build_recommended_angle(item, target_state, comparative_mode)
+    return enriched
+
+
+def build_top_signals(items: List[dict], target_state: str, comparative_mode: bool) -> List[dict]:
     top = sorted(items, key=lambda x: x.get("score", 0), reverse=True)[:6]
-    out = []
-    for item in top:
-        enriched = dict(item)
-        enriched["summary_for_brief"] = make_summary_for_brief(item)
-        enriched["why_it_matters"] = make_why_it_matters(item)
-        out.append(enriched)
-    return out
+    return [enrich_item(item, target_state, comparative_mode) for item in top]
 
 
-def build_briefing_notes(items: List[dict], categories: List[str]) -> List[dict]:
+def build_briefing_notes(items: List[dict], categories: List[str], target_state: str, comparative_mode: bool) -> List[dict]:
     notes: List[dict] = []
     for cat in categories:
         cat_items = [x for x in items if x.get("category") == cat]
         cat_items = sorted(cat_items, key=lambda x: x.get("score", 0), reverse=True)[:4]
         for item in cat_items:
-            enriched = dict(item)
-            enriched["summary_for_brief"] = make_summary_for_brief(item)
-            enriched["why_it_matters"] = make_why_it_matters(item)
-            notes.append(enriched)
+            notes.append(enrich_item(item, target_state, comparative_mode))
     return notes
 
 
-def build_linkedin_drafts(items: List[dict]) -> List[dict]:
+def select_feature_story(items: List[dict], target_state: str, comparative_mode: bool) -> Optional[dict]:
+    candidates = [x for x in items if needs_state_comparison(x, target_state, comparative_mode)]
+    if candidates:
+        return sorted(candidates, key=lambda x: x.get("score", 0), reverse=True)[0]
+    return None
+
+
+def build_policy_comparison_draft(item: dict, target_state: str) -> dict:
+    summary = item.get("summary_for_brief", "")
+    core_story = item.get("core_story", "")
+    state_relevance = item.get("state_relevance", "")
+    why = item.get("why_it_matters", "")
+
+    text = (
+        f"One higher-ed development worth watching this week is {item['title']} ({item['url']}).\n\n"
+        f"{summary}\n\n"
+        f"What stands out to me is that {core_story}\n\n"
+        f"For {target_state}, the key question is whether community colleges are being given the investment, staffing, and policy infrastructure needed to do similar work at scale.\n\n"
+        f"Why this matters: {state_relevance} {why}\n\n"
+        "That is where the real policy conversation should begin.\n\n"
+        f"#{target_state.replace(' ', '')} #CommunityColleges #StudentSuccess #HigherEdPolicy #AcademicAdvising"
+    )
+
+    return {
+        "title": f"{target_state} policy watch: a comparison worth making",
+        "text": text,
+        "source_item_id": item.get("id", ""),
+        "draft_type": "policy_comparison",
+    }
+
+
+def build_linkedin_drafts(items: List[dict], target_state: str, comparative_mode: bool) -> List[dict]:
     ordered = sorted(items, key=lambda x: x.get("score", 0), reverse=True)
 
     def top(cat: str):
@@ -246,27 +447,34 @@ def build_linkedin_drafts(items: List[dict]) -> List[dict]:
                     "I’m tracking developments in community college policy, advising, and AI in higher education, and I’ll be watching for the next round of concrete signals that affect student success and institutional planning.\n\n"
                     "#HigherEd #CommunityColleges #StudentSuccess #AcademicAdvising #AIinEducation"
                 ),
+                "draft_type": "fallback",
             }
         ]
+
+    drafts = []
+
+    feature = select_feature_story(ordered, target_state, comparative_mode)
+    if feature:
+        drafts.append(build_policy_comparison_draft(feature, target_state))
 
     ma = top("MA Budget / SUCCESS") or ordered[0]
     fed = top("Federal Policy") or top("Academic Advising") or ordered[min(1, len(ordered) - 1)]
     ai = top("AI in Higher Ed") or ordered[min(2, len(ordered) - 1)]
 
-    drafts = []
-
     drafts.append(
         {
-            "title": "Massachusetts community college policy watch",
+            "title": f"{target_state} community college policy watch",
             "text": (
-                f"One Massachusetts development worth watching this week is {ma['title']} ({ma['url']}).\n\n"
-                f"{make_summary_for_brief(ma)}\n\n"
-                "What stands out to me is that community college policy in Massachusetts is increasingly about more than access alone. "
+                f"One {target_state} development worth watching this week is {ma['title']} ({ma['url']}).\n\n"
+                f"{ma.get('summary_for_brief', make_summary_for_brief(ma))}\n\n"
+                "What stands out to me is that community college policy is increasingly about more than access alone. "
                 "The deeper issue is whether institutions have enough advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\n\n"
-                f"Why this matters: {make_why_it_matters(ma)}\n\n"
+                f"Why this matters: {ma.get('why_it_matters', make_why_it_matters(ma))}\n\n"
                 "For colleges, that is where the real work is.\n\n"
-                "#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
+                f"#{target_state.replace(' ', '')} #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
             ),
+            "source_item_id": ma.get("id", ""),
+            "draft_type": "state_watch",
         }
     )
 
@@ -275,13 +483,15 @@ def build_linkedin_drafts(items: List[dict]) -> List[dict]:
             "title": "Federal higher-ed policy watch",
             "text": (
                 f"A federal higher-ed development on my radar this week is {fed['title']} ({fed['url']}).\n\n"
-                f"{make_summary_for_brief(fed)}\n\n"
+                f"{fed.get('summary_for_brief', make_summary_for_brief(fed))}\n\n"
                 "The most important thing about developments like this is not just the policy language itself. "
                 "It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\n"
-                f"Why this matters: {make_why_it_matters(fed)}\n\n"
+                f"Why this matters: {fed.get('why_it_matters', make_why_it_matters(fed))}\n\n"
                 "Community colleges are often the institutions that feel these shifts first.\n\n"
                 "#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
             ),
+            "source_item_id": fed.get("id", ""),
+            "draft_type": "federal_watch",
         }
     )
 
@@ -290,17 +500,29 @@ def build_linkedin_drafts(items: List[dict]) -> List[dict]:
             "title": "AI in higher ed: practical implications",
             "text": (
                 f"One AI-related higher-ed signal I’m tracking this week is {ai['title']} ({ai['url']}).\n\n"
-                f"{make_summary_for_brief(ai)}\n\n"
+                f"{ai.get('summary_for_brief', make_summary_for_brief(ai))}\n\n"
                 "The real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. "
                 "That is especially important in advising, teaching, and student-support settings.\n\n"
-                f"Why this matters: {make_why_it_matters(ai)}\n\n"
+                f"Why this matters: {ai.get('why_it_matters', make_why_it_matters(ai))}\n\n"
                 "The colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\n\n"
                 "#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
             ),
+            "source_item_id": ai.get("id", ""),
+            "draft_type": "ai_watch",
         }
     )
 
     return drafts
+
+
+def force_story_item(force_story_url: str, items: List[dict]) -> Optional[dict]:
+    if not force_story_url:
+        return None
+    target = normalize(force_story_url)
+    for item in items:
+        if normalize(item.get("url", "")) == target:
+            return item
+    return None
 
 
 def write_rss(site_title: str, site_link: str, items: List[dict], out_path: Path, build_dt: datetime) -> None:
@@ -336,6 +558,8 @@ def write_markdown(brief: dict, out_path: Path) -> None:
         "",
         f"_Generated: {brief['generated_at']}_",
         "",
+        f"_Target state: {brief.get('target_state', 'Massachusetts')}_",
+        "",
         "## LinkedIn-ready drafts",
         "",
     ]
@@ -363,15 +587,50 @@ def write_markdown(brief: dict, out_path: Path) -> None:
                 f"- Source: {item.get('source', '')} ({item.get('published', 'N/A')})",
                 f"- Link: {item.get('url', '')}",
                 f"- Summary: {item.get('summary_for_brief', '')}",
+                f"- Core story: {item.get('core_story', '')}",
+                f"- State relevance: {item.get('state_relevance', '')}",
+                f"- Recommended angle: {item.get('recommended_angle', '')}",
                 f"- Why it matters: {item.get('why_it_matters', '')}",
                 "",
             ]
         )
 
+        comparison_points = item.get("comparison_points", [])
+        if comparison_points:
+            lines.append("- Comparison points:")
+            for point in comparison_points:
+                lines.append(f"  - {point}")
+            lines.append("")
+
     out_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Generate higher-ed briefing.")
+    parser.add_argument("--target-state", default="Massachusetts", help="Primary state lens for policy comparison.")
+    parser.add_argument(
+        "--comparative-mode",
+        default="true",
+        help="Enable comparative policy framing. Accepts true/false.",
+    )
+    parser.add_argument(
+        "--force-story-url",
+        default="",
+        help="Optional: specific article URL to emphasize in the comparative story draft.",
+    )
+    return parser.parse_args()
+
+
+def as_bool(value: str) -> bool:
+    return str(value).strip().lower() in {"1", "true", "yes", "y", "on"}
+
+
 def main() -> None:
+    args = parse_args()
+    target_state = normalize(args.target_state) or "Massachusetts"
+    comparative_mode = as_bool(args.comparative_mode)
+    force_story_url = normalize(args.force_story_url)
+
     cfg = load_config()
     site = cfg["site"]
     filters = cfg["filters"]
@@ -455,14 +714,24 @@ def main() -> None:
     archive_list = [{"label": f"Week of {p.stem}", "url": f"data/archive/{p.name}"} for p in existing]
     archive_list.insert(0, {"label": f"Week of {week}", "url": f"data/archive/{week}.json"})
 
-    top_signals = build_top_signals(kept)
-    briefing_notes = build_briefing_notes(kept, categories)
-    linkedin_drafts = build_linkedin_drafts(top_signals if top_signals else kept)
+    top_signals = build_top_signals(kept, target_state, comparative_mode)
+    briefing_notes = build_briefing_notes(kept, categories, target_state, comparative_mode)
+
+    forced = force_story_item(force_story_url, top_signals or kept)
+    linkedin_drafts = build_linkedin_drafts(top_signals if top_signals else kept, target_state, comparative_mode)
+
+    if forced:
+        forced_enriched = enrich_item(forced, target_state, comparative_mode)
+        forced_draft = build_policy_comparison_draft(forced_enriched, target_state)
+        linkedin_drafts.insert(0, forced_draft)
 
     brief = {
-        "schema_version": "2.1",
+        "schema_version": "3.0",
         "week_of": week,
         "generated_at": build_dt.strftime("%Y-%m-%d %H:%M ET"),
+        "target_state": target_state,
+        "comparative_mode": comparative_mode,
+        "forced_story_url": force_story_url,
         "rss_url": "data/rss.xml",
         "categories": categories,
         "items": kept,
@@ -479,9 +748,18 @@ def main() -> None:
     write_markdown(brief, DATA / "latest.md")
     write_markdown(brief, ARCHIVE / f"{week}.md")
 
-    write_rss(site["title"], site["public_base_url"].rstrip("/") + "/", top_signals if top_signals else kept, DATA / "rss.xml", build_dt)
+    write_rss(
+        site["title"],
+        site["public_base_url"].rstrip("/") + "/",
+        top_signals if top_signals else kept,
+        DATA / "rss.xml",
+        build_dt,
+    )
 
     print(f"OK: wrote latest.json + latest.md + archive/{week}.json + archive/{week}.md ({len(kept)} items).")
+    print(f"Target state: {target_state} | Comparative mode: {comparative_mode}")
+    if force_story_url:
+        print(f"Forced story URL: {force_story_url}")
     if feed_errors:
         print("Feed warnings:")
         for err in feed_errors:
