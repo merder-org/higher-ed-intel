@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-16
 
-_Generated: 2026-03-16 15:40 ET_
+_Generated: 2026-03-19 15:34 ET_
 
 ## LinkedIn-ready drafts
 
@@ -22,13 +22,13 @@ For colleges, that is where the real work is.
 
 ### Federal higher-ed policy watch
 
-A federal higher-ed development on my radar this week is Washington Watch: AACC analysis of proposed Workforce Pell regs (https://www.ccdaily.com/2026/03/washington-watch-aaccs-analysis-of-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-aaccs-analysis-of-proposed-workforce-pell-regs).
+A federal higher-ed development on my radar this week is MassDHE News Clips: Community Colleges (https://www.mass.edu/newsclips/ccsystem.asp).
 
-The American Association of Community Colleges (AACC) on Friday released its analysis of the U.S. Education Department’s (ED) proposed regulations for the new Workforce Pell program, which begins July 1. AACC will submit formal comments... The post Washington Watch: AACC analysis of proposed Workforce Pell regs first appeared on Community College Daily .
+MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 
 The most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.
 
-Why this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.
+Why this matters: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 
 Community colleges are often the institutions that feel these shifts first.
 
@@ -38,13 +38,13 @@ Community colleges are often the institutions that feel these shifts first.
 
 ### AI in higher ed: practical implications
 
-One AI-related higher-ed signal I’m tracking this week is MassDHE News Clips: Community Colleges (https://www.mass.edu/newsclips/ccsystem.asp).
+One AI-related higher-ed signal I’m tracking this week is The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning (https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning).
 
-MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
+The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff
 
 The real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. That is especially important in advising, teaching, and student-support settings.
 
-Why this matters: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
+Why this matters: Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.
 
 The colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.
 
@@ -62,14 +62,6 @@ The colleges that benefit most will likely be the ones that combine experimentat
 - Summary: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
 - Why it matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
 
-### Washington Watch: AACC analysis of proposed Workforce Pell regs
-
-- Category: Federal Policy
-- Source: AACC Community College Daily (2026-03-13)
-- Link: https://www.ccdaily.com/2026/03/washington-watch-aaccs-analysis-of-proposed-workforce-pell-regs/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-aaccs-analysis-of-proposed-workforce-pell-regs
-- Summary: The American Association of Community Colleges (AACC) on Friday released its analysis of the U.S. Education Department’s (ED) proposed regulations for the new Workforce Pell program, which begins July 1. AACC will submit formal comments... The post Washington Watch: AACC analysis of proposed Workforce Pell regs first appeared on Community College Daily .
-- Why it matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.
-
 ### MassDHE News Clips: Community Colleges
 
 - Category: MA Budget / SUCCESS
@@ -78,12 +70,20 @@ The colleges that benefit most will likely be the ones that combine experimentat
 - Summary: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 - Why it matters: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
 
-### Massachusetts to expand degree apprenticeships
+### The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning
 
 - Category: MA Budget / SUCCESS
-- Source: AACC Community College Daily (2026-03-15)
-- Link: https://www.ccdaily.com/2026/03/massachusetts-to-expand-degree-apprenticeships/?utm_source=rss&utm_medium=rss&utm_campaign=massachusetts-to-expand-degree-apprenticeships
-- Summary: Six Massachusetts community colleges are partnering with employers across the state to launch new apprenticeship degree programs that combine paid, on-the-job training with academic coursework — connecting students to high-growth careers while helping employers close... The post Massachusetts to expand degree apprenticeships first appeared on Community College Daily .
+- Source: Inside Higher Ed (2026-03-19)
+- Link: https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning
+- Summary: The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff
+- Why it matters: Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.
+
+### Matriculating to both sides of the aisle
+
+- Category: MA Budget / SUCCESS
+- Source: AACC Community College Daily (2026-03-18)
+- Link: https://www.ccdaily.com/2026/03/matriculating-to-both-sides-of-the-aisle/?utm_source=rss&utm_medium=rss&utm_campaign=matriculating-to-both-sides-of-the-aisle
+- Summary: At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily .
 - Why it matters: Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.
 
 ### How community colleges can anchor civility in divided times
