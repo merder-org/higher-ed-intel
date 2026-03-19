@@ -1,13 +1,17 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "3.0",
   "week_of": "2026-03-16",
-  "generated_at": "2026-03-19 15:34 ET",
+  "generated_at": "2026-03-19 16:39 ET",
+  "target_state": "Massachusetts",
+  "comparative_mode": true,
+  "forced_story_url": "https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning",
   "rss_url": "data/rss.xml",
   "categories": [
     "MA Budget / SUCCESS",
     "Federal Policy",
     "Academic Advising",
-    "AI in Higher Ed"
+    "AI in Higher Ed",
+    "State Systems / Innovation"
   ],
   "items": [
     {
@@ -27,6 +31,38 @@
       "score": 14
     },
     {
+      "id": "e3e751144a701db4",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassEducate",
+      "url": "https://www.mass.edu/osfa/programs/masseducate.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.",
+      "tags": [
+        "Massachusetts",
+        "MassEducate",
+        "Affordability"
+      ],
+      "score": 12
+    },
+    {
+      "id": "0a157d285700b298",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassReconnect",
+      "url": "https://www.mass.edu/osfa/programs/massreconnect.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.",
+      "tags": [
+        "Massachusetts",
+        "MassReconnect",
+        "Adult Learners"
+      ],
+      "score": 12
+    },
+    {
       "id": "6429575608f363e6",
       "category": "MA Budget / SUCCESS",
       "title": "MassDHE News Clips: Community Colleges",
@@ -36,58 +72,27 @@
       "summary": "",
       "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
       "tags": [
+        "Massachusetts",
         "MassDHE",
         "Community Colleges"
       ],
       "score": 11
     },
     {
-      "id": "c5d16de138da3565",
+      "id": "f8eb34e0c66cdd7c",
       "category": "MA Budget / SUCCESS",
-      "title": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-19",
-      "summary": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "d110a91847265f18",
-      "category": "MA Budget / SUCCESS",
-      "title": "Matriculating to both sides of the aisle",
-      "url": "https://www.ccdaily.com/2026/03/matriculating-to-both-sides-of-the-aisle/?utm_source=rss&utm_medium=rss&utm_campaign=matriculating-to-both-sides-of-the-aisle",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-18",
-      "summary": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "567501a5afa104a5",
-      "category": "MA Budget / SUCCESS",
-      "title": "How community colleges can anchor civility in divided times",
-      "url": "https://www.ccdaily.com/2026/03/how-community-colleges-can-anchor-civility-in-divided-times/?utm_source=rss&utm_medium=rss&utm_campaign=how-community-colleges-can-anchor-civility-in-divided-times",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-16",
-      "summary": "Civility is not just a cultural value. It is a leadership skill, a workforce competency and a community imperative. Colleges and universities have become frequent targets in today’s culture wars, scrutinized for how they handle... The post How community colleges can anchor civility in divided times first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "722e1310fb61032b",
-      "category": "MA Budget / SUCCESS",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1135/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1135",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-15",
-      "summary": "4 reasons to consider community college WTOP “Community colleges serve the majority of working adults, student parents and first-generation college students in the United States,” says Martha M. Parham, senior vice president of public relations... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
+      "title": "MassTransfer",
+      "url": "https://www.mass.edu/masstransfer/",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Anchor page for Massachusetts transfer policy, useful when comparing other states’ transfer, articulation, and pathway reforms.",
+      "tags": [
+        "Massachusetts",
+        "MassTransfer",
+        "Transfer"
+      ],
+      "score": 11
     },
     {
       "id": "69c5fc744e63d747",
@@ -150,6 +155,42 @@
       "score": 7
     },
     {
+      "id": "722e1310fb61032b",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1135/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1135",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-15",
+      "summary": "4 reasons to consider community college WTOP “Community colleges serve the majority of working adults, student parents and first-generation college students in the United States,” says Martha M. Parham, senior vice president of public relations... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "573fa5c88aebb839",
+      "category": "Federal Policy",
+      "title": "University of Providence could cut programs, employees as it shores up budget",
+      "url": "https://www.highereddive.com/news/university-of-providence-exigency-budget/815135/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-18",
+      "summary": "The Montana institution declared financial exigency in December as it braces for an annual $8 million budget gap once it loses critical fiscal support.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
+      "id": "35d13940ffa1f24f",
+      "category": "Federal Policy",
+      "title": "Oregon State hikes tuition over 6% for new students amid budget gap",
+      "url": "https://www.highereddive.com/news/oregon-state-university-hikes-tuition-budget/814868/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-16",
+      "summary": "Trustees at the public university approved the increase Friday in the face of a $14 million budget shortfall.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
       "id": "77194ef2f737fbb1",
       "category": "AI in Higher Ed",
       "title": "Screen-Free Schools? Some Legislators Push for a New Normal",
@@ -169,18 +210,6 @@
       "source": "Higher Ed Dive",
       "published": "2026-03-19",
       "summary": "A director of undergraduate career services at the University of Iowa contends that misleading job posts are losing employers smart and motivated applicants.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "573fa5c88aebb839",
-      "category": "Federal Policy",
-      "title": "University of Providence could cut programs, employees as it shores up budget",
-      "url": "https://www.highereddive.com/news/university-of-providence-exigency-budget/815135/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-18",
-      "summary": "The Montana institution declared financial exigency in December as it braces for an annual $8 million budget gap once it loses critical fiscal support.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -210,30 +239,6 @@
       "score": 5
     },
     {
-      "id": "35d13940ffa1f24f",
-      "category": "Federal Policy",
-      "title": "Oregon State hikes tuition over 6% for new students amid budget gap",
-      "url": "https://www.highereddive.com/news/oregon-state-university-hikes-tuition-budget/814868/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-16",
-      "summary": "Trustees at the public university approved the increase Friday in the face of a $14 million budget shortfall.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "d51d811400bf6c50",
-      "category": "Federal Policy",
-      "title": "Week in review: Leadership whiplash at Ohio State",
-      "url": "https://www.highereddive.com/news/ohio-state-president-resignation-appointment-university-budget-cuts-trump-administration-dei/814738/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-16",
-      "summary": "We’re rounding up the latest stories, from 17 states suing the Trump administration over new data requirements to the latest wave of college cuts.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
       "id": "8ed70cff42219112",
       "category": "Federal Policy",
       "title": "University of Florida Penalizes GOP Group Over Antisemitism Accusations",
@@ -253,6 +258,18 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-19",
       "summary": "With a $109,375 state Emergency Medical Services (EMS) Education Grant, Southwest Wisconsin Technical College can strengthen EMS training opportunities. The grant supports Wisconsin technical colleges in advancing emergency medical responder, EMT, advanced EMT and paramedic... The post Funding roundup first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "d110a91847265f18",
+      "category": "Academic Advising",
+      "title": "Matriculating to both sides of the aisle",
+      "url": "https://www.ccdaily.com/2026/03/matriculating-to-both-sides-of-the-aisle/?utm_source=rss&utm_medium=rss&utm_campaign=matriculating-to-both-sides-of-the-aisle",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-18",
+      "summary": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -294,6 +311,18 @@
       "score": 5
     },
     {
+      "id": "567501a5afa104a5",
+      "category": "Academic Advising",
+      "title": "How community colleges can anchor civility in divided times",
+      "url": "https://www.ccdaily.com/2026/03/how-community-colleges-can-anchor-civility-in-divided-times/?utm_source=rss&utm_medium=rss&utm_campaign=how-community-colleges-can-anchor-civility-in-divided-times",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-16",
+      "summary": "Civility is not just a cultural value. It is a leadership skill, a workforce competency and a community imperative. Colleges and universities have become frequent targets in today’s culture wars, scrutinized for how they handle... The post How community colleges can anchor civility in divided times first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
       "id": "8fd7aaa0f5e41132",
       "category": "Academic Advising",
       "title": "Are College Republicans OK?",
@@ -301,18 +330,6 @@
       "source": "Inside Higher Ed",
       "published": "2026-03-19",
       "summary": "Are College Republicans OK? kathryn.palmer… Thu, 03/19/2026 - 03:00 AM As the Republican Party has moved further right, so have its acolytes on college campuses. But a recent spate of bigoted remarks and gestures from conservative students illuminates infighting over the party’s values, identity and future. Byline(s) Kathryn Palmer",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "610d0dba96f680a7",
-      "category": "Academic Advising",
-      "title": "ED Plans to Ease Merger Pathways",
-      "url": "https://www.insidehighered.com/news/business/mergers-collaboration/2026/03/19/ed-plans-ease-merger-pathways",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-19",
-      "summary": "ED Plans to Ease Merger Pathways Josh Moody Thu, 03/19/2026 - 03:00 AM As more colleges look for financial lifelines, experts say the current rules are a barrier to mergers and bog down an already cumbersome process. Byline(s) Josh Moody",
       "why_it_matters": "",
       "tags": [],
       "score": 4
@@ -364,6 +381,42 @@
       "why_it_matters": "",
       "tags": [],
       "score": 4
+    },
+    {
+      "id": "c5d16de138da3565",
+      "category": "State Systems / Innovation",
+      "title": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-19",
+      "summary": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    },
+    {
+      "id": "610d0dba96f680a7",
+      "category": "State Systems / Innovation",
+      "title": "ED Plans to Ease Merger Pathways",
+      "url": "https://www.insidehighered.com/news/business/mergers-collaboration/2026/03/19/ed-plans-ease-merger-pathways",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-19",
+      "summary": "ED Plans to Ease Merger Pathways Josh Moody Thu, 03/19/2026 - 03:00 AM As more colleges look for financial lifelines, experts say the current rules are a barrier to mergers and bog down an already cumbersome process. Byline(s) Josh Moody",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 2
+    },
+    {
+      "id": "d51d811400bf6c50",
+      "category": "State Systems / Innovation",
+      "title": "Week in review: Leadership whiplash at Ohio State",
+      "url": "https://www.highereddive.com/news/ohio-state-president-resignation-appointment-university-budget-cuts-trump-administration-dei/814738/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-16",
+      "summary": "We’re rounding up the latest stories, from 17 states suing the Trump administration over new data requirements to the latest wave of college cuts.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 2
     }
   ],
   "top_signals": [
@@ -382,7 +435,69 @@
         "Budget"
       ],
       "score": 14,
-      "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process."
+      "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.",
+      "story_tags": [
+        "state_budget",
+        "student_support_infrastructure"
+      ],
+      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
+      ],
+      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
+    },
+    {
+      "id": "e3e751144a701db4",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassEducate",
+      "url": "https://www.mass.edu/osfa/programs/masseducate.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.",
+      "tags": [
+        "Massachusetts",
+        "MassEducate",
+        "Affordability"
+      ],
+      "score": 12,
+      "summary_for_brief": "Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.",
+      "story_tags": [
+        "student_support_infrastructure"
+      ],
+      "core_story": "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "0a157d285700b298",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassReconnect",
+      "url": "https://www.mass.edu/osfa/programs/massreconnect.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.",
+      "tags": [
+        "Massachusetts",
+        "MassReconnect",
+        "Adult Learners"
+      ],
+      "score": 12,
+      "summary_for_brief": "Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.",
+      "story_tags": [
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "6429575608f363e6",
@@ -394,63 +509,69 @@
       "summary": "",
       "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
       "tags": [
+        "Massachusetts",
         "MassDHE",
         "Community Colleges"
       ],
       "score": 11,
-      "summary_for_brief": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments."
+      "summary_for_brief": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
+      "story_tags": [
+        "transfer_reform"
+      ],
+      "core_story": "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "c5d16de138da3565",
+      "id": "f8eb34e0c66cdd7c",
       "category": "MA Budget / SUCCESS",
-      "title": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-19",
-      "summary": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff",
-      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
-      "tags": [],
-      "score": 9,
-      "summary_for_brief": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff"
+      "title": "MassTransfer",
+      "url": "https://www.mass.edu/masstransfer/",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Anchor page for Massachusetts transfer policy, useful when comparing other states’ transfer, articulation, and pathway reforms.",
+      "tags": [
+        "Massachusetts",
+        "MassTransfer",
+        "Transfer"
+      ],
+      "score": 11,
+      "summary_for_brief": "Anchor page for Massachusetts transfer policy, useful when comparing other states’ transfer, articulation, and pathway reforms.",
+      "story_tags": [
+        "transfer_reform"
+      ],
+      "core_story": "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "d110a91847265f18",
-      "category": "MA Budget / SUCCESS",
-      "title": "Matriculating to both sides of the aisle",
-      "url": "https://www.ccdaily.com/2026/03/matriculating-to-both-sides-of-the-aisle/?utm_source=rss&utm_medium=rss&utm_campaign=matriculating-to-both-sides-of-the-aisle",
+      "id": "69c5fc744e63d747",
+      "category": "Federal Policy",
+      "title": "Washington Watch: House committee passes bill to fight Title IV fraud",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-house-committee-passes-bill-to-fight-title-iv-fraud/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-committee-passes-bill-to-fight-title-iv-fraud",
       "source": "AACC Community College Daily",
-      "published": "2026-03-18",
-      "summary": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
+      "published": "2026-03-17",
+      "summary": "The House Education and Workforce Committee on Tuesday reported out three pieces of legislation to address financial aid fraud. Two of the bills passed with bipartisan support. The core bill, the No Aid for Ghost... The post Washington Watch: House committee passes bill to fight Title IV fraud first appeared on Community College Daily .",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 9,
-      "summary_for_brief": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily ."
-    },
-    {
-      "id": "567501a5afa104a5",
-      "category": "MA Budget / SUCCESS",
-      "title": "How community colleges can anchor civility in divided times",
-      "url": "https://www.ccdaily.com/2026/03/how-community-colleges-can-anchor-civility-in-divided-times/?utm_source=rss&utm_medium=rss&utm_campaign=how-community-colleges-can-anchor-civility-in-divided-times",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-16",
-      "summary": "Civility is not just a cultural value. It is a leadership skill, a workforce competency and a community imperative. Colleges and universities have become frequent targets in today’s culture wars, scrutinized for how they handle... The post How community colleges can anchor civility in divided times first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
-      "tags": [],
-      "score": 9,
-      "summary_for_brief": "Civility is not just a cultural value. It is a leadership skill, a workforce competency and a community imperative. Colleges and universities have become frequent targets in today’s culture wars, scrutinized for how they handle... The post How community colleges can anchor civility in divided times first appeared on Community College Daily ."
-    },
-    {
-      "id": "722e1310fb61032b",
-      "category": "MA Budget / SUCCESS",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1135/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1135",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-15",
-      "summary": "4 reasons to consider community college WTOP “Community colleges serve the majority of working adults, student parents and first-generation college students in the United States,” says Martha M. Parham, senior vice president of public relations... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
-      "tags": [],
-      "score": 9,
-      "summary_for_brief": "4 reasons to consider community college WTOP “Community colleges serve the majority of working adults, student parents and first-generation college students in the United States,” says Martha M. Parham, senior vice president of public relations... The post Headlines first appeared on Community College Daily ."
+      "score": 8,
+      "summary_for_brief": "The House Education and Workforce Committee on Tuesday reported out three pieces of legislation to address financial aid fraud. Two of the bills passed with bipartisan support. The core bill, the No Aid for Ghost... The post Washington Watch: House committee passes bill to fight Title IV fraud first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     }
   ],
   "briefing_notes": [
@@ -469,7 +590,69 @@
         "Budget"
       ],
       "score": 14,
-      "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process."
+      "summary_for_brief": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.",
+      "story_tags": [
+        "state_budget",
+        "student_support_infrastructure"
+      ],
+      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
+      ],
+      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
+    },
+    {
+      "id": "e3e751144a701db4",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassEducate",
+      "url": "https://www.mass.edu/osfa/programs/masseducate.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.",
+      "tags": [
+        "Massachusetts",
+        "MassEducate",
+        "Affordability"
+      ],
+      "score": 12,
+      "summary_for_brief": "Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.",
+      "story_tags": [
+        "student_support_infrastructure"
+      ],
+      "core_story": "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "0a157d285700b298",
+      "category": "MA Budget / SUCCESS",
+      "title": "MassReconnect",
+      "url": "https://www.mass.edu/osfa/programs/massreconnect.asp",
+      "source": "mass.edu",
+      "published": "N/A",
+      "summary": "",
+      "why_it_matters": "Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.",
+      "tags": [
+        "Massachusetts",
+        "MassReconnect",
+        "Adult Learners"
+      ],
+      "score": 12,
+      "summary_for_brief": "Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.",
+      "story_tags": [
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "6429575608f363e6",
@@ -481,37 +664,21 @@
       "summary": "",
       "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
       "tags": [
+        "Massachusetts",
         "MassDHE",
         "Community Colleges"
       ],
       "score": 11,
-      "summary_for_brief": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments."
-    },
-    {
-      "id": "c5d16de138da3565",
-      "category": "MA Budget / SUCCESS",
-      "title": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-19",
-      "summary": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff",
-      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
-      "tags": [],
-      "score": 9,
-      "summary_for_brief": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff"
-    },
-    {
-      "id": "d110a91847265f18",
-      "category": "MA Budget / SUCCESS",
-      "title": "Matriculating to both sides of the aisle",
-      "url": "https://www.ccdaily.com/2026/03/matriculating-to-both-sides-of-the-aisle/?utm_source=rss&utm_medium=rss&utm_campaign=matriculating-to-both-sides-of-the-aisle",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-18",
-      "summary": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily .",
-      "why_it_matters": "Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.",
-      "tags": [],
-      "score": 9,
-      "summary_for_brief": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily ."
+      "summary_for_brief": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
+      "story_tags": [
+        "transfer_reform"
+      ],
+      "core_story": "The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "69c5fc744e63d747",
@@ -524,7 +691,16 @@
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 8,
-      "summary_for_brief": "The House Education and Workforce Committee on Tuesday reported out three pieces of legislation to address financial aid fraud. Two of the bills passed with bipartisan support. The core bill, the No Aid for Ghost... The post Washington Watch: House committee passes bill to fight Title IV fraud first appeared on Community College Daily ."
+      "summary_for_brief": "The House Education and Workforce Committee on Tuesday reported out three pieces of legislation to address financial aid fraud. Two of the bills passed with bipartisan support. The core bill, the No Aid for Ghost... The post Washington Watch: House committee passes bill to fight Title IV fraud first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "ec7564398ed04db9",
@@ -537,7 +713,16 @@
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 8,
-      "summary_for_brief": "ED/DOL announce first FY 26 TRIO grant competition State Department seeks hosts for regional Career Connections seminars AACC staff: Out and about ED/DOL announce first FY 26 TRIO grant competition The U.S. Education (ED) and... The post Reporter’s notebook first appeared on Community College Daily ."
+      "summary_for_brief": "ED/DOL announce first FY 26 TRIO grant competition State Department seeks hosts for regional Career Connections seminars AACC staff: Out and about ED/DOL announce first FY 26 TRIO grant competition The U.S. Education (ED) and... The post Reporter’s notebook first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "60ace962fa30b745",
@@ -550,7 +735,16 @@
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 7,
-      "summary_for_brief": "Under Secretary Nicholas Kent raised concerns about the agencies' diversity, equity and inclusion requirements even though they have been suspended."
+      "summary_for_brief": "Under Secretary Nicholas Kent raised concerns about the agencies' diversity, equity and inclusion requirements even though they have been suspended.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "622ffa90166342ea",
@@ -563,7 +757,16 @@
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 7,
-      "summary_for_brief": "Marvin Pyles alleged he was unfairly terminated after uncovering millions in financial mismanagement. He is seeking reinstatement and backpay."
+      "summary_for_brief": "Marvin Pyles alleged he was unfairly terminated after uncovering millions in financial mismanagement. He is seeking reinstatement and backpay.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "acbda38e764f50aa",
@@ -576,7 +779,39 @@
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
       "score": 7,
-      "summary_for_brief": "A new report from Excelencia in Education highlights national trends in Latino degree completion in STEAM (science, technology, engineering, arts and mathematics), tying them into evolving workforce needs that require not only technical skills but... The post More Latinos with STEAM credentials needed first appeared on Community College Daily ."
+      "summary_for_brief": "A new report from Excelencia in Education highlights national trends in Latino degree completion in STEAM (science, technology, engineering, arts and mathematics), tying them into evolving workforce needs that require not only technical skills but... The post More Latinos with STEAM credentials needed first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "student_support_infrastructure"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "722e1310fb61032b",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1135/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1135",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-15",
+      "summary": "4 reasons to consider community college WTOP “Community colleges serve the majority of working adults, student parents and first-generation college students in the United States,” says Martha M. Parham, senior vice president of public relations... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "4 reasons to consider community college WTOP “Community colleges serve the majority of working adults, student parents and first-generation college students in the United States,” says Martha M. Parham, senior vice president of public relations... The post Headlines first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "2b3b7d0d166d2462",
@@ -589,33 +824,38 @@
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
       "score": 5,
-      "summary_for_brief": "With a $109,375 state Emergency Medical Services (EMS) Education Grant, Southwest Wisconsin Technical College can strengthen EMS training opportunities. The grant supports Wisconsin technical colleges in advancing emergency medical responder, EMT, advanced EMT and paramedic... The post Funding roundup first appeared on Community College Daily ."
+      "summary_for_brief": "With a $109,375 state Emergency Medical Services (EMS) Education Grant, Southwest Wisconsin Technical College can strengthen EMS training opportunities. The grant supports Wisconsin technical colleges in advancing emergency medical responder, EMT, advanced EMT and paramedic... The post Funding roundup first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "68e3a2f68bbb09cf",
+      "id": "d110a91847265f18",
       "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1138/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1138",
+      "title": "Matriculating to both sides of the aisle",
+      "url": "https://www.ccdaily.com/2026/03/matriculating-to-both-sides-of-the-aisle/?utm_source=rss&utm_medium=rss&utm_campaign=matriculating-to-both-sides-of-the-aisle",
       "source": "AACC Community College Daily",
       "published": "2026-03-18",
-      "summary": "Over 1M veterans may be eligible for education benefits they didn’t know they had WTOP Over a million veterans may now be eligible for education benefits they didn’t know they had, after the U.S. Department... The post Headlines first appeared on Community College Daily .",
+      "summary": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily .",
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
       "score": 5,
-      "summary_for_brief": "Over 1M veterans may be eligible for education benefits they didn’t know they had WTOP Over a million veterans may now be eligible for education benefits they didn’t know they had, after the U.S. Department... The post Headlines first appeared on Community College Daily ."
-    },
-    {
-      "id": "c174b1804ce47399",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1137/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1137",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-17",
-      "summary": "Michigan apprenticeship helps early educators earn degrees, stay paid Detroit Free Press A new apprenticeship program aimed at addressing a shortage in Michigan’s early childhood education workforce launched last month, after a yearlong pilot resulted... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
-      "tags": [],
-      "score": 5,
-      "summary_for_brief": "Michigan apprenticeship helps early educators earn degrees, stay paid Detroit Free Press A new apprenticeship program aimed at addressing a shortage in Michigan’s early childhood education workforce launched last month, after a yearlong pilot resulted... The post Headlines first appeared on Community College Daily ."
+      "summary_for_brief": "At a time when many policy issues sharply divide the American public and their elected representatives, members of both major parties express support for community colleges as key drivers of upward mobility — perhaps none... The post Matriculating to both sides of the aisle first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "77194ef2f737fbb1",
@@ -628,7 +868,12 @@
       "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
       "score": 6,
-      "summary_for_brief": "First, it was no phones in schools. Now, amid the debate around edtech, schools are looking to go screen free."
+      "summary_for_brief": "First, it was no phones in schools. Now, amid the debate around edtech, schools are looking to go screen free.",
+      "story_tags": [],
+      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
+      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
+      "comparison_points": [],
+      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
     },
     {
       "id": "99b3e70e217b32d5",
@@ -641,7 +886,12 @@
       "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
       "score": 4,
-      "summary_for_brief": "Higher education leadership development is about intentionally cultivating people, not simply filling vacancies. By investing in mentorship, trust-building, and reflective engagement with younger generations, institutions can build the capacity needed to thrive over time."
+      "summary_for_brief": "Higher education leadership development is about intentionally cultivating people, not simply filling vacancies. By investing in mentorship, trust-building, and reflective engagement with younger generations, institutions can build the capacity needed to thrive over time.",
+      "story_tags": [],
+      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
+      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
+      "comparison_points": [],
+      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
     },
     {
       "id": "5575198857e34ed9",
@@ -654,7 +904,12 @@
       "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
       "score": 4,
-      "summary_for_brief": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities."
+      "summary_for_brief": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities.",
+      "story_tags": [],
+      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
+      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
+      "comparison_points": [],
+      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
     },
     {
       "id": "50c36c9bd19d40dc",
@@ -667,21 +922,104 @@
       "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
       "score": 4,
-      "summary_for_brief": "Sophie and Jenay talk with a team from the University of Notre Dame about their research on using smart glasses to support accessibility in teaching and learning."
+      "summary_for_brief": "Sophie and Jenay talk with a team from the University of Notre Dame about their research on using smart glasses to support accessibility in teaching and learning.",
+      "story_tags": [],
+      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
+      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
+      "comparison_points": [],
+      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
+    },
+    {
+      "id": "c5d16de138da3565",
+      "category": "State Systems / Innovation",
+      "title": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-19",
+      "summary": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff",
+      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
+      "tags": [],
+      "score": 4,
+      "summary_for_brief": "The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff",
+      "story_tags": [
+        "credit_for_prior_learning"
+      ],
+      "core_story": "This is not just a technology or innovation story. It is a public-investment story about whether a state is building enough system capacity to recognize learning, accelerate mobility, and modernize student pathways.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "The underlying issue for Massachusetts is whether community colleges are being given enough policy and operational support to scale credit for prior learning rather than treating it as a niche practice."
+      ],
+      "recommended_angle": "Use this as a Massachusetts-facing policy brief: if another large public system is investing in AI-enabled credit for prior learning, what would it take for Massachusetts to build similar capacity?"
+    },
+    {
+      "id": "610d0dba96f680a7",
+      "category": "State Systems / Innovation",
+      "title": "ED Plans to Ease Merger Pathways",
+      "url": "https://www.insidehighered.com/news/business/mergers-collaboration/2026/03/19/ed-plans-ease-merger-pathways",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-19",
+      "summary": "ED Plans to Ease Merger Pathways Josh Moody Thu, 03/19/2026 - 03:00 AM As more colleges look for financial lifelines, experts say the current rules are a barrier to mergers and bog down an already cumbersome process. Byline(s) Josh Moody",
+      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
+      "tags": [],
+      "score": 2,
+      "summary_for_brief": "ED Plans to Ease Merger Pathways Josh Moody Thu, 03/19/2026 - 03:00 AM As more colleges look for financial lifelines, experts say the current rules are a barrier to mergers and bog down an already cumbersome process. Byline(s) Josh Moody",
+      "story_tags": [
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "d51d811400bf6c50",
+      "category": "State Systems / Innovation",
+      "title": "Week in review: Leadership whiplash at Ohio State",
+      "url": "https://www.highereddive.com/news/ohio-state-president-resignation-appointment-university-budget-cuts-trump-administration-dei/814738/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-16",
+      "summary": "We’re rounding up the latest stories, from 17 states suing the Trump administration over new data requirements to the latest wave of college cuts.",
+      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
+      "tags": [],
+      "score": 2,
+      "summary_for_brief": "We’re rounding up the latest stories, from 17 states suing the Trump administration over new data requirements to the latest wave of college cuts.",
+      "story_tags": [
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     }
   ],
   "linkedin_drafts": [
     {
+      "title": "Massachusetts policy watch: a comparison worth making",
+      "text": "One higher-ed development worth watching this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nAnchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nWhat stands out to me is that The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.\n\nFor Massachusetts, the key question is whether community colleges are being given the investment, staffing, and policy infrastructure needed to do similar work at scale.\n\nWhy this matters: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them. Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nThat is where the real policy conversation should begin.\n\n#Massachusetts #CommunityColleges #StudentSuccess #HigherEdPolicy #AcademicAdvising",
+      "source_item_id": "d7f477008fcb38b2",
+      "draft_type": "policy_comparison"
+    },
+    {
       "title": "Massachusetts community college policy watch",
-      "text": "One Massachusetts development worth watching this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nAnchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nWhat stands out to me is that community college policy in Massachusetts is increasingly about more than access alone. The deeper issue is whether institutions have enough advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\n\nWhy this matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nFor colleges, that is where the real work is.\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
+      "text": "One Massachusetts development worth watching this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).\n\nAnchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nWhat stands out to me is that community college policy is increasingly about more than access alone. The deeper issue is whether institutions have enough advising, transfer, and wraparound-support capacity to convert access into persistence and completion.\n\nWhy this matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.\n\nFor colleges, that is where the real work is.\n\n#Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy",
+      "source_item_id": "d7f477008fcb38b2",
+      "draft_type": "state_watch"
     },
     {
       "title": "Federal higher-ed policy watch",
-      "text": "A federal higher-ed development on my radar this week is MassDHE News Clips: Community Colleges (https://www.mass.edu/newsclips/ccsystem.asp).\n\nMassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.\n\nThe most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.\n\nCommunity colleges are often the institutions that feel these shifts first.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising"
+      "text": "A federal higher-ed development on my radar this week is Washington Watch: House committee passes bill to fight Title IV fraud (https://www.ccdaily.com/2026/03/washington-watch-house-committee-passes-bill-to-fight-title-iv-fraud/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-house-committee-passes-bill-to-fight-title-iv-fraud).\n\nThe House Education and Workforce Committee on Tuesday reported out three pieces of legislation to address financial aid fraud. Two of the bills passed with bipartisan support. The core bill, the No Aid for Ghost... The post Washington Watch: House committee passes bill to fight Title IV fraud first appeared on Community College Daily .\n\nThe most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.\n\nCommunity colleges are often the institutions that feel these shifts first.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising",
+      "source_item_id": "69c5fc744e63d747",
+      "draft_type": "federal_watch"
     },
     {
       "title": "AI in higher ed: practical implications",
-      "text": "One AI-related higher-ed signal I’m tracking this week is The Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning (https://www.insidehighered.com/news/quick-takes/2026/03/19/calif-community-colleges-scale-credit-prior-learning).\n\nThe Key Podcast: Calif. Community Colleges Work to Scale Credit for Prior Learning sara.custer@in… Thu, 03/19/2026 - 03:00 AM Byline(s) IHE Staff\n\nThe real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. That is especially important in advising, teaching, and student-support settings.\n\nWhy this matters: Potential implications for Massachusetts funding, wraparound supports, transfer, and student success infrastructure.\n\nThe colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech"
+      "text": "One AI-related higher-ed signal I’m tracking this week is MassReconnect (https://www.mass.edu/osfa/programs/massreconnect.asp).\n\nImportant Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.\n\nThe real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. That is especially important in advising, teaching, and student-support settings.\n\nWhy this matters: Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.\n\nThe colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.\n\n#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech",
+      "source_item_id": "0a157d285700b298",
+      "draft_type": "ai_watch"
     }
   ],
   "archive": [
