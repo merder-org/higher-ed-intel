@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-23
 
-_Generated: 2026-03-23 15:35 ET_
+_Generated: 2026-03-26 15:42 ET_
 
 _Target state: Massachusetts_
 
@@ -42,9 +42,9 @@ For colleges, that is where the real work is.
 
 ### Federal higher-ed policy watch
 
-A federal higher-ed development on my radar this week is Higher ed organizations press Congress to quickly fill Pell funding gaps (https://www.highereddive.com/news/higher-ed-groups-press-congress-pell-shortfall/815248/).
+A federal higher-ed development on my radar this week is Headlines (https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143).
 
-Over 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.
+Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .
 
 The most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.
 
@@ -144,12 +144,12 @@ The colleges that benefit most will likely be the ones that combine experimentat
 - Comparison points:
   - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
 
-### Higher ed organizations press Congress to quickly fill Pell funding gaps
+### Headlines
 
 - Category: Federal Policy
-- Source: Higher Ed Dive (2026-03-19)
-- Link: https://www.highereddive.com/news/higher-ed-groups-press-congress-pell-shortfall/815248/
-- Summary: Over 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.
+- Source: AACC Community College Daily (2026-03-25)
+- Link: https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143
+- Summary: Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .
 - Core story: The core story is how policy shifts translate into operational consequences for colleges and students.
 - State relevance: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.
 - Recommended angle: Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.

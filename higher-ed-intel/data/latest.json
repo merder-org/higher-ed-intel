@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0",
   "week_of": "2026-03-23",
-  "generated_at": "2026-03-23 15:35 ET",
+  "generated_at": "2026-03-26 15:42 ET",
   "target_state": "Massachusetts",
   "comparative_mode": true,
   "forced_story_url": "",
@@ -95,52 +95,40 @@
       "score": 11
     },
     {
-      "id": "5b26c333e17adbdf",
+      "id": "df94acaf9060c78d",
       "category": "Federal Policy",
-      "title": "Higher ed organizations press Congress to quickly fill Pell funding gaps",
-      "url": "https://www.highereddive.com/news/higher-ed-groups-press-congress-pell-shortfall/815248/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-19",
-      "summary": "Over 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-25",
+      "summary": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 11
+      "score": 10
     },
     {
-      "id": "0c5a6e581379be89",
+      "id": "1fb29099f2766739",
       "category": "Federal Policy",
-      "title": "Dozens of Organizations Urge Congress to Plug Pell Funding Gap",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/23/dozens-organizations-urge-congress-plug-pell-funding-gap",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-23",
-      "summary": "Dozens of Organizations Urge Congress to Plug Pell Funding Gap sara.custer@in… Mon, 03/23/2026 - 03:00 AM Byline(s) Sara Custer",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "45a6a540cf3ae6b2",
-      "category": "Federal Policy",
-      "title": "S.J. Res. 131 (IS) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to the withdrawal of the rule relating to Consumer Financial Protection Circular 2024–02: Deceptive Marketing Practices About the Speed or Cost of Sending a Remittance Transfer.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres131is",
-      "source": "GovInfo Bills",
-      "published": "2026-03-21",
-      "summary": "PDF XML TEXT",
+      "title": "Washington Watch: AACC urges administration to reject revised certification for federal grants",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-aacc-urges-administration-to-reject-revised-certification-for-federal-grants/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-aacc-urges-administration-to-reject-revised-certification-for-federal-grants",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-24",
+      "summary": "Along with a series of other associations, the American Association of Community Colleges (AACC) has communicated to the General Services Administration (GSA) its deep concerns about GSA’s proposal to alter the requirements for institutions to... The post Washington Watch: AACC urges administration to reject revised certification for federal grants first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 8
     },
     {
-      "id": "90283fdf4e7ee838",
+      "id": "51666919cf0e04e5",
       "category": "Federal Policy",
-      "title": "‘Nice-to-Have’ FAFSA User Experience Updates Coming Soon",
-      "url": "https://www.insidehighered.com/news/students/financial-aid/2026/03/23/fafsa-user-experience-enhancements-planned-summer",
-      "source": "Inside Higher Ed",
+      "title": "Washington Watch: ED announces SIP eligibility",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-ed-announces-sip-eligibility/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-announces-sip-eligibility",
+      "source": "AACC Community College Daily",
       "published": "2026-03-23",
-      "summary": "‘Nice-to-Have’ FAFSA User Experience Updates Coming Soon Johanna Alonso Mon, 03/23/2026 - 03:00 AM The improvements will, among other things, make the federal aid process quicker for parents without Social Security Numbers and families who have filled out the FAFSA for previous children. Byline(s) Johanna Alonso",
+      "summary": "The Trump administration has formally launched the fiscal year (FY) 2026 eligibility process for the Strengthening Institutions Program (SIP) and potentially other Title III programs. The notification should appear in the Federal Register on March 24. ... The post Washington Watch: ED announces SIP eligibility first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 7
+      "score": 8
     },
     {
       "id": "2fcb7b4838e3d0f6",
@@ -155,25 +143,49 @@
       "score": 7
     },
     {
-      "id": "60ace962fa30b745",
+      "id": "be159912b8755aa5",
       "category": "Federal Policy",
-      "title": "Education Department official warns 2 accreditors over DEI standards",
-      "url": "https://www.highereddive.com/news/education-department-official-warns-2-accreditors-over-dei-standards/815144/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-18",
-      "summary": "Under Secretary Nicholas Kent raised concerns about the agencies' diversity, equity and inclusion requirements even though they have been suspended.",
+      "title": "Trump Administration Targets Harvard With Two New Investigations",
+      "url": "https://www.nytimes.com/2026/03/23/us/politics/harvard-trump-antisemitism.html",
+      "source": "NYT Education",
+      "published": "2026-03-23",
+      "summary": "The inquiries target antisemitism and admissions policies. The university called it retaliation for refusing to give in to the administration’s demands.",
       "why_it_matters": "",
       "tags": [],
       "score": 7
     },
     {
-      "id": "ba4a09ec35d5112b",
+      "id": "c74ed149bf18bba6",
       "category": "Academic Advising",
-      "title": "H.R. 7798 (IH) - School Social Workers Improving Student Success Act",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7798ih",
+      "title": "H.R. 8073 (IH) - Protection and Advocacy for Student Success Act",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8073ih",
       "source": "GovInfo Bills",
-      "published": "2026-03-22",
+      "published": "2026-03-26",
       "summary": "PDF XML TEXT",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "47bbe748f06fb290",
+      "category": "AI in Higher Ed",
+      "title": "Integrating AI Across the Liberal Arts",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/03/26/richmond-integrates-ai-across-liberal-arts",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-26",
+      "summary": "Integrating AI Across the Liberal Arts Joshua.Bay Thu, 03/26/2026 - 03:00 AM The University of Richmond’s new Center for Liberal Arts and AI helps students and faculty explore artificial intelligence ethically, critically and across disciplines. Byline(s) Joshua Bay",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "32755fd4bbdde781",
+      "category": "AI in Higher Ed",
+      "title": "GenAI and Creeping Cognitive Displacement Syndrome",
+      "url": "https://er.educause.edu/articles/2026/3/genai-and-creeping-cognitive-displacement-syndrome",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-26",
+      "summary": "As generative artificial intelligence use expands, colleges and universities need clearer ways to recognize when support becomes dependence and how to protect student agency, authorship, and judgment.",
       "why_it_matters": "",
       "tags": [],
       "score": 7
@@ -191,49 +203,37 @@
       "score": 7
     },
     {
-      "id": "573fa5c88aebb839",
+      "id": "227c9f89a00c5972",
       "category": "Federal Policy",
-      "title": "University of Providence could cut programs, employees as it shores up budget",
-      "url": "https://www.highereddive.com/news/university-of-providence-exigency-budget/815135/",
+      "title": "Lane Community College could cut 20 positions amid looming $4M deficit",
+      "url": "https://www.highereddive.com/news/lane-community-college-could-cut-20-positions-amid-looming-4m-deficit/815480/",
       "source": "Higher Ed Dive",
-      "published": "2026-03-18",
-      "summary": "The Montana institution declared financial exigency in December as it braces for an annual $8 million budget gap once it loses critical fiscal support.",
+      "published": "2026-03-23",
+      "summary": "Leaders at the Oregon institution have also proposed eliminating its health information management and criminal justice programs.",
       "why_it_matters": "",
       "tags": [],
       "score": 6
     },
     {
-      "id": "62e0ff2eb818415d",
+      "id": "e225129f8a201fc4",
       "category": "Federal Policy",
-      "title": "J. Michael Bishop, Nobel Prize Winner for Cancer Research, Dies at 90",
-      "url": "https://www.nytimes.com/2026/03/22/obituaries/j-michael-bishop-dead.html",
+      "title": "Trump Administration Begins Investigations Into Three Medical Schools",
+      "url": "https://www.nytimes.com/2026/03/26/us/politics/trump-medical-schools-civil-rights.html",
       "source": "NYT Education",
-      "published": "2026-03-22",
-      "summary": "He helped discover cancer-causing genes. Later, as chancellor of the University of California, San Francisco, he led a major expansion.",
+      "published": "2026-03-26",
+      "summary": "The Justice Department’s demands for admissions-related data from Stanford, Ohio State and the University of California, San Diego, represent a flex of federal power.",
       "why_it_matters": "",
       "tags": [],
       "score": 6
     },
     {
-      "id": "bb768a415fb7ed20",
-      "category": "Federal Policy",
-      "title": "Cal State Challenges Trump’s Order on Transgender Student Athletes",
-      "url": "https://www.nytimes.com/2026/03/20/us/politics/cal-state-transgender-athletes.html",
-      "source": "NYT Education",
-      "published": "2026-03-20",
-      "summary": "The California State University system joins a short list of universities fighting Trump orders in court. The Education Department has threatened to cut federal funds to San Jose State University.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
-      "id": "652e066144a283f0",
-      "category": "Academic Advising",
-      "title": "Treasury to handle defaulted student loans",
-      "url": "https://www.ccdaily.com/2026/03/treasury-to-handle-defaulted-student-loans/?utm_source=rss&utm_medium=rss&utm_campaign=treasury-to-handle-defaulted-student-loans",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-19",
-      "summary": "The Trump administration on Thursday continued with its effort to dismantle the U.S. Education Department (ED) by announcing that it would gradually transfer parts of the agency’s $1.7-trillion student loan portfolio to the U.S. Treasury... The post Treasury to handle defaulted student loans first appeared on Community College Daily .",
+      "id": "48d9da31ca7d7cfa",
+      "category": "State Systems / Innovation",
+      "title": "H. Res. 1131 (RH) - Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hres1131rh",
+      "source": "GovInfo Bills",
+      "published": "2026-03-25",
+      "summary": "PDF XML TEXT",
       "why_it_matters": "",
       "tags": [],
       "score": 6
@@ -251,13 +251,73 @@
       "score": 5
     },
     {
-      "id": "3741d025f9cad02e",
-      "category": "Academic Advising",
-      "title": "No 4-Year Degrees at Iowa Community Colleges—for Now",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/23/no-4-year-degrees-iowa-community-colleges-now",
-      "source": "Inside Higher Ed",
+      "id": "85521d5125b7ffec",
+      "category": "Federal Policy",
+      "title": "Boston University Pulls Pride Flags, Raising Free Speech Worries",
+      "url": "https://www.nytimes.com/2026/03/23/us/boston-university-pride-flags-free-speech.html",
+      "source": "NYT Education",
       "published": "2026-03-23",
-      "summary": "No 4-Year Degrees at Iowa Community Colleges—for Now Sara Weissman Mon, 03/23/2026 - 03:00 AM Byline(s) Sara Weissman",
+      "summary": "The university said the flags broke a rule against hanging signs, a policy embraced by other campuses that cracked down on protests. Professors and others say such rules chill speech.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "5b4c61aa735fded8",
+      "category": "Federal Policy",
+      "title": "Hundreds of N.Y.U. Professors Begin Strike Over Pay and Job Protections",
+      "url": "https://www.nytimes.com/2026/03/23/nyregion/nyu-professors-strike.html",
+      "source": "NYT Education",
+      "published": "2026-03-23",
+      "summary": "About 950 full-time faculty members who are not on the tenure track walked out. The university told students that classes would continue.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "46108e24056573c0",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1144/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1144",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-26",
+      "summary": "Clearing the lane for apprenticeship New America (blog) New federal guidance could accelerate apprenticeship growth. Commentary: The degree isn‘t dead, but it‘s on trial Lumina Foundation (blog) Employers say the degree still matters. Students believe... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "7a3af0a2b9f059d9",
+      "category": "Academic Advising",
+      "title": "Learning to embrace uncertainty",
+      "url": "https://www.ccdaily.com/2026/03/learning-to-embrace-uncertainty/?utm_source=rss&utm_medium=rss&utm_campaign=learning-to-embrace-uncertainty",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-25",
+      "summary": "No one tells you that becoming a community college president means carrying hundreds of stories with you every day. When I stepped into the presidency at Coahoma Community College (Mississippi), I believed my years of... The post Learning to embrace uncertainty first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "995bd8e6ecc5daf0",
+      "category": "Academic Advising",
+      "title": "Newsmakers",
+      "url": "https://www.ccdaily.com/2026/03/newsmakers-353/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-353",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-25",
+      "summary": "New CEO Jamonica Rolle will become president of Illinois Central College (ICC), effective July 1. She is currently interim college provost and senior vice president of academic affairs and college operations at Broward College (Florida).... The post Newsmakers first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "800347cc943f8a81",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1142/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1142",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-24",
+      "summary": "From credentials to careers: Measuring economic mobility at Dallas College Strategic Data Project at Harvard University (blog) Strategic Data Project Fellow Navi Dhaliwal at the Research Institute at Dallas College needed to help his team... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -287,64 +347,40 @@
       "score": 5
     },
     {
-      "id": "00224c9d2c62110a",
+      "id": "f8bf59e86d71c12c",
       "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1140/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1140",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-22",
-      "summary": "Commentary: The missing link in the talent pipeline: Why student voices matter EDU Ledger Community colleges have an expanded role in our current chapter of workforce development. It includes connecting students with the stepping-stool that... The post Headlines first appeared on Community College Daily .",
+      "title": "Ukraine’s Universities Push to Restore Campus Life",
+      "url": "https://www.insidehighered.com/news/global/2026/03/26/ukraines-universities-push-restore-campus-life",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-26",
+      "summary": "Ukraine’s Universities Push to Restore Campus Life sara.custer@in… Thu, 03/26/2026 - 03:00 AM Attending in-person lectures is seen as a sign of resilience amid the ongoing conflict that has damaged hundreds of university buildings. Byline(s) Seher Asaf for Times Higher Education",
       "why_it_matters": "",
       "tags": [],
-      "score": 5
+      "score": 4
     },
     {
-      "id": "5807fab6c92215ca",
+      "id": "74921b8afa8311bd",
       "category": "Academic Advising",
-      "title": "Newsmakers",
-      "url": "https://www.ccdaily.com/2026/03/newsmakers-352/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-352",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-22",
-      "summary": "New CEO Michael Waide, who has served at Pierpont Community & Technical College in West Virginia for nearly two decades in various positions — including currently interim president — will now become its permanent president.... The post Newsmakers first appeared on Community College Daily .",
+      "title": "Power Vacuum at Oxnard College",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/26/power-vacuum-oxnard-college",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-26",
+      "summary": "Power Vacuum at Oxnard College Josh Moody Thu, 03/26/2026 - 03:00 AM Byline(s) Josh Moody",
       "why_it_matters": "",
       "tags": [],
-      "score": 5
+      "score": 4
     },
     {
-      "id": "297901f52e8d883b",
+      "id": "ef3e1a695c6a2ef1",
       "category": "Academic Advising",
-      "title": "Expanding into drone security training",
-      "url": "https://www.ccdaily.com/2026/03/expanding-into-drone-security-training/?utm_source=rss&utm_medium=rss&utm_campaign=expanding-into-drone-security-training",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-19",
-      "summary": "A New Jersey community college known for its drone training is adding drone security to its program. Warren County Community College is enhancing its drone development and piloting curriculum with one of the nation’s first... The post Expanding into drone security training first appeared on Community College Daily .",
+      "title": "What History, Evidence and Competing Views Tell Us About AI and Higher Education",
+      "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/03/26/what-history-evidence-competing-views-say-about-ai",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-26",
+      "summary": "What History, Evidence and Competing Views Tell Us About AI and Higher Education joshua.m.kim@d… Thu, 03/26/2026 - 03:00 AM Conversations about technology and education too often skip past the accumulated evidence on teaching and learning in order to chase what merely feels new. Byline(s) James DeVaney",
       "why_it_matters": "",
       "tags": [],
-      "score": 5
-    },
-    {
-      "id": "b088b515d04e3203",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1139/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1139",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-19",
-      "summary": "Tracking pathways to success at community colleges Speaking of the Economy (A Federal Reserve Bank of Richmond podcast) The Federal Reserve Bank of Richmond’s Stephanie Norris and Davy Sell discuss the latest results of the... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "2b3b7d0d166d2462",
-      "category": "Academic Advising",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/03/funding-roundup-437/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-437",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-19",
-      "summary": "With a $109,375 state Emergency Medical Services (EMS) Education Grant, Southwest Wisconsin Technical College can strengthen EMS training opportunities. The grant supports Wisconsin technical colleges in advancing emergency medical responder, EMT, advanced EMT and paramedic... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
+      "score": 4
     },
     {
       "id": "99b3e70e217b32d5",
@@ -359,37 +395,37 @@
       "score": 4
     },
     {
-      "id": "5575198857e34ed9",
-      "category": "AI in Higher Ed",
-      "title": "Hotline: Cybersecurity and Privacy | March 2026",
-      "url": "https://er.educause.edu/articles/2026/3/hotline-cybersecurity-and-privacy-march-2026",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-10",
-      "summary": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "737230143bdc8847",
+      "id": "d6264a867e46350a",
       "category": "State Systems / Innovation",
-      "title": "Keep eLearning weird",
-      "url": "https://www.ccdaily.com/2026/03/keep-elearning-weird/?utm_source=rss&utm_medium=rss&utm_campaign=keep-elearning-weird",
+      "title": "Leveraging storytelling in politics",
+      "url": "https://www.ccdaily.com/2026/03/leveraging-storytelling-in-politics/?utm_source=rss&utm_medium=rss&utm_campaign=leveraging-storytelling-in-politics",
       "source": "AACC Community College Daily",
-      "published": "2026-03-22",
-      "summary": "If you’ve experienced a workplace printer malfunction or become a little too irritated when a coworker didn’t return a stapler, scenes from the 1999 movie “Office Space” likely flashed through your mind. The snarky classic,... The post Keep eLearning weird first appeared on Community College Daily .",
+      "published": "2026-03-24",
+      "summary": "Community college marketing and communications staff play a key role in providing the visuals and storytelling in a college’s efforts to educate and influence lawmakers and other stakeholders. That may seem obvious, but it’s sometimes... The post Leveraging storytelling in politics first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 3
     },
     {
-      "id": "5cb84434e6b84b56",
+      "id": "f5f531ce5d3e4520",
       "category": "State Systems / Innovation",
-      "title": "Education Department to shift student loan duties to Treasury",
-      "url": "https://www.highereddive.com/news/education-department-shift-student-loan-duties-treasury/815267/",
+      "title": "Hampshire College risks losing accreditation amid financial troubles",
+      "url": "https://www.highereddive.com/news/hampshire-college-risks-losing-accreditation-neche-debt-enrollment/815742/",
       "source": "Higher Ed Dive",
-      "published": "2026-03-19",
-      "summary": "The U.S. Department of Treasury plans to take “operational responsibility” for defaulted loans before eventually managing the entire $1.7 trillion portfolio.",
+      "published": "2026-03-25",
+      "summary": "The New England Commission of Higher Education asked the institution to show why it should not be placed on probation or lose accreditation.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 2
+    },
+    {
+      "id": "88edfa57e651d1a1",
+      "category": "State Systems / Innovation",
+      "title": "University of Alabama students sue over suspended magazines",
+      "url": "https://www.highereddive.com/news/university-of-alabama-students-sue-censorship-suspended-magazines-alice-nineteen-fifty-six/815599/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-24",
+      "summary": "Plaintiffs say the university’s cancellation of two publications over their focus on women and Black audiences violated the First Amendment.",
       "why_it_matters": "",
       "tags": [],
       "score": 2
@@ -528,17 +564,17 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "5b26c333e17adbdf",
+      "id": "df94acaf9060c78d",
       "category": "Federal Policy",
-      "title": "Higher ed organizations press Congress to quickly fill Pell funding gaps",
-      "url": "https://www.highereddive.com/news/higher-ed-groups-press-congress-pell-shortfall/815248/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-19",
-      "summary": "Over 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-25",
+      "summary": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 11,
-      "summary_for_brief": "Over 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.",
+      "score": 10,
+      "summary_for_brief": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -657,17 +693,17 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "5b26c333e17adbdf",
+      "id": "df94acaf9060c78d",
       "category": "Federal Policy",
-      "title": "Higher ed organizations press Congress to quickly fill Pell funding gaps",
-      "url": "https://www.highereddive.com/news/higher-ed-groups-press-congress-pell-shortfall/815248/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-19",
-      "summary": "Over 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-25",
+      "summary": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 11,
-      "summary_for_brief": "Over 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.",
+      "score": 10,
+      "summary_for_brief": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -679,57 +715,17 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "0c5a6e581379be89",
+      "id": "1fb29099f2766739",
       "category": "Federal Policy",
-      "title": "Dozens of Organizations Urge Congress to Plug Pell Funding Gap",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/23/dozens-organizations-urge-congress-plug-pell-funding-gap",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-23",
-      "summary": "Dozens of Organizations Urge Congress to Plug Pell Funding Gap sara.custer@in… Mon, 03/23/2026 - 03:00 AM Byline(s) Sara Custer",
-      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
-      "tags": [],
-      "score": 9,
-      "summary_for_brief": "Dozens of Organizations Urge Congress to Plug Pell Funding Gap sara.custer@in… Mon, 03/23/2026 - 03:00 AM Byline(s) Sara Custer",
-      "story_tags": [],
-      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
-      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
-      "comparison_points": [],
-      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
-    },
-    {
-      "id": "45a6a540cf3ae6b2",
-      "category": "Federal Policy",
-      "title": "S.J. Res. 131 (IS) - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to the withdrawal of the rule relating to Consumer Financial Protection Circular 2024–02: Deceptive Marketing Practices About the Speed or Cost of Sending a Remittance Transfer.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119sjres131is",
-      "source": "GovInfo Bills",
-      "published": "2026-03-21",
-      "summary": "PDF XML TEXT",
+      "title": "Washington Watch: AACC urges administration to reject revised certification for federal grants",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-aacc-urges-administration-to-reject-revised-certification-for-federal-grants/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-aacc-urges-administration-to-reject-revised-certification-for-federal-grants",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-24",
+      "summary": "Along with a series of other associations, the American Association of Community Colleges (AACC) has communicated to the General Services Administration (GSA) its deep concerns about GSA’s proposal to alter the requirements for institutions to... The post Washington Watch: AACC urges administration to reject revised certification for federal grants first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 8,
-      "summary_for_brief": "PDF XML TEXT",
-      "story_tags": [
-        "transfer_reform"
-      ],
-      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "90283fdf4e7ee838",
-      "category": "Federal Policy",
-      "title": "‘Nice-to-Have’ FAFSA User Experience Updates Coming Soon",
-      "url": "https://www.insidehighered.com/news/students/financial-aid/2026/03/23/fafsa-user-experience-enhancements-planned-summer",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-23",
-      "summary": "‘Nice-to-Have’ FAFSA User Experience Updates Coming Soon Johanna Alonso Mon, 03/23/2026 - 03:00 AM The improvements will, among other things, make the federal aid process quicker for parents without Social Security Numbers and families who have filled out the FAFSA for previous children. Byline(s) Johanna Alonso",
-      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
-      "tags": [],
-      "score": 7,
-      "summary_for_brief": "‘Nice-to-Have’ FAFSA User Experience Updates Coming Soon Johanna Alonso Mon, 03/23/2026 - 03:00 AM The improvements will, among other things, make the federal aid process quicker for parents without Social Security Numbers and families who have filled out the FAFSA for previous children. Byline(s) Johanna Alonso",
+      "summary_for_brief": "Along with a series of other associations, the American Association of Community Colleges (AACC) has communicated to the General Services Administration (GSA) its deep concerns about GSA’s proposal to alter the requirements for institutions to... The post Washington Watch: AACC urges administration to reject revised certification for federal grants first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -741,12 +737,56 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "ba4a09ec35d5112b",
+      "id": "51666919cf0e04e5",
+      "category": "Federal Policy",
+      "title": "Washington Watch: ED announces SIP eligibility",
+      "url": "https://www.ccdaily.com/2026/03/washington-watch-ed-announces-sip-eligibility/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-announces-sip-eligibility",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-23",
+      "summary": "The Trump administration has formally launched the fiscal year (FY) 2026 eligibility process for the Strengthening Institutions Program (SIP) and potentially other Title III programs. The notification should appear in the Federal Register on March 24. ... The post Washington Watch: ED announces SIP eligibility first appeared on Community College Daily .",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "tags": [],
+      "score": 8,
+      "summary_for_brief": "The Trump administration has formally launched the fiscal year (FY) 2026 eligibility process for the Strengthening Institutions Program (SIP) and potentially other Title III programs. The notification should appear in the Federal Register on March 24. ... The post Washington Watch: ED announces SIP eligibility first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "2fcb7b4838e3d0f6",
+      "category": "Federal Policy",
+      "title": "DOJ sues Harvard in bid to recoup federal grants, cut off future access",
+      "url": "https://www.highereddive.com/news/doj-sues-harvard-in-bid-to-recoup-federal-grants-cut-off-future-access/815372/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-20",
+      "summary": "In Friday court filings, the Trump administration again accused the university of failing to protect Jewish and Israeli students from antisemitism and harassment.",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "In Friday court filings, the Trump administration again accused the university of failing to protect Jewish and Israeli students from antisemitism and harassment.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "c74ed149bf18bba6",
       "category": "Academic Advising",
-      "title": "H.R. 7798 (IH) - School Social Workers Improving Student Success Act",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7798ih",
+      "title": "H.R. 8073 (IH) - Protection and Advocacy for Student Success Act",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8073ih",
       "source": "GovInfo Bills",
-      "published": "2026-03-22",
+      "published": "2026-03-26",
       "summary": "PDF XML TEXT",
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
@@ -763,20 +803,19 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "652e066144a283f0",
+      "id": "46108e24056573c0",
       "category": "Academic Advising",
-      "title": "Treasury to handle defaulted student loans",
-      "url": "https://www.ccdaily.com/2026/03/treasury-to-handle-defaulted-student-loans/?utm_source=rss&utm_medium=rss&utm_campaign=treasury-to-handle-defaulted-student-loans",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1144/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1144",
       "source": "AACC Community College Daily",
-      "published": "2026-03-19",
-      "summary": "The Trump administration on Thursday continued with its effort to dismantle the U.S. Education Department (ED) by announcing that it would gradually transfer parts of the agency’s $1.7-trillion student loan portfolio to the U.S. Treasury... The post Treasury to handle defaulted student loans first appeared on Community College Daily .",
+      "published": "2026-03-26",
+      "summary": "Clearing the lane for apprenticeship New America (blog) New federal guidance could accelerate apprenticeship growth. Commentary: The degree isn‘t dead, but it‘s on trial Lumina Foundation (blog) Employers say the degree still matters. Students believe... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
-      "score": 6,
-      "summary_for_brief": "The Trump administration on Thursday continued with its effort to dismantle the U.S. Education Department (ED) by announcing that it would gradually transfer parts of the agency’s $1.7-trillion student loan portfolio to the U.S. Treasury... The post Treasury to handle defaulted student loans first appeared on Community College Daily .",
+      "score": 5,
+      "summary_for_brief": "Clearing the lane for apprenticeship New America (blog) New federal guidance could accelerate apprenticeship growth. Commentary: The degree isn‘t dead, but it‘s on trial Lumina Foundation (blog) Employers say the degree still matters. Students believe... The post Headlines first appeared on Community College Daily .",
       "story_tags": [
-        "artificial_intelligence_in_higher_ed",
-        "transfer_reform"
+        "artificial_intelligence_in_higher_ed"
       ],
       "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
@@ -786,35 +825,17 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "3741d025f9cad02e",
+      "id": "7a3af0a2b9f059d9",
       "category": "Academic Advising",
-      "title": "No 4-Year Degrees at Iowa Community Colleges—for Now",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/03/23/no-4-year-degrees-iowa-community-colleges-now",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-23",
-      "summary": "No 4-Year Degrees at Iowa Community Colleges—for Now Sara Weissman Mon, 03/23/2026 - 03:00 AM Byline(s) Sara Weissman",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
-      "tags": [],
-      "score": 5,
-      "summary_for_brief": "No 4-Year Degrees at Iowa Community Colleges—for Now Sara Weissman Mon, 03/23/2026 - 03:00 AM Byline(s) Sara Weissman",
-      "story_tags": [],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
-      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
-      "comparison_points": [],
-      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
-    },
-    {
-      "id": "382d46741c4df7e5",
-      "category": "Academic Advising",
-      "title": "Digital accessibility: More than a regulatory obligation",
-      "url": "https://www.ccdaily.com/2026/03/digital-accessibility-more-than-a-regulatory-obligation/?utm_source=rss&utm_medium=rss&utm_campaign=digital-accessibility-more-than-a-regulatory-obligation",
+      "title": "Learning to embrace uncertainty",
+      "url": "https://www.ccdaily.com/2026/03/learning-to-embrace-uncertainty/?utm_source=rss&utm_medium=rss&utm_campaign=learning-to-embrace-uncertainty",
       "source": "AACC Community College Daily",
-      "published": "2026-03-23",
-      "summary": "How are you reading this article right now? Scrolling down a webpage? Flipping through a digital PDF? Maybe you’re listening to the computer read it for you? The way each person interacts with the digital... The post Digital accessibility: More than a regulatory obligation first appeared on Community College Daily .",
+      "published": "2026-03-25",
+      "summary": "No one tells you that becoming a community college president means carrying hundreds of stories with you every day. When I stepped into the presidency at Coahoma Community College (Mississippi), I believed my years of... The post Learning to embrace uncertainty first appeared on Community College Daily .",
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
       "score": 5,
-      "summary_for_brief": "How are you reading this article right now? Scrolling down a webpage? Flipping through a digital PDF? Maybe you’re listening to the computer read it for you? The way each person interacts with the digital... The post Digital accessibility: More than a regulatory obligation first appeared on Community College Daily .",
+      "summary_for_brief": "No one tells you that becoming a community college president means carrying hundreds of stories with you every day. When I stepped into the presidency at Coahoma Community College (Mississippi), I believed my years of... The post Learning to embrace uncertainty first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -822,6 +843,73 @@
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
         "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "995bd8e6ecc5daf0",
+      "category": "Academic Advising",
+      "title": "Newsmakers",
+      "url": "https://www.ccdaily.com/2026/03/newsmakers-353/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-353",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-25",
+      "summary": "New CEO Jamonica Rolle will become president of Illinois Central College (ICC), effective July 1. She is currently interim college provost and senior vice president of academic affairs and college operations at Broward College (Florida).... The post Newsmakers first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 5,
+      "summary_for_brief": "New CEO Jamonica Rolle will become president of Illinois Central College (ICC), effective July 1. She is currently interim college provost and senior vice president of academic affairs and college operations at Broward College (Florida).... The post Newsmakers first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "47bbe748f06fb290",
+      "category": "AI in Higher Ed",
+      "title": "Integrating AI Across the Liberal Arts",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/03/26/richmond-integrates-ai-across-liberal-arts",
+      "source": "Inside Higher Ed",
+      "published": "2026-03-26",
+      "summary": "Integrating AI Across the Liberal Arts Joshua.Bay Thu, 03/26/2026 - 03:00 AM The University of Richmond’s new Center for Liberal Arts and AI helps students and faculty explore artificial intelligence ethically, critically and across disciplines. Byline(s) Joshua Bay",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "Integrating AI Across the Liberal Arts Joshua.Bay Thu, 03/26/2026 - 03:00 AM The University of Richmond’s new Center for Liberal Arts and AI helps students and faculty explore artificial intelligence ethically, critically and across disciplines. Byline(s) Joshua Bay",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The deeper issue is whether institutions are moving from AI curiosity to real implementation supported by governance, staffing, and strategy.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "For Massachusetts, the more important question is not whether AI tools exist, but whether there is meaningful investment in governed, student-centered implementation."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "32755fd4bbdde781",
+      "category": "AI in Higher Ed",
+      "title": "GenAI and Creeping Cognitive Displacement Syndrome",
+      "url": "https://er.educause.edu/articles/2026/3/genai-and-creeping-cognitive-displacement-syndrome",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-26",
+      "summary": "As generative artificial intelligence use expands, colleges and universities need clearer ways to recognize when support becomes dependence and how to protect student agency, authorship, and judgment.",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "As generative artificial intelligence use expands, colleges and universities need clearer ways to recognize when support becomes dependence and how to protect student agency, authorship, and judgment.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The deeper issue is whether institutions are moving from AI curiosity to real implementation supported by governance, staffing, and strategy.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "For Massachusetts, the more important question is not whether AI tools exist, but whether there is meaningful investment in governed, student-centered implementation."
       ],
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
@@ -866,35 +954,41 @@
       "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
     },
     {
-      "id": "5575198857e34ed9",
-      "category": "AI in Higher Ed",
-      "title": "Hotline: Cybersecurity and Privacy | March 2026",
-      "url": "https://er.educause.edu/articles/2026/3/hotline-cybersecurity-and-privacy-march-2026",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-10",
-      "summary": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities.",
-      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
+      "id": "48d9da31ca7d7cfa",
+      "category": "State Systems / Innovation",
+      "title": "H. Res. 1131 (RH) - Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hres1131rh",
+      "source": "GovInfo Bills",
+      "published": "2026-03-25",
+      "summary": "PDF XML TEXT",
+      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
       "tags": [],
-      "score": 4,
-      "summary_for_brief": "\"Hotline: Cybersecurity and Privacy\" tackles the philosophical, moral, strategic, and organizational quandaries related to higher education cybersecurity, privacy, and data. This month, Mike answers your questions about cybersecurity strategy, CMMC/CUI-compliant research computing and storage infrastructure, and the unchecked expansion of cybersecurity job responsibilities.",
-      "story_tags": [],
-      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
-      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
-      "comparison_points": [],
-      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
+      "score": 6,
+      "summary_for_brief": "PDF XML TEXT",
+      "story_tags": [
+        "credit_for_prior_learning",
+        "state_budget",
+        "transfer_reform"
+      ],
+      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
+      ],
+      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
     },
     {
-      "id": "737230143bdc8847",
+      "id": "d6264a867e46350a",
       "category": "State Systems / Innovation",
-      "title": "Keep eLearning weird",
-      "url": "https://www.ccdaily.com/2026/03/keep-elearning-weird/?utm_source=rss&utm_medium=rss&utm_campaign=keep-elearning-weird",
+      "title": "Leveraging storytelling in politics",
+      "url": "https://www.ccdaily.com/2026/03/leveraging-storytelling-in-politics/?utm_source=rss&utm_medium=rss&utm_campaign=leveraging-storytelling-in-politics",
       "source": "AACC Community College Daily",
-      "published": "2026-03-22",
-      "summary": "If you’ve experienced a workplace printer malfunction or become a little too irritated when a coworker didn’t return a stapler, scenes from the 1999 movie “Office Space” likely flashed through your mind. The snarky classic,... The post Keep eLearning weird first appeared on Community College Daily .",
+      "published": "2026-03-24",
+      "summary": "Community college marketing and communications staff play a key role in providing the visuals and storytelling in a college’s efforts to educate and influence lawmakers and other stakeholders. That may seem obvious, but it’s sometimes... The post Leveraging storytelling in politics first appeared on Community College Daily .",
       "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
       "tags": [],
       "score": 3,
-      "summary_for_brief": "If you’ve experienced a workplace printer malfunction or become a little too irritated when a coworker didn’t return a stapler, scenes from the 1999 movie “Office Space” likely flashed through your mind. The snarky classic,... The post Keep eLearning weird first appeared on Community College Daily .",
+      "summary_for_brief": "Community college marketing and communications staff play a key role in providing the visuals and storytelling in a college’s efforts to educate and influence lawmakers and other stakeholders. That may seem obvious, but it’s sometimes... The post Leveraging storytelling in politics first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed",
         "credit_for_prior_learning"
@@ -907,18 +1001,41 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "5cb84434e6b84b56",
+      "id": "f5f531ce5d3e4520",
       "category": "State Systems / Innovation",
-      "title": "Education Department to shift student loan duties to Treasury",
-      "url": "https://www.highereddive.com/news/education-department-shift-student-loan-duties-treasury/815267/",
+      "title": "Hampshire College risks losing accreditation amid financial troubles",
+      "url": "https://www.highereddive.com/news/hampshire-college-risks-losing-accreditation-neche-debt-enrollment/815742/",
       "source": "Higher Ed Dive",
-      "published": "2026-03-19",
-      "summary": "The U.S. Department of Treasury plans to take “operational responsibility” for defaulted loans before eventually managing the entire $1.7 trillion portfolio.",
+      "published": "2026-03-25",
+      "summary": "The New England Commission of Higher Education asked the institution to show why it should not be placed on probation or lose accreditation.",
       "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
       "tags": [],
       "score": 2,
-      "summary_for_brief": "The U.S. Department of Treasury plans to take “operational responsibility” for defaulted loans before eventually managing the entire $1.7 trillion portfolio.",
+      "summary_for_brief": "The New England Commission of Higher Education asked the institution to show why it should not be placed on probation or lose accreditation.",
       "story_tags": [
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "88edfa57e651d1a1",
+      "category": "State Systems / Innovation",
+      "title": "University of Alabama students sue over suspended magazines",
+      "url": "https://www.highereddive.com/news/university-of-alabama-students-sue-censorship-suspended-magazines-alice-nineteen-fifty-six/815599/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-24",
+      "summary": "Plaintiffs say the university’s cancellation of two publications over their focus on women and Black audiences violated the First Amendment.",
+      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
+      "tags": [],
+      "score": 2,
+      "summary_for_brief": "Plaintiffs say the university’s cancellation of two publications over their focus on women and Black audiences violated the First Amendment.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
         "credit_for_prior_learning"
       ],
       "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
@@ -944,8 +1061,8 @@
     },
     {
       "title": "Federal higher-ed policy watch",
-      "text": "A federal higher-ed development on my radar this week is Higher ed organizations press Congress to quickly fill Pell funding gaps (https://www.highereddive.com/news/higher-ed-groups-press-congress-pell-shortfall/815248/).\n\nOver 60 groups signed a letter to top lawmakers raising concerns about a multi-billion dollar shortfall in fiscal 2026 and beyond for the key student aid program.\n\nThe most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.\n\nCommunity colleges are often the institutions that feel these shifts first.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising",
-      "source_item_id": "5b26c333e17adbdf",
+      "text": "A federal higher-ed development on my radar this week is Headlines (https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143).\n\nCommentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .\n\nThe most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.\n\nCommunity colleges are often the institutions that feel these shifts first.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising",
+      "source_item_id": "df94acaf9060c78d",
       "draft_type": "federal_watch"
     },
     {
@@ -956,6 +1073,10 @@
     }
   ],
   "archive": [
+    {
+      "label": "Week of 2026-03-23",
+      "url": "data/archive/2026-03-23.json"
+    },
     {
       "label": "Week of 2026-03-23",
       "url": "data/archive/2026-03-23.json"
