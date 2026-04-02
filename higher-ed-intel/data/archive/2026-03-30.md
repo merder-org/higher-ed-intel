@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-30
 
-_Generated: 2026-03-30 15:40 ET_
+_Generated: 2026-04-02 15:35 ET_
 
 _Target state: Massachusetts_
 
@@ -42,9 +42,9 @@ For colleges, that is where the real work is.
 
 ### Federal higher-ed policy watch
 
-A federal higher-ed development on my radar this week is H.R. 7844 (IH) - To provide the Secretary of Homeland Security with the authority to transfer funds between accounts under the Department of Homeland Security during a lapse in appropriations, and for other purposes. (https://www.govinfo.gov/app/details/BILLS-119hr7844ih).
+A federal higher-ed development on my radar this week is Re-focusing career navigation for students (https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students).
 
-PDF XML TEXT
+Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .
 
 The most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.
 
@@ -144,16 +144,16 @@ The colleges that benefit most will likely be the ones that combine experimentat
 - Comparison points:
   - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
 
-### H.R. 7844 (IH) - To provide the Secretary of Homeland Security with the authority to transfer funds between accounts under the Department of Homeland Security during a lapse in appropriations, and for other purposes.
+### Re-focusing career navigation for students
 
 - Category: Federal Policy
-- Source: GovInfo Bills (2026-03-26)
-- Link: https://www.govinfo.gov/app/details/BILLS-119hr7844ih
-- Summary: PDF XML TEXT
-- Core story: The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.
+- Source: AACC Community College Daily (2026-04-02)
+- Link: https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students
+- Summary: Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .
+- Core story: The core story is how policy shifts translate into operational consequences for colleges and students.
 - State relevance: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.
-- Recommended angle: Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?
+- Recommended angle: Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.
 - Why it matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.
 
 - Comparison points:
-  - This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?
+  - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.

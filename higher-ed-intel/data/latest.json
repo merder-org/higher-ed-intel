@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0",
   "week_of": "2026-03-30",
-  "generated_at": "2026-03-30 15:40 ET",
+  "generated_at": "2026-04-02 15:35 ET",
   "target_state": "Massachusetts",
   "comparative_mode": true,
   "forced_story_url": "",
@@ -95,73 +95,25 @@
       "score": 11
     },
     {
-      "id": "ed10b775e2bb43fe",
+      "id": "39d5d125774c42ec",
       "category": "Federal Policy",
-      "title": "H.R. 7844 (IH) - To provide the Secretary of Homeland Security with the authority to transfer funds between accounts under the Department of Homeland Security during a lapse in appropriations, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7844ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-26",
-      "summary": "PDF XML TEXT",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 11
-    },
-    {
-      "id": "687bd400ced98840",
-      "category": "MA Budget / SUCCESS",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/03/funding-roundup-438/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-438",
+      "title": "Re-focusing career navigation for students",
+      "url": "https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students",
       "source": "AACC Community College Daily",
-      "published": "2026-03-29",
-      "summary": "A $10,000 grant to Quinsigamond Community College (QCC) will support the Auxilium Center for Entrepreneurship, an initiative to expand access to entrepreneurial education in central Massachusetts. The grant is part of the Inspiring Generosity Matching... The post Funding roundup first appeared on Community College Daily .",
+      "published": "2026-04-02",
+      "summary": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 10
     },
     {
-      "id": "df94acaf9060c78d",
-      "category": "Federal Policy",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143",
+      "id": "4613dac5b777e64a",
+      "category": "Academic Advising",
+      "title": "5 intentional shifts for the community college student success movement",
+      "url": "https://www.ccdaily.com/2026/03/5-intentional-shifts-for-the-community-college-student-success-movement/?utm_source=rss&utm_medium=rss&utm_campaign=5-intentional-shifts-for-the-community-college-student-success-movement",
       "source": "AACC Community College Daily",
-      "published": "2026-03-25",
-      "summary": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 10
-    },
-    {
-      "id": "004c680202426cca",
-      "category": "Federal Policy",
-      "title": "Education Department now has 10 interagency agreements: Here are the details",
-      "url": "https://www.highereddive.com/news/education-department-interagency-agreements-HHS-Labor-Treasury-table/815884/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-27",
-      "summary": "Supporters say outsourcing will reduce federal bureaucracy. Critics claim it adds confusion to federal grantmaking and technical support services.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
-      "id": "f3922911b9ac4103",
-      "category": "Federal Policy",
-      "title": "Pay-for-performance: A new frontier for apprenticeship funding",
-      "url": "https://www.ccdaily.com/2026/03/pay-for-performance-a-new-frontier-for-apprenticeship-funding/?utm_source=rss&utm_medium=rss&utm_campaign=pay-for-performance-a-new-frontier-for-apprenticeship-funding",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-29",
-      "summary": "While apprenticeships are surging in popularity — bolstered by a 2025 executive order aiming for one million new federal registered apprenticeships — some experts suggest that tying funding to results could be the key to... The post Pay-for-performance: A new frontier for apprenticeship funding first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 8
-    },
-    {
-      "id": "e5d5c742b46de839",
-      "category": "Federal Policy",
-      "title": "AACC supports a boost for Basic Needs Grant program",
-      "url": "https://www.ccdaily.com/2026/03/aacc-supports-a-boost-for-basic-needs-grant-program/?utm_source=rss&utm_medium=rss&utm_campaign=aacc-supports-a-boost-for-basic-needs-grant-program",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-26",
-      "summary": "The American Association of Community Colleges is among more than 90 groups — including six other community college organizations — that are asking congressional appropriators to increase funding for the Basic Needs Grant program. The... The post AACC supports a boost for Basic Needs Grant program first appeared on Community College Daily .",
+      "published": "2026-03-31",
+      "summary": "The movement to increase community college student success has never been short on ideas. For two decades, hundreds of institutions have reshaped what student progress looks like and the meaning of institutional responsibility. Faculty and... The post 5 intentional shifts for the community college student success movement first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 8
@@ -174,6 +126,18 @@
       "source": "AACC Community College Daily",
       "published": "2026-03-30",
       "summary": "Community colleges aim to expand opportunity and stay relevant to the people, employers and communities we serve. At Monroe Community College (MCC) in New York, we believe that to achieve different results for today’s learners,... The post Leading true systemic change: Relevance, momentum and student success first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 8
+    },
+    {
+      "id": "f5075beb30501f40",
+      "category": "AI in Higher Ed",
+      "title": "Despite Skepticism, Survey Shows Widespread AI Use at Cal State",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/04/02/despite-skepticism-widespread-ai-use-cal",
+      "source": "Inside Higher Ed",
+      "published": "2026-04-02",
+      "summary": "Despite Skepticism, Survey Shows Widespread AI Use at Cal State kathryn.palmer… Thu, 04/02/2026 - 03:00 AM ChatGPT is the preferred AI tool of the nation’s largest higher education system, according to a survey of 94,000 students, faculty and staff across California State University institutions. Byline(s) Kathryn Palmer",
       "why_it_matters": "",
       "tags": [],
       "score": 8
@@ -203,6 +167,42 @@
       "score": 7
     },
     {
+      "id": "8d501922fa8fe9b3",
+      "category": "Federal Policy",
+      "title": "N.Y.U. Closes Its Abu Dhabi Campus as Iran Vows Retaliation for Strikes",
+      "url": "https://www.nytimes.com/2026/03/30/nyregion/nyu-abu-dhabi-campus-closed.html",
+      "source": "NYT Education",
+      "published": "2026-03-31",
+      "summary": "After a university in Tehran was struck during the war, Iranian leaders said that the outposts of U.S. schools were “legitimate targets.”",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "f8c1875bd3800088",
+      "category": "Academic Advising",
+      "title": "H.R. 8010 (IH) - VA Police Recruitment and Retention Act of 2026",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8010ih",
+      "source": "GovInfo Bills",
+      "published": "2026-04-02",
+      "summary": "PDF XML TEXT",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "e0600f98a61afccc",
+      "category": "AI in Higher Ed",
+      "title": "Too Many Tools, Not Enough Impact: Districts Rethink Their Edtech Stacks",
+      "url": "https://www.edsurge.com/news/2026-04-02-too-many-tools-not-enough-impact-districts-rethink-their-edtech-stacks",
+      "source": "EdSurge",
+      "published": "2026-04-02",
+      "summary": "QUALITY OVER QUANTITY: A re-examination of digital tools was already underway in districts, as part of curriculum reviews and budget trimming after ...",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
       "id": "32755fd4bbdde781",
       "category": "AI in Higher Ed",
       "title": "GenAI and Creeping Cognitive Displacement Syndrome",
@@ -215,25 +215,25 @@
       "score": 7
     },
     {
-      "id": "ab41ee45230b07ba",
-      "category": "AI in Higher Ed",
-      "title": "From Prompt to Practice: A Framework for Transparent GenAI Use in Higher Education",
-      "url": "https://er.educause.edu/articles/2026/3/from-prompt-to-practice-a-framework-for-transparent-genai-use-in-higher-education",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-18",
-      "summary": "As generative artificial intelligence reshapes instructional workflows at colleges and universities, a four-level transparency framework can help education developers calibrate documentation and disclosure practices to support ethical responsibility and maintain student trust.",
+      "id": "2ef322ec6298ab4e",
+      "category": "State Systems / Innovation",
+      "title": "Community College Bachelor’s Degrees and Credit for Prior Learning",
+      "url": "https://www.insidehighered.com/opinion/columns/beyond-transfer/2026/04/02/community-college-4-year-degrees-let-prior-learning",
+      "source": "Inside Higher Ed",
+      "published": "2026-04-02",
+      "summary": "Community College Bachelor’s Degrees and Credit for Prior Learning quintina.barne… Thu, 04/02/2026 - 03:00 AM Solving the CPL transfer challenge. Byline(s) Becky Klein-Collins William McKinney",
       "why_it_matters": "",
       "tags": [],
       "score": 7
     },
     {
-      "id": "c0eabab941e06d32",
+      "id": "9128836e206ec896",
       "category": "Federal Policy",
-      "title": "Portland Community College reaches tentative deal with striking union staff",
-      "url": "https://www.highereddive.com/news/portland-community-colleget-tentative-deal-staff-strike/815912/",
+      "title": "Portland Community College reaches tentative deal with striking faculty",
+      "url": "https://www.highereddive.com/news/portland-community-college-reaches-tentative-deal-with-striking-faculty/816268/",
       "source": "Higher Ed Dive",
-      "published": "2026-03-26",
-      "summary": "The college has been remote since March 11, the beginning of a work stoppage that has also delayed the beginning of spring classes by a week.",
+      "published": "2026-03-31",
+      "summary": "The Oregon institution previously reached an agreement with its staff union, which declared a strike with faculty on March 11.",
       "why_it_matters": "",
       "tags": [],
       "score": 6
@@ -251,37 +251,121 @@
       "score": 6
     },
     {
-      "id": "cbd1a6911ca2eecc",
-      "category": "State Systems / Innovation",
-      "title": "H. Res. 1131 (EH) - Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hres1131eh",
-      "source": "GovInfo Bills",
-      "published": "2026-03-26",
-      "summary": "PDF XML TEXT",
+      "id": "8776bcd876de2683",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/04/headlines-1148/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1148",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-01",
+      "summary": "Thousands of Texas students lose college credits when transferring. Here are pitfalls to avoid. Texas Tribune Recent data from the Texas Higher Education Coordinating Board offers a window into why students are losing out on... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 6
     },
     {
-      "id": "f1ccd1089d8ce00d",
+      "id": "0ee29f8f7bbe1375",
+      "category": "AI in Higher Ed",
+      "title": "Advancing AI Literacy: A Faculty Course Refresh Institute at Indiana Wesleyan University",
+      "url": "https://er.educause.edu/articles/2026/3/advancing-ai-literacy-a-faculty-course-refresh-institute-at-indiana-wesleyan-university",
+      "source": "EDUCAUSE Review",
+      "published": "2026-03-31",
+      "summary": "Redesigning learning experiences, not just adding tools, can build faculty confidence and develop students’ critical, ethical, and applied AI literacy.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
+      "id": "9999841864e7e8ec",
       "category": "Federal Policy",
-      "title": "Week in review: University of North Texas slashes dozens of programs",
-      "url": "https://www.highereddive.com/news/university-north-texas-slashes-dozens-programs/816041/",
+      "title": "Oregon public colleges to face state review of operations, programs",
+      "url": "https://www.highereddive.com/news/oregon-public-colleges-state-review-restructuring/816410/",
       "source": "Higher Ed Dive",
-      "published": "2026-03-30",
-      "summary": "We’re rounding up recent stories, from an analysis of changes in net tuition prices to the Trump administration’s latest attacks on Harvard University.",
+      "published": "2026-04-02",
+      "summary": "Gov. Tina Kotek signed into law a measure mandating a study recommending ways to put the state's institutions on better financial footing.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
     },
     {
-      "id": "d02aa0bf409263c0",
+      "id": "b76152dd1fe9f881",
+      "category": "Federal Policy",
+      "title": "What can financial metrics actually tell college leaders about their programs?",
+      "url": "https://www.highereddive.com/news/college-program-cost-revenue-efficiency-metrics-cuts/816035/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-02",
+      "summary": "Measuring the costs and revenues of academic offerings isn't straightforward, but those accounting decisions have big implications in an era of austerity.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "8cbde16cf4681e44",
+      "category": "Federal Policy",
+      "title": "Higher ed groups urge GSA to rescind anti-DEI certification proposal",
+      "url": "https://www.highereddive.com/news/higher-ed-groups-urge-gsa-rescind-anti-dei-certification-proposal/816280/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-01",
+      "summary": "The General Services Administration proposed new certification requirements for federal funding recipients like colleges, raising alarms in the sector.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "49f2b40b0799e123",
+      "category": "Federal Policy",
+      "title": "More colleges get delay on submitting new admissions data",
+      "url": "https://www.highereddive.com/news/delay-acts-survey-aau-aicum/816266/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-31",
+      "summary": "A federal judge gave members of two higher education groups until April 14 before they must submit data on their applicants and admits by race and sex.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "af56cc7ecad4ebba",
       "category": "Academic Advising",
-      "title": "College Pays Off, but Location Matters",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/03/30/college-pays-not-equally",
+      "title": "Rethinking Aging on College Campuses",
+      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/04/02/rethinking-aging-college-campuses",
       "source": "Inside Higher Ed",
-      "published": "2026-03-30",
-      "summary": "College Pays Off, but Location Matters Joshua.Bay Mon, 03/30/2026 - 03:00 AM A new report from California Competes finds returns on bachelor’s and associate degrees depend on where students live. Byline(s) Joshua Bay",
+      "published": "2026-04-02",
+      "summary": "Rethinking Aging on College Campuses Joshua.Bay Thu, 04/02/2026 - 03:00 AM The University of California, Los Angeles, is expanding its age-friendly efforts with a task force and new website to support older adults and promote lifelong learning. Byline(s) Joshua Bay",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "29f7819460fec38f",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/04/headlines-1149/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1149",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-02",
+      "summary": "Unprofitable majors could be on chopping block at SC’s public colleges. Here’s why The State State House legislators want public colleges and universities to use tuition mitigation money to support “critical workforce disciplines,” and to... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "0d7d4887597c58dc",
+      "category": "Academic Advising",
+      "title": "Tackling the engineering shortage",
+      "url": "https://www.ccdaily.com/2026/04/tackling-the-engineering-shortage/?utm_source=rss&utm_medium=rss&utm_campaign=tackling-the-engineering-shortage",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-01",
+      "summary": "A new white paper from a mechanical engineering association highlights how community colleges can expand opportunities in the field for students while addressing the country’s engineer shortage. A two‑year initiative led by the American Society... The post Tackling the engineering shortage first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "6e0629b0e29ddff0",
+      "category": "Academic Advising",
+      "title": "Improving women’s experiences in internships",
+      "url": "https://www.ccdaily.com/2026/04/improving-womens-experiences-in-internships/?utm_source=rss&utm_medium=rss&utm_campaign=improving-womens-experiences-in-internships",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-01",
+      "summary": "Editor’s note: This article is based on a paper, “The Road Less Travel: Women’s Internship Experiences in College Automotive Technology Programs,” written by Townsend, Creamer and Mayhew, that has received the Distinguished Paper Award from... The post Improving women’s experiences in internships first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -299,76 +383,28 @@
       "score": 5
     },
     {
-      "id": "238d5e0062ddfc0c",
+      "id": "7b60919e79a5b696",
       "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1145/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1145",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-29",
-      "summary": "Legislation advances that would allow community colleges to award four-year degrees Capitol City Now An Illinois House committee has advanced legislation that would allow community colleges to offer bachelor’s degrees in certain high-demand fields. ‘A... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "46108e24056573c0",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1144/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1144",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-26",
-      "summary": "Education Department to leave headquarters, give building to Energy Department Washington Post Abandoning the D.C. headquarters is the Trump administration’s latest and most visible move toward eliminating the Education Department altogether. Clearing the lane for... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "7a3af0a2b9f059d9",
-      "category": "Academic Advising",
-      "title": "Learning to embrace uncertainty",
-      "url": "https://www.ccdaily.com/2026/03/learning-to-embrace-uncertainty/?utm_source=rss&utm_medium=rss&utm_campaign=learning-to-embrace-uncertainty",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-25",
-      "summary": "No one tells you that becoming a community college president means carrying hundreds of stories with you every day. When I stepped into the presidency at Coahoma Community College (Mississippi), I believed my years of... The post Learning to embrace uncertainty first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "a5920399b00aa7a0",
-      "category": "Academic Advising",
-      "title": "NACAC Summit Investigates How to Bring Admissions Into the 21st Century",
-      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/03/30/bringing-admissions-21st-century",
+      "title": "A Path Toward Equity in College Athletics Runs Through the Classroom",
+      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/04/02/path-toward-equity-athletics-runs-through-classroom",
       "source": "Inside Higher Ed",
-      "published": "2026-03-30",
-      "summary": "NACAC Summit Investigates How to Bring Admissions Into the 21st Century Johanna Alonso Mon, 03/30/2026 - 03:00 AM The event brought together over 100 stakeholders to discuss new ways to measure college readiness, after decades of the admissions process going relatively unchanged. Byline(s) Johanna Alonso",
+      "published": "2026-04-02",
+      "summary": "A Path Toward Equity in College Athletics Runs Through the Classroom sara.custer@in… Thu, 04/02/2026 - 03:00 AM Amid the chaos of college sports, giving academic credit for athletic competition could return control to institutions—and show every student that their sport matters. Byline(s) Sara Custer",
       "why_it_matters": "",
       "tags": [],
       "score": 4
     },
     {
-      "id": "a7824b6ea1955153",
-      "category": "Academic Advising",
-      "title": "Diversity Officers Gather to Grieve and Rally",
-      "url": "https://www.insidehighered.com/news/diversity/race-ethnicity/2026/03/30/diversity-officers-gather-grieve-and-rally",
-      "source": "Inside Higher Ed",
-      "published": "2026-03-30",
-      "summary": "Diversity Officers Gather to Grieve and Rally Sara Weissman Mon, 03/30/2026 - 03:00 AM Hundreds of diversity officers flocked to Philadelphia to attend the National Association of Diversity Officers in Higher Education conference, where they reflected on the past year and what lies ahead for the embattled field. Byline(s) Sara Weissman",
+      "id": "c301da669c97e3ac",
+      "category": "State Systems / Innovation",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1147/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1147",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-31",
+      "summary": "Rahm Emanuel announces plan to divert ICE money to community colleges Axios The former Democratic mayor of Chicago and White House chief of staff is proposing to take 20% of the $38.3 billion the Trump... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
-      "score": 4
-    },
-    {
-      "id": "99b3e70e217b32d5",
-      "category": "AI in Higher Ed",
-      "title": "Developing the Next Generation of Leaders",
-      "url": "https://er.educause.edu/podcasts/educause-and-the-integrative-cio/2026/developing-the-next-generation-of-leaders",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-19",
-      "summary": "Higher education leadership development is about intentionally cultivating people, not simply filling vacancies. By investing in mentorship, trust-building, and reflective engagement with younger generations, institutions can build the capacity needed to thrive over time.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
+      "score": 3
     },
     {
       "id": "ee445363cfbe5f67",
@@ -381,30 +417,6 @@
       "why_it_matters": "",
       "tags": [],
       "score": 3
-    },
-    {
-      "id": "f5f531ce5d3e4520",
-      "category": "State Systems / Innovation",
-      "title": "Hampshire College risks losing accreditation amid financial troubles",
-      "url": "https://www.highereddive.com/news/hampshire-college-risks-losing-accreditation-neche-debt-enrollment/815742/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-25",
-      "summary": "The New England Commission of Higher Education asked the institution to show why it should not be placed on probation or lose accreditation.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 2
-    },
-    {
-      "id": "88edfa57e651d1a1",
-      "category": "State Systems / Innovation",
-      "title": "University of Alabama students sue over suspended magazines",
-      "url": "https://www.highereddive.com/news/university-of-alabama-students-sue-censorship-suspended-magazines-alice-nineteen-fifty-six/815599/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-24",
-      "summary": "Plaintiffs say the university’s cancellation of two publications over their focus on women and Black audiences violated the First Amendment.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 2
     }
   ],
   "top_signals": [
@@ -540,27 +552,26 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "ed10b775e2bb43fe",
+      "id": "39d5d125774c42ec",
       "category": "Federal Policy",
-      "title": "H.R. 7844 (IH) - To provide the Secretary of Homeland Security with the authority to transfer funds between accounts under the Department of Homeland Security during a lapse in appropriations, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7844ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-26",
-      "summary": "PDF XML TEXT",
+      "title": "Re-focusing career navigation for students",
+      "url": "https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-02",
+      "summary": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 11,
-      "summary_for_brief": "PDF XML TEXT",
+      "score": 10,
+      "summary_for_brief": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
       "story_tags": [
-        "state_budget",
-        "transfer_reform"
+        "artificial_intelligence_in_higher_ed"
       ],
-      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
       ],
-      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     }
   ],
   "briefing_notes": [
@@ -670,20 +681,42 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "ed10b775e2bb43fe",
+      "id": "39d5d125774c42ec",
       "category": "Federal Policy",
-      "title": "H.R. 7844 (IH) - To provide the Secretary of Homeland Security with the authority to transfer funds between accounts under the Department of Homeland Security during a lapse in appropriations, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7844ih",
-      "source": "GovInfo Bills",
-      "published": "2026-03-26",
-      "summary": "PDF XML TEXT",
+      "title": "Re-focusing career navigation for students",
+      "url": "https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-02",
+      "summary": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 11,
-      "summary_for_brief": "PDF XML TEXT",
+      "score": 10,
+      "summary_for_brief": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
       "story_tags": [
-        "state_budget",
-        "transfer_reform"
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "8c899cbdb07cea3d",
+      "category": "Federal Policy",
+      "title": "Walla Walla Community College eyes 43 layoffs, closing a branch campus",
+      "url": "https://www.highereddive.com/news/walla-walla-community-college-layoffs-clarkston-campus-closure-plan/816018/",
+      "source": "Higher Ed Dive",
+      "published": "2026-03-27",
+      "summary": "The Washington institution may declare a financial emergency as it seeks $4.3 million in savings for a budget under strain from rising costs.",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "The Washington institution may declare a financial emergency as it seeks $4.3 million in savings for a budget under strain from rising costs.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "state_budget"
       ],
       "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
@@ -693,17 +726,40 @@
       "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
     },
     {
-      "id": "df94acaf9060c78d",
+      "id": "9bd4705a113980e2",
       "category": "Federal Policy",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1143/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1143",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-25",
-      "summary": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
+      "title": "How Bard College Became a Major Real Estate Player 20 Miles Away",
+      "url": "https://www.nytimes.com/2026/03/30/business/bard-college-hudson-ny.html",
+      "source": "NYT Education",
+      "published": "2026-03-30",
+      "summary": "A nonprofit foundation donated $82 million worth of properties in Hudson, N.Y., to the school, which has provided few details about its plans.",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 10,
-      "summary_for_brief": "Commentary: State legislatures weighing in on Workforce Pell New America (blog) With legislative sessions in full swing, 14 state legislatures have introduced bills that affect Workforce Pell implementation. Washington’s co-op preschools face existential crisis after... The post Headlines first appeared on Community College Daily .",
+      "score": 7,
+      "summary_for_brief": "A nonprofit foundation donated $82 million worth of properties in Hudson, N.Y., to the school, which has provided few details about its plans.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "8d501922fa8fe9b3",
+      "category": "Federal Policy",
+      "title": "N.Y.U. Closes Its Abu Dhabi Campus as Iran Vows Retaliation for Strikes",
+      "url": "https://www.nytimes.com/2026/03/30/nyregion/nyu-abu-dhabi-campus-closed.html",
+      "source": "NYT Education",
+      "published": "2026-03-31",
+      "summary": "After a university in Tehran was struck during the war, Iranian leaders said that the outposts of U.S. schools were “legitimate targets.”",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "After a university in Tehran was struck during the war, Iranian leaders said that the outposts of U.S. schools were “legitimate targets.”",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -715,43 +771,22 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "004c680202426cca",
-      "category": "Federal Policy",
-      "title": "Education Department now has 10 interagency agreements: Here are the details",
-      "url": "https://www.highereddive.com/news/education-department-interagency-agreements-HHS-Labor-Treasury-table/815884/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-27",
-      "summary": "Supporters say outsourcing will reduce federal bureaucracy. Critics claim it adds confusion to federal grantmaking and technical support services.",
-      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
-      "tags": [],
-      "score": 9,
-      "summary_for_brief": "Supporters say outsourcing will reduce federal bureaucracy. Critics claim it adds confusion to federal grantmaking and technical support services.",
-      "story_tags": [
-        "artificial_intelligence_in_higher_ed"
-      ],
-      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "f3922911b9ac4103",
-      "category": "Federal Policy",
-      "title": "Pay-for-performance: A new frontier for apprenticeship funding",
-      "url": "https://www.ccdaily.com/2026/03/pay-for-performance-a-new-frontier-for-apprenticeship-funding/?utm_source=rss&utm_medium=rss&utm_campaign=pay-for-performance-a-new-frontier-for-apprenticeship-funding",
+      "id": "4613dac5b777e64a",
+      "category": "Academic Advising",
+      "title": "5 intentional shifts for the community college student success movement",
+      "url": "https://www.ccdaily.com/2026/03/5-intentional-shifts-for-the-community-college-student-success-movement/?utm_source=rss&utm_medium=rss&utm_campaign=5-intentional-shifts-for-the-community-college-student-success-movement",
       "source": "AACC Community College Daily",
-      "published": "2026-03-29",
-      "summary": "While apprenticeships are surging in popularity — bolstered by a 2025 executive order aiming for one million new federal registered apprenticeships — some experts suggest that tying funding to results could be the key to... The post Pay-for-performance: A new frontier for apprenticeship funding first appeared on Community College Daily .",
-      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "published": "2026-03-31",
+      "summary": "The movement to increase community college student success has never been short on ideas. For two decades, hundreds of institutions have reshaped what student progress looks like and the meaning of institutional responsibility. Faculty and... The post 5 intentional shifts for the community college student success movement first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
       "score": 8,
-      "summary_for_brief": "While apprenticeships are surging in popularity — bolstered by a 2025 executive order aiming for one million new federal registered apprenticeships — some experts suggest that tying funding to results could be the key to... The post Pay-for-performance: A new frontier for apprenticeship funding first appeared on Community College Daily .",
+      "summary_for_brief": "The movement to increase community college student success has never been short on ideas. For two decades, hundreds of institutions have reshaped what student progress looks like and the meaning of institutional responsibility. Faculty and... The post 5 intentional shifts for the community college student success movement first appeared on Community College Daily .",
       "story_tags": [
-        "artificial_intelligence_in_higher_ed"
+        "artificial_intelligence_in_higher_ed",
+        "student_support_infrastructure"
       ],
-      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
         "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
@@ -782,68 +817,94 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "d02aa0bf409263c0",
+      "id": "f8c1875bd3800088",
       "category": "Academic Advising",
-      "title": "College Pays Off, but Location Matters",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/03/30/college-pays-not-equally",
+      "title": "H.R. 8010 (IH) - VA Police Recruitment and Retention Act of 2026",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8010ih",
+      "source": "GovInfo Bills",
+      "published": "2026-04-02",
+      "summary": "PDF XML TEXT",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "PDF XML TEXT",
+      "story_tags": [
+        "student_support_infrastructure"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "8776bcd876de2683",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/04/headlines-1148/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1148",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-01",
+      "summary": "Thousands of Texas students lose college credits when transferring. Here are pitfalls to avoid. Texas Tribune Recent data from the Texas Higher Education Coordinating Board offers a window into why students are losing out on... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "Thousands of Texas students lose college credits when transferring. Here are pitfalls to avoid. Texas Tribune Recent data from the Texas Higher Education Coordinating Board offers a window into why students are losing out on... The post Headlines first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "transfer_reform"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "f5075beb30501f40",
+      "category": "AI in Higher Ed",
+      "title": "Despite Skepticism, Survey Shows Widespread AI Use at Cal State",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/04/02/despite-skepticism-widespread-ai-use-cal",
       "source": "Inside Higher Ed",
-      "published": "2026-03-30",
-      "summary": "College Pays Off, but Location Matters Joshua.Bay Mon, 03/30/2026 - 03:00 AM A new report from California Competes finds returns on bachelor’s and associate degrees depend on where students live. Byline(s) Joshua Bay",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "published": "2026-04-02",
+      "summary": "Despite Skepticism, Survey Shows Widespread AI Use at Cal State kathryn.palmer… Thu, 04/02/2026 - 03:00 AM ChatGPT is the preferred AI tool of the nation’s largest higher education system, according to a survey of 94,000 students, faculty and staff across California State University institutions. Byline(s) Kathryn Palmer",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
-      "score": 5,
-      "summary_for_brief": "College Pays Off, but Location Matters Joshua.Bay Mon, 03/30/2026 - 03:00 AM A new report from California Competes finds returns on bachelor’s and associate degrees depend on where students live. Byline(s) Joshua Bay",
-      "story_tags": [],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "score": 8,
+      "summary_for_brief": "Despite Skepticism, Survey Shows Widespread AI Use at Cal State kathryn.palmer… Thu, 04/02/2026 - 03:00 AM ChatGPT is the preferred AI tool of the nation’s largest higher education system, according to a survey of 94,000 students, faculty and staff across California State University institutions. Byline(s) Kathryn Palmer",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The deeper issue is whether institutions are moving from AI curiosity to real implementation supported by governance, staffing, and strategy.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "This appears to be a system-level initiative outside Massachusetts, which makes it useful as a benchmark rather than just a local news item."
+        "This appears to be a system-level initiative outside Massachusetts, which makes it useful as a benchmark rather than just a local news item.",
+        "For Massachusetts, the more important question is not whether AI tools exist, but whether there is meaningful investment in governed, student-centered implementation."
       ],
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "3a7d8326da79ffd3",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1146/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1146",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-30",
-      "summary": "How young people are navigating a tough and rapidly changing job market All Things Considered (National Public Radio) How worried should young job seekers be? It depends on what field these new grads are going... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "id": "e0600f98a61afccc",
+      "category": "AI in Higher Ed",
+      "title": "Too Many Tools, Not Enough Impact: Districts Rethink Their Edtech Stacks",
+      "url": "https://www.edsurge.com/news/2026-04-02-too-many-tools-not-enough-impact-districts-rethink-their-edtech-stacks",
+      "source": "EdSurge",
+      "published": "2026-04-02",
+      "summary": "QUALITY OVER QUANTITY: A re-examination of digital tools was already underway in districts, as part of curriculum reviews and budget trimming after ...",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
-      "score": 5,
-      "summary_for_brief": "How young people are navigating a tough and rapidly changing job market All Things Considered (National Public Radio) How worried should young job seekers be? It depends on what field these new grads are going... The post Headlines first appeared on Community College Daily .",
+      "score": 7,
+      "summary_for_brief": "QUALITY OVER QUANTITY: A re-examination of digital tools was already underway in districts, as part of curriculum reviews and budget trimming after ...",
       "story_tags": [
-        "artificial_intelligence_in_higher_ed"
+        "state_budget"
       ],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
       ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "238d5e0062ddfc0c",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/03/headlines-1145/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1145",
-      "source": "AACC Community College Daily",
-      "published": "2026-03-29",
-      "summary": "Legislation advances that would allow community colleges to award four-year degrees Capitol City Now An Illinois House committee has advanced legislation that would allow community colleges to offer bachelor’s degrees in certain high-demand fields. ‘A... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
-      "tags": [],
-      "score": 5,
-      "summary_for_brief": "Legislation advances that would allow community colleges to award four-year degrees Capitol City Now An Illinois House committee has advanced legislation that would allow community colleges to offer bachelor’s degrees in certain high-demand fields. ‘A... The post Headlines first appeared on Community College Daily .",
-      "story_tags": [
-        "artificial_intelligence_in_higher_ed"
-      ],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
     },
     {
       "id": "32755fd4bbdde781",
@@ -869,17 +930,17 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "ab41ee45230b07ba",
+      "id": "0ee29f8f7bbe1375",
       "category": "AI in Higher Ed",
-      "title": "From Prompt to Practice: A Framework for Transparent GenAI Use in Higher Education",
-      "url": "https://er.educause.edu/articles/2026/3/from-prompt-to-practice-a-framework-for-transparent-genai-use-in-higher-education",
+      "title": "Advancing AI Literacy: A Faculty Course Refresh Institute at Indiana Wesleyan University",
+      "url": "https://er.educause.edu/articles/2026/3/advancing-ai-literacy-a-faculty-course-refresh-institute-at-indiana-wesleyan-university",
       "source": "EDUCAUSE Review",
-      "published": "2026-03-18",
-      "summary": "As generative artificial intelligence reshapes instructional workflows at colleges and universities, a four-level transparency framework can help education developers calibrate documentation and disclosure practices to support ethical responsibility and maintain student trust.",
+      "published": "2026-03-31",
+      "summary": "Redesigning learning experiences, not just adding tools, can build faculty confidence and develop students’ critical, ethical, and applied AI literacy.",
       "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
-      "score": 7,
-      "summary_for_brief": "As generative artificial intelligence reshapes instructional workflows at colleges and universities, a four-level transparency framework can help education developers calibrate documentation and disclosure practices to support ethical responsibility and maintain student trust.",
+      "score": 6,
+      "summary_for_brief": "Redesigning learning experiences, not just adding tools, can build faculty confidence and develop students’ critical, ethical, and applied AI literacy.",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -891,46 +952,50 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "99b3e70e217b32d5",
-      "category": "AI in Higher Ed",
-      "title": "Developing the Next Generation of Leaders",
-      "url": "https://er.educause.edu/podcasts/educause-and-the-integrative-cio/2026/developing-the-next-generation-of-leaders",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-19",
-      "summary": "Higher education leadership development is about intentionally cultivating people, not simply filling vacancies. By investing in mentorship, trust-building, and reflective engagement with younger generations, institutions can build the capacity needed to thrive over time.",
-      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
-      "tags": [],
-      "score": 4,
-      "summary_for_brief": "Higher education leadership development is about intentionally cultivating people, not simply filling vacancies. By investing in mentorship, trust-building, and reflective engagement with younger generations, institutions can build the capacity needed to thrive over time.",
-      "story_tags": [],
-      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
-      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
-      "comparison_points": [],
-      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
-    },
-    {
-      "id": "cbd1a6911ca2eecc",
+      "id": "2ef322ec6298ab4e",
       "category": "State Systems / Innovation",
-      "title": "H. Res. 1131 (EH) - Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hres1131eh",
-      "source": "GovInfo Bills",
-      "published": "2026-03-26",
-      "summary": "PDF XML TEXT",
+      "title": "Community College Bachelor’s Degrees and Credit for Prior Learning",
+      "url": "https://www.insidehighered.com/opinion/columns/beyond-transfer/2026/04/02/community-college-4-year-degrees-let-prior-learning",
+      "source": "Inside Higher Ed",
+      "published": "2026-04-02",
+      "summary": "Community College Bachelor’s Degrees and Credit for Prior Learning quintina.barne… Thu, 04/02/2026 - 03:00 AM Solving the CPL transfer challenge. Byline(s) Becky Klein-Collins William McKinney",
       "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
       "tags": [],
-      "score": 6,
-      "summary_for_brief": "PDF XML TEXT",
+      "score": 7,
+      "summary_for_brief": "Community College Bachelor’s Degrees and Credit for Prior Learning quintina.barne… Thu, 04/02/2026 - 03:00 AM Solving the CPL transfer challenge. Byline(s) Becky Klein-Collins William McKinney",
       "story_tags": [
         "credit_for_prior_learning",
-        "state_budget",
         "transfer_reform"
       ],
-      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
+      "core_story": "This is not just a technology or innovation story. It is a public-investment story about whether a state is building enough system capacity to recognize learning, accelerate mobility, and modernize student pathways.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
+        "The underlying issue for Massachusetts is whether community colleges are being given enough policy and operational support to scale credit for prior learning rather than treating it as a niche practice."
       ],
-      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
+      "recommended_angle": "Use this as a Massachusetts-facing policy brief: if another large public system is investing in AI-enabled credit for prior learning, what would it take for Massachusetts to build similar capacity?"
+    },
+    {
+      "id": "c301da669c97e3ac",
+      "category": "State Systems / Innovation",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/03/headlines-1147/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1147",
+      "source": "AACC Community College Daily",
+      "published": "2026-03-31",
+      "summary": "Rahm Emanuel announces plan to divert ICE money to community colleges Axios The former Democratic mayor of Chicago and White House chief of staff is proposing to take 20% of the $38.3 billion the Trump... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
+      "tags": [],
+      "score": 3,
+      "summary_for_brief": "Rahm Emanuel announces plan to divert ICE money to community colleges Axios The former Democratic mayor of Chicago and White House chief of staff is proposing to take 20% of the $38.3 billion the Trump... The post Headlines first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
       "id": "ee445363cfbe5f67",
@@ -946,51 +1011,6 @@
       "summary_for_brief": "The U.S. Navy announced Monday that it will provide $30 million to the Alabama Community College System (ACCS) to modernize and expand maritime workforce training at four south Alabama community colleges. The funding will help... The post Navy pledges $30M to shipbuilding training in Alabama first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
-      ],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "f5f531ce5d3e4520",
-      "category": "State Systems / Innovation",
-      "title": "Hampshire College risks losing accreditation amid financial troubles",
-      "url": "https://www.highereddive.com/news/hampshire-college-risks-losing-accreditation-neche-debt-enrollment/815742/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-25",
-      "summary": "The New England Commission of Higher Education asked the institution to show why it should not be placed on probation or lose accreditation.",
-      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
-      "tags": [],
-      "score": 2,
-      "summary_for_brief": "The New England Commission of Higher Education asked the institution to show why it should not be placed on probation or lose accreditation.",
-      "story_tags": [
-        "credit_for_prior_learning"
-      ],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "88edfa57e651d1a1",
-      "category": "State Systems / Innovation",
-      "title": "University of Alabama students sue over suspended magazines",
-      "url": "https://www.highereddive.com/news/university-of-alabama-students-sue-censorship-suspended-magazines-alice-nineteen-fifty-six/815599/",
-      "source": "Higher Ed Dive",
-      "published": "2026-03-24",
-      "summary": "Plaintiffs say the university’s cancellation of two publications over their focus on women and Black audiences violated the First Amendment.",
-      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
-      "tags": [],
-      "score": 2,
-      "summary_for_brief": "Plaintiffs say the university’s cancellation of two publications over their focus on women and Black audiences violated the First Amendment.",
-      "story_tags": [
-        "artificial_intelligence_in_higher_ed",
-        "credit_for_prior_learning"
       ],
       "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
@@ -1015,8 +1035,8 @@
     },
     {
       "title": "Federal higher-ed policy watch",
-      "text": "A federal higher-ed development on my radar this week is H.R. 7844 (IH) - To provide the Secretary of Homeland Security with the authority to transfer funds between accounts under the Department of Homeland Security during a lapse in appropriations, and for other purposes. (https://www.govinfo.gov/app/details/BILLS-119hr7844ih).\n\nPDF XML TEXT\n\nThe most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.\n\nCommunity colleges are often the institutions that feel these shifts first.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising",
-      "source_item_id": "ed10b775e2bb43fe",
+      "text": "A federal higher-ed development on my radar this week is Re-focusing career navigation for students (https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students).\n\nNow more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .\n\nThe most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.\n\nWhy this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.\n\nCommunity colleges are often the institutions that feel these shifts first.\n\n#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising",
+      "source_item_id": "39d5d125774c42ec",
       "draft_type": "federal_watch"
     },
     {
@@ -1027,6 +1047,10 @@
     }
   ],
   "archive": [
+    {
+      "label": "Week of 2026-03-30",
+      "url": "data/archive/2026-03-30.json"
+    },
     {
       "label": "Week of 2026-03-30",
       "url": "data/archive/2026-03-30.json"
