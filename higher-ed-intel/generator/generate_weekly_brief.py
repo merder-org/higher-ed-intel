@@ -231,9 +231,9 @@ def detect_story_tags(item: dict) -> List[str]:
         ],
         "artificial_intelligence_in_higher_ed": [
             "artificial intelligence",
-            "ai",
             "generative ai",
             "chatgpt",
+            "ai",
         ],
         "transfer_reform": [
             "transfer",
@@ -246,6 +246,16 @@ def detect_story_tags(item: dict) -> List[str]:
             "retention",
             "completion",
             "wraparound",
+        ],
+        "federal_rulemaking_or_grants": [
+            "proposed rule",
+            "final rule",
+            "rulemaking",
+            "federal register",
+            "grant competition",
+            "department of education",
+            "department of labor",
+            "grant",
         ],
     }
 
@@ -273,6 +283,7 @@ def needs_state_comparison(item: dict, target_state: str, comparative_mode: bool
         "artificial_intelligence_in_higher_ed",
         "transfer_reform",
         "student_support_infrastructure",
+        "federal_rulemaking_or_grants",
     }
 
     if any(tag in trigger_tags for tag in tags):
@@ -308,6 +319,11 @@ def build_comparison_points(item: dict, target_state: str) -> List[str]:
             f"This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in {target_state}?"
         )
 
+    if "grant" in text or "department of labor" in text or "department of education" in text:
+        points.append(
+            f"For {target_state}, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so."
+        )
+
     if not points:
         points.append(
             f"This story may offer a useful comparison point for policy and practice in {target_state}, especially if leaders are asking whether ambition is matched by implementation capacity."
@@ -332,6 +348,10 @@ def build_core_story(item: dict, target_state: str, comparative_mode: bool) -> s
             return (
                 "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity."
             )
+        if "grant" in text or "rule" in text or "department of labor" in text or "department of education" in text:
+            return (
+                "The core story here is about whether colleges are ready to act on a major policy or funding shift before it becomes routine sector news."
+            )
 
     cat = item.get("category", "")
     if cat == "MA Budget / SUCCESS":
@@ -340,6 +360,8 @@ def build_core_story(item: dict, target_state: str, comparative_mode: bool) -> s
         return "The core story is how policy shifts translate into operational consequences for colleges and students."
     if cat == "AI in Higher Ed":
         return "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support."
+    if cat == "Academic Advising":
+        return "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function."
 
     return "The core story is the operational and strategic meaning of this development for community colleges."
 
@@ -367,6 +389,10 @@ def build_recommended_angle(item: dict, target_state: str, comparative_mode: boo
             return (
                 f"Frame this as an investment-gap question for {target_state}: are leaders expecting community colleges to do system-changing work without system-level funding?"
             )
+        if "grant" in text or "rule" in text:
+            return (
+                f"Use this as an early signal: what would it take for community colleges in {target_state} to be ahead of this development rather than reacting to it later?"
+            )
         return (
             f"Use this as a policy comparison story that helps leaders in {target_state} think about investment, implementation, and institutional capacity."
         )
@@ -386,7 +412,119 @@ def enrich_item(item: dict, target_state: str, comparative_mode: bool) -> dict:
     return enriched
 
 
+def signal_priority(item: dict) -> int:
+    text = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}".lower()
+    s = int(item.get("score", 0))
+
+    high_signal_terms = [
+        "proposed rule",
+        "final rule",
+        "rulemaking",
+        "federal register",
+        "grant competition",
+        "department of education",
+        "department of labor",
+        "appropriation",
+        "budget",
+        "ways and means",
+        "massachusetts",
+        "community college success fund",
+        "success fund",
+        "report",
+        "initiative",
+        "research",
+        "survey",
+        "policy",
+        "guidance",
+        "workforce pell",
+        "grant",
+    ]
+
+    for term in high_signal_terms:
+        if term in text:
+            s += 3
+
+    low_value_terms = [
+        "podcast",
+        "opinion",
+        "event recap",
+        "webinar",
+        "sponsored",
+        "advertisement",
+    ]
+
+    for term in low_value_terms:
+        if term in text:
+            s -= 3
+
+    return s
+
+
+def classify_signal_theme(item: dict) -> str:
+    text = f"{item.get('title','')} {item.get('summary','')}".lower()
+
+    if any(k in text for k in ["workforce pell", "short-term", "pell", "training grant", "department of labor", "workforce"]):
+        return "Workforce Pell and short-term pathways"
+
+    if any(k in text for k in ["7100-4002", "success fund", "massachusetts budget", "massdhe", "massachusetts", "appropriation"]):
+        return "Massachusetts student success infrastructure"
+
+    if any(k in text for k in ["advising", "advisor", "student success", "retention", "completion", "transfer", "holistic advising"]):
+        return "Advising and student support"
+
+    if any(k in text for k in ["artificial intelligence", "generative ai", "chatgpt", "edtech", "ai policy", "ai governance"]):
+        return "AI implementation and governance"
+
+    return "Other"
+
+
+def build_signal_statement(theme: str, items: List[dict], target_state: str, comparative_mode: bool) -> dict:
+    top = sorted(items, key=signal_priority, reverse=True)[0]
+    enriched = enrich_item(top, target_state, comparative_mode)
+
+    if theme == "Workforce Pell and short-term pathways":
+        claim = "Federal policy is accelerating the shift toward short-term, workforce-aligned programs as a central community college strategy."
+        implication = "Community colleges will need stronger advising, employer alignment, and outcomes reporting if they want to benefit from the next phase of federal support."
+    elif theme == "Massachusetts student success infrastructure":
+        claim = f"{target_state} is increasingly treating advising, transfer support, and wraparound services as core completion infrastructure rather than optional supports."
+        implication = "The key question is no longer whether these supports matter, but whether colleges and the state can fund and scale them effectively."
+    elif theme == "Advising and student support":
+        claim = "Advising is emerging as a structural lever for completion, transfer, and workforce success—not just a student-services function."
+        implication = "Colleges that treat advising as institutional infrastructure will be better positioned than those relying on fragmented or purely reactive models."
+    elif theme == "AI implementation and governance":
+        claim = "AI adoption in higher education is outpacing institutional clarity about governance, training, and appropriate use."
+        implication = "The institutions that benefit most will be the ones that define clear use cases and guardrails before AI becomes embedded everywhere."
+    else:
+        claim = enriched["summary_for_brief"]
+        implication = enriched["why_it_matters"]
+
+    enriched["theme"] = theme
+    enriched["claim"] = claim
+    enriched["implication"] = implication
+    return enriched
+
+
+def build_signals(items: List[dict], target_state: str, comparative_mode: bool) -> List[dict]:
+    themed: dict[str, List[dict]] = {}
+
+    for item in items:
+        theme = classify_signal_theme(item)
+        if theme == "Other":
+            continue
+        themed.setdefault(theme, []).append(item)
+
+    signals = []
+    for theme, theme_items in themed.items():
+        if theme_items:
+            signals.append(build_signal_statement(theme, theme_items, target_state, comparative_mode))
+
+    return sorted(signals, key=signal_priority, reverse=True)[:4]
+
+
 def build_top_signals(items: List[dict], target_state: str, comparative_mode: bool) -> List[dict]:
+    signals = build_signals(items, target_state, comparative_mode)
+    if signals:
+        return signals
     top = sorted(items, key=lambda x: x.get("score", 0), reverse=True)[:6]
     return [enrich_item(item, target_state, comparative_mode) for item in top]
 
@@ -404,7 +542,7 @@ def build_briefing_notes(items: List[dict], categories: List[str], target_state:
 def select_feature_story(items: List[dict], target_state: str, comparative_mode: bool) -> Optional[dict]:
     candidates = [x for x in items if needs_state_comparison(x, target_state, comparative_mode)]
     if candidates:
-        return sorted(candidates, key=lambda x: x.get("score", 0), reverse=True)[0]
+        return sorted(candidates, key=signal_priority, reverse=True)[0]
     return None
 
 
@@ -433,10 +571,7 @@ def build_policy_comparison_draft(item: dict, target_state: str) -> dict:
 
 
 def build_linkedin_drafts(items: List[dict], target_state: str, comparative_mode: bool) -> List[dict]:
-    ordered = sorted(items, key=lambda x: x.get("score", 0), reverse=True)
-
-    def top(cat: str):
-        return next((x for x in ordered if x.get("category") == cat), None)
+    ordered = sorted(items, key=signal_priority, reverse=True)
 
     if not ordered:
         return [
@@ -451,15 +586,42 @@ def build_linkedin_drafts(items: List[dict], target_state: str, comparative_mode
             }
         ]
 
-    drafts = []
+    drafts: List[dict] = []
 
     feature = select_feature_story(ordered, target_state, comparative_mode)
     if feature:
+        feature = enrich_item(feature, target_state, comparative_mode)
         drafts.append(build_policy_comparison_draft(feature, target_state))
 
-    ma = top("MA Budget / SUCCESS") or ordered[0]
-    fed = top("Federal Policy") or top("Academic Advising") or ordered[min(1, len(ordered) - 1)]
-    ai = top("AI in Higher Ed") or ordered[min(2, len(ordered) - 1)]
+    signals = build_signals(ordered, target_state, comparative_mode)
+    if signals:
+        for signal in signals[:3]:
+            drafts.append(
+                {
+                    "title": signal["theme"],
+                    "text": (
+                        f"{signal['claim']}\n\n"
+                        f"A good example is {signal['title']} ({signal['url']}). {signal['summary_for_brief']}\n\n"
+                        f"What matters for community colleges is this: {signal['implication']}\n\n"
+                        "That is where the real strategic question sits right now—not just what changed, but how institutions respond.\n\n"
+                        + (
+                            f"#{target_state.replace(' ', '')} #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy"
+                            if signal["theme"] == "Massachusetts student success infrastructure"
+                            else "#HigherEdPolicy #CommunityColleges #StudentSuccess #AcademicAdvising #EdTech"
+                        )
+                    ),
+                    "source_item_id": signal.get("id", ""),
+                    "draft_type": "signal_interpretation",
+                }
+            )
+        return drafts[:4]
+
+    def top(cat: str):
+        return next((x for x in ordered if x.get("category") == cat), None)
+
+    ma = enrich_item(top("MA Budget / SUCCESS") or ordered[0], target_state, comparative_mode)
+    fed = enrich_item(top("Federal Policy") or top("Academic Advising") or ordered[min(1, len(ordered) - 1)], target_state, comparative_mode)
+    ai = enrich_item(top("AI in Higher Ed") or ordered[min(2, len(ordered) - 1)], target_state, comparative_mode)
 
     drafts.append(
         {
@@ -512,7 +674,7 @@ def build_linkedin_drafts(items: List[dict], target_state: str, comparative_mode
         }
     )
 
-    return drafts
+    return drafts[:4]
 
 
 def force_story_item(force_story_url: str, items: List[dict]) -> Optional[dict]:
@@ -527,7 +689,7 @@ def force_story_item(force_story_url: str, items: List[dict]) -> Optional[dict]:
 
 def write_rss(site_title: str, site_link: str, items: List[dict], out_path: Path, build_dt: datetime) -> None:
     now = build_dt.strftime("%a, %d %b %Y %H:%M:%S %z")
-    top = sorted(items, key=lambda x: x.get("score", 0), reverse=True)[:25]
+    top = sorted(items, key=signal_priority, reverse=True)[:25]
 
     parts = [
         '<?xml version="1.0" encoding="UTF-8" ?>',
@@ -706,7 +868,7 @@ def main() -> None:
         cat_items = sorted(cat_items, key=lambda x: x.get("score", 0), reverse=True)[:max_per_cat]
         kept.extend(cat_items)
 
-    kept = sorted(kept, key=lambda x: x.get("score", 0), reverse=True)[:max_total]
+    kept = sorted(kept, key=signal_priority, reverse=True)[:max_total]
 
     week = monday_of_week(build_dt.date()).isoformat()
 
@@ -726,7 +888,7 @@ def main() -> None:
         linkedin_drafts.insert(0, forced_draft)
 
     brief = {
-        "schema_version": "3.0",
+        "schema_version": "4.0",
         "week_of": week,
         "generated_at": build_dt.strftime("%Y-%m-%d %H:%M ET"),
         "target_state": target_state,
