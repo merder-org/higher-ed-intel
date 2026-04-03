@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-03-30
 
-_Generated: 2026-04-02 15:35 ET_
+_Generated: 2026-04-03 13:45 ET_
 
 _Target state: Massachusetts_
 
@@ -24,51 +24,45 @@ That is where the real policy conversation should begin.
 
 ---
 
-### Massachusetts community college policy watch
+### Massachusetts student success infrastructure
 
-One Massachusetts development worth watching this week is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/).
+Massachusetts is increasingly treating advising, transfer support, and wraparound services as core completion infrastructure rather than optional supports.
 
-Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
+A good example is MA Budget: Community College SUCCESS Fund (7100-4002) (https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/). Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
 
-What stands out to me is that community college policy is increasingly about more than access alone. The deeper issue is whether institutions have enough advising, transfer, and wraparound-support capacity to convert access into persistence and completion.
+What matters for community colleges is this: The key question is no longer whether these supports matter, but whether colleges and the state can fund and scale them effectively.
 
-Why this matters: Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.
-
-For colleges, that is where the real work is.
+That is where the real strategic question sits right now—not just what changed, but how institutions respond.
 
 #Massachusetts #CommunityColleges #StudentSuccess #AcademicAdvising #HigherEdPolicy
 
 ---
 
-### Federal higher-ed policy watch
+### Workforce Pell and short-term pathways
 
-A federal higher-ed development on my radar this week is Re-focusing career navigation for students (https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students).
+Federal policy is accelerating the shift toward short-term, workforce-aligned programs as a central community college strategy.
 
-Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .
+A good example is Re-focusing career navigation for students (https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students). Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .
 
-The most important thing about developments like this is not just the policy language itself. It is the operational effect on colleges: advising conversations, aid guidance, workforce programming, reporting obligations, and institutional planning.
+What matters for community colleges is this: Community colleges will need stronger advising, employer alignment, and outcomes reporting if they want to benefit from the next phase of federal support.
 
-Why this matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.
+That is where the real strategic question sits right now—not just what changed, but how institutions respond.
 
-Community colleges are often the institutions that feel these shifts first.
-
-#HigherEdPolicy #CommunityColleges #FinancialAid #StudentSuccess #AcademicAdvising
+#HigherEdPolicy #CommunityColleges #StudentSuccess #AcademicAdvising #EdTech
 
 ---
 
-### AI in higher ed: practical implications
+### Advising and student support
 
-One AI-related higher-ed signal I’m tracking this week is MassReconnect (https://www.mass.edu/osfa/programs/massreconnect.asp).
+Advising is emerging as a structural lever for completion, transfer, and workforce success—not just a student-services function.
 
-Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.
+A good example is MassTransfer (https://www.mass.edu/masstransfer/). Anchor page for Massachusetts transfer policy, useful when comparing other states’ transfer, articulation, and pathway reforms.
 
-The real issue for colleges is not whether AI is coming. It is whether institutions can move beyond hype and define useful, governed, student-centered applications. That is especially important in advising, teaching, and student-support settings.
+What matters for community colleges is this: Colleges that treat advising as institutional infrastructure will be better positioned than those relying on fragmented or purely reactive models.
 
-Why this matters: Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.
+That is where the real strategic question sits right now—not just what changed, but how institutions respond.
 
-The colleges that benefit most will likely be the ones that combine experimentation with clear guardrails, staff development, and a strong sense of where human judgment still matters most.
-
-#AIinEducation #HigherEdLeadership #AcademicAdvising #StudentSuccess #EdTech
+#HigherEdPolicy #CommunityColleges #StudentSuccess #AcademicAdvising #EdTech
 
 ---
 
@@ -88,44 +82,16 @@ The colleges that benefit most will likely be the ones that combine experimentat
 - Comparison points:
   - This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?
 
-### MassEducate
+### Re-focusing career navigation for students
 
-- Category: MA Budget / SUCCESS
-- Source: mass.edu (N/A)
-- Link: https://www.mass.edu/osfa/programs/masseducate.asp
-- Summary: Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.
-- Core story: The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.
+- Category: Federal Policy
+- Source: AACC Community College Daily (2026-04-02)
+- Link: https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students
+- Summary: Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .
+- Core story: The core story is how policy shifts translate into operational consequences for colleges and students.
 - State relevance: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.
 - Recommended angle: Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.
-- Why it matters: Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.
-
-- Comparison points:
-  - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
-
-### MassReconnect
-
-- Category: MA Budget / SUCCESS
-- Source: mass.edu (N/A)
-- Link: https://www.mass.edu/osfa/programs/massreconnect.asp
-- Summary: Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.
-- Core story: The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.
-- State relevance: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.
-- Recommended angle: Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.
-- Why it matters: Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.
-
-- Comparison points:
-  - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
-
-### MassDHE News Clips: Community Colleges
-
-- Category: MA Budget / SUCCESS
-- Source: mass.edu (N/A)
-- Link: https://www.mass.edu/newsclips/ccsystem.asp
-- Summary: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
-- Core story: The core story is whether policy commitments are being matched by the student-support infrastructure needed to improve persistence and completion.
-- State relevance: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.
-- Recommended angle: Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.
-- Why it matters: MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.
+- Why it matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.
 
 - Comparison points:
   - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
@@ -144,16 +110,16 @@ The colleges that benefit most will likely be the ones that combine experimentat
 - Comparison points:
   - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
 
-### Re-focusing career navigation for students
+### Too Many Tools, Not Enough Impact: Districts Rethink Their Edtech Stacks
 
-- Category: Federal Policy
-- Source: AACC Community College Daily (2026-04-02)
-- Link: https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students
-- Summary: Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .
-- Core story: The core story is how policy shifts translate into operational consequences for colleges and students.
+- Category: AI in Higher Ed
+- Source: EdSurge (2026-04-02)
+- Link: https://www.edsurge.com/news/2026-04-02-too-many-tools-not-enough-impact-districts-rethink-their-edtech-stacks
+- Summary: QUALITY OVER QUANTITY: A re-examination of digital tools was already underway in districts, as part of curriculum reviews and budget trimming after ...
+- Core story: The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.
 - State relevance: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.
-- Recommended angle: Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.
-- Why it matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.
+- Recommended angle: Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?
+- Why it matters: Relevant to AI governance, staff development, classroom use, or student-support operations.
 
 - Comparison points:
-  - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
+  - This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?
