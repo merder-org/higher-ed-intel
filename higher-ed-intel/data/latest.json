@@ -1,7 +1,7 @@
 {
   "schema_version": "4.0",
   "week_of": "2026-04-06",
-  "generated_at": "2026-04-06 15:40 ET",
+  "generated_at": "2026-04-09 15:49 ET",
   "target_state": "Massachusetts",
   "comparative_mode": true,
   "forced_story_url": "",
@@ -31,25 +31,13 @@
       "score": 14
     },
     {
-      "id": "5b686807fc916eb2",
+      "id": "7e5262b44a0584bf",
       "category": "Federal Policy",
-      "title": "TRIO Grant Competitions Prioritize Workforce Pipelines",
-      "url": "https://www.insidehighered.com/news/students/careers/2026/04/06/trio-grant-competitions-prioritize-workforce-pipelines",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-06",
-      "summary": "TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 7
-    },
-    {
-      "id": "39d5d125774c42ec",
-      "category": "Federal Policy",
-      "title": "Re-focusing career navigation for students",
-      "url": "https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students",
+      "title": "The Workforce Pell bar most programs won’t clear isn’t earnings",
+      "url": "https://www.ccdaily.com/2026/04/the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings/?utm_source=rss&utm_medium=rss&utm_campaign=the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings",
       "source": "AACC Community College Daily",
-      "published": "2026-04-02",
-      "summary": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
+      "published": "2026-04-07",
+      "summary": "When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 10
@@ -87,18 +75,6 @@
       "score": 12
     },
     {
-      "id": "ef31ab8d61303631",
-      "category": "Federal Policy",
-      "title": "Trump’s FY 27 budget plan looks a lot like his FY 26 plan",
-      "url": "https://www.ccdaily.com/2026/04/trumps-fy-27-budget-plan-looks-a-lot-like-fy-26-plan/?utm_source=rss&utm_medium=rss&utm_campaign=trumps-fy-27-budget-plan-looks-a-lot-like-fy-26-plan",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-05",
-      "summary": "President Donald Trump on Friday released his fiscal year 2027 (FY 27) federal budget request, which includes funding requests for discretionary higher education and related programs. Additional documents, including the Education Department’s (ED) detailed justifications... The post Trump’s FY 27 budget plan looks a lot like his FY 26 plan first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 9
-    },
-    {
       "id": "6429575608f363e6",
       "category": "MA Budget / SUCCESS",
       "title": "MassDHE News Clips: Community Colleges",
@@ -131,6 +107,18 @@
       "score": 11
     },
     {
+      "id": "5f36d5dd797ebfe9",
+      "category": "Federal Policy",
+      "title": "Washington Watch: ED releases accreditation ‘neg reg’ materials",
+      "url": "https://www.ccdaily.com/2026/04/washington-watch-ed-releases-accreditation-neg-reg-materials/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-accreditation-neg-reg-materials",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-07",
+      "summary": "In advance of the start of next week’s long-anticipated negotiated-rulemaking sessions (commonly referred to as “neg reg”) on accreditation, the Education Department (ED) has announced the negotiators and released draft regulations. The draft will be subject... The post Washington Watch: ED releases accreditation ‘neg reg’ materials first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 8
+    },
+    {
       "id": "f8b146d9c3f04fbe",
       "category": "Federal Policy",
       "title": "Metallica Scholars Initiative set to expand again",
@@ -141,6 +129,42 @@
       "why_it_matters": "",
       "tags": [],
       "score": 8
+    },
+    {
+      "id": "465dc7e0472e7bbb",
+      "category": "Academic Advising",
+      "title": "Using the Richmond Fed’s way to measure student success",
+      "url": "https://www.ccdaily.com/2026/04/using-the-richmond-feds-way-to-measure-student-success/?utm_source=rss&utm_medium=rss&utm_campaign=using-the-richmond-feds-way-to-measure-student-success",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-08",
+      "summary": "After seeing a presentation last fall by the Federal Reserve Bank of Richmond for its new measure of community college completion, Kevin Walthers decided to apply it to the rural college he leads in California.... The post Using the Richmond Fed’s way to measure student success first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 11
+    },
+    {
+      "id": "bf95bdb17c3a0e4f",
+      "category": "Federal Policy",
+      "title": "Dozens more colleges get delay in submitting race and sex admissions data",
+      "url": "https://www.highereddive.com/news/dozens-colleges-higher-ed-groups-acts-survey-delay/817023/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-08",
+      "summary": "A federal judge extended the deadline for several private colleges and higher education groups to submit data to the U.S. Department of Education.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
+    },
+    {
+      "id": "f29c4d1aff6cd20d",
+      "category": "Federal Policy",
+      "title": "Kansas governor must veto anti-DEI college bill, PEN America says",
+      "url": "https://www.highereddive.com/news/kansas-governor-must-veto-anti-dei-college-bill-pen-america-says/816903/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-07",
+      "summary": "Conservative lawmakers added a ban on required \"DEI-CRT\" courses to the state's budget package, which now sits on Democratic Gov. Laura Kelly’s desk.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 7
     },
     {
       "id": "e0600f98a61afccc",
@@ -167,97 +191,73 @@
       "score": 6
     },
     {
-      "id": "3b3fa6f0dd7e8a08",
-      "category": "State Systems / Innovation",
-      "title": "Hidden in plain view",
-      "url": "https://www.ccdaily.com/2026/04/hidden-in-plain-view/?utm_source=rss&utm_medium=rss&utm_campaign=hidden-in-plain-view",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-05",
-      "summary": "Newly released reports from the Hidden Innovation Infrastructure (HII) research project reveals the roles community colleges play in regional economic development that are often unseen and underappreciated. Funded by the National Science Foundation (NSF) Advanced... The post Hidden in plain view first appeared on Community College Daily .",
+      "id": "be7f56ea86f3d348",
+      "category": "AI in Higher Ed",
+      "title": "Per-student state funding for higher ed dips for first time in years",
+      "url": "https://www.highereddive.com/news/per-student-state-funding-higher-education-2025/817024/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-09",
+      "summary": "Enrollment gains at public colleges surpassed increases in state and local support in the 2025 fiscal year, according to an annual report.",
       "why_it_matters": "",
       "tags": [],
-      "score": 3
+      "score": 6
     },
     {
-      "id": "0d7d4887597c58dc",
+      "id": "fd6edcf168260dac",
+      "category": "AI in Higher Ed",
+      "title": "Building AI Initiatives with Bottom-Up Champions",
+      "url": "https://er.educause.edu/articles/2026/4/building-ai-initiatives-with-bottom-up-champions",
+      "source": "EDUCAUSE Review",
+      "published": "2026-04-08",
+      "summary": "Driven by a bottom-up partnership between the Faculty Center for Teaching and Learning and the Division of Digital Learning, the University of Central Florida established an evolving campus infrastructure of policies, training, and a national conference to guide the ethical and effective integration of generative AI into teaching and learning.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 6
+    },
+    {
+      "id": "b5658f6f5443e378",
       "category": "Academic Advising",
-      "title": "Tackling the engineering shortage",
-      "url": "https://www.ccdaily.com/2026/04/tackling-the-engineering-shortage/?utm_source=rss&utm_medium=rss&utm_campaign=tackling-the-engineering-shortage",
+      "title": "House bill would authorize Strengthening Community College Training Grants Program",
+      "url": "https://www.ccdaily.com/2026/04/house-bill-would-authorize-strengthening-community-college-training-grants-program/?utm_source=rss&utm_medium=rss&utm_campaign=house-bill-would-authorize-strengthening-community-college-training-grants-program",
       "source": "AACC Community College Daily",
-      "published": "2026-04-01",
-      "summary": "A new white paper from a mechanical engineering association highlights how community colleges can expand opportunities in the field for students while addressing the country’s engineer shortage. A two‑year initiative led by the American Society... The post Tackling the engineering shortage first appeared on Community College Daily .",
+      "published": "2026-04-06",
+      "summary": "House Republicans on Monday afternoon introduced their bill to revamp the nation’s main workforce development law, which would, in part, authorize the Strengthening Community College Training Grants Program. Introduced by Education and Workforce Committee Chair... The post House bill would authorize Strengthening Community College Training Grants Program first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
     },
     {
-      "id": "9bd4705a113980e2",
-      "category": "Federal Policy",
-      "title": "How Bard College Became a Major Real Estate Player 20 Miles Away",
-      "url": "https://www.nytimes.com/2026/03/30/business/bard-college-hudson-ny.html",
-      "source": "NYT Education",
-      "published": "2026-03-30",
-      "summary": "A nonprofit foundation donated $82 million worth of properties in Hudson, N.Y., to the school, which has provided few details about its plans.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 7
-    },
-    {
-      "id": "4083bb8eda020a56",
-      "category": "Federal Policy",
-      "title": "S. 4181 (IS) - To require the Administrator of the Environmental Protection Agency to promulgate certain limitations with respect to pre-production plastic pellet pollution, and for other purposes.",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119s4181is",
+      "id": "40fab63c45f4dee8",
+      "category": "Academic Advising",
+      "title": "S. 4249 (IS) - Farmworker Access and Retention Modernization Stability Act",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s4249is",
       "source": "GovInfo Bills",
-      "published": "2026-04-03",
+      "published": "2026-04-08",
       "summary": "PDF XML TEXT",
       "why_it_matters": "",
       "tags": [],
       "score": 7
     },
     {
-      "id": "c9db8eb12fddda6f",
+      "id": "8dccc4362d060f8f",
       "category": "Academic Advising",
-      "title": "From intent to credential: Converting student progress into workforce impact",
-      "url": "https://www.ccdaily.com/2026/04/from-intent-to-credential-converting-student-progress-into-workforce-impact/?utm_source=rss&utm_medium=rss&utm_campaign=from-intent-to-credential-converting-student-progress-into-workforce-impact",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-06",
-      "summary": "Today’s priorities extend beyond enrollment growth to include credential completion, workforce alignment, adult learner re-engagement and return on investment. States and systems are increasingly measuring institutional success by how effectively colleges move students already in... The post From intent to credential: Converting student progress into workforce impact first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 7
-    },
-    {
-      "id": "f8c1875bd3800088",
-      "category": "Academic Advising",
-      "title": "H.R. 8010 (IH) - VA Police Recruitment and Retention Act of 2026",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8010ih",
+      "title": "S. 4253 (IS) - Junior Reserve Officers’ Training Corps Pay Oversight for Workforce Evaluation and Retention Act",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s4253is",
       "source": "GovInfo Bills",
-      "published": "2026-04-02",
+      "published": "2026-04-08",
       "summary": "PDF XML TEXT",
       "why_it_matters": "",
       "tags": [],
       "score": 7
     },
     {
-      "id": "a4868199d828cce9",
-      "category": "Academic Advising",
-      "title": "Financial Strain Shapes Student Experience",
-      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/04/06/financial-strain-shapes-student-experience",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-06",
-      "summary": "Financial Strain Shapes Student Experience Joshua.Bay Mon, 04/06/2026 - 03:00 AM A Trellis Strategies survey finds that many students struggle with basic needs and debt but still view college as key to a better future. Byline(s) Joshua Bay",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "32755fd4bbdde781",
+      "id": "10ba724272816c29",
       "category": "AI in Higher Ed",
-      "title": "GenAI and Creeping Cognitive Displacement Syndrome",
-      "url": "https://er.educause.edu/articles/2026/3/genai-and-creeping-cognitive-displacement-syndrome",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-26",
-      "summary": "As generative artificial intelligence use expands, colleges and universities need clearer ways to recognize when support becomes dependence and how to protect student agency, authorship, and judgment.",
+      "title": "Colleges ramp up offerings to teach students to be AI ethicists",
+      "url": "https://www.highereddive.com/news/colleges-programs-ai-ethicists/816703/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-07",
+      "summary": "Institutions are teaching students how to know when artificial intelligence is biased, when it could threaten privacy and when it is just plain wrong.",
       "why_it_matters": "",
       "tags": [],
       "score": 7
@@ -299,49 +299,109 @@
       "score": 6
     },
     {
-      "id": "dc41607156a3634b",
-      "category": "Federal Policy",
-      "title": "Syracuse, Ohio State, Utah Valley: The latest college leadership transitions",
-      "url": "https://www.highereddive.com/news/syracuse-ohio-state-utah-valley-the-latest-college-leadership-transition/816622/",
+      "id": "1a4bfef9e5f195d1",
+      "category": "State Systems / Innovation",
+      "title": "Southern Oregon University gets $15M lifeline from the state",
+      "url": "https://www.highereddive.com/news/southern-oregon-university-gets-15m-lifeline-from-the-state/817006/",
       "source": "Higher Ed Dive",
-      "published": "2026-04-03",
-      "summary": "At least fifteen campuses announced presidential comings and goings in March, as the higher ed sector prepares for the end of the academic year.",
+      "published": "2026-04-08",
+      "summary": "The public institution was facing a looming cash crunch. Now it needs a plan to balance its budget and operate in the future without increased state help.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 3
+    },
+    {
+      "id": "8f27f2ef24bd2f15",
+      "category": "Federal Policy",
+      "title": "Education Department rescinds Title IX pacts protecting LGBTQ+ students",
+      "url": "https://www.highereddive.com/news/trump-education-department-rescinds-title-ix-pacts-protecting-lgbtq-students/816898/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-08",
+      "summary": "The resolution agreements, which the agency called \"illegal,\" were reached under previous Democratic administrations.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
     },
     {
-      "id": "0dd4f8800ff71db2",
+      "id": "017ff0c5020c4bbd",
       "category": "Federal Policy",
-      "title": "Indiana public colleges to cut or merge about 580 programs due to state law",
-      "url": "https://www.highereddive.com/news/indiana-public-colleges-to-cut-or-merge-about-580-programs-due-to-state-law/816540/",
+      "title": "What’s inside the Education Department’s draft proposals to overhaul accreditation?",
+      "url": "https://www.highereddive.com/news/whats-inside-the-education-departments-draft-proposals-to-overhaul-accred/816897/",
       "source": "Higher Ed Dive",
-      "published": "2026-04-03",
-      "summary": "A new statute took effect last year that seeks to cull academic offerings that produce low numbers of graduates.",
+      "published": "2026-04-08",
+      "summary": "The proposed changes would ease the pathway for new accreditors and require agencies to have standards requiring intellectual diversity among faculty.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
     },
     {
-      "id": "a2cafcc1c87f216b",
+      "id": "c5ad504c9fbb9020",
       "category": "Federal Policy",
-      "title": "Syracuse University to eliminate 93 academic programs",
-      "url": "https://www.highereddive.com/news/syracuse-university-to-eliminate-93-academic-programs/816525/",
+      "title": "University of Missouri cuts designated funding for student affinity groups",
+      "url": "https://www.highereddive.com/news/university-of-missouri-cuts-designated-funding-for-student-affinity-groups/816770/",
       "source": "Higher Ed Dive",
-      "published": "2026-04-02",
-      "summary": "The cuts are meant to right-size the private nonprofit’s offerings and align them with student demand, according to the institution’s provost.",
+      "published": "2026-04-06",
+      "summary": "The university's Legion of Black Collegians called the cuts \"calculated steps to push minority students further away\" from the center of campus life.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
     },
     {
-      "id": "9999841864e7e8ec",
+      "id": "2f0a706aa8fb8066",
       "category": "Federal Policy",
-      "title": "Oregon public colleges to face state review of operations, programs",
-      "url": "https://www.highereddive.com/news/oregon-public-colleges-state-review-restructuring/816410/",
+      "title": "Court blocks Education Department’s data demands for 17 states’ colleges",
+      "url": "https://www.highereddive.com/news/court-blocks-education-departments-data-demands-for-17-states-colleges/816766/",
       "source": "Higher Ed Dive",
-      "published": "2026-04-02",
-      "summary": "Gov. Tina Kotek signed into law a measure mandating a study recommending ways to put the state's institutions on better financial footing.",
+      "published": "2026-04-06",
+      "summary": "A judge issued a preliminary injunction, citing the agency’s rushed timeline for collecting large swaths of new data on race and sex in admissions.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "0afeae12c2aeb721",
+      "category": "Federal Policy",
+      "title": "Leader of University of Wisconsin System Is Fired by the Board",
+      "url": "https://www.nytimes.com/2026/04/07/us/politics/wisconsin-university-jay-rothman-president-fired-board.html",
+      "source": "NYT Education",
+      "published": "2026-04-08",
+      "summary": "Jay O. Rothman’s departure brought an end to a four-year stint as leader of the university system following a public struggle for power.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "504722d538c0810e",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/04/headlines-1153/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1153",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-08",
+      "summary": "Colleges are trying to boost student voting. A Trump probe freezes data for that work NPR After the 2022 midterm election, a gap appeared to be shrinking on U.S. college campuses. The turnout rate for... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "36bbf7025425b99b",
+      "category": "Academic Advising",
+      "title": "Newsmakers",
+      "url": "https://www.ccdaily.com/2026/04/newsmakers-354/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-354",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-07",
+      "summary": "CEO on the move Daniel W. Lufkin will become the eighth president of HACC, Central Pennsylvania’s Community College, effective June 3. Since 2021, he has served as president of the South Campus at Tarrant County... The post Newsmakers first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "958b72c1e5a834a0",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/04/headlines-1152/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1152",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-07",
+      "summary": "Ivy Tech says programs won’t change as state’s legally defined ‘workforce engine’ WFIU Ivy Tech Community College says students should not see any changes to their academic programs following the passage of Indiana Senate Enrolled... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -359,49 +419,13 @@
       "score": 5
     },
     {
-      "id": "6728b44f8f070932",
+      "id": "396022b9365c7a1c",
       "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/04/headlines-1150/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1150",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-05",
-      "summary": "Commentary: The Trump White House calls for (probably) killing most American workforce programs. Again. Jobs That Work What to take seriously and what to be concerned about as Trump II revives its ‘Make America Skilled... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "29f7819460fec38f",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/04/headlines-1149/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1149",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-02",
-      "summary": "Unprofitable majors could be on chopping block at SC’s public colleges. Here’s why The State State House legislators want public colleges and universities to use tuition mitigation money to support “critical workforce disciplines,” and to... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "b6d7c9b4bf40d481",
-      "category": "Academic Advising",
-      "title": "Penn’s Unprincipled Attack on Open Expression",
-      "url": "https://www.insidehighered.com/opinion/columns/debatable-ideas/2026/04/06/penns-unprincipled-attack-open-expression",
+      "title": "Forensics Lab Gives Students Real-World Experience",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/04/09/forensics-lab-gives-students-real-world",
       "source": "Inside Higher Ed",
-      "published": "2026-04-06",
-      "summary": "Penn’s Unprincipled Attack on Open Expression Sara Brady Mon, 04/06/2026 - 03:00 AM The University of Pennsylvania has long had one of the worst speech codes on American college campuses. Its new proposed principles are worse. Byline(s) John K. Wilson",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "996b78bb9c885ef6",
-      "category": "Academic Advising",
-      "title": "A Town-Gown Partnership Focused on Climate Resilience",
-      "url": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/04/06/town-gown-partnership-focused-climate-resilience",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-06",
-      "summary": "A Town-Gown Partnership Focused on Climate Resilience kathryn.palmer… Mon, 04/06/2026 - 03:00 AM As climate change spurs extreme heat waves and flooding in Georgia, Agnes Scott College and the city of Decatur are working together to forge solutions. “This isn’t something a city can do alone,” one official said. Byline(s) Kathryn Palmer",
+      "published": "2026-04-09",
+      "summary": "Forensics Lab Gives Students Real-World Experience Joshua.Bay Thu, 04/09/2026 - 03:00 AM Neumann University’s forensics lab gives students hands-on skills while also supporting real investigations in the community. Byline(s) Joshua Bay",
       "why_it_matters": "",
       "tags": [],
       "score": 4
@@ -417,18 +441,6 @@
       "why_it_matters": "",
       "tags": [],
       "score": 4
-    },
-    {
-      "id": "2f00eace2b7e138d",
-      "category": "State Systems / Innovation",
-      "title": "Wisconsin Universities Chief Defies Board’s Push for Resignation",
-      "url": "https://www.nytimes.com/2026/04/02/us/wisconsin-universities-rothman-defies-board.html",
-      "source": "NYT Education",
-      "published": "2026-04-02",
-      "summary": "Jay Rothman, the president of the state university system, said he had received no explanation for why regents want to oust him.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 2
     }
   ],
   "top_signals": [
@@ -463,26 +475,26 @@
       "implication": "The key question is no longer whether these supports matter, but whether colleges and the state can fund and scale them effectively."
     },
     {
-      "id": "5b686807fc916eb2",
+      "id": "7e5262b44a0584bf",
       "category": "Federal Policy",
-      "title": "TRIO Grant Competitions Prioritize Workforce Pipelines",
-      "url": "https://www.insidehighered.com/news/students/careers/2026/04/06/trio-grant-competitions-prioritize-workforce-pipelines",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-06",
-      "summary": "TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso",
+      "title": "The Workforce Pell bar most programs won’t clear isn’t earnings",
+      "url": "https://www.ccdaily.com/2026/04/the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings/?utm_source=rss&utm_medium=rss&utm_campaign=the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-07",
+      "summary": "When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 7,
-      "summary_for_brief": "TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso",
+      "score": 10,
+      "summary_for_brief": "When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .",
       "story_tags": [
-        "federal_rulemaking_or_grants"
+        "artificial_intelligence_in_higher_ed"
       ],
-      "core_story": "The core story here is about whether colleges are ready to act on a major policy or funding shift before it becomes routine sector news.",
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "For Massachusetts, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so."
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
       ],
-      "recommended_angle": "Use this as an early signal: what would it take for community colleges in Massachusetts to be ahead of this development rather than reacting to it later?",
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.",
       "theme": "Workforce Pell and short-term pathways",
       "claim": "Federal policy is accelerating the shift toward short-term, workforce-aligned programs as a central community college strategy.",
       "implication": "Community colleges will need stronger advising, employer alignment, and outcomes reporting if they want to benefit from the next phase of federal support."
@@ -649,17 +661,17 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "39d5d125774c42ec",
+      "id": "7e5262b44a0584bf",
       "category": "Federal Policy",
-      "title": "Re-focusing career navigation for students",
-      "url": "https://www.ccdaily.com/2026/04/re-focusing-career-navigation-for-students/?utm_source=rss&utm_medium=rss&utm_campaign=re-focusing-career-navigation-for-students",
+      "title": "The Workforce Pell bar most programs won’t clear isn’t earnings",
+      "url": "https://www.ccdaily.com/2026/04/the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings/?utm_source=rss&utm_medium=rss&utm_campaign=the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings",
       "source": "AACC Community College Daily",
-      "published": "2026-04-02",
-      "summary": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
+      "published": "2026-04-07",
+      "summary": "When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 10,
-      "summary_for_brief": "Now more than ever, the nation’s colleges and universities are being held accountable for job outcomes. From state-level accountability measures, to Workforce Pell, to the new earnings premium test that will soon apply to all... The post Re-focusing career navigation for students first appeared on Community College Daily .",
+      "summary_for_brief": "When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -671,28 +683,27 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "ef31ab8d61303631",
+      "id": "5f36d5dd797ebfe9",
       "category": "Federal Policy",
-      "title": "Trump’s FY 27 budget plan looks a lot like his FY 26 plan",
-      "url": "https://www.ccdaily.com/2026/04/trumps-fy-27-budget-plan-looks-a-lot-like-fy-26-plan/?utm_source=rss&utm_medium=rss&utm_campaign=trumps-fy-27-budget-plan-looks-a-lot-like-fy-26-plan",
+      "title": "Washington Watch: ED releases accreditation ‘neg reg’ materials",
+      "url": "https://www.ccdaily.com/2026/04/washington-watch-ed-releases-accreditation-neg-reg-materials/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-ed-releases-accreditation-neg-reg-materials",
       "source": "AACC Community College Daily",
-      "published": "2026-04-05",
-      "summary": "President Donald Trump on Friday released his fiscal year 2027 (FY 27) federal budget request, which includes funding requests for discretionary higher education and related programs. Additional documents, including the Education Department’s (ED) detailed justifications... The post Trump’s FY 27 budget plan looks a lot like his FY 26 plan first appeared on Community College Daily .",
+      "published": "2026-04-07",
+      "summary": "In advance of the start of next week’s long-anticipated negotiated-rulemaking sessions (commonly referred to as “neg reg”) on accreditation, the Education Department (ED) has announced the negotiators and released draft regulations. The draft will be subject... The post Washington Watch: ED releases accreditation ‘neg reg’ materials first appeared on Community College Daily .",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
-      "score": 9,
-      "summary_for_brief": "President Donald Trump on Friday released his fiscal year 2027 (FY 27) federal budget request, which includes funding requests for discretionary higher education and related programs. Additional documents, including the Education Department’s (ED) detailed justifications... The post Trump’s FY 27 budget plan looks a lot like his FY 26 plan first appeared on Community College Daily .",
+      "score": 8,
+      "summary_for_brief": "In advance of the start of next week’s long-anticipated negotiated-rulemaking sessions (commonly referred to as “neg reg”) on accreditation, the Education Department (ED) has announced the negotiators and released draft regulations. The draft will be subject... The post Washington Watch: ED releases accreditation ‘neg reg’ materials first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed",
-        "credit_for_prior_learning",
-        "state_budget"
+        "federal_rulemaking_or_grants"
       ],
-      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
+      "core_story": "The core story here is about whether colleges are ready to act on a major policy or funding shift before it becomes routine sector news.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
       ],
-      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
+      "recommended_angle": "Use this as an early signal: what would it take for community colleges in Massachusetts to be ahead of this development rather than reacting to it later?"
     },
     {
       "id": "f8b146d9c3f04fbe",
@@ -717,17 +728,17 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "5b686807fc916eb2",
+      "id": "bf95bdb17c3a0e4f",
       "category": "Federal Policy",
-      "title": "TRIO Grant Competitions Prioritize Workforce Pipelines",
-      "url": "https://www.insidehighered.com/news/students/careers/2026/04/06/trio-grant-competitions-prioritize-workforce-pipelines",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-06",
-      "summary": "TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso",
+      "title": "Dozens more colleges get delay in submitting race and sex admissions data",
+      "url": "https://www.highereddive.com/news/dozens-colleges-higher-ed-groups-acts-survey-delay/817023/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-08",
+      "summary": "A federal judge extended the deadline for several private colleges and higher education groups to submit data to the U.S. Department of Education.",
       "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
       "tags": [],
       "score": 7,
-      "summary_for_brief": "TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso",
+      "summary_for_brief": "A federal judge extended the deadline for several private colleges and higher education groups to submit data to the U.S. Department of Education.",
       "story_tags": [
         "federal_rulemaking_or_grants"
       ],
@@ -736,45 +747,67 @@
       "comparison_points": [
         "For Massachusetts, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so."
       ],
-      "recommended_angle": "Use this as an early signal: what would it take for community colleges in Massachusetts to be ahead of this development rather than reacting to it later?"
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "c9db8eb12fddda6f",
+      "id": "465dc7e0472e7bbb",
       "category": "Academic Advising",
-      "title": "From intent to credential: Converting student progress into workforce impact",
-      "url": "https://www.ccdaily.com/2026/04/from-intent-to-credential-converting-student-progress-into-workforce-impact/?utm_source=rss&utm_medium=rss&utm_campaign=from-intent-to-credential-converting-student-progress-into-workforce-impact",
+      "title": "Using the Richmond Fed’s way to measure student success",
+      "url": "https://www.ccdaily.com/2026/04/using-the-richmond-feds-way-to-measure-student-success/?utm_source=rss&utm_medium=rss&utm_campaign=using-the-richmond-feds-way-to-measure-student-success",
       "source": "AACC Community College Daily",
-      "published": "2026-04-06",
-      "summary": "Today’s priorities extend beyond enrollment growth to include credential completion, workforce alignment, adult learner re-engagement and return on investment. States and systems are increasingly measuring institutional success by how effectively colleges move students already in... The post From intent to credential: Converting student progress into workforce impact first appeared on Community College Daily .",
+      "published": "2026-04-08",
+      "summary": "After seeing a presentation last fall by the Federal Reserve Bank of Richmond for its new measure of community college completion, Kevin Walthers decided to apply it to the rural college he leads in California.... The post Using the Richmond Fed’s way to measure student success first appeared on Community College Daily .",
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
-      "score": 7,
-      "summary_for_brief": "Today’s priorities extend beyond enrollment growth to include credential completion, workforce alignment, adult learner re-engagement and return on investment. States and systems are increasingly measuring institutional success by how effectively colleges move students already in... The post From intent to credential: Converting student progress into workforce impact first appeared on Community College Daily .",
+      "score": 11,
+      "summary_for_brief": "After seeing a presentation last fall by the Federal Reserve Bank of Richmond for its new measure of community college completion, Kevin Walthers decided to apply it to the rural college he leads in California.... The post Using the Richmond Fed’s way to measure student success first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed",
-        "state_budget",
         "student_support_infrastructure"
       ],
-      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
+      "core_story": "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
+        "This appears to be a system-level initiative outside Massachusetts, which makes it useful as a benchmark rather than just a local news item."
       ],
-      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "f8c1875bd3800088",
+      "id": "40fab63c45f4dee8",
       "category": "Academic Advising",
-      "title": "H.R. 8010 (IH) - VA Police Recruitment and Retention Act of 2026",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8010ih",
+      "title": "S. 4249 (IS) - Farmworker Access and Retention Modernization Stability Act",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s4249is",
       "source": "GovInfo Bills",
-      "published": "2026-04-02",
+      "published": "2026-04-08",
       "summary": "PDF XML TEXT",
       "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
       "tags": [],
       "score": 7,
       "summary_for_brief": "PDF XML TEXT",
       "story_tags": [
+        "student_support_infrastructure"
+      ],
+      "core_story": "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "8dccc4362d060f8f",
+      "category": "Academic Advising",
+      "title": "S. 4253 (IS) - Junior Reserve Officers’ Training Corps Pay Oversight for Workforce Evaluation and Retention Act",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s4253is",
+      "source": "GovInfo Bills",
+      "published": "2026-04-08",
+      "summary": "PDF XML TEXT",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 7,
+      "summary_for_brief": "PDF XML TEXT",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
         "student_support_infrastructure"
       ],
       "core_story": "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function.",
@@ -808,28 +841,6 @@
       "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
     },
     {
-      "id": "0d7d4887597c58dc",
-      "category": "Academic Advising",
-      "title": "Tackling the engineering shortage",
-      "url": "https://www.ccdaily.com/2026/04/tackling-the-engineering-shortage/?utm_source=rss&utm_medium=rss&utm_campaign=tackling-the-engineering-shortage",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-01",
-      "summary": "A new white paper from a mechanical engineering association highlights how community colleges can expand opportunities in the field for students while addressing the country’s engineer shortage. A two‑year initiative led by the American Society... The post Tackling the engineering shortage first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
-      "tags": [],
-      "score": 5,
-      "summary_for_brief": "A new white paper from a mechanical engineering association highlights how community colleges can expand opportunities in the field for students while addressing the country’s engineer shortage. A two‑year initiative led by the American Society... The post Tackling the engineering shortage first appeared on Community College Daily .",
-      "story_tags": [
-        "artificial_intelligence_in_higher_ed"
-      ],
-      "core_story": "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
       "id": "e0600f98a61afccc",
       "category": "AI in Higher Ed",
       "title": "Too Many Tools, Not Enough Impact: Districts Rethink Their Edtech Stacks",
@@ -852,17 +863,17 @@
       "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
     },
     {
-      "id": "32755fd4bbdde781",
+      "id": "10ba724272816c29",
       "category": "AI in Higher Ed",
-      "title": "GenAI and Creeping Cognitive Displacement Syndrome",
-      "url": "https://er.educause.edu/articles/2026/3/genai-and-creeping-cognitive-displacement-syndrome",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-26",
-      "summary": "As generative artificial intelligence use expands, colleges and universities need clearer ways to recognize when support becomes dependence and how to protect student agency, authorship, and judgment.",
+      "title": "Colleges ramp up offerings to teach students to be AI ethicists",
+      "url": "https://www.highereddive.com/news/colleges-programs-ai-ethicists/816703/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-07",
+      "summary": "Institutions are teaching students how to know when artificial intelligence is biased, when it could threaten privacy and when it is just plain wrong.",
       "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
       "score": 7,
-      "summary_for_brief": "As generative artificial intelligence use expands, colleges and universities need clearer ways to recognize when support becomes dependence and how to protect student agency, authorship, and judgment.",
+      "summary_for_brief": "Institutions are teaching students how to know when artificial intelligence is biased, when it could threaten privacy and when it is just plain wrong.",
       "story_tags": [
         "artificial_intelligence_in_higher_ed",
         "credit_for_prior_learning"
@@ -875,17 +886,40 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "0ee29f8f7bbe1375",
+      "id": "be7f56ea86f3d348",
       "category": "AI in Higher Ed",
-      "title": "Advancing AI Literacy: A Faculty Course Refresh Institute at Indiana Wesleyan University",
-      "url": "https://er.educause.edu/articles/2026/3/advancing-ai-literacy-a-faculty-course-refresh-institute-at-indiana-wesleyan-university",
-      "source": "EDUCAUSE Review",
-      "published": "2026-03-31",
-      "summary": "Redesigning learning experiences, not just adding tools, can build faculty confidence and develop students’ critical, ethical, and applied AI literacy.",
+      "title": "Per-student state funding for higher ed dips for first time in years",
+      "url": "https://www.highereddive.com/news/per-student-state-funding-higher-education-2025/817024/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-09",
+      "summary": "Enrollment gains at public colleges surpassed increases in state and local support in the 2025 fiscal year, according to an annual report.",
       "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
       "tags": [],
       "score": 6,
-      "summary_for_brief": "Redesigning learning experiences, not just adding tools, can build faculty confidence and develop students’ critical, ethical, and applied AI literacy.",
+      "summary_for_brief": "Enrollment gains at public colleges surpassed increases in state and local support in the 2025 fiscal year, according to an annual report.",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "state_budget"
+      ],
+      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "fd6edcf168260dac",
+      "category": "AI in Higher Ed",
+      "title": "Building AI Initiatives with Bottom-Up Champions",
+      "url": "https://er.educause.edu/articles/2026/4/building-ai-initiatives-with-bottom-up-champions",
+      "source": "EDUCAUSE Review",
+      "published": "2026-04-08",
+      "summary": "Driven by a bottom-up partnership between the Faculty Center for Teaching and Learning and the Division of Digital Learning, the University of Central Florida established an evolving campus infrastructure of policies, training, and a national conference to guide the ethical and effective integration of generative AI into teaching and learning.",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "Driven by a bottom-up partnership between the Faculty Center for Teaching and Learning and the Division of Digital Learning, the University of Central Florida established an evolving campus infrastructure of policies, training, and a national conference to guide the ethical and effective integration of generative AI into teaching and learning.",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -897,73 +931,27 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "c217d3508dd6ca81",
-      "category": "AI in Higher Ed",
-      "title": "The Human Side of Data at Any Scale",
-      "url": "https://er.educause.edu/podcasts/educause-shop-talk/2026/the-human-side-of-data-at-any-scale",
-      "source": "EDUCAUSE Review",
-      "published": "2026-04-06",
-      "summary": "Sophie and Jenay talk with Nadeem Syed of Western Governor's University and Shannon Shank of California Institute of the Arts about how institutions of any size can consider foundational approaches to data for informed decision-making.",
-      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
-      "tags": [],
-      "score": 6,
-      "summary_for_brief": "Sophie and Jenay talk with Nadeem Syed of Western Governor's University and Shannon Shank of California Institute of the Arts about how institutions of any size can consider foundational approaches to data for informed decision-making.",
-      "story_tags": [
-        "state_budget"
-      ],
-      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This appears to be a system-level initiative outside Massachusetts, which makes it useful as a benchmark rather than just a local news item.",
-        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "3b3fa6f0dd7e8a08",
+      "id": "1a4bfef9e5f195d1",
       "category": "State Systems / Innovation",
-      "title": "Hidden in plain view",
-      "url": "https://www.ccdaily.com/2026/04/hidden-in-plain-view/?utm_source=rss&utm_medium=rss&utm_campaign=hidden-in-plain-view",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-05",
-      "summary": "Newly released reports from the Hidden Innovation Infrastructure (HII) research project reveals the roles community colleges play in regional economic development that are often unseen and underappreciated. Funded by the National Science Foundation (NSF) Advanced... The post Hidden in plain view first appeared on Community College Daily .",
+      "title": "Southern Oregon University gets $15M lifeline from the state",
+      "url": "https://www.highereddive.com/news/southern-oregon-university-gets-15m-lifeline-from-the-state/817006/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-08",
+      "summary": "The public institution was facing a looming cash crunch. Now it needs a plan to balance its budget and operate in the future without increased state help.",
       "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
       "tags": [],
       "score": 3,
-      "summary_for_brief": "Newly released reports from the Hidden Innovation Infrastructure (HII) research project reveals the roles community colleges play in regional economic development that are often unseen and underappreciated. Funded by the National Science Foundation (NSF) Advanced... The post Hidden in plain view first appeared on Community College Daily .",
+      "summary_for_brief": "The public institution was facing a looming cash crunch. Now it needs a plan to balance its budget and operate in the future without increased state help.",
       "story_tags": [
-        "artificial_intelligence_in_higher_ed",
-        "credit_for_prior_learning"
+        "credit_for_prior_learning",
+        "state_budget"
       ],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "core_story": "The core story here is about whether public policy is backing institutional expectations with real dollars and implementation capacity.",
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+        "This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?"
       ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "2f00eace2b7e138d",
-      "category": "State Systems / Innovation",
-      "title": "Wisconsin Universities Chief Defies Board’s Push for Resignation",
-      "url": "https://www.nytimes.com/2026/04/02/us/wisconsin-universities-rothman-defies-board.html",
-      "source": "NYT Education",
-      "published": "2026-04-02",
-      "summary": "Jay Rothman, the president of the state university system, said he had received no explanation for why regents want to oust him.",
-      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
-      "tags": [],
-      "score": 2,
-      "summary_for_brief": "Jay Rothman, the president of the state university system, said he had received no explanation for why regents want to oust him.",
-      "story_tags": [
-        "artificial_intelligence_in_higher_ed",
-        "credit_for_prior_learning"
-      ],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+      "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
     }
   ],
   "linkedin_drafts": [
@@ -981,8 +969,8 @@
     },
     {
       "title": "Workforce Pell and short-term pathways",
-      "text": "Federal policy is accelerating the shift toward short-term, workforce-aligned programs as a central community college strategy.\n\nA good example is TRIO Grant Competitions Prioritize Workforce Pipelines (https://www.insidehighered.com/news/students/careers/2026/04/06/trio-grant-competitions-prioritize-workforce-pipelines). TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso\n\nWhat matters for community colleges is this: Community colleges will need stronger advising, employer alignment, and outcomes reporting if they want to benefit from the next phase of federal support.\n\nThat is where the real strategic question sits right now—not just what changed, but how institutions respond.\n\n#HigherEdPolicy #CommunityColleges #StudentSuccess #AcademicAdvising #EdTech",
-      "source_item_id": "5b686807fc916eb2",
+      "text": "Federal policy is accelerating the shift toward short-term, workforce-aligned programs as a central community college strategy.\n\nA good example is The Workforce Pell bar most programs won’t clear isn’t earnings (https://www.ccdaily.com/2026/04/the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings/?utm_source=rss&utm_medium=rss&utm_campaign=the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings). When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .\n\nWhat matters for community colleges is this: Community colleges will need stronger advising, employer alignment, and outcomes reporting if they want to benefit from the next phase of federal support.\n\nThat is where the real strategic question sits right now—not just what changed, but how institutions respond.\n\n#HigherEdPolicy #CommunityColleges #StudentSuccess #AcademicAdvising #EdTech",
+      "source_item_id": "7e5262b44a0584bf",
       "draft_type": "signal_interpretation"
     },
     {
@@ -993,6 +981,10 @@
     }
   ],
   "archive": [
+    {
+      "label": "Week of 2026-04-06",
+      "url": "data/archive/2026-04-06.json"
+    },
     {
       "label": "Week of 2026-04-06",
       "url": "data/archive/2026-04-06.json"

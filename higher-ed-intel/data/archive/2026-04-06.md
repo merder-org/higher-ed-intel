@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-04-06
 
-_Generated: 2026-04-06 15:40 ET_
+_Generated: 2026-04-09 15:49 ET_
 
 _Target state: Massachusetts_
 
@@ -42,7 +42,7 @@ That is where the real strategic question sits right now—not just what changed
 
 Federal policy is accelerating the shift toward short-term, workforce-aligned programs as a central community college strategy.
 
-A good example is TRIO Grant Competitions Prioritize Workforce Pipelines (https://www.insidehighered.com/news/students/careers/2026/04/06/trio-grant-competitions-prioritize-workforce-pipelines). TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso
+A good example is The Workforce Pell bar most programs won’t clear isn’t earnings (https://www.ccdaily.com/2026/04/the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings/?utm_source=rss&utm_medium=rss&utm_campaign=the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings). When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .
 
 What matters for community colleges is this: Community colleges will need stronger advising, employer alignment, and outcomes reporting if they want to benefit from the next phase of federal support.
 
@@ -82,19 +82,19 @@ That is where the real strategic question sits right now—not just what changed
 - Comparison points:
   - This can be framed as an investment comparison: what level of funding is another state prepared to put behind reform, and how does that compare with current commitments in Massachusetts?
 
-### TRIO Grant Competitions Prioritize Workforce Pipelines
+### The Workforce Pell bar most programs won’t clear isn’t earnings
 
 - Category: Federal Policy
-- Source: Inside Higher Ed (2026-04-06)
-- Link: https://www.insidehighered.com/news/students/careers/2026/04/06/trio-grant-competitions-prioritize-workforce-pipelines
-- Summary: TRIO Grant Competitions Prioritize Workforce Pipelines Johanna Alonso Mon, 04/06/2026 - 03:00 AM In two recent calls for proposals, the Department of Education requested projects that “go beyond traditional college enrollment.” Advocates argue that's not TRIO’s purpose. Byline(s) Johanna Alonso
-- Core story: The core story here is about whether colleges are ready to act on a major policy or funding shift before it becomes routine sector news.
+- Source: AACC Community College Daily (2026-04-07)
+- Link: https://www.ccdaily.com/2026/04/the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings/?utm_source=rss&utm_medium=rss&utm_campaign=the-workforce-pell-bar-most-programs-wont-clear-isnt-earnings
+- Summary: When Workforce Pell passed as part of the One Big Beautiful Bill Act, the policy conversation immediately turned to one question: will our programs pass the earnings test? The data has a clear answer. Yes.... The post The Workforce Pell bar most programs won’t clear isn’t earnings first appeared on Community College Daily .
+- Core story: The core story is how policy shifts translate into operational consequences for colleges and students.
 - State relevance: For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.
-- Recommended angle: Use this as an early signal: what would it take for community colleges in Massachusetts to be ahead of this development rather than reacting to it later?
+- Recommended angle: Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity.
 - Why it matters: Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.
 
 - Comparison points:
-  - For Massachusetts, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so.
+  - This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity.
 
 ### MassTransfer
 
