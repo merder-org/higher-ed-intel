@@ -1,116 +1,162 @@
+async function loadLatest() {
+  const res = await fetch("data/latest.json", { cache: "no-store" });
+  if (!res.ok) {
+    throw new Error(`Failed to load brief: ${res.status}`);
+  }
+  return res.json();
+}
 
-async function loadJSON(url){
-  const res = await fetch(url, { cache: "no-store" });
-  if(!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
-  return await res.json();
-}
-function el(tag, attrs = {}, children = []){
-  const node = document.createElement(tag);
-  for(const [k,v] of Object.entries(attrs)){
-    if(k === "class") node.className = v;
-    else if(k.startsWith("on") && typeof v === "function") node.addEventListener(k.slice(2), v);
-    else node.setAttribute(k, v);
+function node(tag, attrs = {}, children = []) {
+  const el = document.createElement(tag);
+  for (const [key, value] of Object.entries(attrs)) {
+    if (key === "class") el.className = value;
+    else if (key.startsWith("on") && typeof value === "function") el.addEventListener(key.slice(2), value);
+    else el.setAttribute(key, value);
   }
-  for(const child of children){
-    if(child == null) continue;
-    if(typeof child === "string") node.appendChild(document.createTextNode(child));
-    else node.appendChild(child);
+  for (const child of children) {
+    if (child === null || child === undefined) continue;
+    if (typeof child === "string") el.appendChild(document.createTextNode(child));
+    else el.appendChild(child);
   }
-  return node;
+  return el;
 }
-async function copyText(text, btn){
+
+async function copyToClipboard(text, button) {
   await navigator.clipboard.writeText(text);
-  if(btn){
-    const old = btn.textContent;
-    btn.textContent = "Copied";
-    setTimeout(()=> btn.textContent = old, 1000);
+  if (button) {
+    const original = button.textContent;
+    button.textContent = "Copied";
+    setTimeout(() => (button.textContent = original), 1200);
   }
 }
-function renderMeta(data){
-  const box = document.getElementById("metaBox");
-  const feedWarnings = (data.feed_errors || []).length;
-  box.innerHTML = `<div><strong>Week of:</strong> ${data.week_of}</div><div><strong>Generated:</strong> ${data.generated_at}</div><div><strong>Items:</strong> ${data.items.length}</div><div><strong>Feed warnings:</strong> ${feedWarnings}</div>`;
+
+function renderFreshness(data) {
+  const panel = document.getElementById("freshnessPanel");
+  const fresh = data.freshness || {};
+  panel.innerHTML = "";
+  panel.appendChild(
+    node("div", { class: "freshness-grid" }, [
+      node("div", {}, [node("div", { class: "metric-label" }, ["Cycle date"]), node("div", { class: "metric-value" }, [fresh.cycle_date || data.cycle_date || "N/A"])]),
+      node("div", {}, [node("div", { class: "metric-label" }, ["Generated"]), node("div", { class: "metric-value" }, [data.generated_at || "N/A"])]),
+      node("div", {}, [node("div", { class: "metric-label" }, ["New signals"]), node("div", { class: "metric-value" }, [String(fresh.new_count ?? 0)])]),
+      node("div", {}, [node("div", { class: "metric-label" }, ["Updated signals"]), node("div", { class: "metric-value" }, [String(fresh.updated_count ?? 0)])]),
+      node("div", {}, [node("div", { class: "metric-label" }, ["Cadence"]), node("div", { class: "metric-value" }, [data.cadence || "Monday / Wednesday / Friday"])])
+    ])
+  );
 }
-function renderDrafts(data){
-  const wrap = document.getElementById("linkedinDrafts");
-  wrap.innerHTML = "";
-  const drafts = data.linkedin_drafts || [];
-  if(!drafts.length){ wrap.appendChild(el("div", {class:"empty"}, ["No drafts available."])); return; }
-  drafts.forEach((d, i) => {
-    const btn = el("button", {class:"btn", onclick:()=>copyText(d.text || "", btn)}, ["Copy"]);
-    wrap.appendChild(el("div", {class:"draft-card"}, [
-      el("div", {class:"kicker"}, [`Draft ${i+1}`]),
-      el("h3", {}, [d.title || `Draft ${i+1}`]),
-      el("div", {class:"draft-text"}, [d.text || ""]),
-      el("div", {class:"copy-row"}, [btn])
-    ]));
-  });
-  document.getElementById("copyAllDraftsBtn").onclick = () => {
-    const all = drafts.map(d => d.text || "").join("\n\n---\n\n");
-    copyText(all, document.getElementById("copyAllDraftsBtn"));
-  };
-}
-function renderSignals(data){
+
+function renderTopSignals(data) {
   const wrap = document.getElementById("topSignals");
   wrap.innerHTML = "";
-  const items = (data.top_signals || []).slice(0, 6);
-  if(!items.length){ wrap.appendChild(el("div", {class:"empty"}, ["No top signals available."])); return; }
-  items.forEach((it) => {
-    wrap.appendChild(el("div", {class:"signal-card"}, [
-      el("div", {class:"kicker"}, [it.category || "Signal"]),
-      el("h3", {}, [it.title || "Untitled"]),
-      el("div", {class:"meta"}, [`${it.source || ""}${it.published ? " • " + it.published : ""}`]),
-      el("p", {class:"signal-summary"}, [it.summary_for_brief || it.summary || ""]),
-      el("p", {class:"signal-why"}, [`Why it matters: ${it.why_it_matters || ""}`]),
-      el("div", {class:"small-links"}, [el("a", {href: it.url, target:"_blank", rel:"noopener"}, ["Open source"])])
-    ]));
+
+  const signals = data.top_signals || [];
+  if (!signals.length) {
+    wrap.appendChild(node("p", { class: "empty" }, ["No strong signals passed quality threshold this cycle."]));
+    return;
+  }
+
+  signals.forEach((item) => {
+    const tags = node("div", { class: "tags" }, (item.labels || []).map((label) => {
+      const noveltyClass = label === "NEW" ? " tag-new" : (label === "UPDATED" ? " tag-updated" : "");
+      return node("span", { class: "tag" + noveltyClass }, [label]);
+    }));
+    wrap.appendChild(
+      node("article", { class: "signal-card" }, [
+        node("h3", {}, [item.headline || "Untitled signal"]),
+        node("p", { class: "signal-meta" }, [`${item.source || "Unknown source"} · ${item.date || "N/A"}`]),
+        tags,
+        node("p", { class: "summary" }, [item.summary || ""]),
+        node("p", { class: "why" }, [item.why_it_matters || ""]),
+        node("a", { href: item.url, target: "_blank", rel: "noopener" }, ["Open source"])
+      ])
+    );
   });
 }
-function renderNotes(data){
-  const wrap = document.getElementById("briefingNotes");
+
+function renderAnalysis(data) {
+  const block = document.getElementById("analysisBlock");
+  block.innerHTML = "";
+  const text = data.why_this_matters_now || "No cycle analysis available.";
+  text.split(/\n\n+/).forEach((paragraph) => {
+    block.appendChild(node("p", {}, [paragraph]));
+  });
+}
+
+function renderAngles(data) {
+  const wrap = document.getElementById("linkedinAngles");
   wrap.innerHTML = "";
-  const grid = el("div", {class:"note-grid"});
-  (data.categories || []).forEach(cat => {
-    const notes = (data.briefing_notes || []).filter(x => x.category === cat);
-    if(!notes.length) return;
-    const box = el("div", {class:"note-card"}, [el("div", {class:"kicker"}, [cat])]);
-    notes.slice(0, 4).forEach(it => {
-      box.appendChild(el("h3", {}, [it.title]));
-      box.appendChild(el("p", {class:"note-summary"}, [it.summary_for_brief || it.summary || ""]));
-      if(it.why_it_matters) box.appendChild(el("p", {class:"note-why"}, [`Why it matters: ${it.why_it_matters}`]));
-    });
-    grid.appendChild(box);
+  const angles = data.linkedin_angles || [];
+
+  if (!angles.length) {
+    wrap.appendChild(node("p", { class: "empty" }, ["No post opportunities this cycle."]));
+    return;
+  }
+
+  angles.forEach((angle, index) => {
+    const copyBtn = node("button", { class: "btn", onclick: () => copyToClipboard(angle.draft || "", copyBtn) }, ["Copy draft"]);
+    wrap.appendChild(
+      node("article", { class: "angle-card" }, [
+        node("p", { class: "angle-number" }, [`Opportunity ${index + 1}`]),
+        node("h3", {}, [angle.hook || "Untitled"]),
+        node("p", { class: "angle" }, [angle.angle || ""]),
+        node("pre", { class: "draft" }, [angle.draft || ""]),
+        node("div", { class: "actions" }, [copyBtn])
+      ])
+    );
   });
-  if(!grid.childNodes.length) wrap.appendChild(el("div", {class:"empty"}, ["No briefing notes available."]));
-  else wrap.appendChild(grid);
+
+  const firstDraft = angles[0]?.draft || "";
+  const topBtn = document.getElementById("copyTopDraftBtn");
+  topBtn.onclick = () => copyToClipboard(firstDraft, topBtn);
 }
-function renderArchive(data){
+
+function renderWatchList(data) {
+  const wrap = document.getElementById("watchList");
+  wrap.innerHTML = "";
+  const watch = data.watch_list || [];
+
+  if (!watch.length) {
+    wrap.appendChild(node("li", { class: "empty" }, ["Watch list is empty this cycle."]));
+    return;
+  }
+
+  watch.forEach((item) => {
+    wrap.appendChild(
+      node("li", {}, [
+        node("a", { href: item.url, target: "_blank", rel: "noopener" }, [item.headline || "Untitled"]),
+        node("span", { class: "watch-meta" }, [` — ${item.source || "Source"}, ${item.date || "N/A"}`])
+      ])
+    );
+  });
+}
+
+function renderArchive(data) {
   const wrap = document.getElementById("archiveList");
   wrap.innerHTML = "";
-  (data.archive || []).forEach(a => {
-    const mdUrl = a.url.replace(/\.json$/, ".md");
-    wrap.appendChild(el("li", {}, [
-      el("span", {}, [a.label + " — "]),
-      el("a", {href: mdUrl, target:"_blank", rel:"noopener"}, ["Readable"]),
-      el("span", {}, [" · "]),
-      el("a", {href: a.url, target:"_blank", rel:"noopener"}, ["Raw JSON"])
-    ]));
+
+  (data.archive || []).forEach((entry) => {
+    const md = entry.url.replace(/\.json$/, ".md");
+    wrap.appendChild(
+      node("li", {}, [
+        node("span", {}, [entry.label + " — "]),
+        node("a", { href: md, target: "_blank", rel: "noopener" }, ["Readable"]),
+        node("span", {}, [" · "]),
+        node("a", { href: entry.url, target: "_blank", rel: "noopener" }, ["JSON"])
+      ])
+    );
   });
 }
-function renderFeedErrors(data){
-  const wrap = document.getElementById("feedErrors");
-  wrap.innerHTML = "";
-  const errs = data.feed_errors || [];
-  if(!errs.length){ wrap.appendChild(el("div", {class:"empty"}, ["No feed warnings this run."])); return; }
-  const ul = el("ul");
-  errs.forEach(err => ul.appendChild(el("li", {}, [err])));
-  wrap.appendChild(ul);
-}
-(async function(){
-  try{
-    const data = await loadJSON("data/latest.json");
-    renderMeta(data); renderDrafts(data); renderSignals(data); renderNotes(data); renderArchive(data); renderFeedErrors(data);
-  }catch(err){
-    document.getElementById("metaBox").textContent = err.message;
+
+(async function init() {
+  try {
+    const data = await loadLatest();
+    renderFreshness(data);
+    renderTopSignals(data);
+    renderAnalysis(data);
+    renderAngles(data);
+    renderWatchList(data);
+    renderArchive(data);
+  } catch (err) {
+    document.getElementById("freshnessPanel").textContent = err.message;
   }
 })();
