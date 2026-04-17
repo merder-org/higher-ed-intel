@@ -2,7 +2,7 @@ name: Higher-Ed Intel Twice Weekly
 
 on:
   schedule:
-   - cron: '0 13 * * 1,3,5'
+    - cron: '0 13 * * 1,3,5'
   workflow_dispatch:
     inputs:
       force_story_url:
@@ -60,100 +60,6 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python higher-ed-intel/generator/generate_weekly_brief.py
-
-      - name: Validate briefing structure
-        run: |
-          python higher-ed-intel/generator/validate_brief.py
-
-      - name: Upload generated briefing artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: higher-ed-intel-output
-          path: |
-            higher-ed-intel/data
-            higher-ed-intel/*.html
-          if-no-files-found: warn
-
-      - name: Check for changes
-        id: changes
-        run: |
-          if git diff --quiet --exit-code higher-ed-intel/data higher-ed-intel; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit updated briefing files
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add higher-ed-intel
-          git commit -m "Auto update higher-ed briefing"
-          git push
-
-      - name: Install lftp
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y lftp
-
-      - name: Deploy to Hostinger with lftp
-        if: steps.changes.outputs.changed == 'true'
-        env:
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          lftp -e "
-          set ssl:verify-certificate no;
-          set ftp:passive-mode true;
-          set net:max-retries 5;
-          set net:reconnect-interval-base 5;
-          set net:timeout 20;
-          open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
-          mirror -R --delete --verbose higher-ed-intel/ higher-ed-intel/;
-          bye
-          "
-
-      - name: Commit updated briefing files
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add higher-ed-intel
-          git commit -m "Auto update higher-ed briefing"
-          git push
-
-      - name: Install lftp
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y lftp
-
-      - name: Deploy to Hostinger with lftp
-        if: steps.changes.outputs.changed == 'true'
-        env:
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          lftp -e "
-          set ssl:verify-certificate no;
-          set ftp:passive-mode true;
-          set net:max-retries 5;
-          set net:reconnect-interval-base 5;
-          set net:timeout 20;
-          open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
-          mirror -R --delete --verbose higher-ed-intel/ higher-ed-intel/;
-          bye
-          "
-
-    - name: Generate briefing
-  env:
-    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-  run: |
-    python higher-ed-intel/generator/generate_weekly_brief.py
 
       - name: Validate briefing structure
         run: |
