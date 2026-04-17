@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Brief — Week of 2026-04-13
 
-_Generated: 2026-04-16 15:48 ET_
+_Generated: 2026-04-16 22:27 ET_
 
 _Target state: Massachusetts_
 

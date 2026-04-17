@@ -1,7 +1,7 @@
 {
   "schema_version": "4.0",
   "week_of": "2026-04-13",
-  "generated_at": "2026-04-16 15:48 ET",
+  "generated_at": "2026-04-16 22:27 ET",
   "target_state": "Massachusetts",
   "comparative_mode": true,
   "forced_story_url": "",
@@ -179,6 +179,18 @@
       "score": 5
     },
     {
+      "id": "6702846b1aa51a87",
+      "category": "Federal Policy",
+      "title": "ED’s plan to weed out fake student aid applications",
+      "url": "https://www.ccdaily.com/2026/04/eds-plan-to-weed-out-fake-student-aid-applications/?utm_source=rss&utm_medium=rss&utm_campaign=eds-plan-to-weed-out-fake-student-aid-applications",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-16",
+      "summary": "The U.S. Education Department (ED) this week detailed its timeline and implementation of real-time identity screening procedures for applicants completing the Free Application for Federal Student Aid (FAFSA). The changes aim to address the rise... The post ED’s plan to weed out fake student aid applications first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 10
+    },
+    {
       "id": "f632223a5aafbc3d",
       "category": "Academic Advising",
       "title": "Shifting focus to post-completion outcomes",
@@ -191,18 +203,6 @@
       "score": 10
     },
     {
-      "id": "12a4332d9489000e",
-      "category": "Academic Advising",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/04/funding-roundup-440/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-440",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-13",
-      "summary": "San Diego City College’s (SDCC) nursing education program will use nearly $2 million through the state’s Rebuilding Nursing Infrastructure Program to expand nursing education capacity and address critical healthcare workforce shortages across California. The grant... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 6
-    },
-    {
       "id": "fd6edcf168260dac",
       "category": "AI in Higher Ed",
       "title": "Building AI Initiatives with Bottom-Up Champions",
@@ -213,6 +213,30 @@
       "why_it_matters": "",
       "tags": [],
       "score": 6
+    },
+    {
+      "id": "a72057b4ae84cd65",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/04/headlines-1159/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1159",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-16",
+      "summary": "Students earning credentials at younger ages Insider Higher Ed More than 3.4 million people earned an undergraduate credential during the 2024–25 academic year, a 3.2% increase over 2023–24, according to a new report from the... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "68e60bd6dcc1b0a0",
+      "category": "Academic Advising",
+      "title": "Rethinking Unpaid Undergraduate Research",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/04/16/rethinking-unpaid-undergraduate-research",
+      "source": "Inside Higher Ed",
+      "published": "2026-04-16",
+      "summary": "Rethinking Unpaid Undergraduate Research Joshua.Bay Thu, 04/16/2026 - 03:00 AM Soka University of America’s model compensates students for research, expanding access while meeting growing demand for career-ready experience. Byline(s) Joshua Bay",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
     },
     {
       "id": "8c1a2b4465bd4afb",
@@ -347,25 +371,13 @@
       "score": 5
     },
     {
-      "id": "d94194bbb36050ad",
-      "category": "Federal Policy",
-      "title": "Brown University Keeps Police Chief Who Took Over After Shooting",
-      "url": "https://www.nytimes.com/2026/04/09/us/brown-university-police-chief.html",
-      "source": "NYT Education",
-      "published": "2026-04-09",
-      "summary": "Hugh T. Clements Jr. was a fixture of the Providence Police Department before becoming Brown’s interim chief after the fatal attack in December.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "a72057b4ae84cd65",
+      "id": "3682d2a3b64b25fe",
       "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/04/headlines-1159/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1159",
+      "title": "Newsmakers",
+      "url": "https://www.ccdaily.com/2026/04/newsmakers-355/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-355",
       "source": "AACC Community College Daily",
       "published": "2026-04-16",
-      "summary": "Commentary: House GOP aims to make adult education a funnel to low-wage jobs New America (blog) Removing the program from the Education Department would undermine the ambitions of students and start Hill efforts to shutter... The post Headlines first appeared on Community College Daily .",
+      "summary": "New CEOs David M. Knezek, Jr., has been appointed as the seventh president of Henry Ford College (Michigan). He is currently chief operating officer of the Michigan Department of Health and Human Services and an... The post Newsmakers first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -402,18 +414,6 @@
       "source": "AACC Community College Daily",
       "published": "2026-04-15",
       "summary": "Gov. Abbott touts Texas Jobs Council to strengthen skilled workforce Lubbock Avalanche-Journal “There are approximately 2.6 million Texans with some college credits but no credentials,” said Texas Association of Community Colleges President and CEO Ray... The post Headlines first appeared on Community College Daily .",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "fbb5832b0b748849",
-      "category": "Academic Advising",
-      "title": "Headlines",
-      "url": "https://www.ccdaily.com/2026/04/headlines-1156/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1156",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-13",
-      "summary": "Why college oversight could get more political Politico Weekly Education The Trump administration is forging ahead in its quest to rid higher education of “radical left” oversight organizations. Commentary: How federal data provides the long... The post Headlines first appeared on Community College Daily .",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -740,6 +740,29 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
+      "id": "6702846b1aa51a87",
+      "category": "Federal Policy",
+      "title": "ED’s plan to weed out fake student aid applications",
+      "url": "https://www.ccdaily.com/2026/04/eds-plan-to-weed-out-fake-student-aid-applications/?utm_source=rss&utm_medium=rss&utm_campaign=eds-plan-to-weed-out-fake-student-aid-applications",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-16",
+      "summary": "The U.S. Education Department (ED) this week detailed its timeline and implementation of real-time identity screening procedures for applicants completing the Free Application for Federal Student Aid (FAFSA). The changes aim to address the rise... The post ED’s plan to weed out fake student aid applications first appeared on Community College Daily .",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "tags": [],
+      "score": 10,
+      "summary_for_brief": "The U.S. Education Department (ED) this week detailed its timeline and implementation of real-time identity screening procedures for applicants completing the Free Application for Federal Student Aid (FAFSA). The changes aim to address the rise... The post ED’s plan to weed out fake student aid applications first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed",
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
       "id": "b55a9a3eaeed59dd",
       "category": "Federal Policy",
       "title": "Dozens of colleges get more time to submit race and sex admissions data",
@@ -785,24 +808,6 @@
         "For Massachusetts, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so."
       ],
       "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
-    },
-    {
-      "id": "1806561edf998449",
-      "category": "Federal Policy",
-      "title": "Walla Walla Community College board votes to close satellite campus",
-      "url": "https://www.highereddive.com/news/walla-walla-community-college-board-votes-to-close-satellite-campus/817625/",
-      "source": "Higher Ed Dive",
-      "published": "2026-04-16",
-      "summary": "Even as they prepare to shutter the Clarkston, Washington, location, officials are exploring alternative funding to keep a physical presence in the area.",
-      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
-      "tags": [],
-      "score": 6,
-      "summary_for_brief": "Even as they prepare to shutter the Clarkston, Washington, location, officials are exploring alternative funding to keep a physical presence in the area.",
-      "story_tags": [],
-      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
-      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
-      "comparison_points": [],
-      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
     },
     {
       "id": "f632223a5aafbc3d",
@@ -851,30 +856,6 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "12a4332d9489000e",
-      "category": "Academic Advising",
-      "title": "Funding roundup",
-      "url": "https://www.ccdaily.com/2026/04/funding-roundup-440/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-440",
-      "source": "AACC Community College Daily",
-      "published": "2026-04-13",
-      "summary": "San Diego City College’s (SDCC) nursing education program will use nearly $2 million through the state’s Rebuilding Nursing Infrastructure Program to expand nursing education capacity and address critical healthcare workforce shortages across California. The grant... The post Funding roundup first appeared on Community College Daily .",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
-      "tags": [],
-      "score": 6,
-      "summary_for_brief": "San Diego City College’s (SDCC) nursing education program will use nearly $2 million through the state’s Rebuilding Nursing Infrastructure Program to expand nursing education capacity and address critical healthcare workforce shortages across California. The grant... The post Funding roundup first appeared on Community College Daily .",
-      "story_tags": [
-        "artificial_intelligence_in_higher_ed",
-        "federal_rulemaking_or_grants"
-      ],
-      "core_story": "The core story here is about whether colleges are ready to act on a major policy or funding shift before it becomes routine sector news.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This appears to be a system-level initiative outside Massachusetts, which makes it useful as a benchmark rather than just a local news item.",
-        "For Massachusetts, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so."
-      ],
-      "recommended_angle": "Use this as an early signal: what would it take for community colleges in Massachusetts to be ahead of this development rather than reacting to it later?"
-    },
-    {
       "id": "7843f2974beb4683",
       "category": "Academic Advising",
       "title": "One Course or Five? The Complexities of California Transfer",
@@ -893,6 +874,28 @@
       "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
       "comparison_points": [
         "This appears to be a system-level initiative outside Massachusetts, which makes it useful as a benchmark rather than just a local news item."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "a72057b4ae84cd65",
+      "category": "Academic Advising",
+      "title": "Headlines",
+      "url": "https://www.ccdaily.com/2026/04/headlines-1159/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1159",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-16",
+      "summary": "Students earning credentials at younger ages Insider Higher Ed More than 3.4 million people earned an undergraduate credential during the 2024–25 academic year, a 3.2% increase over 2023–24, according to a new report from the... The post Headlines first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 5,
+      "summary_for_brief": "Students earning credentials at younger ages Insider Higher Ed More than 3.4 million people earned an undergraduate credential during the 2024–25 academic year, a 3.2% increase over 2023–24, according to a new report from the... The post Headlines first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
       ],
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
