@@ -3,71 +3,62 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Higher Ed Intelligence Brief</title>
+  <title>Massachusetts Higher-Ed Intelligence Brief</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="wrap topbar">
+  <header class="wrap masthead">
     <div>
-      <div class="eyebrow">Twice-weekly briefing writer</div>
-      <h1>Higher Ed Intelligence Brief</h1>
-      <p class="sub">Massachusetts policy • federal higher-ed signals • advising • AI — organized for copy-ready LinkedIn use.</p>
+      <p class="eyebrow">Massachusetts community college intelligence</p>
+      <h1>Higher-Ed Intelligence Brief</h1>
+      <p class="lede">A curated Monday / Wednesday / Friday brief focused on policy movement, student support capacity, transfer execution, and practical workforce relevance.</p>
     </div>
-    <div class="top-actions">
+    <div class="header-actions">
       <a class="btn" href="data/latest.md" target="_blank" rel="noopener">Readable brief</a>
-      <a class="btn" href="data/latest.json" target="_blank" rel="noopener">latest.json</a>
-      <button class="btn primary" id="copyAllDraftsBtn">Copy all drafts</button>
+      <a class="btn" href="data/latest.json" target="_blank" rel="noopener">Raw JSON</a>
+      <button class="btn primary" id="copyTopDraftBtn">Copy top draft</button>
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="hero card">
-      <div class="hero-left">
-        <div class="eyebrow">Ready to post</div>
-        <h2>LinkedIn drafts</h2>
-        <p class="section-note">These should be the first thing you see on Monday and Thursday. Copy one, tweak it lightly, and post.</p>
+  <main class="wrap layout">
+    <section class="panel freshness-panel" id="freshnessPanel">Loading latest cycle…</section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h2>Section 1 — Top Signals This Cycle</h2>
+        <p>Only the strongest 3–5 developments. Tags show topical relevance and novelty.</p>
       </div>
-      <div class="hero-right" id="metaBox">Loading…</div>
+      <div id="topSignals" class="signal-list"></div>
     </section>
 
-    <section class="card">
+    <section class="panel">
       <div class="section-head">
-        <h2>Copy-ready drafts</h2>
-        <p class="section-note">Three drafts are always generated: Massachusetts/community college policy, federal/student-success, and AI in higher ed.</p>
+        <h2>Section 2 — Why This Matters Now</h2>
       </div>
-      <div id="linkedinDrafts" class="draft-grid"></div>
+      <article id="analysisBlock" class="analysis"></article>
     </section>
 
-    <section class="card">
+    <section class="panel">
       <div class="section-head">
-        <h2>Top signals this run</h2>
-        <p class="section-note">Short summaries first. Raw feed detail comes later.</p>
+        <h2>Section 3 — Possible LinkedIn Post Angles</h2>
+        <p>One to three post-worthy angles. If this cycle is quiet, it will say so directly.</p>
       </div>
-      <div id="topSignals" class="signal-grid"></div>
+      <div id="linkedinAngles" class="angle-list"></div>
     </section>
 
-    <section class="card">
+    <section class="panel">
       <div class="section-head">
-        <h2>Briefing notes</h2>
-        <p class="section-note">Organized by category for deeper context when you want it.</p>
+        <h2>Section 4 — Watch List</h2>
+        <p>Developments worth monitoring that did not clear top-signal threshold yet.</p>
       </div>
-      <div id="briefingNotes"></div>
+      <ul id="watchList" class="watch-list"></ul>
     </section>
 
-    <section class="card">
+    <section class="panel muted">
       <div class="section-head">
-        <h2>Archive</h2>
-        <p class="section-note">Older briefings in readable and raw formats.</p>
+        <h2>Section 5 — Archive</h2>
       </div>
       <ul id="archiveList" class="archive-list"></ul>
-    </section>
-
-    <section class="card muted-card">
-      <div class="section-head">
-        <h2>Feed diagnostics</h2>
-        <p class="section-note">Only useful when a source is flaky.</p>
-      </div>
-      <div id="feedErrors"></div>
     </section>
   </main>
 

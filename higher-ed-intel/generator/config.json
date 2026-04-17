@@ -1,235 +1,44 @@
 {
   "site": {
     "public_base_url": "https://merder.org/higher-ed-intel/",
-    "title": "Higher Ed Intelligence Brief"
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
   },
   "filters": {
-    "days_lookback": 14,
-    "max_items_total": 40,
-    "max_items_per_category": 10
+    "days_lookback": 12,
+    "top_signals_max": 5
   },
-  "static_items": [
-    {
-      "category": "MA Budget / SUCCESS",
-      "title": "MA Budget: Community College SUCCESS Fund (7100-4002)",
-      "url": "https://budget.digital.mass.gov/govbudget/fy27/appropriations/education/higher-education/71004002/",
-      "source": "budget.digital.mass.gov",
-      "why_it_matters": "Anchor page for tracking SUCCESS language, funding, and wraparound-support intent through the budget process.",
-      "tags": [
-        "Massachusetts",
-        "SUCCESS",
-        "Budget"
-      ],
-      "score": 14
-    },
-    {
-      "category": "MA Budget / SUCCESS",
-      "title": "MassDHE News Clips: Community Colleges",
-      "url": "https://www.mass.edu/newsclips/ccsystem.asp",
-      "source": "mass.edu",
-      "why_it_matters": "MassDHE’s community college clips often surface state-level transfer, workforce, affordability, and funding developments.",
-      "tags": [
-        "Massachusetts",
-        "MassDHE",
-        "Community Colleges"
-      ],
-      "score": 11
-    },
-    {
-      "category": "MA Budget / SUCCESS",
-      "title": "MassEducate",
-      "url": "https://www.mass.edu/osfa/programs/masseducate.asp",
-      "source": "mass.edu",
-      "why_it_matters": "Useful anchor for Massachusetts affordability policy and how access commitments interact with advising, persistence, and completion capacity.",
-      "tags": [
-        "Massachusetts",
-        "MassEducate",
-        "Affordability"
-      ],
-      "score": 12
-    },
-    {
-      "category": "MA Budget / SUCCESS",
-      "title": "MassReconnect",
-      "url": "https://www.mass.edu/osfa/programs/massreconnect.asp",
-      "source": "mass.edu",
-      "why_it_matters": "Important Massachusetts reference point for adult student re-engagement, affordability, and the operational demands placed on community colleges.",
-      "tags": [
-        "Massachusetts",
-        "MassReconnect",
-        "Adult Learners"
-      ],
-      "score": 12
-    },
-    {
-      "category": "MA Budget / SUCCESS",
-      "title": "MassTransfer",
-      "url": "https://www.mass.edu/masstransfer/",
-      "source": "mass.edu",
-      "why_it_matters": "Anchor page for Massachusetts transfer policy, useful when comparing other states’ transfer, articulation, and pathway reforms.",
-      "tags": [
-        "Massachusetts",
-        "MassTransfer",
-        "Transfer"
-      ],
-      "score": 11
-    }
-  ],
   "feeds": [
     {
+      "name": "Mass.gov News",
+      "url": "https://www.mass.gov/rss.xml"
+    },
+    {
+      "name": "Mass DHE News Clips",
+      "url": "https://www.mass.edu/newsclips/rss.asp"
+    },
+    {
       "name": "Inside Higher Ed",
-      "url": "https://www.insidehighered.com/rss.xml",
-      "default_category": "Academic Advising"
+      "url": "https://www.insidehighered.com/rss.xml"
     },
     {
       "name": "Higher Ed Dive",
-      "url": "https://www.highereddive.com/feeds/news/",
-      "default_category": "Federal Policy"
+      "url": "https://www.highereddive.com/feeds/news/"
     },
     {
-      "name": "AACC Community College Daily",
-      "url": "https://www.ccdaily.com/feed/",
-      "default_category": "Academic Advising"
-    },
-    {
-      "name": "EdSurge",
-      "url": "https://www.edsurge.com/articles_rss",
-      "default_category": "AI in Higher Ed"
-    },
-    {
-      "name": "EDUCAUSE Review",
-      "url": "https://er.educause.edu/rss",
-      "default_category": "AI in Higher Ed"
-    },
-    {
-      "name": "NYT Education",
-      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Education.xml",
-      "default_category": "Federal Policy"
+      "name": "Community College Daily",
+      "url": "https://www.ccdaily.com/feed/"
     },
     {
       "name": "U.S. Department of Education Blog",
-      "url": "https://blog.ed.gov/feed/",
-      "default_category": "Federal Policy"
+      "url": "https://blog.ed.gov/feed/"
     },
     {
-      "name": "U.S. Department of Labor Releases",
-      "url": "https://www.dol.gov/rss/releases.xml",
-      "default_category": "Federal Policy"
+      "name": "Federal Register",
+      "url": "https://www.govinfo.gov/rss/fr.xml"
     },
     {
-      "name": "GovInfo Federal Register",
-      "url": "https://www.govinfo.gov/rss/fr.xml",
-      "default_category": "Federal Policy"
-    },
-    {
-      "name": "GovInfo Bills",
-      "url": "https://www.govinfo.gov/rss/bills.xml",
-      "default_category": "Federal Policy"
-    },
-    {
-      "name": "GovInfo GAO Reports",
-      "url": "https://www.govinfo.gov/rss/gaoreports.xml",
-      "default_category": "Federal Policy"
-    },
-    {
-      "name": "MassDHE Pinboard",
-      "url": "https://feeds.pinboard.in/rss/u:MassDHE",
-      "default_category": "MA Budget / SUCCESS"
-    }
-  ],
-  "category_rules": [
-    {
-      "category": "MA Budget / SUCCESS",
-      "keywords": [
-        "massachusetts",
-        "massdhe",
-        "massachusetts department of higher education",
-        "mass transfer",
-        "masstransfer",
-        "massreconnect",
-        "masseducate",
-        "7100-4002",
-        "success fund",
-        "community college success fund",
-        "house ways and means",
-        "senate ways and means"
-      ]
-    },
-    {
-      "category": "Federal Policy",
-      "keywords": [
-        "department of education",
-        "ed.gov",
-        "pell",
-        "workforce pell",
-        "fafsa",
-        "rulemaking",
-        "title iv",
-        "gainful employment",
-        "dol",
-        "employment and training administration",
-        "eta",
-        "strengthening community colleges",
-        "congress",
-        "federal register",
-        "gao",
-        "appropriations",
-        "federal grant"
-      ]
-    },
-    {
-      "category": "Academic Advising",
-      "keywords": [
-        "advising",
-        "advisor",
-        "student success",
-        "retention",
-        "completion",
-        "case management",
-        "guided pathways",
-        "intrusive advising",
-        "transfer advising",
-        "wraparound",
-        "coaching",
-        "first-generation",
-        "persistence"
-      ]
-    },
-    {
-      "category": "AI in Higher Ed",
-      "keywords": [
-        "artificial intelligence",
-        "generative ai",
-        "chatgpt",
-        "copilot",
-        "ai policy",
-        "ai literacy",
-        "academic integrity",
-        "ai in higher education",
-        "edtech",
-        "automation",
-        "llm",
-        "student support chatbot"
-      ]
-    },
-    {
-      "category": "State Systems / Innovation",
-      "keywords": [
-        "state system",
-        "statewide initiative",
-        "community college system",
-        "governor proposed",
-        "state budget",
-        "appropriation",
-        "credit for prior learning",
-        "prior learning assessment",
-        "cpl",
-        "pla",
-        "transfer reform",
-        "articulation reform",
-        "systemwide",
-        "adult learner re-engagement"
-      ]
+      "name": "EDUCAUSE Review",
+      "url": "https://er.educause.edu/rss"
     }
   ]
 }

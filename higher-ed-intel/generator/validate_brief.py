@@ -6,8 +6,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
-LATEST_JSON = DATA / "latest.json"
+LATEST_JSON = ROOT / "data" / "latest.json"
 
 
 def fail(message: str) -> None:
@@ -15,77 +14,79 @@ def fail(message: str) -> None:
     sys.exit(1)
 
 
-def require(obj: dict, field: str, context: str) -> None:
-    value = obj.get(field)
-    if value is None:
-        fail(f"{context} is missing required field '{field}'")
+def require(container: dict, key: str, context: str) -> None:
+    if key not in container:
+        fail(f"{context} missing '{key}'")
+    value = container[key]
     if isinstance(value, str) and not value.strip():
-        fail(f"{context} has empty required field '{field}'")
-    if isinstance(value, list) and len(value) == 0:
-        fail(f"{context} has empty required list '{field}'")
+        fail(f"{context} has empty '{key}'")
+
+
+def validate_top_signal(item: dict, idx: int) -> None:
+    context = f"top_signals[{idx}]"
+    for key in ["id", "headline", "source", "date", "summary", "why_it_matters", "url", "labels", "score"]:
+        require(item, key, context)
+
+    if not isinstance(item["labels"], list) or len(item["labels"]) < 2:
+        fail(f"{context}.labels must include novelty plus at least one topical label")
+
+    if item["labels"][0] not in {"NEW", "UPDATED"}:
+        fail(f"{context}.labels first value must be NEW or UPDATED")
+
+
+def validate_linkedin_angle(item: dict, idx: int) -> None:
+    context = f"linkedin_angles[{idx}]"
+    for key in ["hook", "angle", "draft"]:
+        require(item, key, context)
 
 
 def main() -> None:
     if not LATEST_JSON.exists():
-        fail(f"Missing file: {LATEST_JSON}")
+        fail(f"Missing {LATEST_JSON}")
 
     try:
         brief = json.loads(LATEST_JSON.read_text(encoding="utf-8"))
     except Exception as exc:
-        fail(f"Could not parse latest.json: {exc}")
+        fail(f"Failed to parse latest.json: {exc}")
 
-    require(brief, "schema_version", "brief")
-    require(brief, "week_of", "brief")
-    require(brief, "generated_at", "brief")
-    require(brief, "categories", "brief")
-    require(brief, "items", "brief")
-    require(brief, "top_signals", "brief")
-    require(brief, "linkedin_drafts", "brief")
+    for key in [
+        "schema_version",
+        "product",
+        "cadence",
+        "generated_at",
+        "cycle_date",
+        "top_signals",
+        "why_this_matters_now",
+        "linkedin_angles",
+        "watch_list",
+        "archive",
+        "freshness",
+    ]:
+        require(brief, key, "brief")
 
-    top_signals = brief.get("top_signals", [])
+    top_signals = brief["top_signals"]
+    if not isinstance(top_signals, list):
+        fail("brief.top_signals must be a list")
+    if len(top_signals) > 5:
+        fail("brief.top_signals must have at most 5 items")
+
     for i, item in enumerate(top_signals, start=1):
-        context = f"top_signals[{i}]"
-        require(item, "id", context)
-        require(item, "title", context)
-        require(item, "url", context)
-        require(item, "category", context)
-        require(item, "summary_for_brief", context)
-        require(item, "why_it_matters", context)
-        require(item, "core_story", context)
-        require(item, "state_relevance", context)
-        require(item, "recommended_angle", context)
+        validate_top_signal(item, i)
 
-        story_tags = item.get("story_tags")
-        if story_tags is None:
-            fail(f"{context} is missing required field 'story_tags'")
-        if not isinstance(story_tags, list):
-            fail(f"{context} field 'story_tags' must be a list")
+    watch_list = brief["watch_list"]
+    if not isinstance(watch_list, list):
+        fail("brief.watch_list must be a list")
+    if len(watch_list) > 4:
+        fail("brief.watch_list must have at most 4 items")
 
-        comparison_points = item.get("comparison_points")
-        if comparison_points is None:
-            fail(f"{context} is missing required field 'comparison_points'")
-        if not isinstance(comparison_points, list):
-            fail(f"{context} field 'comparison_points' must be a list")
+    linkedin_angles = brief["linkedin_angles"]
+    if not isinstance(linkedin_angles, list):
+        fail("brief.linkedin_angles must be a list")
+    if len(linkedin_angles) > 3:
+        fail("brief.linkedin_angles must have at most 3 items")
 
-        trigger_tags = {
-            "state_budget",
-            "credit_for_prior_learning",
-            "artificial_intelligence_in_higher_ed",
-            "transfer_reform",
-            "student_support_infrastructure",
-        }
-
-        if any(tag in trigger_tags for tag in story_tags):
-            if len(comparison_points) == 0:
-                fail(
-                    f"{context} has trigger tags {story_tags} but no comparison_points"
-                )
-
-    drafts = brief.get("linkedin_drafts", [])
-    for i, draft in enumerate(drafts, start=1):
-        context = f"linkedin_drafts[{i}]"
-        require(draft, "title", context)
-        require(draft, "text", context)
+    for i, angle in enumerate(linkedin_angles, start=1):
+        validate_linkedin_angle(angle, i)
 
     print("VALIDATION OK")
 
