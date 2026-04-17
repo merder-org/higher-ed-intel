@@ -12,13 +12,13 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-04-17 15:09 ET",
+  "generated_at": "2026-04-17 16:06 ET",
   "cycle_date": "2026-04-17",
   "week_of": "2026-04-13",
   "freshness": {
     "cycle_date": "2026-04-17",
-    "new_count": 1,
-    "updated_count": 4
+    "new_count": 0,
+    "updated_count": 5
   },
   "sections": [
     "top_signals_this_cycle",
@@ -67,7 +67,7 @@
       "why_it_matters": "This is a practical signal about implementation capacity, not just policy language.",
       "url": "https://www.highereddive.com/news/there-is-no-silver-bullet-how-2-colleges-use-ai-to-support-nontraditiona/817465/",
       "labels": [
-        "NEW",
+        "UPDATED",
         "AI"
       ],
       "score": 7
@@ -188,14 +188,12 @@
   ],
   "items_considered": 10,
   "feed_errors": [
-    "Mass.gov News: <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "Mass DHE News Clips: <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "Inside Higher Ed: <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "Higher Ed Dive: <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "Community College Daily: <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "U.S. Department of Education Blog: <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "Federal Register: <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "EDUCAUSE Review: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    "Mass.gov News: <unknown>:21:22: not well-formed (invalid token)",
+    "Mass DHE News Clips: text/html is not an XML media type",
+    "Higher Ed Dive: 'title'",
+    "Community College Daily: 'title'",
+    "U.S. Department of Education Blog: <unknown>:25:14: not well-formed (invalid token)",
+    "EDUCAUSE Review: 'title'"
   ],
   "site": {
     "public_base_url": "https://merder.org/higher-ed-intel/",

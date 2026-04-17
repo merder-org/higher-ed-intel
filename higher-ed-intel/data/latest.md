@@ -1,6 +1,6 @@
 # Higher-Ed Intelligence Brief — 2026-04-17
 
-_Generated: 2026-04-17 15:09 ET_
+_Generated: 2026-04-17 16:06 ET_
 
 ## Top Signals This Cycle
 
@@ -20,7 +20,7 @@ _Generated: 2026-04-17 15:09 ET_
 
 ### ‘There is no silver bullet’: How 2 colleges use AI to support nontraditional learners
 - Source: Higher Ed Dive (2026-04-15)
-- Labels: NEW, AI
+- Labels: UPDATED, AI
 - Summary: Artificial intelligence can help bridge gaps for students, but it isn't as simple as buying a bunch of products, college leaders said at the ASU+GSV Summit.
 - Why it matters: This is a practical signal about implementation capacity, not just policy language.
 - Link: https://www.highereddive.com/news/there-is-no-silver-bullet-how-2-colleges-use-ai-to-support-nontraditiona/817465/
