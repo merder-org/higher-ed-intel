@@ -55,14 +55,11 @@ jobs:
             pip install feedparser python-dateutil requests openai
           fi
 
-      - name: Generate briefing
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          python higher-ed-intel/generator/generate_weekly_brief.py \
-            --target-state "$TARGET_STATE" \
-            --comparative-mode "$COMPARATIVE_MODE" \
-            ${FORCE_STORY_URL:+--force-story-url "$FORCE_STORY_URL"}
+    - name: Generate briefing
+  env:
+    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  run: |
+    python higher-ed-intel/generator/generate_weekly_brief.py
 
       - name: Validate briefing structure
         run: |
