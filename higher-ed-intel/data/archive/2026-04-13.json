@@ -1,7 +1,7 @@
 {
   "schema_version": "4.0",
   "week_of": "2026-04-13",
-  "generated_at": "2026-04-17 11:36 ET",
+  "generated_at": "2026-04-17 14:40 ET",
   "target_state": "Massachusetts",
   "comparative_mode": true,
   "forced_story_url": "",
@@ -153,18 +153,6 @@
         "Transfer"
       ],
       "score": 11
-    },
-    {
-      "id": "9f3b2f88c33af521",
-      "category": "Federal Policy",
-      "title": "Looking for a College Scholarship on Social Media Sites? Buyer, Beware.",
-      "url": "https://www.nytimes.com/2026/04/11/your-money/college-scholarships-social-media.html",
-      "source": "NYT Education",
-      "published": "2026-04-11",
-      "summary": "Students say they trust their peers’ advice more than financial advisers’, a new survey found. But experts say students need to do their own research.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
     },
     {
       "id": "6702846b1aa51a87",
@@ -347,6 +335,18 @@
       "score": 5
     },
     {
+      "id": "93d67692060bedba",
+      "category": "Federal Policy",
+      "title": "Mounting Troubles at Ohio State University Lead to Frustration",
+      "url": "https://www.nytimes.com/2026/04/16/us/ohio-state-university.html",
+      "source": "NYT Education",
+      "published": "2026-04-16",
+      "summary": "Ohio State isn’t the only university in turmoil, but few others have faced so many issues lately. One lawmaker called the school “a national embarrassment.”",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
       "id": "69807560cd193601",
       "category": "Federal Policy",
       "title": "Texas A&M Picks an Insider for President After Months of Conflict",
@@ -438,18 +438,6 @@
       "source": "Inside Higher Ed",
       "published": "2026-04-17",
       "summary": "Yale President: University Helped Erode Public Trust in Higher Ed Ryan Quinn Fri, 04/17/2026 - 03:00 AM Byline(s) Ryan Quinn",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 4
-    },
-    {
-      "id": "5f25a2d8c18973bb",
-      "category": "AI in Higher Ed",
-      "title": "As a Tool of Productivity, AI Can Make the Effort to Learn More Meaningful",
-      "url": "https://www.edsurge.com/news/2026-04-03-as-a-tool-of-productivity-ai-can-make-the-effort-to-learn-more-meaningful",
-      "source": "EdSurge",
-      "published": "2026-04-03",
-      "summary": "I want to share a story of struggle. Actually, two kinds of struggle. My father completed his doctorate at the University of Utah in the early 1970s. ...",
       "why_it_matters": "",
       "tags": [],
       "score": 4
