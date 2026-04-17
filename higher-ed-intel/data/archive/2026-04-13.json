@@ -1,7 +1,7 @@
 {
   "schema_version": "4.0",
   "week_of": "2026-04-13",
-  "generated_at": "2026-04-16 22:27 ET",
+  "generated_at": "2026-04-17 11:36 ET",
   "target_state": "Massachusetts",
   "comparative_mode": true,
   "forced_story_url": "",
@@ -29,18 +29,6 @@
         "Budget"
       ],
       "score": 14
-    },
-    {
-      "id": "b55a9a3eaeed59dd",
-      "category": "Federal Policy",
-      "title": "Dozens of colleges get more time to submit race and sex admissions data",
-      "url": "https://www.highereddive.com/news/dozens-colleges-more-time-submit-race-sex-admissions-data/817375/",
-      "source": "Higher Ed Dive",
-      "published": "2026-04-14",
-      "summary": "A federal judge also granted their request to permanently join a legal challenge against the U.S. Department of Education’s new survey.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 7
     },
     {
       "id": "8bcc3733b35ecc4c",
@@ -227,13 +215,13 @@
       "score": 5
     },
     {
-      "id": "68e60bd6dcc1b0a0",
+      "id": "2332283886cd78ad",
       "category": "Academic Advising",
-      "title": "Rethinking Unpaid Undergraduate Research",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/04/16/rethinking-unpaid-undergraduate-research",
+      "title": "Virtual Fellowships a ‘Lifeline’ for Gazan Academics",
+      "url": "https://www.insidehighered.com/news/faculty/research/2026/04/17/virtual-fellowships-lifeline-gazan-academics",
       "source": "Inside Higher Ed",
-      "published": "2026-04-16",
-      "summary": "Rethinking Unpaid Undergraduate Research Joshua.Bay Thu, 04/16/2026 - 03:00 AM Soka University of America’s model compensates students for research, expanding access while meeting growing demand for career-ready experience. Byline(s) Joshua Bay",
+      "published": "2026-04-17",
+      "summary": "Virtual Fellowships a ‘Lifeline’ for Gazan Academics Susan H. Greenberg Fri, 04/17/2026 - 03:00 AM Universities find ways to help scholars keep work going despite widespread destruction of higher ed institutions and research facilities. Byline(s) Juliette Rowsell for Times Higher Education",
       "why_it_matters": "",
       "tags": [],
       "score": 4
@@ -263,13 +251,13 @@
       "score": 6
     },
     {
-      "id": "7843f2974beb4683",
-      "category": "Academic Advising",
-      "title": "One Course or Five? The Complexities of California Transfer",
-      "url": "https://www.insidehighered.com/opinion/columns/beyond-transfer/2026/04/16/stem-majors-not-only-students-stuck-transfer-maze",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-16",
-      "summary": "One Course or Five? The Complexities of California Transfer quintina.barne… Thu, 04/16/2026 - 03:00 AM STEM majors aren’t the only students stuck in the transfer maze. Byline(s) Alexis Robin Hale",
+      "id": "24567e91e0af3845",
+      "category": "AI in Higher Ed",
+      "title": "Kentucky lawmakers override veto on bill easing faculty terminations",
+      "url": "https://www.highereddive.com/news/kentucky-lawmakers-override-veto-on-bill-easing-faculty-terminations/817770/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-17",
+      "summary": "Under the legislation, public colleges will be able to let go of professors for “bona fide financial reasons,” including if programs have low enrollment.",
       "why_it_matters": "",
       "tags": [],
       "score": 6
@@ -323,6 +311,30 @@
       "score": 6
     },
     {
+      "id": "2bd3dcdd7ca8177a",
+      "category": "Federal Policy",
+      "title": "University of Michigan’s incoming president withdraws after cancer diagnosis",
+      "url": "https://www.highereddive.com/news/university-of-michigans-incoming-president-withdraws-after-cancer-diagnosi/817767/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-17",
+      "summary": "Kent Syverud, who led Syracuse University for over a decade, would have begun in July. Now, the public institution is restarting its search for a leader.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
+      "id": "5bf93cc0023bda67",
+      "category": "Federal Policy",
+      "title": "Sonny Perdue to retire as University System of Georgia leader",
+      "url": "https://www.highereddive.com/news/sonny-perdue-retire-university-system-georgia-leader/817762/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-16",
+      "summary": "The chancellor has led the system for four years and will stay on until its board selects his successor, per a Wednesday statement.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 5
+    },
+    {
       "id": "ea9f67fa18f9d12b",
       "category": "Federal Policy",
       "title": "AI is remaking the workforce. How can colleges ensure students thrive?",
@@ -330,18 +342,6 @@
       "source": "Higher Ed Dive",
       "published": "2026-04-16",
       "summary": "Skills training and public-private partnerships are key in a rapidly changing job landscape, higher ed leaders said this week at the annual ASU+GSV Summit.",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 5
-    },
-    {
-      "id": "3b8681e78185a802",
-      "category": "Federal Policy",
-      "title": "Texas Tech System to nix programs focused on sexual orientation and gender identity",
-      "url": "https://www.highereddive.com/news/texas-tech-system-nix-programs-sexual-orientation-gender/817374/",
-      "source": "Higher Ed Dive",
-      "published": "2026-04-13",
-      "summary": "The move is just the latest instance of Texas public higher education leaders moving to curb instruction on topics related to sex and gender.",
       "why_it_matters": "",
       "tags": [],
       "score": 5
@@ -419,13 +419,25 @@
       "score": 5
     },
     {
-      "id": "3bda82fe4dc42d3d",
+      "id": "56156c038a4d98ae",
       "category": "Academic Advising",
-      "title": "In Accreditation Talks, Colleges and Accreditors Have Fewer Votes",
-      "url": "https://www.insidehighered.com/news/government/politics-elections/2026/04/16/accreditation-talks-colleges-accreditors-have-fewer",
+      "title": "Climate Knowledge Linked to Student Stress",
+      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/04/17/climate-knowledge-linked-student-stress",
       "source": "Inside Higher Ed",
-      "published": "2026-04-16",
-      "summary": "In Accreditation Talks, Colleges and Accreditors Have Fewer Votes jessica.blake@… Thu, 04/16/2026 - 03:00 AM A fraction of the number of college and university leaders have a seat at the negotiating table compared to a similar rule-making effort in 2019, an Inside Higher Ed analysis finds. Byline(s) Jessica Blake",
+      "published": "2026-04-17",
+      "summary": "Climate Knowledge Linked to Student Stress Joshua.Bay Fri, 04/17/2026 - 03:00 AM A new study from Quinnipiac University finds that greater awareness of climate change affects students’ mental health—but also drives them to rethink habits and career paths. Byline(s) Joshua Bay",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 4
+    },
+    {
+      "id": "3068bd78900c8a5d",
+      "category": "Academic Advising",
+      "title": "Yale President: University Helped Erode Public Trust in Higher Ed",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/04/17/yale-president-university-helped-erode-trust-higher-ed",
+      "source": "Inside Higher Ed",
+      "published": "2026-04-17",
+      "summary": "Yale President: University Helped Erode Public Trust in Higher Ed Ryan Quinn Fri, 04/17/2026 - 03:00 AM Byline(s) Ryan Quinn",
       "why_it_matters": "",
       "tags": [],
       "score": 4
@@ -453,18 +465,6 @@
       "why_it_matters": "",
       "tags": [],
       "score": 3
-    },
-    {
-      "id": "80ef33e646d9edb0",
-      "category": "State Systems / Innovation",
-      "title": "Inside Higher Ed’s Model Is Changing. Our Journalism Is Not.",
-      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/04/16/inside-higher-eds-model-changing-our-journalism-not",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-16",
-      "summary": "Inside Higher Ed’s Model Is Changing. Our Journalism Is Not. sara.custer@in… Thu, 04/16/2026 - 03:00 AM IHE’s new subscription plan will support the independent and robust journalism the higher education sector depends on and deserves. Byline(s) Sara Custer",
-      "why_it_matters": "",
-      "tags": [],
-      "score": 2
     },
     {
       "id": "14312c0d77b70b44",
@@ -498,6 +498,18 @@
       "source": "NYT Education",
       "published": "2026-04-12",
       "summary": "Hinds Hall near Columbia University is a place to find Palestinian cuisine and to remember a 5-year-old killed in Gaza.",
+      "why_it_matters": "",
+      "tags": [],
+      "score": 2
+    },
+    {
+      "id": "ad276404e813d55a",
+      "category": "State Systems / Innovation",
+      "title": "Cookie House at Carleton College in Minnesota Keeps Students and Others Baking",
+      "url": "https://www.nytimes.com/2026/04/17/dining/carleton-college-minnesota-cookie-house.html",
+      "source": "NYT Education",
+      "published": "2026-04-17",
+      "summary": "For nearly 80 years, Carleton College in Minnesota has kept a place where students and others can come, bake and share. After a recent renovation, we checked in.",
       "why_it_matters": "",
       "tags": [],
       "score": 2
@@ -763,29 +775,6 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "b55a9a3eaeed59dd",
-      "category": "Federal Policy",
-      "title": "Dozens of colleges get more time to submit race and sex admissions data",
-      "url": "https://www.highereddive.com/news/dozens-colleges-more-time-submit-race-sex-admissions-data/817375/",
-      "source": "Higher Ed Dive",
-      "published": "2026-04-14",
-      "summary": "A federal judge also granted their request to permanently join a legal challenge against the U.S. Department of Education’s new survey.",
-      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
-      "tags": [],
-      "score": 7,
-      "summary_for_brief": "A federal judge also granted their request to permanently join a legal challenge against the U.S. Department of Education’s new survey.",
-      "story_tags": [
-        "artificial_intelligence_in_higher_ed",
-        "federal_rulemaking_or_grants"
-      ],
-      "core_story": "The core story here is about whether colleges are ready to act on a major policy or funding shift before it becomes routine sector news.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "For Massachusetts, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so."
-      ],
-      "recommended_angle": "Use this as an early signal: what would it take for community colleges in Massachusetts to be ahead of this development rather than reacting to it later?"
-    },
-    {
       "id": "5da097e7ed5977c7",
       "category": "Federal Policy",
       "title": "US Department of Labor issues guidance declaring proxy advisors may be investment advice fiduciaries",
@@ -808,6 +797,24 @@
         "For Massachusetts, the comparison question is whether colleges are positioned to capitalize on this kind of federal opportunity and whether state policy is helping them do so."
       ],
       "recommended_angle": "Frame this as an investment-gap question for Massachusetts: are leaders expecting community colleges to do system-changing work without system-level funding?"
+    },
+    {
+      "id": "1806561edf998449",
+      "category": "Federal Policy",
+      "title": "Walla Walla Community College board votes to close satellite campus",
+      "url": "https://www.highereddive.com/news/walla-walla-community-college-board-votes-to-close-satellite-campus/817625/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-16",
+      "summary": "Even as they prepare to shutter the Clarkston, Washington, location, officials are exploring alternative funding to keep a physical presence in the area.",
+      "why_it_matters": "Could affect aid eligibility, workforce pathways, grants, reporting, or institutional compliance.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "Even as they prepare to shutter the Clarkston, Washington, location, officials are exploring alternative funding to keep a physical presence in the area.",
+      "story_tags": [],
+      "core_story": "The core story is how policy shifts translate into operational consequences for colleges and students.",
+      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
+      "comparison_points": [],
+      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
     },
     {
       "id": "f632223a5aafbc3d",
@@ -856,28 +863,6 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "7843f2974beb4683",
-      "category": "Academic Advising",
-      "title": "One Course or Five? The Complexities of California Transfer",
-      "url": "https://www.insidehighered.com/opinion/columns/beyond-transfer/2026/04/16/stem-majors-not-only-students-stuck-transfer-maze",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-16",
-      "summary": "One Course or Five? The Complexities of California Transfer quintina.barne… Thu, 04/16/2026 - 03:00 AM STEM majors aren’t the only students stuck in the transfer maze. Byline(s) Alexis Robin Hale",
-      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
-      "tags": [],
-      "score": 6,
-      "summary_for_brief": "One Course or Five? The Complexities of California Transfer quintina.barne… Thu, 04/16/2026 - 03:00 AM STEM majors aren’t the only students stuck in the transfer maze. Byline(s) Alexis Robin Hale",
-      "story_tags": [
-        "transfer_reform"
-      ],
-      "core_story": "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This appears to be a system-level initiative outside Massachusetts, which makes it useful as a benchmark rather than just a local news item."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
       "id": "a72057b4ae84cd65",
       "category": "Academic Advising",
       "title": "Headlines",
@@ -889,6 +874,28 @@
       "tags": [],
       "score": 5,
       "summary_for_brief": "Students earning credentials at younger ages Insider Higher Ed More than 3.4 million people earned an undergraduate credential during the 2024–25 academic year, a 3.2% increase over 2023–24, according to a new report from the... The post Headlines first appeared on Community College Daily .",
+      "story_tags": [
+        "artificial_intelligence_in_higher_ed"
+      ],
+      "core_story": "The core story is whether advising is being treated as institutional infrastructure rather than a reactive student-services function.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "3682d2a3b64b25fe",
+      "category": "Academic Advising",
+      "title": "Newsmakers",
+      "url": "https://www.ccdaily.com/2026/04/newsmakers-355/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-355",
+      "source": "AACC Community College Daily",
+      "published": "2026-04-16",
+      "summary": "New CEOs David M. Knezek, Jr., has been appointed as the seventh president of Henry Ford College (Michigan). He is currently chief operating officer of the Michigan Department of Health and Human Services and an... The post Newsmakers first appeared on Community College Daily .",
+      "why_it_matters": "Relevant to advising practice, student persistence, retention strategy, and transfer support.",
+      "tags": [],
+      "score": 5,
+      "summary_for_brief": "New CEOs David M. Knezek, Jr., has been appointed as the seventh president of Henry Ford College (Michigan). He is currently chief operating officer of the Michigan Department of Health and Human Services and an... The post Newsmakers first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed"
       ],
@@ -944,6 +951,24 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
+      "id": "24567e91e0af3845",
+      "category": "AI in Higher Ed",
+      "title": "Kentucky lawmakers override veto on bill easing faculty terminations",
+      "url": "https://www.highereddive.com/news/kentucky-lawmakers-override-veto-on-bill-easing-faculty-terminations/817770/",
+      "source": "Higher Ed Dive",
+      "published": "2026-04-17",
+      "summary": "Under the legislation, public colleges will be able to let go of professors for “bona fide financial reasons,” including if programs have low enrollment.",
+      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
+      "tags": [],
+      "score": 6,
+      "summary_for_brief": "Under the legislation, public colleges will be able to let go of professors for “bona fide financial reasons,” including if programs have low enrollment.",
+      "story_tags": [],
+      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
+      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
+      "comparison_points": [],
+      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
+    },
+    {
       "id": "d7a9c007847b1bd5",
       "category": "AI in Higher Ed",
       "title": "Syracuse University offers early retirement to 175 faculty",
@@ -966,24 +991,6 @@
       "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
     },
     {
-      "id": "ab05be161262e7b9",
-      "category": "AI in Higher Ed",
-      "title": "What Makes Edtech Work for Students [Infographic]",
-      "url": "https://www.edsurge.com/news/2026-04-15-what-makes-edtech-work-for-students-infographic",
-      "source": "EdSurge",
-      "published": "2026-04-15",
-      "summary": "Even the most well-intentioned edtech can fall short if it does not meet students where they are. After several years studying the usability of edtech ...",
-      "why_it_matters": "Relevant to AI governance, staff development, classroom use, or student-support operations.",
-      "tags": [],
-      "score": 6,
-      "summary_for_brief": "Even the most well-intentioned edtech can fall short if it does not meet students where they are. After several years studying the usability of edtech ...",
-      "story_tags": [],
-      "core_story": "The core story is whether colleges can define practical, governed uses of AI that actually strengthen teaching and student support.",
-      "state_relevance": "This may be relevant to community-college leaders in Massachusetts because it touches policy, advising, student support, transfer, or institutional operations.",
-      "comparison_points": [],
-      "recommended_angle": "Use this as a straight higher-ed signal with practical implications for policy and operations."
-    },
-    {
       "id": "bf9e6f51c9129962",
       "category": "State Systems / Innovation",
       "title": "Award winners display the transformative nature of community colleges",
@@ -997,28 +1004,6 @@
       "summary_for_brief": "SEATTLE — Ten awards were given out Monday night at the American Association of Community Colleges‘ annual Awards of Excellence gala, in categories ranging from advancing institutional equity and belonging, to CEO of the year.... The post Award winners display the transformative nature of community colleges first appeared on Community College Daily .",
       "story_tags": [
         "artificial_intelligence_in_higher_ed",
-        "credit_for_prior_learning"
-      ],
-      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
-      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
-      "comparison_points": [
-        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
-      ],
-      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
-    },
-    {
-      "id": "80ef33e646d9edb0",
-      "category": "State Systems / Innovation",
-      "title": "Inside Higher Ed’s Model Is Changing. Our Journalism Is Not.",
-      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/04/16/inside-higher-eds-model-changing-our-journalism-not",
-      "source": "Inside Higher Ed",
-      "published": "2026-04-16",
-      "summary": "Inside Higher Ed’s Model Is Changing. Our Journalism Is Not. sara.custer@in… Thu, 04/16/2026 - 03:00 AM IHE’s new subscription plan will support the independent and robust journalism the higher education sector depends on and deserves. Byline(s) Sara Custer",
-      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
-      "tags": [],
-      "score": 2,
-      "summary_for_brief": "Inside Higher Ed’s Model Is Changing. Our Journalism Is Not. sara.custer@in… Thu, 04/16/2026 - 03:00 AM IHE’s new subscription plan will support the independent and robust journalism the higher education sector depends on and deserves. Byline(s) Sara Custer",
-      "story_tags": [
         "credit_for_prior_learning"
       ],
       "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
@@ -1063,6 +1048,28 @@
       "tags": [],
       "score": 2,
       "summary_for_brief": "Recruitment sessions have taken place at hundreds of universities and colleges across the country.",
+      "story_tags": [
+        "credit_for_prior_learning"
+      ],
+      "core_story": "The core story is the operational and strategic meaning of this development for community colleges.",
+      "state_relevance": "For Massachusetts, the value of this story is comparative. It raises the question of whether community colleges are being funded and supported at a level that matches the expectations being placed on them.",
+      "comparison_points": [
+        "This story may offer a useful comparison point for policy and practice in Massachusetts, especially if leaders are asking whether ambition is matched by implementation capacity."
+      ],
+      "recommended_angle": "Use this as a policy comparison story that helps leaders in Massachusetts think about investment, implementation, and institutional capacity."
+    },
+    {
+      "id": "6f7873d990cdde5d",
+      "category": "State Systems / Innovation",
+      "title": "In a Restaurant’s Name, a Message of Grief and Hope for Palestinians",
+      "url": "https://www.nytimes.com/2026/04/11/nyregion/hinds-hall-restaurant-columbia.html",
+      "source": "NYT Education",
+      "published": "2026-04-12",
+      "summary": "Hinds Hall near Columbia University is a place to find Palestinian cuisine and to remember a 5-year-old killed in Gaza.",
+      "why_it_matters": "Potentially relevant to community-college leadership, advising, or policy planning.",
+      "tags": [],
+      "score": 2,
+      "summary_for_brief": "Hinds Hall near Columbia University is a place to find Palestinian cuisine and to remember a 5-year-old killed in Gaza.",
       "story_tags": [
         "credit_for_prior_learning"
       ],
