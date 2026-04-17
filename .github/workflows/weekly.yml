@@ -2,7 +2,7 @@ name: Higher-Ed Intel Twice Weekly
 
 on:
   schedule:
-    - cron: "47 18 * * 1,4"
+   - cron: '0 13 * * 1,3,5'
   workflow_dispatch:
     inputs:
       force_story_url:
