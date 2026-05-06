@@ -98,7 +98,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y lftp
 
-      - name: Deploy to Hostinger with lftp
+           - name: Deploy to Hostinger with lftp
         if: steps.changes.outputs.changed == 'true'
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
@@ -108,10 +108,13 @@ jobs:
           lftp -e "
           set ssl:verify-certificate no;
           set ftp:passive-mode true;
-          set net:max-retries 5;
-          set net:reconnect-interval-base 5;
-          set net:timeout 20;
+          set ftp:ssl-allow no;
+          set net:max-retries 10;
+          set net:reconnect-interval-base 10;
+          set net:timeout 60;
           open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
-          mirror -R --delete --verbose higher-ed-intel/ higher-ed-intel/;
+          pwd;
+          ls;
+          mirror -R --only-newer --verbose higher-ed-intel/ higher-ed-intel/;
           bye
           "
