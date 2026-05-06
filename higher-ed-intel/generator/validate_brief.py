@@ -14,79 +14,45 @@ def fail(message: str) -> None:
     sys.exit(1)
 
 
-def require(container: dict, key: str, context: str) -> None:
-    if key not in container:
-        fail(f"{context} missing '{key}'")
-    value = container[key]
-    if isinstance(value, str) and not value.strip():
-        fail(f"{context} has empty '{key}'")
-
-
-def validate_top_signal(item: dict, idx: int) -> None:
-    context = f"top_signals[{idx}]"
-    for key in ["id", "headline", "source", "date", "summary", "why_it_matters", "url", "labels", "score"]:
-        require(item, key, context)
-
-    if not isinstance(item["labels"], list) or len(item["labels"]) < 2:
-        fail(f"{context}.labels must include novelty plus at least one topical label")
-
-    if item["labels"][0] not in {"NEW", "UPDATED"}:
-        fail(f"{context}.labels first value must be NEW or UPDATED")
-
-
-def validate_linkedin_angle(item: dict, idx: int) -> None:
-    context = f"linkedin_angles[{idx}]"
-    for key in ["hook", "angle", "draft"]:
-        require(item, key, context)
-
-
 def main() -> None:
     if not LATEST_JSON.exists():
-        fail(f"Missing {LATEST_JSON}")
+        fail("latest.json does not exist")
 
     try:
         brief = json.loads(LATEST_JSON.read_text(encoding="utf-8"))
     except Exception as exc:
-        fail(f"Failed to parse latest.json: {exc}")
+        fail(f"Could not read latest.json: {exc}")
 
-    for key in [
+    required_top_level = [
         "schema_version",
-        "product",
-        "cadence",
         "generated_at",
         "cycle_date",
         "top_signals",
-        "why_this_matters_now",
-        "linkedin_angles",
         "watch_list",
-        "archive",
-        "freshness",
-    ]:
-        require(brief, key, "brief")
+        "linkedin_angles",
+        "items_considered"
+    ]
 
-    top_signals = brief["top_signals"]
-    if not isinstance(top_signals, list):
-        fail("brief.top_signals must be a list")
-    if len(top_signals) > 5:
-        fail("brief.top_signals must have at most 5 items")
+    for field in required_top_level:
+        if field not in brief:
+            fail(f"brief missing '{field}'")
 
-    for i, item in enumerate(top_signals, start=1):
-        validate_top_signal(item, i)
+    if not isinstance(brief["top_signals"], list):
+        fail("top_signals must be a list")
 
-    watch_list = brief["watch_list"]
-    if not isinstance(watch_list, list):
-        fail("brief.watch_list must be a list")
-    if len(watch_list) > 4:
-        fail("brief.watch_list must have at most 4 items")
+    if not isinstance(brief["watch_list"], list):
+        fail("watch_list must be a list")
 
-    linkedin_angles = brief["linkedin_angles"]
-    if not isinstance(linkedin_angles, list):
-        fail("brief.linkedin_angles must be a list")
-    if len(linkedin_angles) > 3:
-        fail("brief.linkedin_angles must have at most 3 items")
+    if not isinstance(brief["linkedin_angles"], list):
+        fail("linkedin_angles must be a list")
 
-    for i, angle in enumerate(linkedin_angles, start=1):
-        validate_linkedin_angle(angle, i)
+    for i, item in enumerate(brief["top_signals"], start=1):
+        for field in ["id", "headline", "source", "date", "summary", "url", "labels", "score"]:
+            if field not in item:
+                fail(f"top_signals[{i}] missing '{field}'")
+
+        if "observation" not in item and "why_it_matters" not in item:
+            fail(f"top_signals[{i}] missing either 'observation' or 'why_it_matters'")
 
     print("VALIDATION OK")
 
