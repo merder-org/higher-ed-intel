@@ -789,6 +789,7 @@ def main() -> None:
         ],
         "top_signals": top_signals,
         "pattern_this_cycle": build_editorial(top_signals),
+        "why_this_matters_now": build_editorial(top_signals),
         "linkedin_angles": linkedin_angles,
         "watch_list": watch_list,
         "archive": archive,
