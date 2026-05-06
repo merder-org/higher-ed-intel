@@ -4,7 +4,7 @@
     "title": "Massachusetts Higher-Ed Intelligence Brief"
   },
   "filters": {
-    "days_lookback": 12,
+    "days_lookback": 5,
     "top_signals_max": 5
   },
   "feeds": [
