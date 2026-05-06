@@ -1,5 +1,5 @@
 {
-  "schema_version": "6.0",
+  "schema_version": "6.1",
   "product": "Higher-Ed Intelligence Brief",
   "focus": [
     "Massachusetts higher education",
@@ -13,53 +13,55 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-05-06 13:39 ET",
+  "generated_at": "2026-05-06 16:03 ET",
   "cycle_date": "2026-05-06",
   "week_of": "2026-05-04",
   "freshness": {
     "cycle_date": "2026-05-06",
     "days_lookback": 5,
-    "cutoff": "2026-05-01 13:39 ET",
+    "cutoff": "2026-05-01 16:03 ET",
     "new_count": 4,
     "updated_count": 1
   },
   "sections": [
     "developments_worth_watching",
     "pattern_im_seeing",
-    "possible_linkedin_post_angles",
+    "draft_linkedin_briefs_for_editing",
     "watch_list",
     "archive"
   ],
   "top_signals": [
     {
-      "id": "d721fdad789c879c",
-      "headline": "Strategy before technology",
+      "id": "7e86415b9d7a8f7a",
+      "headline": "Headlines",
       "source": "Community College Daily",
-      "date": "2026-05-04",
-      "summary": "Across higher education, artificial intelligence (AI) is already present in classrooms, advising centers and students’ everyday lives. However, many learners have uneven experiences. In one course, the faculty encourages students to use AI tools to... The post Strategy before technology first appeared on Community College Daily .",
-      "observation": "The practical question is whether AI reduces friction for students and staff, or simply adds another layer of tools that people have to manage.",
-      "url": "https://www.ccdaily.com/2026/05/strategy-before-technology-2/?utm_source=rss&utm_medium=rss&utm_campaign=strategy-before-technology-2",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "ADVISING",
-        "AI"
-      ],
-      "score": 33
-    },
-    {
-      "id": "f8d45e6524c5eab2",
-      "headline": "Washington Watch: A look at ED’s proposed regs on accreditation",
-      "source": "Community College Daily",
-      "date": "2026-05-03",
-      "summary": "The Education Department (ED) last month convened the “Accreditation, Innovation, and Modernization” committee for the first of two week-long negotiated rulemaking (neg reg) sessions. The second and final session starts May 18. At the conclusion... The post Washington Watch: A look at ED’s proposed regs on accreditation first appeared on Community College Da",
+      "date": "2026-05-06",
+      "summary": "Commentary: A venture capitalist’s guide to adult basic education (or, the ROI of ABE) Running the Campus (blog of Northern Essex Community College President Lane Glenn) In its proposed budget for fiscal year 2027, the... The post Headlines first appeared on Community College Daily .",
       "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.ccdaily.com/2026/05/washington-watch-a-look-at-eds-proposed-regs-on-accreditation/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-a-look-at-eds-proposed-regs-on-accreditation",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.ccdaily.com/2026/05/headlines-1173/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1173",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
         "GOVERNANCE",
+        "LEADERSHIP",
         "POLICY"
+      ],
+      "score": 54
+    },
+    {
+      "id": "61e0e1f76525f5c0",
+      "headline": "Creating bridges, not barriers",
+      "source": "Community College Daily",
+      "date": "2026-05-06",
+      "summary": "About 40% of all U.S. undergraduate students attend two-year colleges, according to the Community College Research Center at Columbia University. Most students come through the door with the intent to transfer, but find their path... The post Creating bridges, not barriers first appeared on Community College Daily .",
+      "observation": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
+      "why_it_matters": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
+      "url": "https://www.ccdaily.com/2026/05/creating-bridges-not-barriers/?utm_source=rss&utm_medium=rss&utm_campaign=creating-bridges-not-barriers",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "TRANSFER"
       ],
       "score": 33
     },
@@ -70,6 +72,7 @@
       "date": "2026-05-04",
       "summary": "CEOs on the move Hara Charlier has been named the next president of Berkshire Community College in Massachusetts. She is currently president of Central Lakes College (CLC) in Minnesota, a position he has held since... The post Newsmakers first appeared on Community College Daily .",
       "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
       "url": "https://www.ccdaily.com/2026/05/newsmakers-357/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-357",
       "labels": [
         "UPDATED",
@@ -81,88 +84,93 @@
       "score": 31
     },
     {
-      "id": "6ecd7230052bd35a",
-      "headline": "Community colleges are already the AI safe harbor",
+      "id": "9e0e0eeb12843c60",
+      "headline": "A game plan for dual-enrollment outreach",
       "source": "Community College Daily",
-      "date": "2026-05-03",
-      "summary": "A safe harbor is where ships ride out a storm. It isn’t where the action is in fair weather, and it isn’t the most glamorous part of the coast. It’s the place that holds up... The post Community colleges are already the AI safe harbor first appeared on Community College Daily .",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/05/community-colleges-are-already-the-ai-safe-harbor/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-are-already-the-ai-safe-harbor",
+      "date": "2026-05-05",
+      "summary": "Emily Summers is rarely at her desk — and her employer couldn’t be happier about it. Summers is a dual-enrollment specialist at Milwaukee Area Technical College (MATC) in southeastern Wisconsin. She’s usually out at area... The post A game plan for dual-enrollment outreach first appeared on Community College Daily .",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/05/a-game-plan-for-dual-enrollment-outreach/?utm_source=rss&utm_medium=rss&utm_campaign=a-game-plan-for-dual-enrollment-outreach",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE"
+        "COMMUNITY COLLEGE",
+        "WORKFORCE",
+        "AI"
       ],
-      "score": 31
+      "score": 27
     },
     {
-      "id": "3e895bf5f58776ba",
+      "id": "ea843e8e67d2016e",
       "headline": "Headlines",
       "source": "Community College Daily",
-      "date": "2026-05-03",
-      "summary": "Proposal would block immigrants in U.S. unlawfully from Florida colleges Florida Politics Students without lawful immigration status in Florida could soon be barred from admission to all 28 state community colleges. Commentary: The U.S. economy... The post Headlines first appeared on Community College Daily .",
+      "date": "2026-05-05",
+      "summary": "Senate education committee chair Bill Cassidy fights to keep his seat The 74 Sen. Bill Cassidy (R-Louisiana), chair of the Senate Health, Education, Labor and Pensions Committee, is facing a tough primary election May 16.... The post Headlines first appeared on Community College Daily .",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/05/headlines-1170/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1170",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/05/headlines-1172/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1172",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE"
       ],
-      "score": 31
+      "score": 27
     }
   ],
-  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.\n\nTransfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.",
-  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.\n\nTransfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.",
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
   "linkedin_angles": [
     {
-      "hook": "Strategy before technology",
-      "angle": "A development worth watching",
-      "draft": "Strategy before technology\n\nAcross higher education, artificial intelligence (AI) is already present in classrooms, advising centers and students’ everyday lives. However, many learners have uneven experiences. In one course, the faculty encourages students to use AI tools to... The post Strategy before technology first appeared on Community College Daily .\n\nWhat caught my attention is this: The practical question is whether AI reduces friction for students and staff, or simply adds another layer of tools that people have to manage.\n\nThat seems worth watching."
+      "hook": "Headlines",
+      "angle": "Editable LinkedIn brief",
+      "draft": "I’ve been thinking about this higher-ed story: Headlines\n\nA recent item from Community College Daily, dated 2026-05-06, caught my attention: Headlines.\n\nThe basic development is this: Commentary: A venture capitalist’s guide to adult basic education (or, the ROI of ABE) Running the Campus (blog of Northern Essex Community College President Lane Glenn) In its proposed budget for fiscal year 2027, the... The post Headlines first appeared on Community College Daily . I would want to check the original source before posting any exact figures or institutional claims, but the direction of the story is clear enough to make it worth thinking about.\n\nThe broader pattern is the growing pressure on higher education leadership. Presidents and senior leaders are not simply managing campuses; they are navigating boards, political actors, donors, faculty, students, public narratives, and financial constraints. That makes leadership in higher education feel less like ordinary administration and more like a contested exercise of institutional power.\n\nWhat caught my attention is this: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the issue is rarely whether the goal is worthwhile. The harder question is whether the institution has enough staffing, clarity, data, and time to turn the aspiration into something students experience in a practical way.\n\nThe part worth watching is whether this becomes an isolated story or part of a larger pattern. Higher education has a habit of treating each development as separate, when often the real story is the pressure building underneath.\n\nSource: https://www.ccdaily.com/2026/05/headlines-1173/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1173"
     },
     {
-      "hook": "Washington Watch: A look at ED’s proposed regs on accreditation",
-      "angle": "A development worth watching",
-      "draft": "Washington Watch: A look at ED’s proposed regs on accreditation\n\nThe Education Department (ED) last month convened the “Accreditation, Innovation, and Modernization” committee for the first of two week-long negotiated rulemaking (neg reg) sessions. The second and final session starts May 18. At the conclusion... The post Washington Watch: A look at ED’s proposed regs on accreditation first appeared on Community College Da\n\nWhat caught my attention is this: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThat seems worth watching."
+      "hook": "Creating bridges, not barriers",
+      "angle": "Editable LinkedIn brief",
+      "draft": "I’ve been thinking about this higher-ed story: Creating bridges, not barriers\n\nA recent item from Community College Daily, dated 2026-05-06, caught my attention: Creating bridges, not barriers.\n\nThe basic development is this: About 40% of all U.S. undergraduate students attend two-year colleges, according to the Community College Research Center at Columbia University. Most students come through the door with the intent to transfer, but find their path... The post Creating bridges, not barriers first appeared on Community College Daily . I would want to check the original source before posting any exact figures or institutional claims, but the direction of the story is clear enough to make it worth thinking about.\n\nThe broader pattern is that transfer is becoming central rather than peripheral. But transfer only works when the infrastructure is boringly reliable: clear pathways, clean credit movement, current advising information, and enough staff capacity to help students make sense of their options.\n\nWhat caught my attention is this: This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.\n\nFor community colleges, the issue is rarely whether the goal is worthwhile. The harder question is whether the institution has enough staffing, clarity, data, and time to turn the aspiration into something students experience in a practical way.\n\nThe part worth watching is whether this becomes an isolated story or part of a larger pattern. Higher education has a habit of treating each development as separate, when often the real story is the pressure building underneath.\n\nSource: https://www.ccdaily.com/2026/05/creating-bridges-not-barriers/?utm_source=rss&utm_medium=rss&utm_campaign=creating-bridges-not-barriers"
     },
     {
       "hook": "Newsmakers",
-      "angle": "A development worth watching",
-      "draft": "Newsmakers\n\nCEOs on the move Hara Charlier has been named the next president of Berkshire Community College in Massachusetts. She is currently president of Central Lakes College (CLC) in Minnesota, a position he has held since... The post Newsmakers first appeared on Community College Daily .\n\nWhat caught my attention is this: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThat seems worth watching.\n\nFor Massachusetts community colleges, the practical question is whether policy ambition is being matched by the staffing, advising, and support infrastructure needed to make it real."
+      "angle": "Editable LinkedIn brief",
+      "draft": "I’ve been thinking about this higher-ed story: Newsmakers\n\nA recent item from Community College Daily, dated 2026-05-04, caught my attention: Newsmakers.\n\nThe basic development is this: CEOs on the move Hara Charlier has been named the next president of Berkshire Community College in Massachusetts. She is currently president of Central Lakes College (CLC) in Minnesota, a position he has held since... The post Newsmakers first appeared on Community College Daily . I would want to check the original source before posting any exact figures or institutional claims, but the direction of the story is clear enough to make it worth thinking about.\n\nThe broader pattern is the growing pressure on higher education leadership. Presidents and senior leaders are not simply managing campuses; they are navigating boards, political actors, donors, faculty, students, public narratives, and financial constraints. That makes leadership in higher education feel less like ordinary administration and more like a contested exercise of institutional power.\n\nWhat caught my attention is this: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor Massachusetts community colleges, I think the practical question is whether our policy ambitions are being matched by the infrastructure needed to make them real. Affordability initiatives matter. Access matters. But students also need timely advising, clear pathways, transfer support, financial navigation, and human follow-through.\n\nThe part worth watching is whether this becomes an isolated story or part of a larger pattern. Higher education has a habit of treating each development as separate, when often the real story is the pressure building underneath.\n\nSource: https://www.ccdaily.com/2026/05/newsmakers-357/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-357"
     }
   ],
   "watch_list": [
     {
-      "id": "d2681d9807e1e90e",
-      "headline": "N.M. Highlands University President Put on Paid Administrative Leave",
-      "source": "Inside Higher Ed",
-      "date": "2026-05-06",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/05/06/nm-highlands-university-president-placed-paid-leave",
-      "labels": [
-        "GOVERNANCE",
-        "LEADERSHIP"
-      ],
-      "score": 30
-    },
-    {
-      "id": "8ab534ac553db5a3",
-      "headline": "Bard College president to retire following probe into his ties to Epstein",
-      "source": "Higher Ed Dive",
-      "date": "2026-05-05",
-      "url": "https://www.highereddive.com/news/bard-college-president-retire-probe-ties-epstein/819259/",
-      "labels": [
-        "GOVERNANCE",
-        "LEADERSHIP"
-      ],
-      "score": 30
-    },
-    {
-      "id": "53a07b8732f07630",
-      "headline": "The importance of career guidance",
+      "id": "4d848ba567002cea",
+      "headline": "Headlines",
       "source": "Community College Daily",
-      "date": "2026-05-05",
-      "url": "https://www.ccdaily.com/2026/05/the-importance-of-career-guidance/?utm_source=rss&utm_medium=rss&utm_campaign=the-importance-of-career-guidance",
+      "date": "2026-05-04",
+      "url": "https://www.ccdaily.com/2026/05/headlines-1171/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1171",
       "labels": [
-        "COMMUNITY COLLEGE"
+        "COMMUNITY COLLEGE",
+        "POLICY"
       ],
       "score": 27
+    },
+    {
+      "id": "4bab6b7f58064877",
+      "headline": "University of Michigan, Virginia Tech among colleges seeking new leaders",
+      "source": "Higher Ed Dive",
+      "date": "2026-05-04",
+      "url": "https://www.highereddive.com/news/university-of-michigan-virginia-tech-among-colleges-seeking-new-leaders/819125/",
+      "labels": [
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 26
+    },
+    {
+      "id": "8d63d941d52f5c87",
+      "headline": "DOJ revives fight against Minnesota’s in-state tuition for undocumented students",
+      "source": "Higher Ed Dive",
+      "date": "2026-05-05",
+      "url": "https://www.highereddive.com/news/doj-revives-fight-against-minnesotas-in-state-tuition-for-undocumented-stu/819189/",
+      "labels": [
+        "AFFORDABILITY",
+        "GOVERNANCE"
+      ],
+      "score": 25
     },
     {
       "id": "d5e720307961f854",
@@ -244,7 +252,7 @@
       "url": "data/archive/2026-03-02.json"
     }
   ],
-  "items_considered": 21,
+  "items_considered": 23,
   "feed_errors": [
     "Mass.gov News: <unknown>:21:22: not well-formed (invalid token)",
     "Mass DHE News Clips: text/html is not an XML media type",
