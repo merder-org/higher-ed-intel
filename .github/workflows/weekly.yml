@@ -2,23 +2,13 @@ name: Higher-Ed Intel Twice Weekly
 
 on:
   schedule:
-    - cron: '0 13 * * 1,3,5'
+    - cron: "47 18 * * 1,4"
   workflow_dispatch:
     inputs:
       force_story_url:
-        description: "Optional: specific article URL to build a comparative story around"
+        description: "Optional: specific article URL to emphasize"
         required: false
         type: string
-      target_state:
-        description: "Primary state lens for policy comparison"
-        required: false
-        default: "Massachusetts"
-        type: string
-      comparative_mode:
-        description: "Enable comparative policy framing"
-        required: false
-        default: true
-        type: boolean
 
 permissions:
   contents: write
@@ -32,11 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
-    env:
-      TARGET_STATE: ${{ inputs.target_state || 'Massachusetts' }}
-      COMPARATIVE_MODE: ${{ inputs.comparative_mode || 'true' }}
-      FORCE_STORY_URL: ${{ inputs.force_story_url || '' }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -49,17 +34,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          else
-            pip install feedparser python-dateutil requests openai
-          fi
+          pip install feedparser python-dateutil
 
       - name: Generate briefing
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python higher-ed-intel/generator/generate_weekly_brief.py
+          python higher-ed-intel/generator/generate_weekly_brief.py \
+            ${{
+              inputs.force_story_url != '' &&
+              format('--force-story-url "{0}"', inputs.force_story_url) ||
+              ''
+            }}
 
       - name: Validate briefing structure
         run: |
@@ -77,7 +61,7 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet --exit-code higher-ed-intel/data higher-ed-intel; then
+          if git diff --quiet --exit-code higher-ed-intel; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -98,7 +82,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y lftp
 
-           - name: Deploy to Hostinger with lftp
+      - name: Deploy to Hostinger with lftp
         if: steps.changes.outputs.changed == 'true'
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
