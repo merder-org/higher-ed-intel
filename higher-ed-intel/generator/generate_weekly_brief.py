@@ -15,6 +15,7 @@ import feedparser
 from dateutil import tz
 
 ET = tz.gettz("America/New_York")
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ARCHIVE = DATA / "archive"
@@ -31,6 +32,9 @@ ALLOWED_LABELS = {
     "AFFORDABILITY",
     "STUDENT SUCCESS",
     "AI",
+    "GOVERNANCE",
+    "LEADERSHIP",
+    "POLICY",
 }
 
 
@@ -53,9 +57,22 @@ def clean_html(text: str) -> str:
     return normalize(text)
 
 
-def clamp(text: str, limit: int = 300) -> str:
+def clamp(text: str, limit: int = 360) -> str:
     text = clean_html(text)
-    return text[:limit]
+
+    junk_patterns = [
+        r"Content Files.*",
+        r"Metadata download.*",
+        r"All Content and Metadata.*",
+        r"Descriptive Metadata.*",
+        r"Preservation Metadata.*",
+        r"PDF XML TEXT.*",
+    ]
+
+    for pattern in junk_patterns:
+        text = re.sub(pattern, "", text, flags=re.IGNORECASE)
+
+    return normalize(text)[:limit]
 
 
 def fingerprint(title: str, url: str) -> str:
@@ -83,15 +100,100 @@ def extract_labels(text: str) -> List[str]:
     labels: List[str] = []
 
     rules = {
-        "MASSACHUSETTS": ["massachusetts", "mass.gov", "mass d", "massdhe", "masseducate", "massreconnect", "masstransfer"],
-        "COMMUNITY COLLEGE": ["community college", "two-year", "cc system"],
-        "TRANSFER": ["transfer", "articulation", "credit mobility", "mass transfer"],
-        "ADVISING": ["advising", "advisor", "coaching", "case management", "guided pathways"],
-        "WORKFORCE": ["workforce", "apprenticeship", "employer", "credential", "short-term"],
-        "AFFORDABILITY": ["tuition", "free college", "financial aid", "pell", "affordability"],
-        "STUDENT SUCCESS": ["retention", "completion", "persistence", "student success", "wraparound"],
-        "AI": ["artificial intelligence", "generative ai", "chatgpt", "ai policy", "copilot", "llm"],
+        "MASSACHUSETTS": [
+            "massachusetts",
+            "mass.gov",
+            "massdhe",
+            "masseducate",
+            "massreconnect",
+            "masstransfer",
+            "success fund",
+        ],
+        "COMMUNITY COLLEGE": [
+            "community college",
+            "community colleges",
+            "two-year",
+            "cc system",
+        ],
+        "TRANSFER": [
+            "transfer",
+            "articulation",
+            "credit mobility",
+            "mass transfer",
+            "masstransfer",
+            "credit for prior learning",
+            "prior learning assessment",
+            "cpl",
+        ],
+        "ADVISING": [
+            "advising",
+            "advisor",
+            "coaching",
+            "case management",
+            "guided pathways",
+        ],
+        "WORKFORCE": [
+            "workforce",
+            "apprenticeship",
+            "employer",
+            "credential",
+            "short-term",
+            "career pathways",
+        ],
+        "AFFORDABILITY": [
+            "tuition",
+            "free college",
+            "financial aid",
+            "pell",
+            "affordability",
+            "fafsa",
+        ],
+        "STUDENT SUCCESS": [
+            "retention",
+            "completion",
+            "persistence",
+            "student success",
+            "wraparound",
+        ],
+        "AI": [
+            "artificial intelligence",
+            "generative ai",
+            "chatgpt",
+            "ai policy",
+            "copilot",
+            "llm",
+        ],
+        "GOVERNANCE": [
+            "governance",
+            "board of trustees",
+            "trustees",
+            "resignation",
+            "president",
+            "academic freedom",
+            "donor",
+            "lawsuit",
+            "accreditation",
+            "censorship",
+        ],
+        "LEADERSHIP": [
+            "president",
+            "resignation",
+            "chancellor",
+            "provost",
+            "college leadership",
+            "higher ed leadership",
+        ],
+        "POLICY": [
+            "policy",
+            "rulemaking",
+            "appropriation",
+            "budget",
+            "legislation",
+            "federal",
+            "statewide",
+        ],
     }
+
     for label, keywords in rules.items():
         if any(keyword in t for keyword in keywords):
             labels.append(label)
@@ -101,11 +203,14 @@ def extract_labels(text: str) -> List[str]:
 
 def should_keep_item(item: dict) -> bool:
     title = item.get("title") or item.get("headline") or ""
-    text = f"{title} {item.get('summary','')}".lower()
+    text = f"{title} {item.get('summary', '')} {item.get('source', '')}".lower()
 
     required_scope = [
         "massachusetts",
         "community college",
+        "higher education",
+        "college",
+        "university",
         "advis",
         "transfer",
         "student success",
@@ -116,84 +221,38 @@ def should_keep_item(item: dict) -> bool:
         "pell",
         "credential",
         "tuition",
+        "fafsa",
         "artificial intelligence",
         "generative ai",
+        "academic freedom",
+        "governance",
+        "board of trustees",
+        "president",
+        "resignation",
+        "credit for prior learning",
+        "prior learning assessment",
     ]
+
     if not any(token in text for token in required_scope):
         return False
 
     hard_excludes = [
-        "campus life",
         "sports",
         "rankings",
-        "opinion:",
         "sponsored",
-        "event recap",
         "photo essay",
-        "closure risk",
-        "college to close",
-        "turnaround effort",
         "proxy advisors",
         "investment adviser",
         "fraternity",
-        "campus culture",
     ]
+
     if any(token in text for token in hard_excludes):
         return False
 
     return True
 
 
-def quality_score(item: dict) -> int:
-    text = f"{item['title']} {item['summary']} {item['source']}".lower()
-    score = 0
-
-    high_signal = {
-        "massachusetts": 7,
-        "community college": 7,
-        "budget": 6,
-        "appropriation": 6,
-        "house ways and means": 6,
-        "senate ways and means": 6,
-        "report": 4,
-        "data": 4,
-        "transfer": 5,
-        "advising": 5,
-        "student success": 5,
-        "workforce": 5,
-        "pell": 4,
-        "implementation": 4,
-        "governance": 3,
-        "artificial intelligence": 2,
-    }
-    for token, points in high_signal.items():
-        if token in text:
-            score += points
-
-    low_signal = {
-        "roundup": -5,
-        "newsletter": -4,
-        "podcast": -4,
-        "opinion": -5,
-        "webinar": -4,
-    }
-    for token, points in low_signal.items():
-        if token in text:
-            score += points
-
-    age_days = (now_et().date() - item["published_dt"].date()).days if item.get("published_dt") else 7
-    score += max(0, 8 - age_days)
-
-    labels = set(item.get("labels", []))
-    if "MASSACHUSETTS" in labels:
-        score += 6
-    if "COMMUNITY COLLEGE" in labels:
-        score += 4
-
-    return score
-
-
-def load_recent_cycles(limit: int = 6) -> List[dict]:
+def load_recent_cycles(limit: int = 8) -> List[dict]:
     cycles: List[dict] = []
     for path in sorted(ARCHIVE.glob("*.json"), reverse=True)[:limit]:
         try:
@@ -213,68 +272,209 @@ def build_recent_index(cycles: List[dict]) -> Dict[str, dict]:
     return index
 
 
+def recent_seen_ids(cycles: List[dict]) -> set[str]:
+    seen: set[str] = set()
+    for cycle in cycles:
+        for section in ("top_signals", "watch_list"):
+            for item in cycle.get(section, []):
+                if item.get("id"):
+                    seen.add(item["id"])
+    return seen
+
+
 def novelty_label(item: dict, recent_index: Dict[str, dict]) -> str:
     prior = recent_index.get(item["id"])
     if not prior:
         return "NEW"
 
-    prior_date = prior.get("date") or prior.get("published") or ""
-    if prior_date and item.get("date") and item["date"] > prior_date:
-        return "UPDATED"
-
     prior_summary = normalize(prior.get("summary", "")).lower()
     this_summary = normalize(item.get("summary", "")).lower()
+
     if prior_summary and this_summary and prior_summary != this_summary:
         return "UPDATED"
 
     return "UPDATED"
 
 
-def build_why_it_matters(item: dict) -> str:
+def quality_score(item: dict, build_dt: datetime, recent_ids: set[str]) -> int:
+    text = f"{item['headline']} {item['summary']} {item['source']}".lower()
+    score = 0
+
+    high_signal = {
+        "massachusetts": 9,
+        "community college": 8,
+        "community colleges": 8,
+        "budget": 7,
+        "appropriation": 7,
+        "house ways and means": 7,
+        "senate ways and means": 7,
+        "report": 4,
+        "data": 4,
+        "transfer": 6,
+        "credit for prior learning": 7,
+        "prior learning assessment": 7,
+        "advising": 6,
+        "student success": 6,
+        "workforce": 6,
+        "pell": 5,
+        "fafsa": 5,
+        "implementation": 4,
+        "governance": 7,
+        "board of trustees": 7,
+        "resignation": 7,
+        "president": 5,
+        "academic freedom": 7,
+        "donor": 5,
+        "lawsuit": 5,
+        "artificial intelligence": 4,
+        "generative ai": 4,
+    }
+
+    for token, points in high_signal.items():
+        if token in text:
+            score += points
+
+    low_signal = {
+        "roundup": -6,
+        "newsletter": -5,
+        "podcast": -5,
+        "webinar": -5,
+        "newsmakers": -6,
+        "event recap": -5,
+    }
+
+    for token, points in low_signal.items():
+        if token in text:
+            score += points
+
+    published_dt = item.get("published_dt")
+    if not published_dt:
+        return -999
+
+    age_days = max(0, (build_dt.date() - published_dt.date()).days)
+
+    if age_days <= 1:
+        score += 14
+    elif age_days <= 3:
+        score += 10
+    elif age_days <= 5:
+        score += 5
+    elif age_days <= 7:
+        score -= 4
+    else:
+        score -= 12
+
     labels = set(item.get("labels", []))
 
-    if "MASSACHUSETTS" in labels and "AFFORDABILITY" in labels:
-        return "Access policy is moving, but persistence still depends on advising, financial navigation, and day-to-day capacity on campuses."
-    if "TRANSFER" in labels:
-        return "Transfer policy only helps students when credits move cleanly and advisors have clear, current pathways."
-    if "WORKFORCE" in labels:
-        return "Workforce language is easy to announce; the hard part is staffing programs and advising students through fast-changing labor demand."
-    if "AI" in labels and "ADVISING" in labels:
-        return "AI can reduce friction in routine advising work, but only if colleges invest in training, guardrails, and escalation paths for complex cases."
-    if "STUDENT SUCCESS" in labels or "ADVISING" in labels:
-        return "Support systems do not scale automatically. Colleges need predictable funding and staffing if completion is a real goal."
+    if "MASSACHUSETTS" in labels:
+        score += 7
+    if "COMMUNITY COLLEGE" in labels:
+        score += 5
+    if "GOVERNANCE" in labels:
+        score += 6
+    if "LEADERSHIP" in labels:
+        score += 5
+    if "POLICY" in labels:
+        score += 4
 
-    return "This is a practical signal about implementation capacity, not just policy language."
+    if item["id"] in recent_ids:
+        score -= 18
+
+    return score
+
+
+def build_observation(item: dict) -> str:
+    labels = set(item.get("labels", []))
+
+    if "GOVERNANCE" in labels or "LEADERSHIP" in labels:
+        return (
+            "The larger issue here is how power is being exercised inside higher education institutions, "
+            "especially when boards, presidents, politics, donors, faculty, and public scrutiny collide."
+        )
+
+    if "MASSACHUSETTS" in labels and "AFFORDABILITY" in labels:
+        return (
+            "The interesting question is not only whether access expands, but whether campuses have the advising, "
+            "financial navigation, and student-support capacity to make that access meaningful."
+        )
+
+    if "TRANSFER" in labels:
+        return (
+            "This is worth watching because transfer reform only becomes real when credits move cleanly, "
+            "requirements are legible, and advisors have pathways they can actually trust."
+        )
+
+    if "WORKFORCE" in labels:
+        return (
+            "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, "
+            "but the staffing and support infrastructure often lags behind the rhetoric."
+        )
+
+    if "AI" in labels and "ADVISING" in labels:
+        return (
+            "The practical question is whether AI reduces friction for students and staff, or simply adds another layer "
+            "of tools that people have to manage."
+        )
+
+    if "AI" in labels:
+        return (
+            "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, "
+            "equity, and the points where human judgment still matters."
+        )
+
+    if "STUDENT SUCCESS" in labels or "ADVISING" in labels:
+        return (
+            "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone."
+        )
+
+    return (
+        "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, "
+        "explain more, and absorb more complexity."
+    )
 
 
 def build_editorial(top_signals: List[dict]) -> str:
     if not top_signals:
         return (
-            "This cycle was quiet on high-signal developments. That alone is useful: it suggests institutions should stay focused on execution rather than react to noise."
+            "I did not find enough fresh, high-signal items in the current feed window. "
+            "That is better than recycling old stories and pretending they are new."
         )
 
     labels = Counter(label for item in top_signals for label in item.get("labels", []))
-    dominant = [label for label, _ in labels.most_common(3)]
+    dominant = [label for label, _ in labels.most_common(4)]
 
     parts: List[str] = []
+
+    if "GOVERNANCE" in dominant or "LEADERSHIP" in dominant:
+        parts.append(
+            "The most interesting thread this cycle is governance: how decisions get made, who gets heard, "
+            "and how institutional authority is being tested."
+        )
+
     if "MASSACHUSETTS" in dominant:
         parts.append(
-            "Massachusetts policy activity continues to center on access and affordability, but the pressure is now on implementation. Access opens the door. Support determines whether students can walk through it."
+            "The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity "
+            "to support students once the door is open."
         )
 
     if "TRANSFER" in dominant or "ADVISING" in dominant:
         parts.append(
-            "Across this cycle, transfer and advising keep showing up together. That is the right pairing. Transfer promises fail when advising teams are understaffed or pathway rules stay unclear."
+            "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students."
         )
 
     if "WORKFORCE" in dominant:
         parts.append(
-            "Workforce policy is still expanding faster than institutional capacity. Community colleges are often praised publicly and underfunded privately."
+            "Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it."
+        )
+
+    if "AI" in dominant:
+        parts.append(
+            "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust."
         )
 
     if not parts:
         parts.append(
-            "The strongest signal this cycle is less about announcements and more about execution risk: colleges are being asked to do more with limited operational slack."
+            "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity."
         )
 
     return "\n\n".join(parts[:3])
@@ -284,34 +484,53 @@ def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
     if not top_signals:
         return [
             {
-                "hook": "Quiet cycle, useful pause",
-                "angle": "No strong post this round",
-                "draft": "Quiet cycle this week. No single development cleared the quality bar for posting. That is useful in itself: it is a week to focus on implementation work already on campuses.",
+                "hook": "No strong post this cycle",
+                "angle": "Signal quality check",
+                "draft": (
+                    "I did not see enough fresh, high-signal material this cycle to justify forcing a LinkedIn post. "
+                    "That is preferable to recycling old stories or pretending routine updates are more significant than they are."
+                ),
             }
         ]
 
     ranked = sorted(top_signals, key=lambda x: x["score"], reverse=True)
-    picks = ranked[:3]
     angles: List[dict] = []
-    for item in picks:
-        if item["score"] < 18:
+
+    for item in ranked[:3]:
+        if item["score"] < 15:
             continue
-        hook = f"{item['headline']}"
-        angle = "Policy promises are easy. Capacity is expensive."
+
+        observation = build_observation(item)
         draft = (
             f"{item['headline']}\n\n"
             f"{item['summary']}\n\n"
-            f"Why I am paying attention: {item['why_it_matters']} "
-            "Community colleges can absorb policy change only when advising, transfer operations, and student support are funded like core infrastructure."
+            f"What caught my attention is this: {observation}\n\n"
+            "That seems worth watching."
         )
-        angles.append({"hook": hook, "angle": angle, "draft": draft})
+
+        if "MASSACHUSETTS" in item.get("labels", []):
+            draft += (
+                "\n\nFor Massachusetts community colleges, the practical question is whether policy ambition is being matched "
+                "by the staffing, advising, and support infrastructure needed to make it real."
+            )
+
+        angles.append(
+            {
+                "hook": item["headline"],
+                "angle": "A development worth watching",
+                "draft": draft,
+            }
+        )
 
     if not angles:
         angles.append(
             {
                 "hook": "Not post-worthy this cycle",
                 "angle": "Signal quality check",
-                "draft": "This cycle had movement, but not enough high-signal change to justify a public post. I would wait for clearer policy or budget action.",
+                "draft": (
+                    "This cycle had some movement, but not enough fresh high-signal change to justify a public post. "
+                    "I would rather wait for a clearer policy, governance, funding, or student-success development."
+                ),
             }
         )
 
@@ -324,9 +543,13 @@ def to_markdown(brief: dict) -> str:
         "",
         f"_Generated: {brief['generated_at']}_",
         "",
-        "## Top Signals This Cycle",
+        "## Developments Worth Watching",
         "",
     ]
+
+    if not brief["top_signals"]:
+        lines.append("_No fresh high-signal items were found in the current feed window._")
+        lines.append("")
 
     for item in brief["top_signals"]:
         labels = ", ".join(item["labels"])
@@ -336,102 +559,46 @@ def to_markdown(brief: dict) -> str:
                 f"- Source: {item['source']} ({item['date']})",
                 f"- Labels: {labels}",
                 f"- Summary: {item['summary']}",
-                f"- Why it matters: {item['why_it_matters']}",
+                f"- What caught my attention: {item['observation']}",
                 f"- Link: {item['url']}",
                 "",
             ]
         )
 
-    lines.extend(["## Why This Matters Now", "", brief["why_this_matters_now"], ""])
+    lines.extend(["## Pattern I’m Seeing", "", brief["pattern_this_cycle"], ""])
     lines.extend(["## Possible LinkedIn Post Angles", ""])
 
     for angle in brief["linkedin_angles"]:
-        lines.extend([
-            f"### {angle['hook']}",
-            f"- Angle: {angle['angle']}",
-            "",
-            angle["draft"],
-            "",
-        ])
+        lines.extend(
+            [
+                f"### {angle['hook']}",
+                f"- Angle: {angle['angle']}",
+                "",
+                angle["draft"],
+                "",
+            ]
+        )
 
     lines.extend(["## Watch List", ""])
-    for item in brief["watch_list"]:
-        lines.append(f"- {item['headline']} ({item['source']}, {item['date']})")
+
+    if not brief["watch_list"]:
+        lines.append("_No additional fresh watch-list items surfaced._")
+    else:
+        for item in brief["watch_list"]:
+            lines.append(f"- {item['headline']} ({item['source']}, {item['date']})")
 
     return "\n".join(lines).strip() + "\n"
 
 
-
-
-
-
-
-def is_reference_page(headline: str, url: str) -> bool:
-    text = f"{headline} {url}".lower()
-    reference_tokens = [
-        "masseducate",
-        "massreconnect",
-        "masstransfer",
-        "success fund",
-        "budget.digital.mass.gov",
-        "news clips",
-        "anchor page",
-    ]
-    return any(token in text for token in reference_tokens)
-
-def fallback_from_recent_cycles(recent_cycles: List[dict], limit: int = 8) -> List[dict]:
-    items: List[dict] = []
-    seen = set()
-
-    def pull_candidates(cycle: dict) -> List[dict]:
-        candidates = []
-        candidates.extend(cycle.get("items", []))
-        candidates.extend(cycle.get("top_signals", []))
-        return candidates
-
-    for cycle in recent_cycles:
-        for it in pull_candidates(cycle):
-            headline = it.get("headline") or it.get("title")
-            if not headline:
-                continue
-            url = it.get("url", "")
-            if is_reference_page(headline, url) or headline.strip().lower() == "headlines":
-                continue
-
-            summary = it.get("summary") or it.get("summary_for_brief") or "Signal carried from recent cycle due to feed access limits."
-            labels = it.get("labels") or extract_labels(f"{headline} {summary}")
-            labels = [label for label in labels if label in ALLOWED_LABELS and label not in {"NEW", "UPDATED"}]
-            if not labels:
-                continue
-
-            item_id = it.get("id") or fingerprint(headline, url)
-            if item_id in seen:
-                continue
-
-            raw = {
-                "id": item_id,
-                "title": headline,
-                "headline": headline,
-                "source": it.get("source", "Recent archive"),
-                "date": it.get("date") or it.get("published") or cycle.get("cycle_date") or cycle.get("week_of") or "N/A",
-                "published_dt": None,
-                "summary": summary,
-                "url": url,
-                "labels": labels,
-                "score": int(it.get("score", 16)),
-            }
-            if not should_keep_item({"title": headline, "summary": summary}):
-                continue
-            items.append(raw)
-            seen.add(item_id)
-            if len(items) >= limit:
-                return items
-    return items
-
-
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate high-signal Massachusetts higher-ed brief.")
+    parser = argparse.ArgumentParser(description="Generate high-signal higher-ed brief.")
     parser.add_argument("--quiet", action="store_true", help="Suppress stdout summary")
+
+    # Accepted for compatibility with the newer GitHub workflow.
+    parser.add_argument("--target-state", default="Massachusetts")
+    parser.add_argument("--comparative-mode", default="true")
+    parser.add_argument("--force-story-url", default="")
+
     return parser.parse_args()
 
 
@@ -446,15 +613,22 @@ def main() -> None:
     build_dt = now_et()
     cycle_date = build_dt.date().isoformat()
     week = monday_of_week(build_dt.date()).isoformat()
-    cutoff = build_dt - timedelta(days=int(cfg["filters"]["days_lookback"]))
+
+    days_lookback = int(cfg["filters"].get("days_lookback", 5))
+    cutoff = build_dt - timedelta(days=days_lookback)
+
+    recent_cycles = load_recent_cycles()
+    recent_index = build_recent_index(recent_cycles)
+    recently_seen = recent_seen_ids(recent_cycles)
 
     items: List[dict] = []
     seen = set()
     feed_errors: List[str] = []
 
-    for feed in cfg["feeds"]:
+    for feed in cfg.get("feeds", []):
         try:
             parsed = feedparser.parse(feed["url"])
+
             if getattr(parsed, "bozo", 0) and getattr(parsed, "bozo_exception", None):
                 feed_errors.append(f"{feed['name']}: {parsed.bozo_exception}")
 
@@ -462,11 +636,19 @@ def main() -> None:
                 title = clean_html(getattr(entry, "title", ""))
                 summary = clamp(getattr(entry, "summary", ""))
                 url = normalize(getattr(entry, "link", ""))
+
                 if not title or not url:
                     continue
 
                 published_dt = parse_entry_dt(entry)
-                if published_dt and published_dt < cutoff:
+
+                # Strict freshness rule:
+                # If the feed does not provide a usable date, do not use the item.
+                # If the item is outside the lookback window, do not use it.
+                if not published_dt:
+                    continue
+
+                if published_dt < cutoff:
                     continue
 
                 item_id = fingerprint(title, url)
@@ -477,35 +659,51 @@ def main() -> None:
                     "id": item_id,
                     "headline": title,
                     "source": feed["name"],
-                    "date": published_dt.strftime("%Y-%m-%d") if published_dt else "N/A",
+                    "date": published_dt.strftime("%Y-%m-%d"),
                     "published_dt": published_dt,
                     "summary": summary,
                     "url": url,
                 }
+
                 item["labels"] = extract_labels(f"{title} {summary} {feed['name']}")
+
                 if not should_keep_item(item):
                     continue
 
-                item["score"] = quality_score(item)
+                item["score"] = quality_score(item, build_dt, recently_seen)
+
+                # Discard items that are technically relevant but too weak after freshness and repetition penalties.
+                if item["score"] < 4:
+                    continue
+
                 items.append(item)
                 seen.add(item_id)
 
         except Exception as exc:
-            feed_errors.append(f"{feed['name']}: {exc}")
+            feed_errors.append(f"{feed.get('name', 'Feed')}: {exc}")
 
-    recent_cycles = load_recent_cycles()
-    recent_index = build_recent_index(recent_cycles)
-
-    if not items:
-        items = fallback_from_recent_cycles(recent_cycles, limit=10)
+    # Optional manual feature URL. It only works if the URL appeared in the feed window.
+    force_url = normalize(args.force_story_url)
+    if force_url:
+        for item in items:
+            if normalize(item.get("url", "")) == force_url:
+                item["score"] += 25
+                break
+        else:
+            feed_errors.append(
+                f"Forced story URL was not found in the current fresh feed window: {force_url}"
+            )
 
     ranked = sorted(items, key=lambda x: x["score"], reverse=True)
 
     top_signals: List[dict] = []
+    top_max = int(cfg["filters"].get("top_signals_max", 5))
+
     for raw in ranked:
         novelty = novelty_label(raw, recent_index)
         labels = [novelty, *raw["labels"]]
         labels = [label for label in labels if label in ALLOWED_LABELS]
+
         if len(labels) == 1 and labels[0] in {"NEW", "UPDATED"}:
             continue
 
@@ -515,21 +713,22 @@ def main() -> None:
             "source": raw["source"],
             "date": raw["date"],
             "summary": raw["summary"],
-            "why_it_matters": build_why_it_matters({"labels": labels}),
+            "observation": build_observation({"labels": labels}),
             "url": raw["url"],
             "labels": labels,
             "score": raw["score"],
         }
+
         top_signals.append(enriched)
-        if len(top_signals) >= int(cfg["filters"].get("top_signals_max", 5)):
+
+        if len(top_signals) >= top_max:
             break
 
     top_signals = top_signals[:5]
-    if len(top_signals) < 3:
-        top_signals = top_signals[:]
 
     used_ids = {x["id"] for x in top_signals}
     watch_candidates = [x for x in ranked if x["id"] not in used_ids]
+
     watch_list = []
     for raw in watch_candidates[:8]:
         watch_list.append(
@@ -539,24 +738,26 @@ def main() -> None:
                 "source": raw["source"],
                 "date": raw["date"],
                 "url": raw["url"],
-                "labels": raw["labels"][:3],
+                "labels": raw["labels"][:4],
+                "score": raw["score"],
             }
         )
+
         if len(watch_list) == 4:
             break
-    watch_list = watch_list[:4]
 
     linkedin_angles = build_linkedin_angles(top_signals)
 
     archive_files = sorted(ARCHIVE.glob("*.json"), reverse=True)[:20]
     archive = [{"label": f"Cycle {p.stem}", "url": f"data/archive/{p.name}"} for p in archive_files]
+
     current_entry = {"label": f"Cycle {cycle_date}", "url": f"data/archive/{cycle_date}.json"}
     if not any(x["url"] == current_entry["url"] for x in archive):
         archive.insert(0, current_entry)
 
     brief = {
-        "schema_version": "5.0",
-        "product": "Massachusetts Higher-Ed Intelligence Brief",
+        "schema_version": "6.0",
+        "product": "Higher-Ed Intelligence Brief",
         "focus": [
             "Massachusetts higher education",
             "Community colleges",
@@ -565,6 +766,7 @@ def main() -> None:
             "Student success",
             "Affordability",
             "Workforce policy",
+            "Governance and leadership",
             "Practical AI in teaching/advising",
         ],
         "cadence": "Monday / Wednesday / Friday",
@@ -573,18 +775,20 @@ def main() -> None:
         "week_of": week,
         "freshness": {
             "cycle_date": cycle_date,
+            "days_lookback": days_lookback,
+            "cutoff": cutoff.strftime("%Y-%m-%d %H:%M ET"),
             "new_count": len([x for x in top_signals if "NEW" in x["labels"]]),
             "updated_count": len([x for x in top_signals if "UPDATED" in x["labels"]]),
         },
         "sections": [
-            "top_signals_this_cycle",
-            "why_this_matters_now",
+            "developments_worth_watching",
+            "pattern_im_seeing",
             "possible_linkedin_post_angles",
             "watch_list",
             "archive",
         ],
         "top_signals": top_signals,
-        "why_this_matters_now": build_editorial(top_signals),
+        "pattern_this_cycle": build_editorial(top_signals),
         "linkedin_angles": linkedin_angles,
         "watch_list": watch_list,
         "archive": archive,
@@ -607,7 +811,12 @@ def main() -> None:
 
     if not args.quiet:
         print(f"OK: wrote {latest_json} and {cycle_json}")
-        print(f"Top signals: {len(top_signals)} | Watch list: {len(watch_list)} | Items considered: {len(items)}")
+        print(
+            f"Fresh window: {days_lookback} days | "
+            f"Top signals: {len(top_signals)} | "
+            f"Watch list: {len(watch_list)} | "
+            f"Items considered: {len(items)}"
+        )
         if feed_errors:
             print("Feed warnings:")
             for warning in feed_errors:
