@@ -57,7 +57,13 @@ def clean_html(text: str) -> str:
     return normalize(text)
 
 
-def clamp(text: str, limit: int = 360) -> str:
+def clean_title(text: str) -> str:
+    text = clean_html(text)
+    text = re.sub(r"\s+\(([A-Z]{1,6})\)\s*$", "", text)
+    return text
+
+
+def clamp(text: str, limit: int = 420) -> str:
     text = clean_html(text)
 
     junk_patterns = [
@@ -72,7 +78,13 @@ def clamp(text: str, limit: int = 360) -> str:
     for pattern in junk_patterns:
         text = re.sub(pattern, "", text, flags=re.IGNORECASE)
 
-    return normalize(text)[:limit]
+    text = normalize(text)
+
+    if len(text) <= limit:
+        return text
+
+    shortened = text[:limit].rsplit(" ", 1)[0]
+    return shortened.strip() + "..."
 
 
 def fingerprint(title: str, url: str) -> str:
@@ -208,6 +220,7 @@ def should_keep_item(item: dict) -> bool:
     required_scope = [
         "massachusetts",
         "community college",
+        "community colleges",
         "higher education",
         "college",
         "university",
@@ -480,6 +493,108 @@ def build_editorial(top_signals: List[dict]) -> str:
     return "\n\n".join(parts[:3])
 
 
+def build_story_context(item: dict) -> str:
+    labels = set(item.get("labels", []))
+    headline = item.get("headline", "")
+    source = item.get("source", "")
+    date = item.get("date", "")
+    summary = normalize(item.get("summary", ""))
+
+    opening = f"A recent item from {source}, dated {date}, caught my attention: {headline}."
+
+    if summary:
+        development = (
+            f"The basic development is this: {summary} "
+            "I would want to check the original source before posting any exact figures or institutional claims, "
+            "but the direction of the story is clear enough to make it worth thinking about."
+        )
+    else:
+        development = (
+            "The source summary is thin, so I would treat this as a prompt for further checking rather than a finished account."
+        )
+
+    if "GOVERNANCE" in labels or "LEADERSHIP" in labels:
+        pattern = (
+            "The broader pattern is the growing pressure on higher education leadership. Presidents and senior leaders are not simply managing campuses; "
+            "they are navigating boards, political actors, donors, faculty, students, public narratives, and financial constraints. "
+            "That makes leadership in higher education feel less like ordinary administration and more like a contested exercise of institutional power."
+        )
+    elif "TRANSFER" in labels:
+        pattern = (
+            "The broader pattern is that transfer is becoming central rather than peripheral. But transfer only works when the infrastructure is boringly reliable: "
+            "clear pathways, clean credit movement, current advising information, and enough staff capacity to help students make sense of their options."
+        )
+    elif "AI" in labels:
+        pattern = (
+            "The broader pattern is that AI in higher education is moving beyond novelty. The question is shifting from whether colleges should experiment with AI "
+            "to whether they can govern it, train people to use it well, and avoid using it as a substitute for the human judgment students still need."
+        )
+    elif "WORKFORCE" in labels:
+        pattern = (
+            "The broader pattern is that community colleges are being asked to serve as workforce infrastructure. That role is important, but it also creates pressure: "
+            "programs have to move quickly, students need good guidance, and colleges need enough capacity to keep up with labor-market expectations."
+        )
+    elif "MASSACHUSETTS" in labels:
+        pattern = (
+            "The Massachusetts angle is that access policy, affordability policy, advising, transfer, and student-success work are all starting to converge. "
+            "Opening the door matters, but the real institutional challenge is helping students persist, choose well, and complete."
+        )
+    else:
+        pattern = (
+            "The broader pattern is the increasing complexity of higher education. Colleges are being asked to be more responsive, more accountable, more technologically fluent, "
+            "and more student-centered, often without a matching increase in operational capacity."
+        )
+
+    return "\n\n".join([opening, development, pattern])
+
+
+def build_editable_linkedin_draft(item: dict) -> str:
+    labels = set(item.get("labels", []))
+    headline = item.get("headline", "")
+    url = item.get("url", "")
+    observation = item.get("observation") or build_observation(item)
+
+    paragraphs: List[str] = []
+
+    paragraphs.append(f"I’ve been thinking about this higher-ed story: {headline}")
+
+    paragraphs.append(build_story_context(item))
+
+    paragraphs.append(
+        f"What caught my attention is this: {observation}"
+    )
+
+    if "MASSACHUSETTS" in labels:
+        paragraphs.append(
+            "For Massachusetts community colleges, I think the practical question is whether our policy ambitions are being matched by the infrastructure needed to make them real. "
+            "Affordability initiatives matter. Access matters. But students also need timely advising, clear pathways, transfer support, financial navigation, and human follow-through."
+        )
+    elif "COMMUNITY COLLEGE" in labels:
+        paragraphs.append(
+            "For community colleges, the issue is rarely whether the goal is worthwhile. The harder question is whether the institution has enough staffing, clarity, data, and time "
+            "to turn the aspiration into something students experience in a practical way."
+        )
+    elif "GOVERNANCE" in labels or "LEADERSHIP" in labels:
+        paragraphs.append(
+            "I do not think stories like this are only about one president, one board, or one institution. They are also about the fragile balance between institutional independence, "
+            "public accountability, political pressure, donor influence, and the academic mission."
+        )
+    elif "AI" in labels:
+        paragraphs.append(
+            "The colleges that handle AI well will probably not be the ones that chase every new tool. They will be the ones that build enough shared judgment to decide where automation helps, "
+            "where it risks harm, and where students still need a person rather than a system."
+        )
+
+    paragraphs.append(
+        "The part worth watching is whether this becomes an isolated story or part of a larger pattern. "
+        "Higher education has a habit of treating each development as separate, when often the real story is the pressure building underneath."
+    )
+
+    paragraphs.append(f"Source: {url}")
+
+    return "\n\n".join(paragraphs)
+
+
 def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
     if not top_signals:
         return [
@@ -487,8 +602,9 @@ def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
                 "hook": "No strong post this cycle",
                 "angle": "Signal quality check",
                 "draft": (
-                    "I did not see enough fresh, high-signal material this cycle to justify forcing a LinkedIn post. "
-                    "That is preferable to recycling old stories or pretending routine updates are more significant than they are."
+                    "I did not see enough fresh, high-signal material this cycle to justify forcing a LinkedIn post.\n\n"
+                    "That is preferable to recycling old stories or pretending routine updates are more significant than they are.\n\n"
+                    "For now, I would treat this as a cycle for watching rather than posting."
                 ),
             }
         ]
@@ -497,28 +613,14 @@ def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
     angles: List[dict] = []
 
     for item in ranked[:3]:
-        if item["score"] < 15:
+        if item["score"] < 12:
             continue
-
-        observation = build_observation(item)
-        draft = (
-            f"{item['headline']}\n\n"
-            f"{item['summary']}\n\n"
-            f"What caught my attention is this: {observation}\n\n"
-            "That seems worth watching."
-        )
-
-        if "MASSACHUSETTS" in item.get("labels", []):
-            draft += (
-                "\n\nFor Massachusetts community colleges, the practical question is whether policy ambition is being matched "
-                "by the staffing, advising, and support infrastructure needed to make it real."
-            )
 
         angles.append(
             {
                 "hook": item["headline"],
-                "angle": "A development worth watching",
-                "draft": draft,
+                "angle": "Editable LinkedIn brief",
+                "draft": build_editable_linkedin_draft(item),
             }
         )
 
@@ -528,8 +630,8 @@ def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
                 "hook": "Not post-worthy this cycle",
                 "angle": "Signal quality check",
                 "draft": (
-                    "This cycle had some movement, but not enough fresh high-signal change to justify a public post. "
-                    "I would rather wait for a clearer policy, governance, funding, or student-success development."
+                    "This cycle had some movement, but not enough fresh high-signal change to justify a public post.\n\n"
+                    "I would rather wait for a clearer policy, governance, funding, or student-success development than force a post from thin material."
                 ),
             }
         )
@@ -566,7 +668,7 @@ def to_markdown(brief: dict) -> str:
         )
 
     lines.extend(["## Pattern I’m Seeing", "", brief["pattern_this_cycle"], ""])
-    lines.extend(["## Possible LinkedIn Post Angles", ""])
+    lines.extend(["## Draft LinkedIn Briefs for Editing", ""])
 
     for angle in brief["linkedin_angles"]:
         lines.extend(
@@ -633,7 +735,7 @@ def main() -> None:
                 feed_errors.append(f"{feed['name']}: {parsed.bozo_exception}")
 
             for entry in getattr(parsed, "entries", []):
-                title = clean_html(getattr(entry, "title", ""))
+                title = clean_title(getattr(entry, "title", ""))
                 summary = clamp(getattr(entry, "summary", ""))
                 url = normalize(getattr(entry, "link", ""))
 
@@ -682,7 +784,6 @@ def main() -> None:
         except Exception as exc:
             feed_errors.append(f"{feed.get('name', 'Feed')}: {exc}")
 
-    # Optional manual feature URL. It only works if the URL appeared in the feed window.
     force_url = normalize(args.force_story_url)
     if force_url:
         for item in items:
@@ -707,13 +808,16 @@ def main() -> None:
         if len(labels) == 1 and labels[0] in {"NEW", "UPDATED"}:
             continue
 
+        observation = build_observation({"labels": labels})
+
         enriched = {
             "id": raw["id"],
             "headline": raw["headline"],
             "source": raw["source"],
             "date": raw["date"],
             "summary": raw["summary"],
-            "observation": build_observation({"labels": labels}),
+            "observation": observation,
+            "why_it_matters": observation,  # compatibility with older validator/front end
             "url": raw["url"],
             "labels": labels,
             "score": raw["score"],
@@ -747,6 +851,7 @@ def main() -> None:
             break
 
     linkedin_angles = build_linkedin_angles(top_signals)
+    pattern = build_editorial(top_signals)
 
     archive_files = sorted(ARCHIVE.glob("*.json"), reverse=True)[:20]
     archive = [{"label": f"Cycle {p.stem}", "url": f"data/archive/{p.name}"} for p in archive_files]
@@ -756,7 +861,7 @@ def main() -> None:
         archive.insert(0, current_entry)
 
     brief = {
-        "schema_version": "6.0",
+        "schema_version": "6.1",
         "product": "Higher-Ed Intelligence Brief",
         "focus": [
             "Massachusetts higher education",
@@ -783,13 +888,13 @@ def main() -> None:
         "sections": [
             "developments_worth_watching",
             "pattern_im_seeing",
-            "possible_linkedin_post_angles",
+            "draft_linkedin_briefs_for_editing",
             "watch_list",
             "archive",
         ],
         "top_signals": top_signals,
-        "pattern_this_cycle": build_editorial(top_signals),
-        "why_this_matters_now": build_editorial(top_signals),
+        "pattern_this_cycle": pattern,
+        "why_this_matters_now": pattern,  # compatibility with older validator/front end
         "linkedin_angles": linkedin_angles,
         "watch_list": watch_list,
         "archive": archive,
