@@ -1,8 +1,22 @@
 # Higher-Ed Intelligence Brief — 2026-05-06
 
-_Generated: 2026-05-06 10:59 ET_
+_Generated: 2026-05-06 13:39 ET_
 
 ## Developments Worth Watching
+
+### Strategy before technology
+- Source: Community College Daily (2026-05-04)
+- Labels: NEW, COMMUNITY COLLEGE, ADVISING, AI
+- Summary: Across higher education, artificial intelligence (AI) is already present in classrooms, advising centers and students’ everyday lives. However, many learners have uneven experiences. In one course, the faculty encourages students to use AI tools to... The post Strategy before technology first appeared on Community College Daily .
+- What caught my attention: The practical question is whether AI reduces friction for students and staff, or simply adds another layer of tools that people have to manage.
+- Link: https://www.ccdaily.com/2026/05/strategy-before-technology-2/?utm_source=rss&utm_medium=rss&utm_campaign=strategy-before-technology-2
+
+### Washington Watch: A look at ED’s proposed regs on accreditation
+- Source: Community College Daily (2026-05-03)
+- Labels: NEW, COMMUNITY COLLEGE, GOVERNANCE, POLICY
+- Summary: The Education Department (ED) last month convened the “Accreditation, Innovation, and Modernization” committee for the first of two week-long negotiated rulemaking (neg reg) sessions. The second and final session starts May 18. At the conclusion... The post Washington Watch: A look at ED’s proposed regs on accreditation first appeared on Community College Da
+- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+- Link: https://www.ccdaily.com/2026/05/washington-watch-a-look-at-eds-proposed-regs-on-accreditation/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-a-look-at-eds-proposed-regs-on-accreditation
 
 ### Newsmakers
 - Source: Community College Daily (2026-05-04)
@@ -11,39 +25,49 @@ _Generated: 2026-05-06 10:59 ET_
 - What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
 - Link: https://www.ccdaily.com/2026/05/newsmakers-357/?utm_source=rss&utm_medium=rss&utm_campaign=newsmakers-357
 
-### A game plan for dual-enrollment outreach
-- Source: Community College Daily (2026-05-05)
-- Labels: NEW, COMMUNITY COLLEGE, WORKFORCE, AI
-- Summary: Emily Summers is rarely at her desk — and her employer couldn’t be happier about it. Summers is a dual-enrollment specialist at Milwaukee Area Technical College (MATC) in southeastern Wisconsin. She’s usually out at area... The post A game plan for dual-enrollment outreach first appeared on Community College Daily .
-- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
-- Link: https://www.ccdaily.com/2026/05/a-game-plan-for-dual-enrollment-outreach/?utm_source=rss&utm_medium=rss&utm_campaign=a-game-plan-for-dual-enrollment-outreach
-
-### Headlines
-- Source: Community College Daily (2026-05-05)
+### Community colleges are already the AI safe harbor
+- Source: Community College Daily (2026-05-03)
 - Labels: NEW, COMMUNITY COLLEGE
-- Summary: Senate education committee chair Bill Cassidy fights to keep his seat The 74 Sen. Bill Cassidy (R-Louisiana), chair of the Senate Health, Education, Labor and Pensions Committee, is facing a tough primary election May 16.... The post Headlines first appeared on Community College Daily .
+- Summary: A safe harbor is where ships ride out a storm. It isn’t where the action is in fair weather, and it isn’t the most glamorous part of the coast. It’s the place that holds up... The post Community colleges are already the AI safe harbor first appeared on Community College Daily .
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.ccdaily.com/2026/05/headlines-1172/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1172
+- Link: https://www.ccdaily.com/2026/05/community-colleges-are-already-the-ai-safe-harbor/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-are-already-the-ai-safe-harbor
 
 ### Headlines
-- Source: Community College Daily (2026-05-04)
-- Labels: NEW, COMMUNITY COLLEGE, POLICY
-- Summary: Why GSA’s anti-DEI certification is raising alarm in higher education Higher Ed Dive The U.S. General Services Administration is the latest federal agency to take direct aim at diversity, equity and inclusion efforts, proposing in... The post Headlines first appeared on Community College Daily .
+- Source: Community College Daily (2026-05-03)
+- Labels: NEW, COMMUNITY COLLEGE
+- Summary: Proposal would block immigrants in U.S. unlawfully from Florida colleges Florida Politics Students without lawful immigration status in Florida could soon be barred from admission to all 28 state community colleges. Commentary: The U.S. economy... The post Headlines first appeared on Community College Daily .
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.ccdaily.com/2026/05/headlines-1171/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1171
-
-### University of Michigan, Virginia Tech among colleges seeking new leaders
-- Source: Higher Ed Dive (2026-05-04)
-- Labels: NEW, GOVERNANCE, LEADERSHIP
-- Summary: Several high-profile institutions are on the hunt for new presidents or chancellors, plus other higher ed leadership news from April.
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.highereddive.com/news/university-of-michigan-virginia-tech-among-colleges-seeking-new-leaders/819125/
+- Link: https://www.ccdaily.com/2026/05/headlines-1170/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1170
 
 ## Pattern I’m Seeing
 
 The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
 
+Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.
+
 ## Possible LinkedIn Post Angles
+
+### Strategy before technology
+- Angle: A development worth watching
+
+Strategy before technology
+
+Across higher education, artificial intelligence (AI) is already present in classrooms, advising centers and students’ everyday lives. However, many learners have uneven experiences. In one course, the faculty encourages students to use AI tools to... The post Strategy before technology first appeared on Community College Daily .
+
+What caught my attention is this: The practical question is whether AI reduces friction for students and staff, or simply adds another layer of tools that people have to manage.
+
+That seems worth watching.
+
+### Washington Watch: A look at ED’s proposed regs on accreditation
+- Angle: A development worth watching
+
+Washington Watch: A look at ED’s proposed regs on accreditation
+
+The Education Department (ED) last month convened the “Accreditation, Innovation, and Modernization” committee for the first of two week-long negotiated rulemaking (neg reg) sessions. The second and final session starts May 18. At the conclusion... The post Washington Watch: A look at ED’s proposed regs on accreditation first appeared on Community College Da
+
+What caught my attention is this: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+
+That seems worth watching.
 
 ### Newsmakers
 - Angle: A development worth watching
@@ -58,31 +82,9 @@ That seems worth watching.
 
 For Massachusetts community colleges, the practical question is whether policy ambition is being matched by the staffing, advising, and support infrastructure needed to make it real.
 
-### A game plan for dual-enrollment outreach
-- Angle: A development worth watching
-
-A game plan for dual-enrollment outreach
-
-Emily Summers is rarely at her desk — and her employer couldn’t be happier about it. Summers is a dual-enrollment specialist at Milwaukee Area Technical College (MATC) in southeastern Wisconsin. She’s usually out at area... The post A game plan for dual-enrollment outreach first appeared on Community College Daily .
-
-What caught my attention is this: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
-
-That seems worth watching.
-
-### Headlines
-- Angle: A development worth watching
-
-Headlines
-
-Senate education committee chair Bill Cassidy fights to keep his seat The 74 Sen. Bill Cassidy (R-Louisiana), chair of the Senate Health, Education, Labor and Pensions Committee, is facing a tough primary election May 16.... The post Headlines first appeared on Community College Daily .
-
-What caught my attention is this: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-
-That seems worth watching.
-
 ## Watch List
 
-- DOJ revives fight against Minnesota’s in-state tuition for undocumented students (Higher Ed Dive, 2026-05-05)
+- N.M. Highlands University President Put on Paid Administrative Leave (Inside Higher Ed, 2026-05-06)
+- Bard College president to retire following probe into his ties to Epstein (Higher Ed Dive, 2026-05-05)
+- The importance of career guidance (Community College Daily, 2026-05-05)
 - Kent State University to lay off up to 45 staffers (Higher Ed Dive, 2026-05-06)
-- Funding roundup (Community College Daily, 2026-05-05)
-- ‘Everyone’s Going to Experience a Shock’ From New Federal Policies (Inside Higher Ed, 2026-05-06)

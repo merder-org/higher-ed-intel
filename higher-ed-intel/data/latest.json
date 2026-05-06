@@ -13,13 +13,13 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-05-06 10:59 ET",
+  "generated_at": "2026-05-06 13:39 ET",
   "cycle_date": "2026-05-06",
   "week_of": "2026-05-04",
   "freshness": {
     "cycle_date": "2026-05-06",
     "days_lookback": 5,
-    "cutoff": "2026-05-01 10:59 ET",
+    "cutoff": "2026-05-01 13:39 ET",
     "new_count": 4,
     "updated_count": 1
   },
@@ -31,6 +31,38 @@
     "archive"
   ],
   "top_signals": [
+    {
+      "id": "d721fdad789c879c",
+      "headline": "Strategy before technology",
+      "source": "Community College Daily",
+      "date": "2026-05-04",
+      "summary": "Across higher education, artificial intelligence (AI) is already present in classrooms, advising centers and students’ everyday lives. However, many learners have uneven experiences. In one course, the faculty encourages students to use AI tools to... The post Strategy before technology first appeared on Community College Daily .",
+      "observation": "The practical question is whether AI reduces friction for students and staff, or simply adds another layer of tools that people have to manage.",
+      "url": "https://www.ccdaily.com/2026/05/strategy-before-technology-2/?utm_source=rss&utm_medium=rss&utm_campaign=strategy-before-technology-2",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "ADVISING",
+        "AI"
+      ],
+      "score": 33
+    },
+    {
+      "id": "f8d45e6524c5eab2",
+      "headline": "Washington Watch: A look at ED’s proposed regs on accreditation",
+      "source": "Community College Daily",
+      "date": "2026-05-03",
+      "summary": "The Education Department (ED) last month convened the “Accreditation, Innovation, and Modernization” committee for the first of two week-long negotiated rulemaking (neg reg) sessions. The second and final session starts May 18. At the conclusion... The post Washington Watch: A look at ED’s proposed regs on accreditation first appeared on Community College Da",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.ccdaily.com/2026/05/washington-watch-a-look-at-eds-proposed-regs-on-accreditation/?utm_source=rss&utm_medium=rss&utm_campaign=washington-watch-a-look-at-eds-proposed-regs-on-accreditation",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "GOVERNANCE",
+        "POLICY"
+      ],
+      "score": 33
+    },
     {
       "id": "129498062a7769d3",
       "headline": "Newsmakers",
@@ -49,97 +81,88 @@
       "score": 31
     },
     {
-      "id": "9e0e0eeb12843c60",
-      "headline": "A game plan for dual-enrollment outreach",
+      "id": "6ecd7230052bd35a",
+      "headline": "Community colleges are already the AI safe harbor",
       "source": "Community College Daily",
-      "date": "2026-05-05",
-      "summary": "Emily Summers is rarely at her desk — and her employer couldn’t be happier about it. Summers is a dual-enrollment specialist at Milwaukee Area Technical College (MATC) in southeastern Wisconsin. She’s usually out at area... The post A game plan for dual-enrollment outreach first appeared on Community College Daily .",
-      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "url": "https://www.ccdaily.com/2026/05/a-game-plan-for-dual-enrollment-outreach/?utm_source=rss&utm_medium=rss&utm_campaign=a-game-plan-for-dual-enrollment-outreach",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "WORKFORCE",
-        "AI"
-      ],
-      "score": 27
-    },
-    {
-      "id": "ea843e8e67d2016e",
-      "headline": "Headlines",
-      "source": "Community College Daily",
-      "date": "2026-05-05",
-      "summary": "Senate education committee chair Bill Cassidy fights to keep his seat The 74 Sen. Bill Cassidy (R-Louisiana), chair of the Senate Health, Education, Labor and Pensions Committee, is facing a tough primary election May 16.... The post Headlines first appeared on Community College Daily .",
+      "date": "2026-05-03",
+      "summary": "A safe harbor is where ships ride out a storm. It isn’t where the action is in fair weather, and it isn’t the most glamorous part of the coast. It’s the place that holds up... The post Community colleges are already the AI safe harbor first appeared on Community College Daily .",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/05/headlines-1172/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1172",
+      "url": "https://www.ccdaily.com/2026/05/community-colleges-are-already-the-ai-safe-harbor/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-are-already-the-ai-safe-harbor",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE"
       ],
-      "score": 27
+      "score": 31
     },
     {
-      "id": "4d848ba567002cea",
+      "id": "3e895bf5f58776ba",
       "headline": "Headlines",
       "source": "Community College Daily",
-      "date": "2026-05-04",
-      "summary": "Why GSA’s anti-DEI certification is raising alarm in higher education Higher Ed Dive The U.S. General Services Administration is the latest federal agency to take direct aim at diversity, equity and inclusion efforts, proposing in... The post Headlines first appeared on Community College Daily .",
+      "date": "2026-05-03",
+      "summary": "Proposal would block immigrants in U.S. unlawfully from Florida colleges Florida Politics Students without lawful immigration status in Florida could soon be barred from admission to all 28 state community colleges. Commentary: The U.S. economy... The post Headlines first appeared on Community College Daily .",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/05/headlines-1171/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1171",
+      "url": "https://www.ccdaily.com/2026/05/headlines-1170/?utm_source=rss&utm_medium=rss&utm_campaign=headlines-1170",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE",
-        "POLICY"
+        "COMMUNITY COLLEGE"
       ],
-      "score": 27
-    },
-    {
-      "id": "4bab6b7f58064877",
-      "headline": "University of Michigan, Virginia Tech among colleges seeking new leaders",
-      "source": "Higher Ed Dive",
-      "date": "2026-05-04",
-      "summary": "Several high-profile institutions are on the hunt for new presidents or chancellors, plus other higher ed leadership news from April.",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.highereddive.com/news/university-of-michigan-virginia-tech-among-colleges-seeking-new-leaders/819125/",
-      "labels": [
-        "NEW",
-        "GOVERNANCE",
-        "LEADERSHIP"
-      ],
-      "score": 26
+      "score": 31
     }
   ],
-  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
-  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.\n\nTransfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.\n\nTransfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.",
   "linkedin_angles": [
+    {
+      "hook": "Strategy before technology",
+      "angle": "A development worth watching",
+      "draft": "Strategy before technology\n\nAcross higher education, artificial intelligence (AI) is already present in classrooms, advising centers and students’ everyday lives. However, many learners have uneven experiences. In one course, the faculty encourages students to use AI tools to... The post Strategy before technology first appeared on Community College Daily .\n\nWhat caught my attention is this: The practical question is whether AI reduces friction for students and staff, or simply adds another layer of tools that people have to manage.\n\nThat seems worth watching."
+    },
+    {
+      "hook": "Washington Watch: A look at ED’s proposed regs on accreditation",
+      "angle": "A development worth watching",
+      "draft": "Washington Watch: A look at ED’s proposed regs on accreditation\n\nThe Education Department (ED) last month convened the “Accreditation, Innovation, and Modernization” committee for the first of two week-long negotiated rulemaking (neg reg) sessions. The second and final session starts May 18. At the conclusion... The post Washington Watch: A look at ED’s proposed regs on accreditation first appeared on Community College Da\n\nWhat caught my attention is this: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThat seems worth watching."
+    },
     {
       "hook": "Newsmakers",
       "angle": "A development worth watching",
       "draft": "Newsmakers\n\nCEOs on the move Hara Charlier has been named the next president of Berkshire Community College in Massachusetts. She is currently president of Central Lakes College (CLC) in Minnesota, a position he has held since... The post Newsmakers first appeared on Community College Daily .\n\nWhat caught my attention is this: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThat seems worth watching.\n\nFor Massachusetts community colleges, the practical question is whether policy ambition is being matched by the staffing, advising, and support infrastructure needed to make it real."
-    },
-    {
-      "hook": "A game plan for dual-enrollment outreach",
-      "angle": "A development worth watching",
-      "draft": "A game plan for dual-enrollment outreach\n\nEmily Summers is rarely at her desk — and her employer couldn’t be happier about it. Summers is a dual-enrollment specialist at Milwaukee Area Technical College (MATC) in southeastern Wisconsin. She’s usually out at area... The post A game plan for dual-enrollment outreach first appeared on Community College Daily .\n\nWhat caught my attention is this: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.\n\nThat seems worth watching."
-    },
-    {
-      "hook": "Headlines",
-      "angle": "A development worth watching",
-      "draft": "Headlines\n\nSenate education committee chair Bill Cassidy fights to keep his seat The 74 Sen. Bill Cassidy (R-Louisiana), chair of the Senate Health, Education, Labor and Pensions Committee, is facing a tough primary election May 16.... The post Headlines first appeared on Community College Daily .\n\nWhat caught my attention is this: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nThat seems worth watching."
     }
   ],
   "watch_list": [
     {
-      "id": "8d63d941d52f5c87",
-      "headline": "DOJ revives fight against Minnesota’s in-state tuition for undocumented students",
+      "id": "d2681d9807e1e90e",
+      "headline": "N.M. Highlands University President Put on Paid Administrative Leave",
+      "source": "Inside Higher Ed",
+      "date": "2026-05-06",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/05/06/nm-highlands-university-president-placed-paid-leave",
+      "labels": [
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 30
+    },
+    {
+      "id": "8ab534ac553db5a3",
+      "headline": "Bard College president to retire following probe into his ties to Epstein",
       "source": "Higher Ed Dive",
       "date": "2026-05-05",
-      "url": "https://www.highereddive.com/news/doj-revives-fight-against-minnesotas-in-state-tuition-for-undocumented-stu/819189/",
+      "url": "https://www.highereddive.com/news/bard-college-president-retire-probe-ties-epstein/819259/",
       "labels": [
-        "AFFORDABILITY",
-        "GOVERNANCE"
+        "GOVERNANCE",
+        "LEADERSHIP"
       ],
-      "score": 25
+      "score": 30
+    },
+    {
+      "id": "53a07b8732f07630",
+      "headline": "The importance of career guidance",
+      "source": "Community College Daily",
+      "date": "2026-05-05",
+      "url": "https://www.ccdaily.com/2026/05/the-importance-of-career-guidance/?utm_source=rss&utm_medium=rss&utm_campaign=the-importance-of-career-guidance",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
     },
     {
       "id": "d5e720307961f854",
@@ -153,28 +176,6 @@
         "POLICY"
       ],
       "score": 23
-    },
-    {
-      "id": "4cd9b1de3d9fee98",
-      "headline": "Funding roundup",
-      "source": "Community College Daily",
-      "date": "2026-05-05",
-      "url": "https://www.ccdaily.com/2026/05/funding-roundup-443/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-443",
-      "labels": [
-        "COMMUNITY COLLEGE"
-      ],
-      "score": 21
-    },
-    {
-      "id": "9f010950ad40be07",
-      "headline": "‘Everyone’s Going to Experience a Shock’ From New Federal Policies",
-      "source": "Inside Higher Ed",
-      "date": "2026-05-06",
-      "url": "https://www.insidehighered.com/news/business/financial-health/2026/05/06/assessing-risk-colleges-new-federal-policies-loom",
-      "labels": [
-        "POLICY"
-      ],
-      "score": 18
     }
   ],
   "archive": [
@@ -243,7 +244,7 @@
       "url": "data/archive/2026-03-02.json"
     }
   ],
-  "items_considered": 23,
+  "items_considered": 21,
   "feed_errors": [
     "Mass.gov News: <unknown>:21:22: not well-formed (invalid token)",
     "Mass DHE News Clips: text/html is not an XML media type",
