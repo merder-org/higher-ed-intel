@@ -2,7 +2,7 @@ name: Higher-Ed Intel Twice Weekly
 
 on:
   schedule:
-    - cron: "47 18 * * 1,4"
+    - cron: '0 11 * * 1-5'  # Monday-Friday, 7 AM Eastern during daylight saving time; 6 AM Eastern during standard time.
   workflow_dispatch:
     inputs:
       force_story_url:
