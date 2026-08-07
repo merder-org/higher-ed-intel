@@ -37,6 +37,20 @@ ALLOWED_LABELS = {
     "POLICY",
 }
 
+NOISE_TITLES = (
+    "headlines",
+    "newsmakers",
+    "week in review",
+    "this week's poll",
+    "this week’s poll",
+)
+
+CLUSTER_STOPWORDS = {
+    "about", "after", "again", "against", "college", "colleges", "community",
+    "education", "from", "higher", "into", "more", "new", "news", "plans",
+    "status", "that", "their", "this", "with", "week", "what", "when", "where",
+}
+
 
 def now_et() -> datetime:
     return datetime.now(tz=ET)
@@ -73,6 +87,7 @@ def clamp(text: str, limit: int = 420) -> str:
         r"Descriptive Metadata.*",
         r"Preservation Metadata.*",
         r"PDF XML TEXT.*",
+        r"The post .*? first appeared on .*?[.]?$",
     ]
 
     for pattern in junk_patterns:
@@ -262,7 +277,65 @@ def should_keep_item(item: dict) -> bool:
     if any(token in text for token in hard_excludes):
         return False
 
+    normalized_title = normalize(title).lower().strip(" .:-")
+    if any(
+        normalized_title == noise or normalized_title.startswith(f"{noise}:")
+        for noise in NOISE_TITLES
+    ):
+        return False
+
+    if len(normalize(item.get("summary", ""))) < 40:
+        return False
+
     return True
+
+
+def cluster_tokens(item: dict) -> set[str]:
+    text = f"{item.get('headline', '')} {item.get('summary', '')}".lower()
+    tokens = set(re.findall(r"[a-z0-9]+", text))
+    return {token for token in tokens if len(token) > 3 and token not in CLUSTER_STOPWORDS}
+
+
+def same_story_cluster(left: dict, right: dict) -> bool:
+    left_text = f"{left.get('headline', '')} {left.get('summary', '')}".lower()
+    right_text = f"{right.get('headline', '')} {right.get('summary', '')}".lower()
+
+    anchor_phrases = (
+        "workforce pell",
+        "free community college",
+        "student loan forgiveness",
+        "fafsa rollout",
+        "college closure",
+    )
+    if any(anchor in left_text and anchor in right_text for anchor in anchor_phrases):
+        return True
+
+    left_tokens = cluster_tokens(left)
+    right_tokens = cluster_tokens(right)
+    if not left_tokens or not right_tokens:
+        return False
+
+    overlap = len(left_tokens & right_tokens)
+    union = len(left_tokens | right_tokens)
+    return overlap >= 4 and overlap / union >= 0.24
+
+
+def select_top_items(ranked: List[dict], limit: int, per_source: int = 2) -> List[dict]:
+    selected: List[dict] = []
+    source_counts: Counter = Counter()
+
+    for item in ranked:
+        if source_counts[item["source"]] >= per_source:
+            continue
+        if any(same_story_cluster(item, prior) for prior in selected):
+            continue
+
+        selected.append(item)
+        source_counts[item["source"]] += 1
+        if len(selected) >= limit:
+            break
+
+    return selected
 
 
 def load_recent_cycles(limit: int = 8) -> List[dict]:
@@ -398,6 +471,19 @@ def quality_score(item: dict, build_dt: datetime, recent_ids: set[str]) -> int:
 
 def build_observation(item: dict) -> str:
     labels = set(item.get("labels", []))
+    text = f"{item.get('headline', '')} {item.get('summary', '')}".lower()
+
+    if "workforce pell" in text:
+        return (
+            "This is now an implementation story rather than a policy announcement. The useful questions are which programs qualify, "
+            "how quickly colleges can build compliant offerings, and whether students receive enough guidance to judge short-term credentials well."
+        )
+
+    if "AI" in labels and "WORKFORCE" in labels:
+        return (
+            "The strategic issue is not simply whether colleges can react faster to AI. It is whether they can distinguish durable capabilities "
+            "from short-lived employer demand while giving students guidance that remains useful after the current tool cycle."
+        )
 
     if "GOVERNANCE" in labels or "LEADERSHIP" in labels:
         return (
@@ -554,48 +640,27 @@ def build_editable_linkedin_draft(item: dict) -> str:
     url = item.get("url", "")
     observation = item.get("observation") or build_observation(item)
 
-    paragraphs: List[str] = []
+    summary = normalize(item.get("summary", ""))
+    if len(summary) > 260:
+        summary = summary[:260].rsplit(" ", 1)[0] + "..."
 
-    paragraphs.append(f"I’ve been thinking about this higher-ed story: {headline}")
+    paragraphs: List[str] = [headline, summary, observation]
 
-    paragraphs.append(build_story_context(item))
-
-    paragraphs.append(
-        f"What caught my attention is this: {observation}"
-    )
-
-    if "MASSACHUSETTS" in labels:
-        paragraphs.append(
-            "For Massachusetts community colleges, I think the practical question is whether our policy ambitions are being matched by the infrastructure needed to make them real. "
-            "Affordability initiatives matter. Access matters. But students also need timely advising, clear pathways, transfer support, financial navigation, and human follow-through."
-        )
+    if "ADVISING" in labels or "TRANSFER" in labels or "STUDENT SUCCESS" in labels:
+        question = "The practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform."
+    elif "MASSACHUSETTS" in labels:
+        question = "For Massachusetts colleges, the question is whether access policy is being matched by advising, transfer, and student-support capacity."
     elif "COMMUNITY COLLEGE" in labels:
-        paragraphs.append(
-            "For community colleges, the issue is rarely whether the goal is worthwhile. The harder question is whether the institution has enough staffing, clarity, data, and time "
-            "to turn the aspiration into something students experience in a practical way."
-        )
-    elif "GOVERNANCE" in labels or "LEADERSHIP" in labels:
-        paragraphs.append(
-            "I do not think stories like this are only about one president, one board, or one institution. They are also about the fragile balance between institutional independence, "
-            "public accountability, political pressure, donor influence, and the academic mission."
-        )
-    elif "AI" in labels:
-        paragraphs.append(
-            "The colleges that handle AI well will probably not be the ones that chase every new tool. They will be the ones that build enough shared judgment to decide where automation helps, "
-            "where it risks harm, and where students still need a person rather than a system."
-        )
+        question = "For community colleges, the question is whether the implementation capacity matches the ambition."
+    else:
+        question = "The part worth watching is what changes operationally for students and the people who support them."
 
-    paragraphs.append(
-        "The part worth watching is whether this becomes an isolated story or part of a larger pattern. "
-        "Higher education has a habit of treating each development as separate, when often the real story is the pressure building underneath."
-    )
-
-    paragraphs.append(f"Source: {url}")
+    paragraphs.extend([question, f"Source: {url}"])
 
     return "\n\n".join(paragraphs)
 
 
-def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
+def build_linkedin_angles(top_signals: List[dict], max_drafts: int = 1) -> List[dict]:
     if not top_signals:
         return [
             {
@@ -612,17 +677,19 @@ def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
     ranked = sorted(top_signals, key=lambda x: x["score"], reverse=True)
     angles: List[dict] = []
 
-    for item in ranked[:3]:
-        if item["score"] < 12:
+    for item in ranked:
+        if item["score"] < 18:
             continue
 
         angles.append(
             {
                 "hook": item["headline"],
-                "angle": "Editable LinkedIn brief",
+                "angle": "Best post opportunity this cycle",
                 "draft": build_editable_linkedin_draft(item),
             }
         )
+        if len(angles) >= max_drafts:
+            break
 
     if not angles:
         angles.append(
@@ -636,7 +703,7 @@ def build_linkedin_angles(top_signals: List[dict]) -> List[dict]:
             }
         )
 
-    return angles[:3]
+    return angles[:max_drafts]
 
 
 def to_markdown(brief: dict) -> str:
@@ -800,7 +867,13 @@ def main() -> None:
     top_signals: List[dict] = []
     top_max = int(cfg["filters"].get("top_signals_max", 5))
 
-    for raw in ranked:
+    selected_raw = select_top_items(
+        ranked,
+        limit=top_max,
+        per_source=int(cfg["filters"].get("max_top_signals_per_source", 2)),
+    )
+
+    for raw in selected_raw:
         novelty = novelty_label(raw, recent_index)
         labels = [novelty, *raw["labels"]]
         labels = [label for label in labels if label in ALLOWED_LABELS]
@@ -808,7 +881,7 @@ def main() -> None:
         if len(labels) == 1 and labels[0] in {"NEW", "UPDATED"}:
             continue
 
-        observation = build_observation({"labels": labels})
+        observation = build_observation({**raw, "labels": labels})
 
         enriched = {
             "id": raw["id"],
@@ -824,9 +897,6 @@ def main() -> None:
         }
 
         top_signals.append(enriched)
-
-        if len(top_signals) >= top_max:
-            break
 
     top_signals = top_signals[:5]
 
@@ -850,7 +920,10 @@ def main() -> None:
         if len(watch_list) == 4:
             break
 
-    linkedin_angles = build_linkedin_angles(top_signals)
+    linkedin_angles = build_linkedin_angles(
+        top_signals,
+        max_drafts=int(cfg["filters"].get("linkedin_drafts_max", 1)),
+    )
     pattern = build_editorial(top_signals)
 
     archive_files = sorted(ARCHIVE.glob("*.json"), reverse=True)[:20]
@@ -861,7 +934,7 @@ def main() -> None:
         archive.insert(0, current_entry)
 
     brief = {
-        "schema_version": "6.1",
+        "schema_version": "6.2",
         "product": "Higher-Ed Intelligence Brief",
         "focus": [
             "Massachusetts higher education",
@@ -874,7 +947,7 @@ def main() -> None:
             "Governance and leadership",
             "Practical AI in teaching/advising",
         ],
-        "cadence": "Monday / Wednesday / Friday",
+        "cadence": "Monday / Thursday",
         "generated_at": build_dt.strftime("%Y-%m-%d %H:%M ET"),
         "cycle_date": cycle_date,
         "week_of": week,

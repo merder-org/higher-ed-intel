@@ -5,16 +5,14 @@
   },
   "filters": {
     "days_lookback": 5,
-    "top_signals_max": 5
+    "top_signals_max": 5,
+    "max_top_signals_per_source": 2,
+    "linkedin_drafts_max": 1
   },
   "feeds": [
     {
-      "name": "Mass.gov News",
-      "url": "https://www.mass.gov/rss.xml"
-    },
-    {
       "name": "Mass DHE News Clips",
-      "url": "https://www.mass.edu/newsclips/rss.asp"
+      "url": "https://feeds.pinboard.in/rss/u:MassDHE"
     },
     {
       "name": "Inside Higher Ed",
@@ -29,16 +27,24 @@
       "url": "https://www.ccdaily.com/feed/"
     },
     {
-      "name": "U.S. Department of Education Blog",
-      "url": "https://blog.ed.gov/feed/"
-    },
-    {
       "name": "Federal Register",
       "url": "https://www.govinfo.gov/rss/fr.xml"
     },
     {
-      "name": "EDUCAUSE Review",
-      "url": "https://er.educause.edu/rss"
+      "name": "EDUCAUSE Student Success",
+      "url": "https://er.educause.edu/channels/student-success/rss"
+    },
+    {
+      "name": "Achieving the Dream",
+      "url": "https://achievingthedream.org/feed/"
+    },
+    {
+      "name": "Complete College America",
+      "url": "https://completecollege.org/feed/"
+    },
+    {
+      "name": "EAB Student Success",
+      "url": "https://eab.com/resources/blog/feed/"
     }
   ]
 }
