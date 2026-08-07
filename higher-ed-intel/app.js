@@ -40,7 +40,7 @@ function renderFreshness(data) {
       node("div", {}, [node("div", { class: "metric-label" }, ["Generated"]), node("div", { class: "metric-value" }, [data.generated_at || "N/A"])]),
       node("div", {}, [node("div", { class: "metric-label" }, ["New signals"]), node("div", { class: "metric-value" }, [String(fresh.new_count ?? 0)])]),
       node("div", {}, [node("div", { class: "metric-label" }, ["Updated signals"]), node("div", { class: "metric-value" }, [String(fresh.updated_count ?? 0)])]),
-      node("div", {}, [node("div", { class: "metric-label" }, ["Cadence"]), node("div", { class: "metric-value" }, [data.cadence || "Monday / Wednesday / Friday"])])
+      node("div", {}, [node("div", { class: "metric-label" }, ["Cadence"]), node("div", { class: "metric-value" }, [data.cadence || "Monday / Thursday"])])
     ])
   );
 }

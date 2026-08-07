@@ -1,6 +1,6 @@
 # Higher Ed Intelligence Agent (v1 automation)
 
-You asked for: a weekly automated generator that updates `data/latest.json` and keeps an archive.
+This repository generates a Monday / Thursday intelligence brief and keeps an archive.
 
 This repo includes:
 - `higher-ed-intel/` (static site)
@@ -8,11 +8,12 @@ This repo includes:
 - `.github/workflows/weekly.yml` (GitHub Actions scheduler)
 
 ## How it works
-1) Pulls RSS feeds (open/public sources)
-2) Tags/categorizes items via keyword rules
-3) Writes:
+1) Pulls RSS feeds from open/public higher-education sources
+2) Tags and scores items, removes roundup/poll noise, clusters overlapping stories, and limits source concentration
+3) Produces one strongest LinkedIn opportunity rather than several templated drafts
+4) Writes:
    - `higher-ed-intel/data/latest.json` (overwritten weekly)
-   - `higher-ed-intel/data/archive/YYYY-MM-DD.json` (weekly archive; Monday date)
+   - `higher-ed-intel/data/archive/YYYY-MM-DD.json` (dated archive for each cycle)
    - `higher-ed-intel/data/rss.xml` (RSS feed for your own page)
 
 ## Quick start locally
