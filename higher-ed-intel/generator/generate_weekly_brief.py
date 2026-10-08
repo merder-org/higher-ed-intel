@@ -14,6 +14,10 @@ from typing import Dict, List, Optional
 import feedparser
 from dateutil import tz
 
+from intelligence import (canonical_url, evidence_fields, has_term, in_scope,
+                          monitor_sources, priority_labels, research_observation,
+                          substantive)
+
 ET = tz.gettz("America/New_York")
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,6 +32,7 @@ ALLOWED_LABELS = {
     "COMMUNITY COLLEGE",
     "TRANSFER",
     "ADVISING",
+    "EARLY COLLEGE",
     "WORKFORCE",
     "AFFORDABILITY",
     "STUDENT SUCCESS",
@@ -108,7 +113,7 @@ def fingerprint(title: str, url: str) -> str:
 
 
 def parse_entry_dt(entry) -> Optional[datetime]:
-    for key in ("published_parsed", "updated_parsed"):
+    for key in ("published_parsed",):
         parsed = getattr(entry, key, None)
         if parsed:
             try:
@@ -152,13 +157,7 @@ def extract_labels(text: str) -> List[str]:
             "prior learning assessment",
             "cpl",
         ],
-        "ADVISING": [
-            "advising",
-            "advisor",
-            "coaching",
-            "case management",
-            "guided pathways",
-        ],
+
         "WORKFORCE": [
             "workforce",
             "apprenticeship",
@@ -222,46 +221,18 @@ def extract_labels(text: str) -> List[str]:
     }
 
     for label, keywords in rules.items():
-        if any(keyword in t for keyword in keywords):
+        if has_term(t, keywords):
             labels.append(label)
 
+    labels.extend(priority_labels(text))
     return [x for x in labels if x in ALLOWED_LABELS]
 
 
 def should_keep_item(item: dict) -> bool:
     title = item.get("title") or item.get("headline") or ""
-    text = f"{title} {item.get('summary', '')} {item.get('source', '')}".lower()
+    text = f"{title} {item.get('summary', '')}".lower()
 
-    required_scope = [
-        "massachusetts",
-        "community college",
-        "community colleges",
-        "higher education",
-        "college",
-        "university",
-        "advis",
-        "transfer",
-        "student success",
-        "retention",
-        "completion",
-        "afford",
-        "workforce",
-        "pell",
-        "credential",
-        "tuition",
-        "fafsa",
-        "artificial intelligence",
-        "generative ai",
-        "academic freedom",
-        "governance",
-        "board of trustees",
-        "president",
-        "resignation",
-        "credit for prior learning",
-        "prior learning assessment",
-    ]
-
-    if not any(token in text for token in required_scope):
+    if not in_scope(text):
         return False
 
     hard_excludes = [
@@ -271,10 +242,13 @@ def should_keep_item(item: dict) -> bool:
         "photo essay",
         "proxy advisors",
         "investment adviser",
+        "investment advisor",
+        "financial adviser",
+        "financial advisor",
         "fraternity",
     ]
 
-    if any(token in text for token in hard_excludes):
+    if has_term(text, hard_excludes):
         return False
 
     normalized_title = normalize(title).lower().strip(" .:-")
@@ -320,22 +294,36 @@ def same_story_cluster(left: dict, right: dict) -> bool:
     return overlap >= 4 and overlap / union >= 0.24
 
 
-def select_top_items(ranked: List[dict], limit: int, per_source: int = 2) -> List[dict]:
+def select_top_items(ranked: List[dict], limit: int, per_source: int = 2,
+                     priority_min_score: int = 18) -> List[dict]:
+    if limit <= 0:
+        return []
     selected: List[dict] = []
     source_counts: Counter = Counter()
 
-    for item in ranked:
+    def admit(item):
+        if len(selected) >= limit or item in selected:
+            return False
         if source_counts[item["source"]] >= per_source:
-            continue
+            return False
         if any(same_story_cluster(item, prior) for prior in selected):
-            continue
-
+            return False
         selected.append(item)
         source_counts[item["source"]] += 1
-        if len(selected) >= limit:
-            break
+        return True
 
-    return selected
+    # Aim for both subjects without weakening substance, source or cluster caps.
+    for topic in ("ADVISING", "EARLY COLLEGE"):
+        if any(topic in x.get("labels", []) for x in selected):
+            continue
+        for item in ranked:
+            if (topic in item.get("labels", []) and item["score"] >= priority_min_score
+                    and substantive(item) and admit(item)):
+                break
+
+    for item in ranked:
+        admit(item)
+    return sorted(selected, key=lambda x: x["score"], reverse=True)
 
 
 def load_recent_cycles(limit: int = 8) -> List[dict]:
@@ -383,7 +371,7 @@ def novelty_label(item: dict, recent_index: Dict[str, dict]) -> str:
 
 
 def quality_score(item: dict, build_dt: datetime, recent_ids: set[str]) -> int:
-    text = f"{item['headline']} {item['summary']} {item['source']}".lower()
+    text = f"{item['headline']} {item['summary']}".lower()
     score = 0
 
     high_signal = {
@@ -417,7 +405,7 @@ def quality_score(item: dict, build_dt: datetime, recent_ids: set[str]) -> int:
     }
 
     for token, points in high_signal.items():
-        if token in text:
+        if has_term(text, (token,)):
             score += points
 
     low_signal = {
@@ -430,7 +418,7 @@ def quality_score(item: dict, build_dt: datetime, recent_ids: set[str]) -> int:
     }
 
     for token, points in low_signal.items():
-        if token in text:
+        if has_term(text, (token,)):
             score += points
 
     published_dt = item.get("published_dt")
@@ -452,6 +440,16 @@ def quality_score(item: dict, build_dt: datetime, recent_ids: set[str]) -> int:
 
     labels = set(item.get("labels", []))
 
+    if substantive(item):
+        if "ADVISING" in labels:
+            score += 12
+        if "EARLY COLLEGE" in labels:
+            score += 12
+            if "MASSACHUSETTS" in labels:
+                score += 8
+        if any((item.get("evidence") or {}).get(field) for field in ("findings", "methods")):
+            score += 6
+
     if "MASSACHUSETTS" in labels:
         score += 7
     if "COMMUNITY COLLEGE" in labels:
@@ -472,6 +470,9 @@ def quality_score(item: dict, build_dt: datetime, recent_ids: set[str]) -> int:
 def build_observation(item: dict) -> str:
     labels = set(item.get("labels", []))
     text = f"{item.get('headline', '')} {item.get('summary', '')}".lower()
+
+    if {"ADVISING", "EARLY COLLEGE"} & labels:
+        return research_observation(item)
 
     if "workforce pell" in text:
         return (
@@ -576,6 +577,9 @@ def build_editorial(top_signals: List[dict]) -> str:
             "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity."
         )
 
+    if any("EARLY COLLEGE" in x.get("labels", []) for x in top_signals):
+        parts.insert(0, "Early College coverage this cycle includes a dated development. "
+                     "Its implications should be read against the reported partnership, credit and support arrangements.")
     return "\n\n".join(parts[:3])
 
 
@@ -734,6 +738,15 @@ def to_markdown(brief: dict) -> str:
             ]
         )
 
+    if brief.get("research_context"):
+        lines.extend(["## Older Research for Context", ""])
+        for item in brief["research_context"]:
+            lines.extend([f"### {item['headline']}",
+                          f"- Background research, published {item['date']} — {item['source']}",
+                          f"- Summary: {item['summary']}",
+                          f"- Evidence and implications: {item['observation']}",
+                          f"- Link: {item['url']}", ""])
+
     lines.extend(["## Pattern I’m Seeing", "", brief["pattern_this_cycle"], ""])
     lines.extend(["## Draft LinkedIn Briefs for Editing", ""])
 
@@ -834,7 +847,9 @@ def main() -> None:
                     "url": url,
                 }
 
-                item["labels"] = extract_labels(f"{title} {summary} {feed['name']}")
+                item["labels"] = extract_labels(f"{title} {summary}")
+                item["evidence"] = evidence_fields(summary)
+                item["retrieval_method"] = "rss"
 
                 if not should_keep_item(item):
                     continue
@@ -850,6 +865,45 @@ def main() -> None:
 
         except Exception as exc:
             feed_errors.append(f"{feed.get('name', 'Feed')}: {exc}")
+
+    # HTML publication/announcement monitoring supplements the existing RSS feeds.
+    recent_urls = {
+        canonical_url(x.get("url", ""))
+        for cycle in recent_cycles
+        for section in ("top_signals", "watch_list", "research_context")
+        for x in cycle.get(section, [])
+    }
+    research_context: List[dict] = []
+    for raw in monitor_sources(cfg.get("monitored_sources", []), feed_errors):
+        published_dt = raw["published_dt"]
+        if published_dt > build_dt or not should_keep_item(raw):
+            continue
+        raw["id"] = fingerprint(raw["headline"], raw["url"])
+        raw["date"] = published_dt.strftime("%Y-%m-%d")
+        raw["labels"] = extract_labels(f"{raw['headline']} {raw['summary']}")
+        raw["score"] = quality_score(raw, build_dt, recently_seen)
+        if raw["id"] in seen or canonical_url(raw["url"]) in recent_urls:
+            continue
+        if published_dt >= cutoff:
+            if raw["score"] >= 4:
+                items.append(raw)
+                seen.add(raw["id"])
+        elif (published_dt >= build_dt - timedelta(days=int(cfg["filters"].get("research_context_days", 365)))
+              and raw["evidence"]["findings"] and raw["evidence"]["methods"]):
+            # Older useful evidence is separate from the fresh-news quota.
+            research_context.append(raw)
+            seen.add(raw["id"])
+
+    # Never repeat an unchanged URL from a previous briefing to fill a category.
+    items = [x for x in items if canonical_url(x["url"]) not in recent_urls
+             and x["published_dt"] <= build_dt]
+    research_context.sort(key=lambda x: x["score"], reverse=True)
+    research_context = [
+        {key: value for key, value in raw.items() if key not in {"published_dt", "evidence_text"}}
+        | {"context_status": "Older research — background, not a new development",
+           "observation": build_observation(raw)}
+        for raw in research_context[:int(cfg["filters"].get("research_context_max", 2))]
+    ]
 
     force_url = normalize(args.force_story_url)
     if force_url:
@@ -871,6 +925,7 @@ def main() -> None:
         ranked,
         limit=top_max,
         per_source=int(cfg["filters"].get("max_top_signals_per_source", 2)),
+        priority_min_score=int(cfg["filters"].get("priority_min_score", 18)),
     )
 
     for raw in selected_raw:
@@ -894,6 +949,8 @@ def main() -> None:
             "url": raw["url"],
             "labels": labels,
             "score": raw["score"],
+            "evidence": raw.get("evidence", {}),
+            "retrieval_method": raw.get("retrieval_method", "rss"),
         }
 
         top_signals.append(enriched)
@@ -939,7 +996,8 @@ def main() -> None:
         "focus": [
             "Massachusetts higher education",
             "Community colleges",
-            "Advising",
+            "Academic Advising research and practice",
+            "Early College and dual enrollment",
             "Transfer",
             "Student success",
             "Affordability",
@@ -947,7 +1005,7 @@ def main() -> None:
             "Governance and leadership",
             "Practical AI in teaching/advising",
         ],
-        "cadence": "Monday / Thursday",
+        "cadence": "Monday / Wednesday / Friday",
         "generated_at": build_dt.strftime("%Y-%m-%d %H:%M ET"),
         "cycle_date": cycle_date,
         "week_of": week,
@@ -966,6 +1024,11 @@ def main() -> None:
             "archive",
         ],
         "top_signals": top_signals,
+        "research_context": research_context,
+        "priority_coverage": {
+            topic: sum(topic in x["labels"] for x in top_signals)
+            for topic in ("ADVISING", "EARLY COLLEGE")
+        },
         "pattern_this_cycle": pattern,
         "why_this_matters_now": pattern,  # compatibility with older validator/front end
         "linkedin_angles": linkedin_angles,
