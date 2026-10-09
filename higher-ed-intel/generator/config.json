@@ -64,14 +64,15 @@
     },
     {
       "name": "CCRC Advising and Student Supports",
-      "url": "https://ccrc.tc.columbia.edu/publications.html?cat=53&showresults=",
+      "url": "https://ccrc.tc.columbia.edu/publications.html?cat=53&showresults=50",
       "allowed_hosts": [
         "ccrc.tc.columbia.edu"
       ],
       "article_patterns": [
         "/publications/[^/?]+"
       ],
-      "max_articles": 6
+      "max_articles": 6,
+      "month_date_pattern": "Download Links.*?((?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+\\d{4})"
     },
     {
       "name": "CCRC Dual Enrollment",
@@ -82,18 +83,29 @@
       "article_patterns": [
         "/publications/[^/?]+"
       ],
-      "max_articles": 6
+      "max_articles": 6,
+      "month_date_pattern": "Download Links.*?((?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+\\d{4})"
     },
     {
       "name": "MDRC Publications",
-      "url": "https://www.mdrc.org/work/publications",
+      "url": "https://www.mdrc.org/issues/postsecondary-education",
       "allowed_hosts": [
         "www.mdrc.org"
       ],
       "article_patterns": [
         "/work/publications/[^/?]+"
       ],
-      "max_articles": 6
+      "max_articles": 6,
+      "discovery_terms": [
+        "student support",
+        "ASAP",
+        "SUCCESS",
+        "coaching"
+      ],
+      "seed_articles": [
+        "https://www.mdrc.org/work/publications/lessons-advising-and-coaching-colleges-and-workforce-development-programs"
+      ],
+      "month_date_pattern": "Document Details.*?\\bDate\\s+((?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+\\d{4})"
     },
     {
       "name": "Massachusetts DESE Announcements",
@@ -159,11 +171,12 @@
     },
     {
       "name": "MassINC Early College Research and Policy",
-      "url": "https://massinc.org/category/early-college/",
+      "url": "https://massinc.org/research/",
       "allowed_hosts": [
         "massinc.org"
       ],
       "article_patterns": [
+        "/research/[^/?]+",
         "/20[0-9]{2}/[0-9]{2}/[0-9]{2}/"
       ],
       "max_articles": 4

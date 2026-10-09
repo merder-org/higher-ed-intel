@@ -207,7 +207,7 @@ def publication_date(page):
 def evidence_fields(text):
     sentences = re.split(r"(?<=[.!?])\s+", text)
     patterns = {
-        "findings": r"\b(found|findings|increased|reduced|improved|no effect|no impact|percentage points|associated|results)\b",
+        "findings": r"\b(found|findings|increased|reduced|improved|no effect|no impact|percentage points|associated|results|finds)\b",
         "methods": r"\b(randomized|randomised|trial|quasi-experimental|survey|interviews|sample|regression|longitudinal|synthesis)\b",
         "limitations": r"\b(limitation|limitations|cannot|could not|small sample|not statistically|not causal|generaliz|bundled)\b",
     }
@@ -295,7 +295,11 @@ def discover_links(page, source):
             continue
         if not any(re.search(pattern, parts.path + ("?" + parts.query if parts.query else "")) for pattern in patterns):
             continue
-        if has_term(title, ADVISING_TERMS + EARLY_COLLEGE_TERMS) and url not in found:
+        if (source.get("scan_all_matches") or has_term(title, ADVISING_TERMS + EARLY_COLLEGE_TERMS + tuple(source.get("discovery_terms", [])))) and url not in found:
+            found.append(url)
+    for url in source.get("seed_articles", []):
+        url = canonical_url(url)
+        if urlsplit(url).hostname in hosts and url not in found:
             found.append(url)
     return found[:source.get("max_articles", 6)]
 
@@ -310,10 +314,25 @@ def page_item(page, source, url):
     summary = (relevant[0] if relevant else description).strip()
     if len(summary) > 650:
         summary = summary[:650].rsplit(" ", 1)[0] + "..."
+    published_dt = publication_date(page)
+    precision = "day"
+    date_label = published_dt.strftime("%Y-%m-%d") if published_dt else ""
+    # Source-specific month labels remain month labels; the internal first-day
+    # value is only an ordering bound and never qualifies as fresh news.
+    if not published_dt and source.get("month_date_pattern"):
+        visible = re.sub(r"\s+", " ", " ".join(page.visible_text))
+        match = re.search(source["month_date_pattern"], visible, re.I)
+        if match:
+            try:
+                published_dt = datetime.strptime(match.group(1), "%B %Y").replace(tzinfo=ET)
+                precision, date_label = "month", published_dt.strftime("%Y-%m")
+            except ValueError:
+                pass
     return {
         "headline": html.unescape(headline).strip(),
         "summary": html.unescape(summary), "url": canonical_url(url),
-        "source": source["name"], "published_dt": publication_date(page),
+        "source": source["name"], "published_dt": published_dt,
+        "date_precision": precision, "publication_date": date_label,
         "evidence_text": text, "evidence": evidence_fields(text),
         "retrieval_method": "public_html",
     }

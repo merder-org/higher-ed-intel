@@ -30,8 +30,8 @@ remain empty when worthwhile fresh material is unavailable.
 
 Publication dates come from publication metadata, article JSON-LD, a single
 article time, or an explicitly labeled visible publication date. Modified dates,
-copyright years, missing dates, month-only dates and future dates are not
-fresh news. RSS requires a published date, not only an updated timestamp.
+copyright years, missing dates and future dates are not fresh news. Source-specific month-only
+publication dates are preserved as YYYY-MM and can only appear as background. RSS requires a published date, not only an updated timestamp.
 Previously briefed canonical URLs are not recycled, including tracking variants.
 This deliberately favors omission over accidentally calling old material new;
 a genuinely updated release should have a new source URL to be considered.

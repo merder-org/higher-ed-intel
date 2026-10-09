@@ -879,16 +879,16 @@ def main() -> None:
         if published_dt > build_dt or not should_keep_item(raw):
             continue
         raw["id"] = fingerprint(raw["headline"], raw["url"])
-        raw["date"] = published_dt.strftime("%Y-%m-%d")
+        raw["date"] = raw.get("publication_date") or published_dt.strftime("%Y-%m-%d")
         raw["labels"] = extract_labels(f"{raw['headline']} {raw['summary']}")
         raw["score"] = quality_score(raw, build_dt, recently_seen)
         if raw["id"] in seen or canonical_url(raw["url"]) in recent_urls:
             continue
-        if published_dt >= cutoff:
+        if published_dt >= cutoff and raw.get("date_precision", "day") == "day":
             if raw["score"] >= 4:
                 items.append(raw)
                 seen.add(raw["id"])
-        elif (published_dt >= build_dt - timedelta(days=int(cfg["filters"].get("research_context_days", 365)))
+        elif (published_dt < cutoff and published_dt >= build_dt - timedelta(days=int(cfg["filters"].get("research_context_days", 365)))
               and raw["evidence"]["findings"] and raw["evidence"]["methods"]):
             # Older useful evidence is separate from the fresh-news quota.
             research_context.append(raw)

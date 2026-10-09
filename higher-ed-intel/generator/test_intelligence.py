@@ -139,6 +139,16 @@ class RetrievalTests(unittest.TestCase):
         dated = Page("<table><tr><td>Date:</td><td>June 3, 2026</td></tr></table>")
         self.assertEqual("2026-06-03", publication_date(dated).date().isoformat())
 
+    def test_source_specific_month_dates_never_invent_publication_day(self):
+        page = Page(self.article("Dual enrollment report",
+            "Research from interviews found improved college partnership outcomes.", date=""))
+        page.visible_text.extend(["Download Links", "Download working paper", "August 2026"])
+        source = {**self.source, "month_date_pattern": r"Download Links.*?([A-Z][a-z]+ \d{4})"}
+        value = page_item(page, source, "https://example.org/publications/dual")
+        self.assertEqual("2026-08", value["publication_date"])
+        self.assertEqual("month", value["date_precision"])
+        self.assertIsNone(page_item(page, self.source, value["url"])["published_dt"])
+
     def test_robots_failure_and_deny_never_fetch_the_page(self):
         from urllib.robotparser import RobotFileParser
         client = PublicClient(["example.org"])
@@ -163,6 +173,52 @@ class RetrievalTests(unittest.TestCase):
         md = generator.to_markdown(brief)
         self.assertIn("Older Research for Context", md)
         self.assertIn("Background research, published 2025-12-01", md)
+
+    def test_full_generation_preserves_schema_and_separates_fresh_old_repeated_future(self):
+        import tempfile
+        from types import SimpleNamespace
+        import validate_brief
+        now = datetime(2026, 10, 8, 12, tzinfo=generator.ET)
+        body = ("A randomized trial evaluated community college proactive advising. "
+                "The study found increased persistence outcomes. A small sample limits generalizability.")
+
+        def candidate(title, days, url):
+            value = story(title, body, ["ADVISING"], source="Fixture Research")
+            value.update(published_dt=now - timedelta(days=days), url=url,
+                         evidence=evidence_fields(body), retrieval_method="public_html")
+            return value
+
+        fresh = candidate("Fresh advising evaluation", 1, "https://example.org/fresh")
+        old = candidate("Prior advising trial", 30, "https://example.org/prior")
+        repeated = candidate("Repeated advising evaluation", 1, "https://example.org/repeat?utm_source=new")
+        future = candidate("Future advising evaluation", -1, "https://example.org/future")
+        early = candidate("Massachusetts Early College partnership", 1, "https://example.org/early")
+        early["summary"] = "A Massachusetts Early College partnership adds funded seats and college credits for high school students."
+        early["evidence_text"] = early["summary"]
+        early["evidence"] = evidence_fields(early["summary"])
+        cfg = {"site": {}, "feeds": [], "monitored_sources": [],
+               "filters": {"days_lookback": 5, "top_signals_max": 5}}
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory)
+            archive = data / "archive"
+            archive.mkdir()
+            (archive / "2026-10-06.json").write_text(json.dumps({
+                "top_signals": [{"id": "previous-id", "url": "https://example.org/repeat"}]}), encoding="utf-8")
+            with patch.object(generator, "DATA", data), patch.object(generator, "ARCHIVE", archive), \
+                 patch.object(generator, "now_et", return_value=now), \
+                 patch.object(generator, "load_config", return_value=cfg), \
+                 patch.object(generator, "parse_args", return_value=SimpleNamespace(quiet=True, force_story_url="")), \
+                 patch.object(generator, "monitor_sources", return_value=[fresh, old, repeated, future, early]):
+                generator.main()
+            output = json.loads((data / "latest.json").read_text(encoding="utf-8"))
+            self.assertEqual({"Fresh advising evaluation", "Massachusetts Early College partnership"},
+                             {x["headline"] for x in output["top_signals"]})
+            self.assertEqual(1, len(output["research_context"]))
+            self.assertEqual("2026-09-08", output["research_context"][0]["date"])
+            self.assertEqual({"ADVISING": 1, "EARLY COLLEGE": 1}, output["priority_coverage"])
+            self.assertEqual("Monday / Wednesday / Friday", output["cadence"])
+            with patch.object(validate_brief, "LATEST_JSON", data / "latest.json"):
+                validate_brief.main()
 
     def test_config_keeps_existing_feeds_and_bounds_public_monitoring(self):
         cfg = json.loads(Path(generator.CFG_PATH).read_text(encoding="utf-8"))
