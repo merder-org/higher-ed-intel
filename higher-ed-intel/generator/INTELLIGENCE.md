@@ -67,3 +67,12 @@ Illustrative examples, not live findings:
 * A Massachusetts Early College announcement identifies designated high
   school/college partners, funded seats or credit arrangements, its publication
   date, and the practical support/transfer questions raised by those changes.
+
+Live verification on this branch retrieved substantive material in both priority
+subjects: MDRC's August 2026 CUNY ASAP outcomes report and CCRC dual-enrollment
+publications from July/August 2026. These are older research, not current-cycle
+news. NACADA returned accessible articles without recognized publication dates;
+The Mentor and mass.gov requests were blocked/unavailable in the runner; several
+official-resource listings exposed no matching dated HTML articles. These limits
+remain visible in the source warnings. The original Massachusetts RSS coverage
+is retained. A successful CI job does not mean every configured source works.

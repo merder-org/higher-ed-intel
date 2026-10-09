@@ -34,7 +34,8 @@ jobs:
           print(json.dumps({
               "substantive_publications_retrieved": [
                   {"headline": x["headline"], "source": x["source"],
-                   "publication_date": x["published_dt"].isoformat(),
+                   "publication_date": x.get("publication_date") or x["published_dt"].strftime("%Y-%m-%d"),
+                   "date_precision": x.get("date_precision", "day"),
                    "url": x["url"],
                    "topics": priority_labels(x["headline"] + " " + x["summary"] + " " + x["evidence_text"])}
                   for x in items],
