@@ -1,0 +1,44 @@
+name: Test intelligence gathering
+on:
+  pull_request:
+    paths:
+      - 'higher-ed-intel/generator/**'
+      - '.github/workflows/test-intelligence.yml'
+  push:
+    branches: ['codex/advising-early-college']
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install feedparser python-dateutil
+      - name: Offline retrieval, relevance and editorial regression tests
+        run: python -m unittest discover -s higher-ed-intel/generator -p 'test_*.py' -v
+      - name: Live public-source monitoring smoke check
+        run: |
+          cd higher-ed-intel/generator
+          python - <<'PY'
+          import json
+          from intelligence import monitor_sources, priority_labels
+          from generate_weekly_brief import load_config
+          cfg = load_config()
+          sources = [dict(s, max_articles=2) for s in cfg["monitored_sources"]]
+          warnings = []
+          items = monitor_sources(sources, warnings)
+          print(json.dumps({
+              "substantive_publications_retrieved": [
+                  {"headline": x["headline"], "source": x["source"],
+                   "publication_date": x.get("publication_date") or x["published_dt"].strftime("%Y-%m-%d"),
+                   "date_precision": x.get("date_precision", "day"),
+                   "url": x["url"],
+                   "topics": priority_labels(x["headline"] + " " + x["summary"] + " " + x["evidence_text"])}
+                  for x in items],
+              "warnings": warnings,
+          }, indent=2))
+          PY
