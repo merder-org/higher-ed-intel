@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-09 14:21 ET",
+  "generated_at": "2026-10-09 18:54 ET",
   "cycle_date": "2026-10-09",
   "week_of": "2026-10-05",
   "freshness": {
     "cycle_date": "2026-10-09",
     "days_lookback": 5,
-    "cutoff": "2026-10-04 14:21 ET",
-    "new_count": 1,
+    "cutoff": "2026-10-04 18:54 ET",
+    "new_count": 2,
     "updated_count": 0
   },
   "sections": [
@@ -33,19 +33,41 @@
   ],
   "top_signals": [
     {
-      "id": "d8cd0b623334f6a1",
-      "headline": "3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College",
-      "source": "Inside Higher Ed",
+      "id": "0118df9635c06781",
+      "headline": "Trump administration investigates 9 universities over visa fraud claims",
+      "source": "Higher Ed Dive",
       "date": "2026-10-09",
-      "summary": "3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College Johanna Alonso Fri, 10/09/2026 - 03:00 AM Byline(s) Johanna Alonso",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/10/09/3-indicted-stealing-20m-ohio-community-college",
+      "summary": "Many of the institutions named by Vice President JD Vance, including Stanford and Yale universities, said they comply with applicable visa laws.",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.highereddive.com/news/trump-administration-investigates-9-universities-over-visa-fraud-claims/832666/",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE"
+        "GOVERNANCE",
+        "LEADERSHIP"
       ],
-      "score": 27,
+      "score": 30,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "1143ad84558cb067",
+      "headline": "Why women of color leave admissions work — and what institutions can do",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-09",
+      "summary": "Panelists discussed how to support this group and boost employee retention at the annual National Association for College Admission Counseling conference.",
+      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "url": "https://www.highereddive.com/news/why-women-of-color-leave-admissions-work-and-what-institutions-can-do/832629/",
+      "labels": [
+        "NEW",
+        "STUDENT SUCCESS"
+      ],
+      "score": 14,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -54,110 +76,54 @@
       "retrieval_method": "rss"
     }
   ],
-  "research_context": [
-    {
-      "headline": "Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College",
-      "summary": "Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.",
-      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html",
-      "source": "CCRC Dual Enrollment",
-      "date_precision": "month",
-      "publication_date": "2026-08",
-      "evidence": {
-        "findings": [
-          "The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college."
-        ],
-        "methods": [
-          "Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses."
-        ],
-        "limitations": []
-      },
-      "retrieval_method": "public_html",
-      "id": "527733d9fbdaeff1",
-      "date": "2026-08",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "EARLY COLLEGE"
-      ],
-      "score": 19,
-      "context_status": "Older research — background, not a new development",
-      "observation": "Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
-    },
-    {
-      "headline": "Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement",
-      "summary": "As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.",
-      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html",
-      "source": "CCRC Dual Enrollment",
-      "date_precision": "month",
-      "publication_date": "2026-05",
-      "evidence": {
-        "findings": [
-          "The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree.",
-          "And the findings suggest the dual momentum metrics are reliable predictors of subsequent college outcomes across student gender and race/ethnicity, Title I high school status, and high school urbanicity."
-        ],
-        "methods": [
-          "Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school."
-        ],
-        "limitations": []
-      },
-      "retrieval_method": "public_html",
-      "id": "4e80062afa418b64",
-      "date": "2026-05",
-      "labels": [
-        "STUDENT SUCCESS",
-        "EARLY COLLEGE"
-      ],
-      "score": 12,
-      "context_status": "Older research — background, not a new development",
-      "observation": "Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
-    }
-  ],
+  "research_context": [],
   "priority_coverage": {
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
-  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
   "linkedin_angles": [
     {
-      "hook": "3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College",
+      "hook": "Trump administration investigates 9 universities over visa fraud claims",
       "angle": "Best post opportunity this cycle",
-      "draft": "3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College\n\n3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College Johanna Alonso Fri, 10/09/2026 - 03:00 AM Byline(s) Johanna Alonso\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.insidehighered.com/news/quick-takes/2026/10/09/3-indicted-stealing-20m-ohio-community-college"
+      "draft": "Trump administration investigates 9 universities over visa fraud claims\n\nMany of the institutions named by Vice President JD Vance, including Stanford and Yale universities, said they comply with applicable visa laws.\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThe part worth watching is what changes operationally for students and the people who support them.\n\nSource: https://www.highereddive.com/news/trump-administration-investigates-9-universities-over-visa-fraud-claims/832666/"
     }
   ],
   "watch_list": [
     {
-      "id": "ab97163d7b6d7b8a",
-      "headline": "More Than 1,000 Colleges Failed to Fully Submit Student Outcomes Data",
+      "id": "4cc9312e8096f8d6",
+      "headline": "University of Colorado Denver to Open Branch Campus in India",
       "source": "Inside Higher Ed",
       "date": "2026-10-09",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/10/09/21-colleges-failed-fully-submit-student-outcomes-data",
-      "labels": [],
-      "score": 18
-    },
-    {
-      "id": "64088abddbd5e4d2",
-      "headline": "The Uneven Payoff of Returning to College",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-09",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/10/09/uneven-payoff-returning-college",
-      "labels": [],
-      "score": 18
-    },
-    {
-      "id": "ab7aa5a973cdc4a7",
-      "headline": "What Does the Law Require of Colleges to Prevent Sexual Assault?",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-09",
-      "url": "https://www.insidehighered.com/news/students/safety/2026/10/09/what-does-law-require-colleges-prevent-sexual-assault",
+      "url": "https://www.insidehighered.com/news/global/us-colleges-world/2026/10/09/university-colorado-denver-open-branch-campus-india",
       "labels": [],
       "score": 14
     },
     {
-      "id": "b199f746f40f119e",
-      "headline": "Valley Forge Eyes Move Across State Lines",
+      "id": "d7500513739bb293",
+      "headline": "9 Universities Accused of J-1 Visa Fraud",
       "source": "Inside Higher Ed",
       "date": "2026-10-09",
-      "url": "https://www.insidehighered.com/news/governance/trustees-regents/2026/10/09/valley-forge-eyes-move-across-state-lines",
+      "url": "https://www.insidehighered.com/news/government/2026/10/09/9-universities-accused-j-1-visa-fraud",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "272b4ab0577d2f51",
+      "headline": "Judge tosses former Purdue diversity chief’s race bias and retaliation claims",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-09",
+      "url": "https://www.highereddive.com/news/judge-tosses-purdue-former-diversity-chief-race-bias-and-retaliation-claim/832109/",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "53d73ca647461ebf",
+      "headline": "Stockton University plans 21 faculty and staff layoffs, sparking union backlash",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-08",
+      "url": "https://www.highereddive.com/news/stockton-university-plans-21-faculty-and-staff-layoffs-sparking-union-back/832554/",
       "labels": [],
       "score": 14
     }
@@ -242,13 +208,9 @@
     {
       "label": "Cycle 2026-08-07",
       "url": "data/archive/2026-08-07.json"
-    },
-    {
-      "label": "Cycle 2026-08-06",
-      "url": "data/archive/2026-08-06.json"
     }
   ],
-  "items_considered": 14,
+  "items_considered": 10,
   "feed_errors": [
     "Inside Higher Ed: <unknown>:153:15: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",

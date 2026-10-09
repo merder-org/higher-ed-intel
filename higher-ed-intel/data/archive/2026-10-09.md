@@ -1,52 +1,45 @@
 # Higher-Ed Intelligence Brief — 2026-10-09
 
-_Generated: 2026-10-09 14:21 ET_
+_Generated: 2026-10-09 18:54 ET_
 
 ## Developments Worth Watching
 
-### 3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College
-- Source: Inside Higher Ed (2026-10-09)
-- Labels: NEW, COMMUNITY COLLEGE
-- Summary: 3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College Johanna Alonso Fri, 10/09/2026 - 03:00 AM Byline(s) Johanna Alonso
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.insidehighered.com/news/quick-takes/2026/10/09/3-indicted-stealing-20m-ohio-community-college
+### Trump administration investigates 9 universities over visa fraud claims
+- Source: Higher Ed Dive (2026-10-09)
+- Labels: NEW, GOVERNANCE, LEADERSHIP
+- Summary: Many of the institutions named by Vice President JD Vance, including Stanford and Yale universities, said they comply with applicable visa laws.
+- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+- Link: https://www.highereddive.com/news/trump-administration-investigates-9-universities-over-visa-fraud-claims/832666/
 
-## Older Research for Context
-
-### Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College
-- Background research, published 2026-08 — CCRC Dual Enrollment
-- Summary: Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.
-- Evidence and implications: Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?
-- Link: https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html
-
-### Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement
-- Background research, published 2026-05 — CCRC Dual Enrollment
-- Summary: As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.
-- Evidence and implications: Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?
-- Link: https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html
+### Why women of color leave admissions work — and what institutions can do
+- Source: Higher Ed Dive (2026-10-09)
+- Labels: NEW, STUDENT SUCCESS
+- Summary: Panelists discussed how to support this group and boost employee retention at the annual National Association for College Admission Counseling conference.
+- What caught my attention: The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
+- Link: https://www.highereddive.com/news/why-women-of-color-leave-admissions-work-and-what-institutions-can-do/832629/
 
 ## Pattern I’m Seeing
 
-The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.
+The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
 
 ## Draft LinkedIn Briefs for Editing
 
-### 3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College
+### Trump administration investigates 9 universities over visa fraud claims
 - Angle: Best post opportunity this cycle
 
-3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College
+Trump administration investigates 9 universities over visa fraud claims
 
-3 Indicted for Stealing $20M From Now-Shuttered Ohio Community College Johanna Alonso Fri, 10/09/2026 - 03:00 AM Byline(s) Johanna Alonso
+Many of the institutions named by Vice President JD Vance, including Stanford and Yale universities, said they comply with applicable visa laws.
 
-This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
 
-For community colleges, the question is whether the implementation capacity matches the ambition.
+The part worth watching is what changes operationally for students and the people who support them.
 
-Source: https://www.insidehighered.com/news/quick-takes/2026/10/09/3-indicted-stealing-20m-ohio-community-college
+Source: https://www.highereddive.com/news/trump-administration-investigates-9-universities-over-visa-fraud-claims/832666/
 
 ## Watch List
 
-- More Than 1,000 Colleges Failed to Fully Submit Student Outcomes Data (Inside Higher Ed, 2026-10-09)
-- The Uneven Payoff of Returning to College (Inside Higher Ed, 2026-10-09)
-- What Does the Law Require of Colleges to Prevent Sexual Assault? (Inside Higher Ed, 2026-10-09)
-- Valley Forge Eyes Move Across State Lines (Inside Higher Ed, 2026-10-09)
+- University of Colorado Denver to Open Branch Campus in India (Inside Higher Ed, 2026-10-09)
+- 9 Universities Accused of J-1 Visa Fraud (Inside Higher Ed, 2026-10-09)
+- Judge tosses former Purdue diversity chief’s race bias and retaliation claims (Higher Ed Dive, 2026-10-09)
+- Stockton University plans 21 faculty and staff layoffs, sparking union backlash (Higher Ed Dive, 2026-10-08)
