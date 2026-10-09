@@ -192,6 +192,8 @@ class RetrievalTests(unittest.TestCase):
         old = candidate("Prior advising trial", 30, "https://example.org/prior")
         repeated = candidate("Repeated advising evaluation", 1, "https://example.org/repeat?utm_source=new")
         future = candidate("Future advising evaluation", -1, "https://example.org/future")
+        current_month = candidate("Month-precision research", 7, "https://example.org/month")
+        current_month.update(date_precision="month", publication_date="2026-10")
         early = candidate("Massachusetts Early College partnership", 1, "https://example.org/early")
         early["summary"] = "A Massachusetts Early College partnership adds funded seats and college credits for high school students."
         early["evidence_text"] = early["summary"]
@@ -208,7 +210,7 @@ class RetrievalTests(unittest.TestCase):
                  patch.object(generator, "now_et", return_value=now), \
                  patch.object(generator, "load_config", return_value=cfg), \
                  patch.object(generator, "parse_args", return_value=SimpleNamespace(quiet=True, force_story_url="")), \
-                 patch.object(generator, "monitor_sources", return_value=[fresh, old, repeated, future, early]):
+                 patch.object(generator, "monitor_sources", return_value=[fresh, old, repeated, future, current_month, early]):
                 generator.main()
             output = json.loads((data / "latest.json").read_text(encoding="utf-8"))
             self.assertEqual({"Fresh advising evaluation", "Massachusetts Early College partnership"},

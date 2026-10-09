@@ -165,7 +165,9 @@ def structured_articles(value):
 
 def parse_date(value):
     """Return exact publication date only; never infer day from a month/year."""
-    value = (value or "").strip()
+    if not isinstance(value, str):
+        return None
+    value = value.strip()
     try:
         if re.match(r"^\d{4}-\d{2}-\d{2}(?:T|$| )", value):
             dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
@@ -209,7 +211,7 @@ def evidence_fields(text):
     patterns = {
         "findings": r"\b(found|findings|increased|reduced|improved|no effect|no impact|percentage points|associated|results|finds)\b",
         "methods": r"\b(randomized|randomised|trial|quasi-experimental|survey|interviews|sample|regression|longitudinal|synthesis)\b",
-        "limitations": r"\b(limitation|limitations|cannot|could not|small sample|not statistically|not causal|generaliz|bundled)\b",
+        "limitations": r"\b(limitation|limitations|cannot|could not|small sample|not statistically|not causal|generaliz[a-z]*|bundled)\b",
     }
     result = {}
     for field, pattern in patterns.items():

@@ -7,6 +7,7 @@ import html
 import json
 import re
 from collections import Counter
+from calendar import monthrange
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -888,7 +889,9 @@ def main() -> None:
             if raw["score"] >= 4:
                 items.append(raw)
                 seen.add(raw["id"])
-        elif (published_dt < cutoff and published_dt >= build_dt - timedelta(days=int(cfg["filters"].get("research_context_days", 365)))
+        elif ((published_dt.replace(day=monthrange(published_dt.year, published_dt.month)[1])
+               if raw.get("date_precision") == "month" else published_dt) < cutoff
+              and published_dt >= build_dt - timedelta(days=int(cfg["filters"].get("research_context_days", 365)))
               and raw["evidence"]["findings"] and raw["evidence"]["methods"]):
             # Older useful evidence is separate from the fresh-news quota.
             research_context.append(raw)
