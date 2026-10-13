@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-09 18:54 ET",
-  "cycle_date": "2026-10-09",
-  "week_of": "2026-10-05",
+  "generated_at": "2026-10-12 20:58 ET",
+  "cycle_date": "2026-10-12",
+  "week_of": "2026-10-12",
   "freshness": {
-    "cycle_date": "2026-10-09",
+    "cycle_date": "2026-10-12",
     "days_lookback": 5,
-    "cutoff": "2026-10-04 18:54 ET",
-    "new_count": 2,
+    "cutoff": "2026-10-07 20:58 ET",
+    "new_count": 4,
     "updated_count": 0
   },
   "sections": [
@@ -33,14 +33,35 @@
   ],
   "top_signals": [
     {
-      "id": "0118df9635c06781",
-      "headline": "Trump administration investigates 9 universities over visa fraud claims",
-      "source": "Higher Ed Dive",
-      "date": "2026-10-09",
-      "summary": "Many of the institutions named by Vice President JD Vance, including Stanford and Yale universities, said they comply with applicable visa laws.",
+      "id": "221e3782a1629db2",
+      "headline": "An opportunity in public-sector apprenticeships",
+      "source": "Community College Daily",
+      "date": "2026-10-12",
+      "summary": "Community colleges could play a larger role in helping state and local governments develop apprenticeships as public agencies struggle to fill jobs and prepare for a wave of retirements, according to a new report from...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/helping-grow-public-sector-apprenticeships/?utm_source=rss&utm_medium=rss&utm_campaign=helping-grow-public-sector-apprenticeships",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 31,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "b9a4c021eab02474",
+      "headline": "The job is harder than we tell them",
+      "source": "Community College Daily",
+      "date": "2026-10-12",
+      "summary": "I was a college president for 17 years — at Las Positas College (California), at Montgomery College (Maryland) and at Nevada State University. Before I go further, let me say the thing the rest of...",
       "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
       "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.highereddive.com/news/trump-administration-investigates-9-universities-over-visa-fraud-claims/832666/",
+      "url": "https://www.ccdaily.com/2026/10/the-job-is-harder-than-we-tell-them/?utm_source=rss&utm_medium=rss&utm_campaign=the-job-is-harder-than-we-tell-them",
       "labels": [
         "NEW",
         "GOVERNANCE",
@@ -55,19 +76,40 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "1143ad84558cb067",
-      "headline": "Why women of color leave admissions work — and what institutions can do",
+      "id": "9ef23c716087bf03",
+      "headline": "More PAs is only part of the answer to the healthcare workforce shortage",
       "source": "Higher Ed Dive",
-      "date": "2026-10-09",
-      "summary": "Panelists discussed how to support this group and boost employee retention at the annual National Association for College Admission Counseling conference.",
-      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
-      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
-      "url": "https://www.highereddive.com/news/why-women-of-color-leave-admissions-work-and-what-institutions-can-do/832629/",
+      "date": "2026-10-12",
+      "summary": "Elon University's Charlotte campus offers a model for connecting PA education and community health.",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.highereddive.com/spons/more-pas-is-only-part-of-the-answer-to-the-healthcare-workforce-shortage/832090/",
       "labels": [
         "NEW",
-        "STUDENT SUCCESS"
+        "WORKFORCE"
       ],
-      "score": 14,
+      "score": 20,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "195cd378fb2692ad",
+      "headline": "How 3 universities are approaching international student recruitment",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-12",
+      "summary": "Leaders shared tips on attracting foreign students and weathering policy tumult at the National Association for College Admission Counseling conference.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/how-3-universities-are-approaching-international-student-recruitment/832735/",
+      "labels": [
+        "NEW",
+        "POLICY"
+      ],
+      "score": 18,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -76,7 +118,63 @@
       "retrieval_method": "rss"
     }
   ],
-  "research_context": [],
+  "research_context": [
+    {
+      "headline": "Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College",
+      "summary": "Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-08",
+      "evidence": {
+        "findings": [
+          "The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college."
+        ],
+        "methods": [
+          "Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "527733d9fbdaeff1",
+      "date": "2026-08",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "EARLY COLLEGE"
+      ],
+      "score": 19,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    },
+    {
+      "headline": "Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement",
+      "summary": "As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-05",
+      "evidence": {
+        "findings": [
+          "The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree.",
+          "And the findings suggest the dual momentum metrics are reliable predictors of subsequent college outcomes across student gender and race/ethnicity, Title I high school status, and high school urbanicity."
+        ],
+        "methods": [
+          "Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "4e80062afa418b64",
+      "date": "2026-05",
+      "labels": [
+        "STUDENT SUCCESS",
+        "EARLY COLLEGE"
+      ],
+      "score": 12,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    }
+  ],
   "priority_coverage": {
     "ADVISING": 0,
     "EARLY COLLEGE": 0
@@ -85,50 +183,56 @@
   "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
   "linkedin_angles": [
     {
-      "hook": "Trump administration investigates 9 universities over visa fraud claims",
+      "hook": "An opportunity in public-sector apprenticeships",
       "angle": "Best post opportunity this cycle",
-      "draft": "Trump administration investigates 9 universities over visa fraud claims\n\nMany of the institutions named by Vice President JD Vance, including Stanford and Yale universities, said they comply with applicable visa laws.\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThe part worth watching is what changes operationally for students and the people who support them.\n\nSource: https://www.highereddive.com/news/trump-administration-investigates-9-universities-over-visa-fraud-claims/832666/"
+      "draft": "An opportunity in public-sector apprenticeships\n\nCommunity colleges could play a larger role in helping state and local governments develop apprenticeships as public agencies struggle to fill jobs and prepare for a wave of retirements, according to a new report from...\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/helping-grow-public-sector-apprenticeships/?utm_source=rss&utm_medium=rss&utm_campaign=helping-grow-public-sector-apprenticeships"
     }
   ],
   "watch_list": [
     {
-      "id": "4cc9312e8096f8d6",
-      "headline": "University of Colorado Denver to Open Branch Campus in India",
+      "id": "cca77495db920d80",
+      "headline": "How College Programs Fare on 2 Earnings Benchmarks",
       "source": "Inside Higher Ed",
-      "date": "2026-10-09",
-      "url": "https://www.insidehighered.com/news/global/us-colleges-world/2026/10/09/university-colorado-denver-open-branch-campus-india",
+      "date": "2026-10-12",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/10/12/ihep-report-shows-how-colleges-fare-2-earnings-tests",
       "labels": [],
       "score": 14
     },
     {
-      "id": "d7500513739bb293",
-      "headline": "9 Universities Accused of J-1 Visa Fraud",
+      "id": "1b82d97ed5e4cd1b",
+      "headline": "4 Takeaways From NACAC’s Annual Admissions Conference",
       "source": "Inside Higher Ed",
-      "date": "2026-10-09",
-      "url": "https://www.insidehighered.com/news/government/2026/10/09/9-universities-accused-j-1-visa-fraud",
+      "date": "2026-10-12",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/12/annual-nacac-conference-tackled-ai-college-value",
       "labels": [],
       "score": 14
     },
     {
-      "id": "272b4ab0577d2f51",
-      "headline": "Judge tosses former Purdue diversity chief’s race bias and retaliation claims",
-      "source": "Higher Ed Dive",
-      "date": "2026-10-09",
-      "url": "https://www.highereddive.com/news/judge-tosses-purdue-former-diversity-chief-race-bias-and-retaliation-claim/832109/",
+      "id": "49df558ede28264d",
+      "headline": "‘Obsolete’ Emergency Phones Illuminate Campus Sexual Assault Myths",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-12",
+      "url": "https://www.insidehighered.com/news/students/safety/2026/10/12/plans-remove-blue-light-emergency-phones-draw-criticism",
       "labels": [],
       "score": 14
     },
     {
-      "id": "53d73ca647461ebf",
-      "headline": "Stockton University plans 21 faculty and staff layoffs, sparking union backlash",
-      "source": "Higher Ed Dive",
-      "date": "2026-10-08",
-      "url": "https://www.highereddive.com/news/stockton-university-plans-21-faculty-and-staff-layoffs-sparking-union-back/832554/",
-      "labels": [],
+      "id": "37a811dbe593503e",
+      "headline": "The Expanding Reach of Free Tuition",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-12",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/10/12/expanding-reach-free-tuition",
+      "labels": [
+        "AFFORDABILITY"
+      ],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
     {
       "label": "Cycle 2026-10-09",
       "url": "data/archive/2026-10-09.json"
@@ -212,7 +316,6 @@
   ],
   "items_considered": 10,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:153:15: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
