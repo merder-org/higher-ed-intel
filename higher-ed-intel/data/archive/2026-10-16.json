@@ -1,0 +1,268 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-10-16 17:43 ET",
+  "cycle_date": "2026-10-16",
+  "week_of": "2026-10-12",
+  "freshness": {
+    "cycle_date": "2026-10-16",
+    "days_lookback": 5,
+    "cutoff": "2026-10-11 17:43 ET",
+    "new_count": 3,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "fd94c6926828aaa6",
+      "headline": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "summary": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall Olivia.sanchez Fri, 10/16/2026 - 03:00 AM Brian Mueller, the university’s president, said it’s important that future lawyers understand how the Bible “undergirds” American society. Byline(s) Olivia Sanchez",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/institutions/religious-colleges/2026/10/16/grand-canyon-u-moves-toward-opening-christian-law",
+      "labels": [
+        "NEW",
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 30,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "3dc28a182f3fd8fc",
+      "headline": "A Planned Intellectual Diversity Accreditation Standard Draws Opposition",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "summary": "A Planned Intellectual Diversity Accreditation Standard Draws Opposition Ryan Quinn Fri, 10/16/2026 - 03:00 AM The American Association of University Professors president told the Commission on Colleges and Universities that institutions shouldn’t “be expected to prioritize intellectual pluralism on settled scholarly questions.” Byline(s) Ryan Quinn",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/10/16/aaup-opposes-accreditors-intellectual-diversity-proposal",
+      "labels": [
+        "NEW",
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 30,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "4eda0d197a29650b",
+      "headline": "The next step in dual enrollment: career pathways",
+      "source": "Community College Daily",
+      "date": "2026-10-15",
+      "summary": "Career-connected learning in high school is taking off. High school students and their families have become increasingly enthusiastic about it. Community colleges should share students’ and families’ enthusiasm — and use dual enrollment more strategically...",
+      "observation": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "why_it_matters": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "url": "https://www.ccdaily.com/2026/10/the-next-step-in-dual-enrollment-career-pathways/?utm_source=rss&utm_medium=rss&utm_campaign=the-next-step-in-dual-enrollment-career-pathways",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE",
+        "EARLY COLLEGE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 1
+  },
+  "pattern_this_cycle": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "linkedin_angles": [
+    {
+      "hook": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall",
+      "angle": "Best post opportunity this cycle",
+      "draft": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall\n\nGrand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall Olivia.sanchez Fri, 10/16/2026 - 03:00 AM Brian Mueller, the university’s president, said it’s important that future lawyers understand how the Bible “undergirds” American...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThe part worth watching is what changes operationally for students and the people who support them.\n\nSource: https://www.insidehighered.com/news/institutions/religious-colleges/2026/10/16/grand-canyon-u-moves-toward-opening-christian-law"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "d7682c319a86bc6e",
+      "headline": "4 Ways Colleges Are Rethinking Degree Completion",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/10/16/4-ways-colleges-are-rethinking-degree-completion",
+      "labels": [
+        "TRANSFER",
+        "STUDENT SUCCESS"
+      ],
+      "score": 20
+    },
+    {
+      "id": "c6fddb6627b7e6ff",
+      "headline": "Bringing college credit deeper into high school CTE",
+      "source": "Community College Daily",
+      "date": "2026-10-15",
+      "url": "https://www.ccdaily.com/2026/10/bringing-college-credit-deeper-into-high-school-cte/?utm_source=rss&utm_medium=rss&utm_campaign=bringing-college-credit-deeper-into-high-school-cte",
+      "labels": [],
+      "score": 18
+    },
+    {
+      "id": "228cd324da72a727",
+      "headline": "Calculus Is an Admissions Barrier—Even for Students Who Weren’t Offered It",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/16/students-penalized-admissions-not-taking-calculus",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "bed6d1d104096590",
+      "headline": "‘Kids These Days Are So Sensitive’ and Other Misconceptions About Gen Z",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "url": "https://www.insidehighered.com/opinion/columns/everything-fine/2026/10/16/lies-we-tell-ourselves-about-gen-z",
+      "labels": [],
+      "score": 14
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    },
+    {
+      "label": "Cycle 2026-09-28",
+      "url": "data/archive/2026-09-28.json"
+    },
+    {
+      "label": "Cycle 2026-09-24",
+      "url": "data/archive/2026-09-24.json"
+    },
+    {
+      "label": "Cycle 2026-09-21",
+      "url": "data/archive/2026-09-21.json"
+    },
+    {
+      "label": "Cycle 2026-09-17",
+      "url": "data/archive/2026-09-17.json"
+    },
+    {
+      "label": "Cycle 2026-09-14",
+      "url": "data/archive/2026-09-14.json"
+    },
+    {
+      "label": "Cycle 2026-09-10",
+      "url": "data/archive/2026-09-10.json"
+    },
+    {
+      "label": "Cycle 2026-09-07",
+      "url": "data/archive/2026-09-07.json"
+    },
+    {
+      "label": "Cycle 2026-09-03",
+      "url": "data/archive/2026-09-03.json"
+    },
+    {
+      "label": "Cycle 2026-08-31",
+      "url": "data/archive/2026-08-31.json"
+    },
+    {
+      "label": "Cycle 2026-08-27",
+      "url": "data/archive/2026-08-27.json"
+    },
+    {
+      "label": "Cycle 2026-08-24",
+      "url": "data/archive/2026-08-24.json"
+    },
+    {
+      "label": "Cycle 2026-08-20",
+      "url": "data/archive/2026-08-20.json"
+    },
+    {
+      "label": "Cycle 2026-08-17",
+      "url": "data/archive/2026-08-17.json"
+    },
+    {
+      "label": "Cycle 2026-08-13",
+      "url": "data/archive/2026-08-13.json"
+    }
+  ],
+  "items_considered": 17,
+  "feed_errors": [
+    "Mass DHE News Clips: <unknown>:2:0: syntax error",
+    "Inside Higher Ed: <unknown>:179:32: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "The Mentor: Innovative Scholarship on Academic Advising: robots.txt unavailable; monitoring skipped",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

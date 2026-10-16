@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-14 17:56 ET",
-  "cycle_date": "2026-10-14",
+  "generated_at": "2026-10-16 17:43 ET",
+  "cycle_date": "2026-10-16",
   "week_of": "2026-10-12",
   "freshness": {
-    "cycle_date": "2026-10-14",
+    "cycle_date": "2026-10-16",
     "days_lookback": 5,
-    "cutoff": "2026-10-09 17:56 ET",
-    "new_count": 1,
+    "cutoff": "2026-10-11 17:43 ET",
+    "new_count": 3,
     "updated_count": 0
   },
   "sections": [
@@ -33,17 +33,63 @@
   ],
   "top_signals": [
     {
-      "id": "2ada2ba452c8fa6d",
-      "headline": "Owned, not licensed: Why community colleges should build their own AI infrastructure",
-      "source": "Community College Daily",
-      "date": "2026-10-13",
-      "summary": "Students at well-resourced four-year universities are already living in an AI-enabled campus. Advisors have dashboards. Faculty have tools that flag disengaging students before the withdrawal deadline. Students have AI environments tailored to their programs and...",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/10/owned-not-licensed-why-community-colleges-should-build-their-own-ai-infrastructure/?utm_source=rss&utm_medium=rss&utm_campaign=owned-not-licensed-why-community-colleges-should-build-their-own-ai-infrastructure",
+      "id": "fd94c6926828aaa6",
+      "headline": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "summary": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall Olivia.sanchez Fri, 10/16/2026 - 03:00 AM Brian Mueller, the university’s president, said it’s important that future lawyers understand how the Bible “undergirds” American society. Byline(s) Olivia Sanchez",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/institutions/religious-colleges/2026/10/16/grand-canyon-u-moves-toward-opening-christian-law",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE"
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 30,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "3dc28a182f3fd8fc",
+      "headline": "A Planned Intellectual Diversity Accreditation Standard Draws Opposition",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "summary": "A Planned Intellectual Diversity Accreditation Standard Draws Opposition Ryan Quinn Fri, 10/16/2026 - 03:00 AM The American Association of University Professors president told the Commission on Colleges and Universities that institutions shouldn’t “be expected to prioritize intellectual pluralism on settled scholarly questions.” Byline(s) Ryan Quinn",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/10/16/aaup-opposes-accreditors-intellectual-diversity-proposal",
+      "labels": [
+        "NEW",
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 30,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "4eda0d197a29650b",
+      "headline": "The next step in dual enrollment: career pathways",
+      "source": "Community College Daily",
+      "date": "2026-10-15",
+      "summary": "Career-connected learning in high school is taking off. High school students and their families have become increasingly enthusiastic about it. Community colleges should share students’ and families’ enthusiasm — and use dual enrollment more strategically...",
+      "observation": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "why_it_matters": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "url": "https://www.ccdaily.com/2026/10/the-next-step-in-dual-enrollment-career-pathways/?utm_source=rss&utm_medium=rss&utm_campaign=the-next-step-in-dual-enrollment-career-pathways",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE",
+        "EARLY COLLEGE"
       ],
       "score": 27,
       "evidence": {
@@ -57,56 +103,63 @@
   "research_context": [],
   "priority_coverage": {
     "ADVISING": 0,
-    "EARLY COLLEGE": 0
+    "EARLY COLLEGE": 1
   },
-  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
-  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "pattern_this_cycle": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
   "linkedin_angles": [
     {
-      "hook": "Owned, not licensed: Why community colleges should build their own AI infrastructure",
+      "hook": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall",
       "angle": "Best post opportunity this cycle",
-      "draft": "Owned, not licensed: Why community colleges should build their own AI infrastructure\n\nStudents at well-resourced four-year universities are already living in an AI-enabled campus. Advisors have dashboards. Faculty have tools that flag disengaging students before the withdrawal deadline. Students have AI environments tailored to their programs...\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/owned-not-licensed-why-community-colleges-should-build-their-own-ai-infrastructure/?utm_source=rss&utm_medium=rss&utm_campaign=owned-not-licensed-why-community-colleges-should-build-their-own-ai-infrastructure"
+      "draft": "Grand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall\n\nGrand Canyon University Clears Key Hurdle to Open Christian Law School Next Fall Olivia.sanchez Fri, 10/16/2026 - 03:00 AM Brian Mueller, the university’s president, said it’s important that future lawyers understand how the Bible “undergirds” American...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nThe part worth watching is what changes operationally for students and the people who support them.\n\nSource: https://www.insidehighered.com/news/institutions/religious-colleges/2026/10/16/grand-canyon-u-moves-toward-opening-christian-law"
     }
   ],
   "watch_list": [
     {
-      "id": "08d6ee67b62c5236",
-      "headline": "Online Sexual Assault Prevention Training Alone Rarely Works. Experts Say Why.",
+      "id": "d7682c319a86bc6e",
+      "headline": "4 Ways Colleges Are Rethinking Degree Completion",
       "source": "Inside Higher Ed",
-      "date": "2026-10-14",
-      "url": "https://www.insidehighered.com/news/students/safety/2026/10/14/why-online-sexual-assault-prevention-training-alone-rarely-works",
+      "date": "2026-10-16",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/10/16/4-ways-colleges-are-rethinking-degree-completion",
+      "labels": [
+        "TRANSFER",
+        "STUDENT SUCCESS"
+      ],
+      "score": 20
+    },
+    {
+      "id": "c6fddb6627b7e6ff",
+      "headline": "Bringing college credit deeper into high school CTE",
+      "source": "Community College Daily",
+      "date": "2026-10-15",
+      "url": "https://www.ccdaily.com/2026/10/bringing-college-credit-deeper-into-high-school-cte/?utm_source=rss&utm_medium=rss&utm_campaign=bringing-college-credit-deeper-into-high-school-cte",
+      "labels": [],
+      "score": 18
+    },
+    {
+      "id": "228cd324da72a727",
+      "headline": "Calculus Is an Admissions Barrier—Even for Students Who Weren’t Offered It",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-16",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/16/students-penalized-admissions-not-taking-calculus",
       "labels": [],
       "score": 14
     },
     {
-      "id": "0031189837104f8a",
-      "headline": "Can Colleges Achieve Viewpoint Diversity Without ‘Affirmative Action for Conservatives’?",
+      "id": "bed6d1d104096590",
+      "headline": "‘Kids These Days Are So Sensitive’ and Other Misconceptions About Gen Z",
       "source": "Inside Higher Ed",
-      "date": "2026-10-14",
-      "url": "https://www.insidehighered.com/news/faculty/career-development/2026/10/14/does-viewpoint-diversity-require-more-conservative",
-      "labels": [],
-      "score": 14
-    },
-    {
-      "id": "4411141e26a007ea",
-      "headline": "Survey: Majority of College Students Say Free Speech Threatened",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-14",
-      "url": "https://www.insidehighered.com/news/students/free-speech/2026/10/14/survey-most-college-students-say-free-speech-threatened",
-      "labels": [],
-      "score": 14
-    },
-    {
-      "id": "b1f00f89f3e77355",
-      "headline": "5 Colleges Sign On as Founding Members of New Accreditor",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-14",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/10/14/5-independent-colleges-sign-new-accreditor",
+      "date": "2026-10-16",
+      "url": "https://www.insidehighered.com/opinion/columns/everything-fine/2026/10/16/lies-we-tell-ourselves-about-gen-z",
       "labels": [],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
     {
       "label": "Cycle 2026-10-14",
       "url": "data/archive/2026-10-14.json"
@@ -186,16 +239,12 @@
     {
       "label": "Cycle 2026-08-13",
       "url": "data/archive/2026-08-13.json"
-    },
-    {
-      "label": "Cycle 2026-08-10",
-      "url": "data/archive/2026-08-10.json"
     }
   ],
-  "items_considered": 16,
+  "items_considered": 17,
   "feed_errors": [
     "Mass DHE News Clips: <unknown>:2:0: syntax error",
-    "Inside Higher Ed: <unknown>:101:16: undefined entity",
+    "Inside Higher Ed: <unknown>:179:32: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
