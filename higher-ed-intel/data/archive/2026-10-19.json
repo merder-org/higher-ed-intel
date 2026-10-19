@@ -1,0 +1,288 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-10-19 18:38 ET",
+  "cycle_date": "2026-10-19",
+  "week_of": "2026-10-19",
+  "freshness": {
+    "cycle_date": "2026-10-19",
+    "days_lookback": 5,
+    "cutoff": "2026-10-14 18:38 ET",
+    "new_count": 4,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "8c3bac73313a523e",
+      "headline": "Connecting Dual Enrollment to Career Training",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-19",
+      "summary": "Connecting Dual Enrollment to Career Training Joshua.Bay Mon, 10/19/2026 - 03:00 AM A new Community College Research Center report identifies three ways colleges and K–12 districts can build on existing programs to help high school students earn college credit. Byline(s) Joshua Bay Connecting Dual Enrollment to Career Training Joshua.Bay Mon, 10/19/2026 - 03:00 AM A new Community College Research Center report...",
+      "observation": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "why_it_matters": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/10/19/connecting-dual-enrollment-career-training",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "EARLY COLLEGE"
+      ],
+      "score": 43,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "ced3d3c50186b9eb",
+      "headline": "Funding roundup",
+      "source": "Community College Daily",
+      "date": "2026-10-19",
+      "summary": "In Massachusetts, Holyoke Community College (HCC) will use a federal grant worth nearly $1.25 million to expand services at its on-campus Itsy Bitsy Child Watch program and provide subsidies for student parents who might require...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/funding-roundup-463/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-463",
+      "labels": [
+        "NEW",
+        "MASSACHUSETTS",
+        "COMMUNITY COLLEGE",
+        "POLICY"
+      ],
+      "score": 41,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "d943e1664713c03e",
+      "headline": "Rutgers Unions Win Academic Freedom for All Unit Members",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-19",
+      "summary": "Rutgers Unions Win Academic Freedom for All Unit Members Emma Whitford Mon, 10/19/2026 - 03:00 AM Traditionally limited to full-time faculty, academic freedom protections will now extend to librarians, postdocs and clinicians at Rutgers. But without accompanying job security, adjuncts could still be vulnerable. Byline(s) Emma Whitford Rutgers Unions Win Academic Freedom for All Unit Members Emma Whitford Mon,...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/faculty/labor-unionization/2026/10/19/rutgers-unions-win-academic-freedom-all-unit-members",
+      "labels": [
+        "NEW",
+        "GOVERNANCE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "db7b39d85242180c",
+      "headline": "What the college earnings test means for community colleges",
+      "source": "Community College Daily",
+      "date": "2026-10-19",
+      "summary": "No sector has more riding on the new college earnings test than community colleges. Students are betting on short-term credentials as a faster, cheaper path to a good job or a better one. More of...",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/10/what-the-college-earnings-test-means-for-community-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=what-the-college-earnings-test-means-for-community-colleges",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 1
+  },
+  "pattern_this_cycle": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.",
+  "why_this_matters_now": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.",
+  "linkedin_angles": [
+    {
+      "hook": "Connecting Dual Enrollment to Career Training",
+      "angle": "Best post opportunity this cycle",
+      "draft": "Connecting Dual Enrollment to Career Training\n\nConnecting Dual Enrollment to Career Training Joshua.Bay Mon, 10/19/2026 - 03:00 AM A new Community College Research Center report identifies three ways colleges and K–12 districts can build on existing programs to help high school students earn college...\n\nThe accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.insidehighered.com/news/student-success/life-after-college/2026/10/19/connecting-dual-enrollment-career-training"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "aebf59a6be1fd541",
+      "headline": "The Bad Idea Gaining Traction in Higher Ed",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-19",
+      "url": "https://www.insidehighered.com/opinion/views/2026/10/19/bad-idea-gaining-traction-higher-ed-opinion",
+      "labels": [
+        "WORKFORCE"
+      ],
+      "score": 20
+    },
+    {
+      "id": "4812ab10fe5e80c9",
+      "headline": "A Modest Proposal for Dual Enrollment",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-19",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/10/19/modest-proposal-dual-enrollment",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "a470f041f2a4c2e2",
+      "headline": "What Can Work Colleges Teach Higher Ed?",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-19",
+      "url": "https://www.insidehighered.com/news/institutions/specialized-colleges/2026/10/19/what-lessons-do-work-colleges-hold-higher-ed",
+      "labels": [
+        "AFFORDABILITY"
+      ],
+      "score": 14
+    },
+    {
+      "id": "438afaecade50f42",
+      "headline": "University of Hawai’i system expands direct admissions to all 10 campuses",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-16",
+      "url": "https://www.highereddive.com/news/university-of-hawaii-system-expands-direct-admissions-to-all-10-campuses/833293/",
+      "labels": [],
+      "score": 10
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    },
+    {
+      "label": "Cycle 2026-09-28",
+      "url": "data/archive/2026-09-28.json"
+    },
+    {
+      "label": "Cycle 2026-09-24",
+      "url": "data/archive/2026-09-24.json"
+    },
+    {
+      "label": "Cycle 2026-09-21",
+      "url": "data/archive/2026-09-21.json"
+    },
+    {
+      "label": "Cycle 2026-09-17",
+      "url": "data/archive/2026-09-17.json"
+    },
+    {
+      "label": "Cycle 2026-09-14",
+      "url": "data/archive/2026-09-14.json"
+    },
+    {
+      "label": "Cycle 2026-09-10",
+      "url": "data/archive/2026-09-10.json"
+    },
+    {
+      "label": "Cycle 2026-09-07",
+      "url": "data/archive/2026-09-07.json"
+    },
+    {
+      "label": "Cycle 2026-09-03",
+      "url": "data/archive/2026-09-03.json"
+    },
+    {
+      "label": "Cycle 2026-08-31",
+      "url": "data/archive/2026-08-31.json"
+    },
+    {
+      "label": "Cycle 2026-08-27",
+      "url": "data/archive/2026-08-27.json"
+    },
+    {
+      "label": "Cycle 2026-08-24",
+      "url": "data/archive/2026-08-24.json"
+    },
+    {
+      "label": "Cycle 2026-08-20",
+      "url": "data/archive/2026-08-20.json"
+    },
+    {
+      "label": "Cycle 2026-08-17",
+      "url": "data/archive/2026-08-17.json"
+    }
+  ],
+  "items_considered": 10,
+  "feed_errors": [
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "The Mentor: Innovative Scholarship on Academic Advising: robots.txt unavailable; monitoring skipped",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}
