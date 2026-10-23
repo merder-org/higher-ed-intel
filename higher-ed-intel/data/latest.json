@@ -14,13 +14,13 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-21 17:58 ET",
-  "cycle_date": "2026-10-21",
+  "generated_at": "2026-10-23 17:40 ET",
+  "cycle_date": "2026-10-23",
   "week_of": "2026-10-19",
   "freshness": {
-    "cycle_date": "2026-10-21",
+    "cycle_date": "2026-10-23",
     "days_lookback": 5,
-    "cutoff": "2026-10-16 17:58 ET",
+    "cutoff": "2026-10-18 17:40 ET",
     "new_count": 5,
     "updated_count": 0
   },
@@ -33,20 +33,20 @@
   ],
   "top_signals": [
     {
-      "id": "0edbff0f2976cada",
-      "headline": "A smoother path to a baccalaureate",
+      "id": "a492d7a484fde4a9",
+      "headline": "A new national student success effort",
       "source": "Community College Daily",
-      "date": "2026-10-20",
-      "summary": "Students pursuing bachelor’s degrees at community colleges in Washington state complete them at relatively high rates and, in many cases, faster than community college students who transfer to universities, according to a new research brief....",
-      "observation": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
-      "why_it_matters": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
-      "url": "https://www.ccdaily.com/2026/10/a-smoother-path-to-a-baccalaureate/?utm_source=rss&utm_medium=rss&utm_campaign=a-smoother-path-to-a-baccalaureate",
+      "date": "2026-10-22",
+      "summary": "Five major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...",
+      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "url": "https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "TRANSFER"
+        "STUDENT SUCCESS"
       ],
-      "score": 41,
+      "score": 33,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -55,42 +55,62 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "b20dc7fda01f8f79",
-      "headline": "Reporter’s notebook",
-      "source": "Community College Daily",
-      "date": "2026-10-21",
-      "summary": "Students embrace AI for coursework, but worry about careers Strengthening CEO-board relationships Getting stopped-out students back to college Community college advancement teams stretched thin Students embrace AI for coursework, but worry about careers Artificial intelligence...",
-      "observation": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
-      "why_it_matters": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
-      "url": "https://www.ccdaily.com/2026/10/reporters-notebook-249/?utm_source=rss&utm_medium=rss&utm_campaign=reporters-notebook-249",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "AI"
-      ],
-      "score": 31,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "e6b0d9cdad49d6f3",
-      "headline": "Xavier to Open Nation’s 5th HBCU Medical School",
+      "id": "fb31569dc2229eec",
+      "headline": "Scholars Launch Their Own Review Into Jason Arday Appointment",
       "source": "Inside Higher Ed",
-      "date": "2026-10-21",
-      "summary": "Xavier to Open Nation’s 5th HBCU Medical School Olivia.sanchez Wed, 10/21/2026 - 03:00 AM The dark history of Black medical education in America makes the new medical school even more important, said C. Reynold Verret, president of Xavier University of Louisiana. Byline(s) Olivia Sanchez",
+      "date": "2026-10-23",
+      "summary": "Scholars Launch Their Own Review Into Jason Arday Appointment sara.custer@in… Fri, 10/23/2026 - 03:00 AM The Committee for Academic Freedom says its inquiry will not be “prejudged,” as it criticizes “material change in emphasis” in Cambridge’s own probe. Byline(s) Georgia Luckhurst for Times Higher Education",
       "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
       "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/10/21/xavier-open-nations-5th-hbcu-medical",
+      "url": "https://www.insidehighered.com/news/faculty/2026/10/23/scholars-launch-review-jason-arday-appointment",
+      "labels": [
+        "NEW",
+        "GOVERNANCE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "413bed2b4a191786",
+      "headline": "Reaching for the stars",
+      "source": "Community College Daily",
+      "date": "2026-10-22",
+      "summary": "“Impossible is only a suggestion,” Aisha Bowe said after sharing the trajectory of her career from pre-algebra at Washtenaw Community College to becoming an aerospace engineer at NASA, an entrepreneur and then a civilian astronaut-payload...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/reaching-for-the-stars/?utm_source=rss&utm_medium=rss&utm_campaign=reaching-for-the-stars",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "826c1fd5bcfb5181",
+      "headline": "Cornell faculty excoriate university’s handling of Jane Doe case",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-21",
+      "summary": "Amid the controversy, the Ivy League institution’s faculty senate is weighing a no-confidence vote against President Michael Kotlikoff.",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.highereddive.com/news/cornell-faculty-excoriate-universitys-handling-of-jane-doe-case/833637/",
       "labels": [
         "NEW",
         "GOVERNANCE",
         "LEADERSHIP"
       ],
-      "score": 30,
+      "score": 26,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -99,40 +119,19 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "ea9d03dc1e00dd47",
-      "headline": "Anna Maria College cancels campus bankruptcy auction over lack of bids",
+      "id": "1afdb847ffd5946a",
+      "headline": "University of Maine eyes $6M in budget cuts, including layoffs",
       "source": "Higher Ed Dive",
-      "date": "2026-10-20",
-      "summary": "The shuttered Massachusetts institution received no bids to purchase its entire 260-acre estate that met its minimum terms.",
+      "date": "2026-10-23",
+      "summary": "Officials have a plan to whittle down the institution's projected deficit to $3 million through expense shaving and revenue increases.",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/anna-maria-college-cancels-campus-bankruptcy-auction-over-lack-of-bids/833522/",
+      "url": "https://www.highereddive.com/news/university-of-maine-eyes-6m-in-budget-cuts-including-layoffs/833788/",
       "labels": [
         "NEW",
-        "MASSACHUSETTS"
+        "POLICY"
       ],
-      "score": 30,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "bac394204b03d159",
-      "headline": "A New Home for Nontraditional Students",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-21",
-      "summary": "A New Home for Nontraditional Students Joshua.Bay Wed, 10/21/2026 - 03:00 AM Columbia University’s new residence hall aims to ease housing pressures and strengthen community among veterans, transfer students and returning adults. Byline(s) Joshua Bay",
-      "observation": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
-      "why_it_matters": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/10/21/new-home-nontraditional-students",
-      "labels": [
-        "NEW",
-        "TRANSFER"
-      ],
-      "score": 20,
+      "score": 25,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -146,59 +145,64 @@
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nThe AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
-  "why_this_matters_now": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nThe AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
   "linkedin_angles": [
     {
-      "hook": "A smoother path to a baccalaureate",
+      "hook": "A new national student success effort",
       "angle": "Best post opportunity this cycle",
-      "draft": "A smoother path to a baccalaureate\n\nStudents pursuing bachelor’s degrees at community colleges in Washington state complete them at relatively high rates and, in many cases, faster than community college students who transfer to universities, according to a new research brief....\n\nThis is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/10/a-smoother-path-to-a-baccalaureate/?utm_source=rss&utm_medium=rss&utm_campaign=a-smoother-path-to-a-baccalaureate"
+      "draft": "A new national student success effort\n\nFive major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...\n\nThe part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort"
     }
   ],
   "watch_list": [
     {
-      "id": "7b802f5cbe02c65b",
-      "headline": "Creating cultures worth staying for",
+      "id": "3194c635f72e880e",
+      "headline": "Protected: DataPoints: Growing community college baccalaureates to address teacher shortage",
       "source": "Community College Daily",
-      "date": "2026-10-21",
-      "url": "https://www.ccdaily.com/2026/10/creating-cultures-worth-staying-for/?utm_source=rss&utm_medium=rss&utm_campaign=creating-cultures-worth-staying-for",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "STUDENT SUCCESS"
-      ],
-      "score": 27
-    },
-    {
-      "id": "10611003867f040b",
-      "headline": "Higher ed groups oppose proposed Census changes",
-      "source": "Community College Daily",
-      "date": "2026-10-20",
-      "url": "https://www.ccdaily.com/2026/10/higher-ed-groups-oppose-proposed-census-changes/?utm_source=rss&utm_medium=rss&utm_campaign=higher-ed-groups-oppose-proposed-census-changes",
+      "date": "2026-10-22",
+      "url": "https://www.ccdaily.com/2026/10/datapoints-growing-community-college-baccalaureates-to-address-teacher-shortage/?utm_source=rss&utm_medium=rss&utm_campaign=datapoints-growing-community-college-baccalaureates-to-address-teacher-shortage",
       "labels": [
         "COMMUNITY COLLEGE"
       ],
       "score": 27
     },
     {
-      "id": "faa953cbddad822f",
-      "headline": "Does It Matter Which AP Courses You Take?",
+      "id": "ae9f176a8d0252c9",
+      "headline": "Higher Ed Leaders Go On Offense With Student Success Project",
       "source": "Inside Higher Ed",
-      "date": "2026-10-21",
-      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/21/does-it-matter-which-ap-courses-you-take",
-      "labels": [],
-      "score": 18
+      "date": "2026-10-23",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/10/23/higher-ed-leaders-go-offense-student-success",
+      "labels": [
+        "STUDENT SUCCESS"
+      ],
+      "score": 20
     },
     {
-      "id": "618cdb3706448311",
-      "headline": "The Shils Report and Academic Merit",
+      "id": "17c22a484dfa080a",
+      "headline": "Syracuse University plans review of administrative and executive staff",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-23",
+      "url": "https://www.highereddive.com/news/syracuse-university-plans-review-of-administrative-and-executive-staff/833888/",
+      "labels": [
+        "LEADERSHIP"
+      ],
+      "score": 19
+    },
+    {
+      "id": "f79584dc1618740f",
+      "headline": "What OPT Is and How It Affects the Economy in 6 Charts",
       "source": "Inside Higher Ed",
-      "date": "2026-10-21",
-      "url": "https://www.insidehighered.com/opinion/columns/debatable-ideas/2026/10/21/shils-report-and-academic-merit",
+      "date": "2026-10-23",
+      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/10/23/breaking-down-opt-and-how-it-affects-economy-6",
       "labels": [],
-      "score": 18
+      "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
     {
       "label": "Cycle 2026-10-21",
       "url": "data/archive/2026-10-21.json"
@@ -278,16 +282,11 @@
     {
       "label": "Cycle 2026-08-24",
       "url": "data/archive/2026-08-24.json"
-    },
-    {
-      "label": "Cycle 2026-08-20",
-      "url": "data/archive/2026-08-20.json"
     }
   ],
-  "items_considered": 13,
+  "items_considered": 14,
   "feed_errors": [
-    "Mass DHE News Clips: <unknown>:11:0: no element found",
-    "Inside Higher Ed: <unknown>:257:12: undefined entity",
+    "Inside Higher Ed: <unknown>:205:48: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
@@ -301,7 +300,6 @@
     "Massachusetts DESE Early College: no matching publication links in accessible HTML",
     "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
     "Massachusetts DHE Early College: no matching publication links in accessible HTML",
-    "The Mentor: Innovative Scholarship on Academic Advising: HTTP Error 503: Service Unavailable",
     "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
   ],
   "site": {

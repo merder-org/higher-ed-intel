@@ -1,68 +1,66 @@
-# Higher-Ed Intelligence Brief — 2026-10-21
+# Higher-Ed Intelligence Brief — 2026-10-23
 
-_Generated: 2026-10-21 17:58 ET_
+_Generated: 2026-10-23 17:40 ET_
 
 ## Developments Worth Watching
 
-### A smoother path to a baccalaureate
-- Source: Community College Daily (2026-10-20)
-- Labels: NEW, COMMUNITY COLLEGE, TRANSFER
-- Summary: Students pursuing bachelor’s degrees at community colleges in Washington state complete them at relatively high rates and, in many cases, faster than community college students who transfer to universities, according to a new research brief....
-- What caught my attention: This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
-- Link: https://www.ccdaily.com/2026/10/a-smoother-path-to-a-baccalaureate/?utm_source=rss&utm_medium=rss&utm_campaign=a-smoother-path-to-a-baccalaureate
+### A new national student success effort
+- Source: Community College Daily (2026-10-22)
+- Labels: NEW, COMMUNITY COLLEGE, STUDENT SUCCESS
+- Summary: Five major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...
+- What caught my attention: The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
+- Link: https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort
 
-### Reporter’s notebook
-- Source: Community College Daily (2026-10-21)
-- Labels: NEW, COMMUNITY COLLEGE, AI
-- Summary: Students embrace AI for coursework, but worry about careers Strengthening CEO-board relationships Getting stopped-out students back to college Community college advancement teams stretched thin Students embrace AI for coursework, but worry about careers Artificial intelligence...
-- What caught my attention: The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.
-- Link: https://www.ccdaily.com/2026/10/reporters-notebook-249/?utm_source=rss&utm_medium=rss&utm_campaign=reporters-notebook-249
-
-### Xavier to Open Nation’s 5th HBCU Medical School
-- Source: Inside Higher Ed (2026-10-21)
-- Labels: NEW, GOVERNANCE, LEADERSHIP
-- Summary: Xavier to Open Nation’s 5th HBCU Medical School Olivia.sanchez Wed, 10/21/2026 - 03:00 AM The dark history of Black medical education in America makes the new medical school even more important, said C. Reynold Verret, president of Xavier University of Louisiana. Byline(s) Olivia Sanchez
+### Scholars Launch Their Own Review Into Jason Arday Appointment
+- Source: Inside Higher Ed (2026-10-23)
+- Labels: NEW, GOVERNANCE
+- Summary: Scholars Launch Their Own Review Into Jason Arday Appointment sara.custer@in… Fri, 10/23/2026 - 03:00 AM The Committee for Academic Freedom says its inquiry will not be “prejudged,” as it criticizes “material change in emphasis” in Cambridge’s own probe. Byline(s) Georgia Luckhurst for Times Higher Education
 - What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/10/21/xavier-open-nations-5th-hbcu-medical
+- Link: https://www.insidehighered.com/news/faculty/2026/10/23/scholars-launch-review-jason-arday-appointment
 
-### Anna Maria College cancels campus bankruptcy auction over lack of bids
-- Source: Higher Ed Dive (2026-10-20)
-- Labels: NEW, MASSACHUSETTS
-- Summary: The shuttered Massachusetts institution received no bids to purchase its entire 260-acre estate that met its minimum terms.
+### Reaching for the stars
+- Source: Community College Daily (2026-10-22)
+- Labels: NEW, COMMUNITY COLLEGE
+- Summary: “Impossible is only a suggestion,” Aisha Bowe said after sharing the trajectory of her career from pre-algebra at Washtenaw Community College to becoming an aerospace engineer at NASA, an entrepreneur and then a civilian astronaut-payload...
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/anna-maria-college-cancels-campus-bankruptcy-auction-over-lack-of-bids/833522/
+- Link: https://www.ccdaily.com/2026/10/reaching-for-the-stars/?utm_source=rss&utm_medium=rss&utm_campaign=reaching-for-the-stars
 
-### A New Home for Nontraditional Students
-- Source: Inside Higher Ed (2026-10-21)
-- Labels: NEW, TRANSFER
-- Summary: A New Home for Nontraditional Students Joshua.Bay Wed, 10/21/2026 - 03:00 AM Columbia University’s new residence hall aims to ease housing pressures and strengthen community among veterans, transfer students and returning adults. Byline(s) Joshua Bay
-- What caught my attention: This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
-- Link: https://www.insidehighered.com/news/student-success/college-experience/2026/10/21/new-home-nontraditional-students
+### Cornell faculty excoriate university’s handling of Jane Doe case
+- Source: Higher Ed Dive (2026-10-21)
+- Labels: NEW, GOVERNANCE, LEADERSHIP
+- Summary: Amid the controversy, the Ivy League institution’s faculty senate is weighing a no-confidence vote against President Michael Kotlikoff.
+- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+- Link: https://www.highereddive.com/news/cornell-faculty-excoriate-universitys-handling-of-jane-doe-case/833637/
+
+### University of Maine eyes $6M in budget cuts, including layoffs
+- Source: Higher Ed Dive (2026-10-23)
+- Labels: NEW, POLICY
+- Summary: Officials have a plan to whittle down the institution's projected deficit to $3 million through expense shaving and revenue increases.
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.highereddive.com/news/university-of-maine-eyes-6m-in-budget-cuts-including-layoffs/833788/
 
 ## Pattern I’m Seeing
 
-Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.
-
-The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.
+The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
 
 ## Draft LinkedIn Briefs for Editing
 
-### A smoother path to a baccalaureate
+### A new national student success effort
 - Angle: Best post opportunity this cycle
 
-A smoother path to a baccalaureate
+A new national student success effort
 
-Students pursuing bachelor’s degrees at community colleges in Washington state complete them at relatively high rates and, in many cases, faster than community college students who transfer to universities, according to a new research brief....
+Five major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...
 
-This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
+The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
 
 The practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.
 
-Source: https://www.ccdaily.com/2026/10/a-smoother-path-to-a-baccalaureate/?utm_source=rss&utm_medium=rss&utm_campaign=a-smoother-path-to-a-baccalaureate
+Source: https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort
 
 ## Watch List
 
-- Creating cultures worth staying for (Community College Daily, 2026-10-21)
-- Higher ed groups oppose proposed Census changes (Community College Daily, 2026-10-20)
-- Does It Matter Which AP Courses You Take? (Inside Higher Ed, 2026-10-21)
-- The Shils Report and Academic Merit (Inside Higher Ed, 2026-10-21)
+- Protected: DataPoints: Growing community college baccalaureates to address teacher shortage (Community College Daily, 2026-10-22)
+- Higher Ed Leaders Go On Offense With Student Success Project (Inside Higher Ed, 2026-10-23)
+- Syracuse University plans review of administrative and executive staff (Higher Ed Dive, 2026-10-23)
+- What OPT Is and How It Affects the Economy in 6 Charts (Inside Higher Ed, 2026-10-23)

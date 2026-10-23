@@ -1,0 +1,309 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-10-23 17:40 ET",
+  "cycle_date": "2026-10-23",
+  "week_of": "2026-10-19",
+  "freshness": {
+    "cycle_date": "2026-10-23",
+    "days_lookback": 5,
+    "cutoff": "2026-10-18 17:40 ET",
+    "new_count": 5,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "a492d7a484fde4a9",
+      "headline": "A new national student success effort",
+      "source": "Community College Daily",
+      "date": "2026-10-22",
+      "summary": "Five major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...",
+      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "url": "https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "STUDENT SUCCESS"
+      ],
+      "score": 33,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "fb31569dc2229eec",
+      "headline": "Scholars Launch Their Own Review Into Jason Arday Appointment",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-23",
+      "summary": "Scholars Launch Their Own Review Into Jason Arday Appointment sara.custer@in… Fri, 10/23/2026 - 03:00 AM The Committee for Academic Freedom says its inquiry will not be “prejudged,” as it criticizes “material change in emphasis” in Cambridge’s own probe. Byline(s) Georgia Luckhurst for Times Higher Education",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/faculty/2026/10/23/scholars-launch-review-jason-arday-appointment",
+      "labels": [
+        "NEW",
+        "GOVERNANCE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "413bed2b4a191786",
+      "headline": "Reaching for the stars",
+      "source": "Community College Daily",
+      "date": "2026-10-22",
+      "summary": "“Impossible is only a suggestion,” Aisha Bowe said after sharing the trajectory of her career from pre-algebra at Washtenaw Community College to becoming an aerospace engineer at NASA, an entrepreneur and then a civilian astronaut-payload...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/reaching-for-the-stars/?utm_source=rss&utm_medium=rss&utm_campaign=reaching-for-the-stars",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "826c1fd5bcfb5181",
+      "headline": "Cornell faculty excoriate university’s handling of Jane Doe case",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-21",
+      "summary": "Amid the controversy, the Ivy League institution’s faculty senate is weighing a no-confidence vote against President Michael Kotlikoff.",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.highereddive.com/news/cornell-faculty-excoriate-universitys-handling-of-jane-doe-case/833637/",
+      "labels": [
+        "NEW",
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 26,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "1afdb847ffd5946a",
+      "headline": "University of Maine eyes $6M in budget cuts, including layoffs",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-23",
+      "summary": "Officials have a plan to whittle down the institution's projected deficit to $3 million through expense shaving and revenue increases.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/university-of-maine-eyes-6m-in-budget-cuts-including-layoffs/833788/",
+      "labels": [
+        "NEW",
+        "POLICY"
+      ],
+      "score": 25,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "linkedin_angles": [
+    {
+      "hook": "A new national student success effort",
+      "angle": "Best post opportunity this cycle",
+      "draft": "A new national student success effort\n\nFive major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...\n\nThe part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "3194c635f72e880e",
+      "headline": "Protected: DataPoints: Growing community college baccalaureates to address teacher shortage",
+      "source": "Community College Daily",
+      "date": "2026-10-22",
+      "url": "https://www.ccdaily.com/2026/10/datapoints-growing-community-college-baccalaureates-to-address-teacher-shortage/?utm_source=rss&utm_medium=rss&utm_campaign=datapoints-growing-community-college-baccalaureates-to-address-teacher-shortage",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "ae9f176a8d0252c9",
+      "headline": "Higher Ed Leaders Go On Offense With Student Success Project",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-23",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/10/23/higher-ed-leaders-go-offense-student-success",
+      "labels": [
+        "STUDENT SUCCESS"
+      ],
+      "score": 20
+    },
+    {
+      "id": "17c22a484dfa080a",
+      "headline": "Syracuse University plans review of administrative and executive staff",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-23",
+      "url": "https://www.highereddive.com/news/syracuse-university-plans-review-of-administrative-and-executive-staff/833888/",
+      "labels": [
+        "LEADERSHIP"
+      ],
+      "score": 19
+    },
+    {
+      "id": "f79584dc1618740f",
+      "headline": "What OPT Is and How It Affects the Economy in 6 Charts",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-23",
+      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/10/23/breaking-down-opt-and-how-it-affects-economy-6",
+      "labels": [],
+      "score": 14
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    },
+    {
+      "label": "Cycle 2026-09-28",
+      "url": "data/archive/2026-09-28.json"
+    },
+    {
+      "label": "Cycle 2026-09-24",
+      "url": "data/archive/2026-09-24.json"
+    },
+    {
+      "label": "Cycle 2026-09-21",
+      "url": "data/archive/2026-09-21.json"
+    },
+    {
+      "label": "Cycle 2026-09-17",
+      "url": "data/archive/2026-09-17.json"
+    },
+    {
+      "label": "Cycle 2026-09-14",
+      "url": "data/archive/2026-09-14.json"
+    },
+    {
+      "label": "Cycle 2026-09-10",
+      "url": "data/archive/2026-09-10.json"
+    },
+    {
+      "label": "Cycle 2026-09-07",
+      "url": "data/archive/2026-09-07.json"
+    },
+    {
+      "label": "Cycle 2026-09-03",
+      "url": "data/archive/2026-09-03.json"
+    },
+    {
+      "label": "Cycle 2026-08-31",
+      "url": "data/archive/2026-08-31.json"
+    },
+    {
+      "label": "Cycle 2026-08-27",
+      "url": "data/archive/2026-08-27.json"
+    },
+    {
+      "label": "Cycle 2026-08-24",
+      "url": "data/archive/2026-08-24.json"
+    }
+  ],
+  "items_considered": 14,
+  "feed_errors": [
+    "Inside Higher Ed: <unknown>:205:48: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}
