@@ -1,66 +1,54 @@
-# Higher-Ed Intelligence Brief — 2026-10-23
+# Higher-Ed Intelligence Brief — 2026-10-26
 
-_Generated: 2026-10-23 17:40 ET_
+_Generated: 2026-10-26 18:52 ET_
 
 ## Developments Worth Watching
 
-### A new national student success effort
-- Source: Community College Daily (2026-10-22)
-- Labels: NEW, COMMUNITY COLLEGE, STUDENT SUCCESS
-- Summary: Five major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...
-- What caught my attention: The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
-- Link: https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort
+### Funding roundup
+- Source: Community College Daily (2026-10-26)
+- Labels: NEW, MASSACHUSETTS, COMMUNITY COLLEGE, WORKFORCE
+- Summary: Massachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...
+- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
+- Link: https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464
 
-### Scholars Launch Their Own Review Into Jason Arday Appointment
-- Source: Inside Higher Ed (2026-10-23)
-- Labels: NEW, GOVERNANCE
-- Summary: Scholars Launch Their Own Review Into Jason Arday Appointment sara.custer@in… Fri, 10/23/2026 - 03:00 AM The Committee for Academic Freedom says its inquiry will not be “prejudged,” as it criticizes “material change in emphasis” in Cambridge’s own probe. Byline(s) Georgia Luckhurst for Times Higher Education
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.insidehighered.com/news/faculty/2026/10/23/scholars-launch-review-jason-arday-appointment
+### House Dems call to strengthen student supports
+- Source: Community College Daily (2026-10-25)
+- Labels: NEW, COMMUNITY COLLEGE, WORKFORCE
+- Summary: A new report from Democrats on the House Education and Workforce Committee focuses on academic, financial and personal barriers that prevent students from completing credentials, with many of the recommended strategies tying to community colleges....
+- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
+- Link: https://www.ccdaily.com/2026/10/house-dems-call-to-strengthen-student-supports/?utm_source=rss&utm_medium=rss&utm_campaign=house-dems-call-to-strengthen-student-supports
 
-### Reaching for the stars
-- Source: Community College Daily (2026-10-22)
-- Labels: NEW, COMMUNITY COLLEGE
-- Summary: “Impossible is only a suggestion,” Aisha Bowe said after sharing the trajectory of her career from pre-algebra at Washtenaw Community College to becoming an aerospace engineer at NASA, an entrepreneur and then a civilian astronaut-payload...
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.ccdaily.com/2026/10/reaching-for-the-stars/?utm_source=rss&utm_medium=rss&utm_campaign=reaching-for-the-stars
-
-### Cornell faculty excoriate university’s handling of Jane Doe case
-- Source: Higher Ed Dive (2026-10-21)
-- Labels: NEW, GOVERNANCE, LEADERSHIP
-- Summary: Amid the controversy, the Ivy League institution’s faculty senate is weighing a no-confidence vote against President Michael Kotlikoff.
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.highereddive.com/news/cornell-faculty-excoriate-universitys-handling-of-jane-doe-case/833637/
-
-### University of Maine eyes $6M in budget cuts, including layoffs
-- Source: Higher Ed Dive (2026-10-23)
-- Labels: NEW, POLICY
-- Summary: Officials have a plan to whittle down the institution's projected deficit to $3 million through expense shaving and revenue increases.
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/university-of-maine-eyes-6m-in-budget-cuts-including-layoffs/833788/
+### The Price of Closing a University Museum
+- Source: Inside Higher Ed (2026-10-26)
+- Labels: NEW, WORKFORCE, POLICY
+- Summary: The Price of Closing a University Museum kathryn.palmer… Mon, 10/26/2026 - 03:00 AM Fort Hays State University is closing its natural history museum to help absorb a $2.4 million state budget cut. Critics say it’s a short-term solution with potentially negative long-term consequences. Byline(s) Kathryn Palmer
+- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
+- Link: https://www.insidehighered.com/news/business/cost-cutting/2026/10/26/price-closing-university-museum
 
 ## Pattern I’m Seeing
 
-The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
+The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.
+
+Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.
 
 ## Draft LinkedIn Briefs for Editing
 
-### A new national student success effort
+### Funding roundup
 - Angle: Best post opportunity this cycle
 
-A new national student success effort
+Funding roundup
 
-Five major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...
+Massachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...
 
-The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
+This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
 
-The practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.
+For Massachusetts colleges, the question is whether access policy is being matched by advising, transfer, and student-support capacity.
 
-Source: https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort
+Source: https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464
 
 ## Watch List
 
-- Protected: DataPoints: Growing community college baccalaureates to address teacher shortage (Community College Daily, 2026-10-22)
-- Higher Ed Leaders Go On Offense With Student Success Project (Inside Higher Ed, 2026-10-23)
-- Syracuse University plans review of administrative and executive staff (Higher Ed Dive, 2026-10-23)
-- What OPT Is and How It Affects the Economy in 6 Charts (Inside Higher Ed, 2026-10-23)
+- Tech-focused opportunities with federal agencies (Community College Daily, 2026-10-26)
+- ATE alumni credit experiences for their successes (Community College Daily, 2026-10-24)
+- Michigan public universities lost over 5,000 students in fall 2026 (Higher Ed Dive, 2026-10-26)
+- Your application numbers are probably lying to you (Community College Daily, 2026-10-26)

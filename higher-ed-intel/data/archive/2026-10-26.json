@@ -1,0 +1,268 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-10-26 18:52 ET",
+  "cycle_date": "2026-10-26",
+  "week_of": "2026-10-26",
+  "freshness": {
+    "cycle_date": "2026-10-26",
+    "days_lookback": 5,
+    "cutoff": "2026-10-21 18:52 ET",
+    "new_count": 3,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "526234d751279181",
+      "headline": "Funding roundup",
+      "source": "Community College Daily",
+      "date": "2026-10-26",
+      "summary": "Massachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464",
+      "labels": [
+        "NEW",
+        "MASSACHUSETTS",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 43,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "88e73a29d99b4602",
+      "headline": "House Dems call to strengthen student supports",
+      "source": "Community College Daily",
+      "date": "2026-10-25",
+      "summary": "A new report from Democrats on the House Education and Workforce Committee focuses on academic, financial and personal barriers that prevent students from completing credentials, with many of the recommended strategies tying to community colleges....",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/10/house-dems-call-to-strengthen-student-supports/?utm_source=rss&utm_medium=rss&utm_campaign=house-dems-call-to-strengthen-student-supports",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 37,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "f8aa2d6be3fdaeda",
+      "headline": "The Price of Closing a University Museum",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-26",
+      "summary": "The Price of Closing a University Museum kathryn.palmer… Mon, 10/26/2026 - 03:00 AM Fort Hays State University is closing its natural history museum to help absorb a $2.4 million state budget cut. Critics say it’s a short-term solution with potentially negative long-term consequences. Byline(s) Kathryn Palmer",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/10/26/price-closing-university-museum",
+      "labels": [
+        "NEW",
+        "WORKFORCE",
+        "POLICY"
+      ],
+      "score": 25,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "why_this_matters_now": "The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "linkedin_angles": [
+    {
+      "hook": "Funding roundup",
+      "angle": "Best post opportunity this cycle",
+      "draft": "Funding roundup\n\nMassachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...\n\nThis connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.\n\nFor Massachusetts colleges, the question is whether access policy is being matched by advising, transfer, and student-support capacity.\n\nSource: https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "c9f4fe437c52832f",
+      "headline": "Tech-focused opportunities with federal agencies",
+      "source": "Community College Daily",
+      "date": "2026-10-26",
+      "url": "https://www.ccdaily.com/2026/10/tech-focused-opportunities-with-federal-agencies/?utm_source=rss&utm_medium=rss&utm_campaign=tech-focused-opportunities-with-federal-agencies",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "POLICY"
+      ],
+      "score": 31
+    },
+    {
+      "id": "c6020bf4ed48cd53",
+      "headline": "ATE alumni credit experiences for their successes",
+      "source": "Community College Daily",
+      "date": "2026-10-24",
+      "url": "https://www.ccdaily.com/2026/10/ate-alumni-credit-experiences-for-their-successes/?utm_source=rss&utm_medium=rss&utm_campaign=ate-alumni-credit-experiences-for-their-successes",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 23
+    },
+    {
+      "id": "1f788b1e04fd4191",
+      "headline": "Michigan public universities lost over 5,000 students in fall 2026",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-26",
+      "url": "https://www.highereddive.com/news/michigan-public-universities-lost-over-5000-students-in-fall-2026/872805/",
+      "labels": [],
+      "score": 18
+    },
+    {
+      "id": "0828b23d5ed4dfae",
+      "headline": "Your application numbers are probably lying to you",
+      "source": "Community College Daily",
+      "date": "2026-10-26",
+      "url": "https://www.ccdaily.com/2026/10/your-application-numbers-are-probably-lying-to-you/?utm_source=rss&utm_medium=rss&utm_campaign=your-application-numbers-are-probably-lying-to-you",
+      "labels": [],
+      "score": 18
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    },
+    {
+      "label": "Cycle 2026-09-28",
+      "url": "data/archive/2026-09-28.json"
+    },
+    {
+      "label": "Cycle 2026-09-24",
+      "url": "data/archive/2026-09-24.json"
+    },
+    {
+      "label": "Cycle 2026-09-21",
+      "url": "data/archive/2026-09-21.json"
+    },
+    {
+      "label": "Cycle 2026-09-17",
+      "url": "data/archive/2026-09-17.json"
+    },
+    {
+      "label": "Cycle 2026-09-14",
+      "url": "data/archive/2026-09-14.json"
+    },
+    {
+      "label": "Cycle 2026-09-10",
+      "url": "data/archive/2026-09-10.json"
+    },
+    {
+      "label": "Cycle 2026-09-07",
+      "url": "data/archive/2026-09-07.json"
+    },
+    {
+      "label": "Cycle 2026-09-03",
+      "url": "data/archive/2026-09-03.json"
+    },
+    {
+      "label": "Cycle 2026-08-31",
+      "url": "data/archive/2026-08-31.json"
+    },
+    {
+      "label": "Cycle 2026-08-27",
+      "url": "data/archive/2026-08-27.json"
+    }
+  ],
+  "items_considered": 15,
+  "feed_errors": [
+    "Inside Higher Ed: <unknown>:19:142: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

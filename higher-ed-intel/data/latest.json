@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-23 17:40 ET",
-  "cycle_date": "2026-10-23",
-  "week_of": "2026-10-19",
+  "generated_at": "2026-10-26 18:52 ET",
+  "cycle_date": "2026-10-26",
+  "week_of": "2026-10-26",
   "freshness": {
-    "cycle_date": "2026-10-23",
+    "cycle_date": "2026-10-26",
     "days_lookback": 5,
-    "cutoff": "2026-10-18 17:40 ET",
-    "new_count": 5,
+    "cutoff": "2026-10-21 18:52 ET",
+    "new_count": 3,
     "updated_count": 0
   },
   "sections": [
@@ -33,20 +33,43 @@
   ],
   "top_signals": [
     {
-      "id": "a492d7a484fde4a9",
-      "headline": "A new national student success effort",
+      "id": "526234d751279181",
+      "headline": "Funding roundup",
       "source": "Community College Daily",
-      "date": "2026-10-22",
-      "summary": "Five major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...",
-      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
-      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
-      "url": "https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort",
+      "date": "2026-10-26",
+      "summary": "Massachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464",
+      "labels": [
+        "NEW",
+        "MASSACHUSETTS",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 43,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "88e73a29d99b4602",
+      "headline": "House Dems call to strengthen student supports",
+      "source": "Community College Daily",
+      "date": "2026-10-25",
+      "summary": "A new report from Democrats on the House Education and Workforce Committee focuses on academic, financial and personal barriers that prevent students from completing credentials, with many of the recommended strategies tying to community colleges....",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/10/house-dems-call-to-strengthen-student-supports/?utm_source=rss&utm_medium=rss&utm_campaign=house-dems-call-to-strengthen-student-supports",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "STUDENT SUCCESS"
+        "WORKFORCE"
       ],
-      "score": 33,
+      "score": 37,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -55,80 +78,17 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "fb31569dc2229eec",
-      "headline": "Scholars Launch Their Own Review Into Jason Arday Appointment",
+      "id": "f8aa2d6be3fdaeda",
+      "headline": "The Price of Closing a University Museum",
       "source": "Inside Higher Ed",
-      "date": "2026-10-23",
-      "summary": "Scholars Launch Their Own Review Into Jason Arday Appointment sara.custer@in… Fri, 10/23/2026 - 03:00 AM The Committee for Academic Freedom says its inquiry will not be “prejudged,” as it criticizes “material change in emphasis” in Cambridge’s own probe. Byline(s) Georgia Luckhurst for Times Higher Education",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.insidehighered.com/news/faculty/2026/10/23/scholars-launch-review-jason-arday-appointment",
+      "date": "2026-10-26",
+      "summary": "The Price of Closing a University Museum kathryn.palmer… Mon, 10/26/2026 - 03:00 AM Fort Hays State University is closing its natural history museum to help absorb a $2.4 million state budget cut. Critics say it’s a short-term solution with potentially negative long-term consequences. Byline(s) Kathryn Palmer",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/10/26/price-closing-university-museum",
       "labels": [
         "NEW",
-        "GOVERNANCE"
-      ],
-      "score": 27,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "413bed2b4a191786",
-      "headline": "Reaching for the stars",
-      "source": "Community College Daily",
-      "date": "2026-10-22",
-      "summary": "“Impossible is only a suggestion,” Aisha Bowe said after sharing the trajectory of her career from pre-algebra at Washtenaw Community College to becoming an aerospace engineer at NASA, an entrepreneur and then a civilian astronaut-payload...",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/10/reaching-for-the-stars/?utm_source=rss&utm_medium=rss&utm_campaign=reaching-for-the-stars",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE"
-      ],
-      "score": 27,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "826c1fd5bcfb5181",
-      "headline": "Cornell faculty excoriate university’s handling of Jane Doe case",
-      "source": "Higher Ed Dive",
-      "date": "2026-10-21",
-      "summary": "Amid the controversy, the Ivy League institution’s faculty senate is weighing a no-confidence vote against President Michael Kotlikoff.",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.highereddive.com/news/cornell-faculty-excoriate-universitys-handling-of-jane-doe-case/833637/",
-      "labels": [
-        "NEW",
-        "GOVERNANCE",
-        "LEADERSHIP"
-      ],
-      "score": 26,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "1afdb847ffd5946a",
-      "headline": "University of Maine eyes $6M in budget cuts, including layoffs",
-      "source": "Higher Ed Dive",
-      "date": "2026-10-23",
-      "summary": "Officials have a plan to whittle down the institution's projected deficit to $3 million through expense shaving and revenue increases.",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/university-of-maine-eyes-6m-in-budget-cuts-including-layoffs/833788/",
-      "labels": [
-        "NEW",
+        "WORKFORCE",
         "POLICY"
       ],
       "score": 25,
@@ -145,60 +105,63 @@
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
-  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "pattern_this_cycle": "The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "why_this_matters_now": "The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
   "linkedin_angles": [
     {
-      "hook": "A new national student success effort",
+      "hook": "Funding roundup",
       "angle": "Best post opportunity this cycle",
-      "draft": "A new national student success effort\n\nFive major higher education associations, including the American Association of Community Colleges (AACC), on Thursday launched a national initiative to strengthen student success and highlight the value of a college education. The National Student Success...\n\nThe part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/10/a-new-national-student-success-effort/?utm_source=rss&utm_medium=rss&utm_campaign=a-new-national-student-success-effort"
+      "draft": "Funding roundup\n\nMassachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...\n\nThis connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.\n\nFor Massachusetts colleges, the question is whether access policy is being matched by advising, transfer, and student-support capacity.\n\nSource: https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464"
     }
   ],
   "watch_list": [
     {
-      "id": "3194c635f72e880e",
-      "headline": "Protected: DataPoints: Growing community college baccalaureates to address teacher shortage",
+      "id": "c9f4fe437c52832f",
+      "headline": "Tech-focused opportunities with federal agencies",
       "source": "Community College Daily",
-      "date": "2026-10-22",
-      "url": "https://www.ccdaily.com/2026/10/datapoints-growing-community-college-baccalaureates-to-address-teacher-shortage/?utm_source=rss&utm_medium=rss&utm_campaign=datapoints-growing-community-college-baccalaureates-to-address-teacher-shortage",
+      "date": "2026-10-26",
+      "url": "https://www.ccdaily.com/2026/10/tech-focused-opportunities-with-federal-agencies/?utm_source=rss&utm_medium=rss&utm_campaign=tech-focused-opportunities-with-federal-agencies",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "POLICY"
+      ],
+      "score": 31
+    },
+    {
+      "id": "c6020bf4ed48cd53",
+      "headline": "ATE alumni credit experiences for their successes",
+      "source": "Community College Daily",
+      "date": "2026-10-24",
+      "url": "https://www.ccdaily.com/2026/10/ate-alumni-credit-experiences-for-their-successes/?utm_source=rss&utm_medium=rss&utm_campaign=ate-alumni-credit-experiences-for-their-successes",
       "labels": [
         "COMMUNITY COLLEGE"
       ],
-      "score": 27
+      "score": 23
     },
     {
-      "id": "ae9f176a8d0252c9",
-      "headline": "Higher Ed Leaders Go On Offense With Student Success Project",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-23",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/10/23/higher-ed-leaders-go-offense-student-success",
-      "labels": [
-        "STUDENT SUCCESS"
-      ],
-      "score": 20
-    },
-    {
-      "id": "17c22a484dfa080a",
-      "headline": "Syracuse University plans review of administrative and executive staff",
+      "id": "1f788b1e04fd4191",
+      "headline": "Michigan public universities lost over 5,000 students in fall 2026",
       "source": "Higher Ed Dive",
-      "date": "2026-10-23",
-      "url": "https://www.highereddive.com/news/syracuse-university-plans-review-of-administrative-and-executive-staff/833888/",
-      "labels": [
-        "LEADERSHIP"
-      ],
-      "score": 19
+      "date": "2026-10-26",
+      "url": "https://www.highereddive.com/news/michigan-public-universities-lost-over-5000-students-in-fall-2026/872805/",
+      "labels": [],
+      "score": 18
     },
     {
-      "id": "f79584dc1618740f",
-      "headline": "What OPT Is and How It Affects the Economy in 6 Charts",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-23",
-      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/10/23/breaking-down-opt-and-how-it-affects-economy-6",
+      "id": "0828b23d5ed4dfae",
+      "headline": "Your application numbers are probably lying to you",
+      "source": "Community College Daily",
+      "date": "2026-10-26",
+      "url": "https://www.ccdaily.com/2026/10/your-application-numbers-are-probably-lying-to-you/?utm_source=rss&utm_medium=rss&utm_campaign=your-application-numbers-are-probably-lying-to-you",
       "labels": [],
-      "score": 14
+      "score": 18
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
     {
       "label": "Cycle 2026-10-23",
       "url": "data/archive/2026-10-23.json"
@@ -278,15 +241,11 @@
     {
       "label": "Cycle 2026-08-27",
       "url": "data/archive/2026-08-27.json"
-    },
-    {
-      "label": "Cycle 2026-08-24",
-      "url": "data/archive/2026-08-24.json"
     }
   ],
-  "items_considered": 14,
+  "items_considered": 15,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:205:48: undefined entity",
+    "Inside Higher Ed: <unknown>:19:142: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
