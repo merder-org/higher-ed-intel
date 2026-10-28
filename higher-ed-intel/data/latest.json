@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-26 18:52 ET",
-  "cycle_date": "2026-10-26",
+  "generated_at": "2026-10-28 18:51 ET",
+  "cycle_date": "2026-10-28",
   "week_of": "2026-10-26",
   "freshness": {
-    "cycle_date": "2026-10-26",
+    "cycle_date": "2026-10-28",
     "days_lookback": 5,
-    "cutoff": "2026-10-21 18:52 ET",
-    "new_count": 3,
+    "cutoff": "2026-10-23 18:51 ET",
+    "new_count": 2,
     "updated_count": 0
   },
   "sections": [
@@ -33,21 +33,20 @@
   ],
   "top_signals": [
     {
-      "id": "526234d751279181",
-      "headline": "Funding roundup",
+      "id": "4df8c7b491433ac9",
+      "headline": "AI resources and classroom lessons",
       "source": "Community College Daily",
-      "date": "2026-10-26",
-      "summary": "Massachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...",
-      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "url": "https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464",
+      "date": "2026-10-27",
+      "summary": "The 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of courses....",
+      "observation": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "why_it_matters": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "url": "https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons",
       "labels": [
         "NEW",
-        "MASSACHUSETTS",
         "COMMUNITY COLLEGE",
-        "WORKFORCE"
+        "AI"
       ],
-      "score": 43,
+      "score": 31,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -56,42 +55,20 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "88e73a29d99b4602",
-      "headline": "House Dems call to strengthen student supports",
+      "id": "beaee3f0387bbe7d",
+      "headline": "How college processes shape student experience",
       "source": "Community College Daily",
-      "date": "2026-10-25",
-      "summary": "A new report from Democrats on the House Education and Workforce Committee focuses on academic, financial and personal barriers that prevent students from completing credentials, with many of the recommended strategies tying to community colleges....",
-      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "url": "https://www.ccdaily.com/2026/10/house-dems-call-to-strengthen-student-supports/?utm_source=rss&utm_medium=rss&utm_campaign=house-dems-call-to-strengthen-student-supports",
+      "date": "2026-10-28",
+      "summary": "A working parent may complete a community college’s online application in minutes yet spend considerably more time navigating the requirements that follow. Submitting transcripts, meeting placement requirements, securing financial aid, meeting with an advisor and...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/how-college-processes-shape-student-experience/?utm_source=rss&utm_medium=rss&utm_campaign=how-college-processes-shape-student-experience",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "WORKFORCE"
+        "AFFORDABILITY"
       ],
-      "score": 37,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "f8aa2d6be3fdaeda",
-      "headline": "The Price of Closing a University Museum",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-26",
-      "summary": "The Price of Closing a University Museum kathryn.palmer… Mon, 10/26/2026 - 03:00 AM Fort Hays State University is closing its natural history museum to help absorb a $2.4 million state budget cut. Critics say it’s a short-term solution with potentially negative long-term consequences. Byline(s) Kathryn Palmer",
-      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/10/26/price-closing-university-museum",
-      "labels": [
-        "NEW",
-        "WORKFORCE",
-        "POLICY"
-      ],
-      "score": 25,
+      "score": 27,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -105,59 +82,62 @@
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
-  "why_this_matters_now": "The Massachusetts thread remains less about access in the abstract and more about whether colleges have enough capacity to support students once the door is open.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "pattern_this_cycle": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "why_this_matters_now": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
   "linkedin_angles": [
     {
-      "hook": "Funding roundup",
+      "hook": "AI resources and classroom lessons",
       "angle": "Best post opportunity this cycle",
-      "draft": "Funding roundup\n\nMassachusetts Gov. Maura Healey announced recently $1.5 million in workforce training grants to all 15 Massachusetts community colleges to help more than 500 unemployed and underemployed adults gain the skills they need to pursue good-paying...\n\nThis connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.\n\nFor Massachusetts colleges, the question is whether access policy is being matched by advising, transfer, and student-support capacity.\n\nSource: https://www.ccdaily.com/2026/10/funding-roundup-464/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-464"
+      "draft": "AI resources and classroom lessons\n\nThe 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of...\n\nThe AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons"
     }
   ],
   "watch_list": [
     {
-      "id": "c9f4fe437c52832f",
-      "headline": "Tech-focused opportunities with federal agencies",
+      "id": "3faf8aadfb538b7d",
+      "headline": "Six colleges show how to scale career and academic planning",
       "source": "Community College Daily",
-      "date": "2026-10-26",
-      "url": "https://www.ccdaily.com/2026/10/tech-focused-opportunities-with-federal-agencies/?utm_source=rss&utm_medium=rss&utm_campaign=tech-focused-opportunities-with-federal-agencies",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "POLICY"
-      ],
-      "score": 31
-    },
-    {
-      "id": "c6020bf4ed48cd53",
-      "headline": "ATE alumni credit experiences for their successes",
-      "source": "Community College Daily",
-      "date": "2026-10-24",
-      "url": "https://www.ccdaily.com/2026/10/ate-alumni-credit-experiences-for-their-successes/?utm_source=rss&utm_medium=rss&utm_campaign=ate-alumni-credit-experiences-for-their-successes",
+      "date": "2026-10-28",
+      "url": "https://www.ccdaily.com/2026/10/six-colleges-show-how-to-scale-student-planning/?utm_source=rss&utm_medium=rss&utm_campaign=six-colleges-show-how-to-scale-student-planning",
       "labels": [
         "COMMUNITY COLLEGE"
       ],
-      "score": 23
+      "score": 27
     },
     {
-      "id": "1f788b1e04fd4191",
-      "headline": "Michigan public universities lost over 5,000 students in fall 2026",
-      "source": "Higher Ed Dive",
-      "date": "2026-10-26",
-      "url": "https://www.highereddive.com/news/michigan-public-universities-lost-over-5000-students-in-fall-2026/872805/",
-      "labels": [],
-      "score": 18
-    },
-    {
-      "id": "0828b23d5ed4dfae",
-      "headline": "Your application numbers are probably lying to you",
+      "id": "dfeaddbd0fcff0e5",
+      "headline": "Building trust at close range",
       "source": "Community College Daily",
-      "date": "2026-10-26",
-      "url": "https://www.ccdaily.com/2026/10/your-application-numbers-are-probably-lying-to-you/?utm_source=rss&utm_medium=rss&utm_campaign=your-application-numbers-are-probably-lying-to-you",
+      "date": "2026-10-27",
+      "url": "https://www.ccdaily.com/2026/10/building-trust-at-close-range/?utm_source=rss&utm_medium=rss&utm_campaign=building-trust-at-close-range",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "180fa240f6c5239f",
+      "headline": "Fort Hays State Rescinds Natural History Museum Closure",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-28",
+      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/10/28/fort-hays-state-rescinds-natural-history-museum-closure",
       "labels": [],
-      "score": 18
+      "score": 14
+    },
+    {
+      "id": "0b7e84c18a1619ba",
+      "headline": "Colleges Embrace Streaming to Advertise Strengths",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-28",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/28/colleges-turn-streaming-recruit-prospective-students",
+      "labels": [],
+      "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
     {
       "label": "Cycle 2026-10-26",
       "url": "data/archive/2026-10-26.json"
@@ -237,15 +217,11 @@
     {
       "label": "Cycle 2026-08-31",
       "url": "data/archive/2026-08-31.json"
-    },
-    {
-      "label": "Cycle 2026-08-27",
-      "url": "data/archive/2026-08-27.json"
     }
   ],
-  "items_considered": 15,
+  "items_considered": 16,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:19:142: undefined entity",
+    "Inside Higher Ed: <unknown>:49:16: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",

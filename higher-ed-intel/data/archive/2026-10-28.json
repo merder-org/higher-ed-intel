@@ -1,0 +1,244 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-10-28 18:51 ET",
+  "cycle_date": "2026-10-28",
+  "week_of": "2026-10-26",
+  "freshness": {
+    "cycle_date": "2026-10-28",
+    "days_lookback": 5,
+    "cutoff": "2026-10-23 18:51 ET",
+    "new_count": 2,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "4df8c7b491433ac9",
+      "headline": "AI resources and classroom lessons",
+      "source": "Community College Daily",
+      "date": "2026-10-27",
+      "summary": "The 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of courses....",
+      "observation": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "why_it_matters": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "url": "https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "AI"
+      ],
+      "score": 31,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "beaee3f0387bbe7d",
+      "headline": "How college processes shape student experience",
+      "source": "Community College Daily",
+      "date": "2026-10-28",
+      "summary": "A working parent may complete a community college’s online application in minutes yet spend considerably more time navigating the requirements that follow. Submitting transcripts, meeting placement requirements, securing financial aid, meeting with an advisor and...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/how-college-processes-shape-student-experience/?utm_source=rss&utm_medium=rss&utm_campaign=how-college-processes-shape-student-experience",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "AFFORDABILITY"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "why_this_matters_now": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "linkedin_angles": [
+    {
+      "hook": "AI resources and classroom lessons",
+      "angle": "Best post opportunity this cycle",
+      "draft": "AI resources and classroom lessons\n\nThe 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of...\n\nThe AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "3faf8aadfb538b7d",
+      "headline": "Six colleges show how to scale career and academic planning",
+      "source": "Community College Daily",
+      "date": "2026-10-28",
+      "url": "https://www.ccdaily.com/2026/10/six-colleges-show-how-to-scale-student-planning/?utm_source=rss&utm_medium=rss&utm_campaign=six-colleges-show-how-to-scale-student-planning",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "dfeaddbd0fcff0e5",
+      "headline": "Building trust at close range",
+      "source": "Community College Daily",
+      "date": "2026-10-27",
+      "url": "https://www.ccdaily.com/2026/10/building-trust-at-close-range/?utm_source=rss&utm_medium=rss&utm_campaign=building-trust-at-close-range",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "180fa240f6c5239f",
+      "headline": "Fort Hays State Rescinds Natural History Museum Closure",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-28",
+      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/10/28/fort-hays-state-rescinds-natural-history-museum-closure",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "0b7e84c18a1619ba",
+      "headline": "Colleges Embrace Streaming to Advertise Strengths",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-28",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/28/colleges-turn-streaming-recruit-prospective-students",
+      "labels": [],
+      "score": 14
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    },
+    {
+      "label": "Cycle 2026-09-28",
+      "url": "data/archive/2026-09-28.json"
+    },
+    {
+      "label": "Cycle 2026-09-24",
+      "url": "data/archive/2026-09-24.json"
+    },
+    {
+      "label": "Cycle 2026-09-21",
+      "url": "data/archive/2026-09-21.json"
+    },
+    {
+      "label": "Cycle 2026-09-17",
+      "url": "data/archive/2026-09-17.json"
+    },
+    {
+      "label": "Cycle 2026-09-14",
+      "url": "data/archive/2026-09-14.json"
+    },
+    {
+      "label": "Cycle 2026-09-10",
+      "url": "data/archive/2026-09-10.json"
+    },
+    {
+      "label": "Cycle 2026-09-07",
+      "url": "data/archive/2026-09-07.json"
+    },
+    {
+      "label": "Cycle 2026-09-03",
+      "url": "data/archive/2026-09-03.json"
+    },
+    {
+      "label": "Cycle 2026-08-31",
+      "url": "data/archive/2026-08-31.json"
+    }
+  ],
+  "items_considered": 16,
+  "feed_errors": [
+    "Inside Higher Ed: <unknown>:49:16: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}
