@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-28 18:51 ET",
-  "cycle_date": "2026-10-28",
+  "generated_at": "2026-10-30 18:38 ET",
+  "cycle_date": "2026-10-30",
   "week_of": "2026-10-26",
   "freshness": {
-    "cycle_date": "2026-10-28",
+    "cycle_date": "2026-10-30",
     "days_lookback": 5,
-    "cutoff": "2026-10-23 18:51 ET",
-    "new_count": 2,
+    "cutoff": "2026-10-25 18:38 ET",
+    "new_count": 3,
     "updated_count": 0
   },
   "sections": [
@@ -33,18 +33,17 @@
   ],
   "top_signals": [
     {
-      "id": "4df8c7b491433ac9",
-      "headline": "AI resources and classroom lessons",
+      "id": "e4028b27740681af",
+      "headline": "An early look at fall enrollments",
       "source": "Community College Daily",
-      "date": "2026-10-27",
-      "summary": "The 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of courses....",
-      "observation": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
-      "why_it_matters": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
-      "url": "https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons",
+      "date": "2026-10-29",
+      "summary": "Community colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research Center....",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE",
-        "AI"
+        "COMMUNITY COLLEGE"
       ],
       "score": 31,
       "evidence": {
@@ -55,18 +54,38 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "beaee3f0387bbe7d",
-      "headline": "How college processes shape student experience",
-      "source": "Community College Daily",
-      "date": "2026-10-28",
-      "summary": "A working parent may complete a community college’s online application in minutes yet spend considerably more time navigating the requirements that follow. Submitting transcripts, meeting placement requirements, securing financial aid, meeting with an advisor and...",
+      "id": "757091468a6ef708",
+      "headline": "LaGuardia Creates Hub for Immigrant Students",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-30",
+      "summary": "LaGuardia Creates Hub for Immigrant Students Joshua.Bay Fri, 10/30/2026 - 03:00 AM Amid growing immigration enforcement concerns, the New York City community college has opened an office connecting students with legal, financial and academic resources. Byline(s) Joshua Bay",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/10/how-college-processes-shape-student-experience/?utm_source=rss&utm_medium=rss&utm_campaign=how-college-processes-shape-student-experience",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/10/30/laguardia-creates-hub-immigrant-students",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE",
-        "AFFORDABILITY"
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "2bf3e9e3aed54a26",
+      "headline": "What if Community Colleges Had Real Endowments?",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-30",
+      "summary": "What if Community Colleges Had Real Endowments? Sara Brady Fri, 10/30/2026 - 03:00 AM Should wealthy private universities set aside a portion of their largess for their two-year peers? Byline(s) Matt Reed",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/10/30/what-if-community-colleges-had-real",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
       ],
       "score": 27,
       "evidence": {
@@ -82,58 +101,62 @@
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
-  "why_this_matters_now": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
   "linkedin_angles": [
     {
-      "hook": "AI resources and classroom lessons",
+      "hook": "An early look at fall enrollments",
       "angle": "Best post opportunity this cycle",
-      "draft": "AI resources and classroom lessons\n\nThe 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of...\n\nThe AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons"
+      "draft": "An early look at fall enrollments\n\nCommunity colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research...\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments"
     }
   ],
   "watch_list": [
     {
-      "id": "3faf8aadfb538b7d",
-      "headline": "Six colleges show how to scale career and academic planning",
-      "source": "Community College Daily",
-      "date": "2026-10-28",
-      "url": "https://www.ccdaily.com/2026/10/six-colleges-show-how-to-scale-student-planning/?utm_source=rss&utm_medium=rss&utm_campaign=six-colleges-show-how-to-scale-student-planning",
-      "labels": [
-        "COMMUNITY COLLEGE"
-      ],
-      "score": 27
-    },
-    {
-      "id": "dfeaddbd0fcff0e5",
-      "headline": "Building trust at close range",
-      "source": "Community College Daily",
-      "date": "2026-10-27",
-      "url": "https://www.ccdaily.com/2026/10/building-trust-at-close-range/?utm_source=rss&utm_medium=rss&utm_campaign=building-trust-at-close-range",
-      "labels": [
-        "COMMUNITY COLLEGE"
-      ],
-      "score": 27
-    },
-    {
-      "id": "180fa240f6c5239f",
-      "headline": "Fort Hays State Rescinds Natural History Museum Closure",
+      "id": "b10be4999848b70a",
+      "headline": "Students’ Subject Choices ‘Not Matching Up to Workforce Needs’",
       "source": "Inside Higher Ed",
-      "date": "2026-10-28",
-      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/10/28/fort-hays-state-rescinds-natural-history-museum-closure",
-      "labels": [],
-      "score": 14
+      "date": "2026-10-30",
+      "url": "https://www.insidehighered.com/news/students/careers/2026/10/30/students-subject-choices-not-matching-workforce-needs",
+      "labels": [
+        "WORKFORCE"
+      ],
+      "score": 20
     },
     {
-      "id": "0b7e84c18a1619ba",
-      "headline": "Colleges Embrace Streaming to Advertise Strengths",
+      "id": "ea0347bb8d5c1906",
+      "headline": "4 in 10 Students Flag Digital Wagering Risks",
       "source": "Inside Higher Ed",
-      "date": "2026-10-28",
-      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/28/colleges-turn-streaming-recruit-prospective-students",
+      "date": "2026-10-30",
+      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/10/30/new-data-digital-wagering-higher-ed",
+      "labels": [
+        "STUDENT SUCCESS"
+      ],
+      "score": 20
+    },
+    {
+      "id": "99d6f9913bf5ee54",
+      "headline": "Undergraduate enrollment inched up this fall, while master’s dips 3.7%",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-29",
+      "url": "https://www.highereddive.com/news/undergraduate-enrollment-inched-up-this-fall-while-masters-dips-37/873114/",
       "labels": [],
-      "score": 14
+      "score": 18
+    },
+    {
+      "id": "dd3c6535cec16e70",
+      "headline": "Inside the Data Academy transforming Contra Costa College",
+      "source": "Achieving the Dream",
+      "date": "2026-10-29",
+      "url": "https://achievingthedream.org/inside-the-data-academy-transforming-contra-costa-college/?utm_source=rss&utm_medium=rss&utm_campaign=inside-the-data-academy-transforming-contra-costa-college",
+      "labels": [],
+      "score": 18
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-10-30",
+      "url": "data/archive/2026-10-30.json"
+    },
     {
       "label": "Cycle 2026-10-28",
       "url": "data/archive/2026-10-28.json"
@@ -213,15 +236,11 @@
     {
       "label": "Cycle 2026-09-03",
       "url": "data/archive/2026-09-03.json"
-    },
-    {
-      "label": "Cycle 2026-08-31",
-      "url": "data/archive/2026-08-31.json"
     }
   ],
   "items_considered": 16,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:49:16: undefined entity",
+    "Inside Higher Ed: <unknown>:49:72: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",

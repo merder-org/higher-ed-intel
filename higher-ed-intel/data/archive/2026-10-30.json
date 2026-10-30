@@ -1,0 +1,263 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-10-30 18:38 ET",
+  "cycle_date": "2026-10-30",
+  "week_of": "2026-10-26",
+  "freshness": {
+    "cycle_date": "2026-10-30",
+    "days_lookback": 5,
+    "cutoff": "2026-10-25 18:38 ET",
+    "new_count": 3,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "e4028b27740681af",
+      "headline": "An early look at fall enrollments",
+      "source": "Community College Daily",
+      "date": "2026-10-29",
+      "summary": "Community colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research Center....",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 31,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "757091468a6ef708",
+      "headline": "LaGuardia Creates Hub for Immigrant Students",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-30",
+      "summary": "LaGuardia Creates Hub for Immigrant Students Joshua.Bay Fri, 10/30/2026 - 03:00 AM Amid growing immigration enforcement concerns, the New York City community college has opened an office connecting students with legal, financial and academic resources. Byline(s) Joshua Bay",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/10/30/laguardia-creates-hub-immigrant-students",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "2bf3e9e3aed54a26",
+      "headline": "What if Community Colleges Had Real Endowments?",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-30",
+      "summary": "What if Community Colleges Had Real Endowments? Sara Brady Fri, 10/30/2026 - 03:00 AM Should wealthy private universities set aside a portion of their largess for their two-year peers? Byline(s) Matt Reed",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/10/30/what-if-community-colleges-had-real",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "linkedin_angles": [
+    {
+      "hook": "An early look at fall enrollments",
+      "angle": "Best post opportunity this cycle",
+      "draft": "An early look at fall enrollments\n\nCommunity colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research...\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "b10be4999848b70a",
+      "headline": "Students’ Subject Choices ‘Not Matching Up to Workforce Needs’",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-30",
+      "url": "https://www.insidehighered.com/news/students/careers/2026/10/30/students-subject-choices-not-matching-workforce-needs",
+      "labels": [
+        "WORKFORCE"
+      ],
+      "score": 20
+    },
+    {
+      "id": "ea0347bb8d5c1906",
+      "headline": "4 in 10 Students Flag Digital Wagering Risks",
+      "source": "Inside Higher Ed",
+      "date": "2026-10-30",
+      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/10/30/new-data-digital-wagering-higher-ed",
+      "labels": [
+        "STUDENT SUCCESS"
+      ],
+      "score": 20
+    },
+    {
+      "id": "99d6f9913bf5ee54",
+      "headline": "Undergraduate enrollment inched up this fall, while master’s dips 3.7%",
+      "source": "Higher Ed Dive",
+      "date": "2026-10-29",
+      "url": "https://www.highereddive.com/news/undergraduate-enrollment-inched-up-this-fall-while-masters-dips-37/873114/",
+      "labels": [],
+      "score": 18
+    },
+    {
+      "id": "dd3c6535cec16e70",
+      "headline": "Inside the Data Academy transforming Contra Costa College",
+      "source": "Achieving the Dream",
+      "date": "2026-10-29",
+      "url": "https://achievingthedream.org/inside-the-data-academy-transforming-contra-costa-college/?utm_source=rss&utm_medium=rss&utm_campaign=inside-the-data-academy-transforming-contra-costa-college",
+      "labels": [],
+      "score": 18
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-10-30",
+      "url": "data/archive/2026-10-30.json"
+    },
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    },
+    {
+      "label": "Cycle 2026-09-28",
+      "url": "data/archive/2026-09-28.json"
+    },
+    {
+      "label": "Cycle 2026-09-24",
+      "url": "data/archive/2026-09-24.json"
+    },
+    {
+      "label": "Cycle 2026-09-21",
+      "url": "data/archive/2026-09-21.json"
+    },
+    {
+      "label": "Cycle 2026-09-17",
+      "url": "data/archive/2026-09-17.json"
+    },
+    {
+      "label": "Cycle 2026-09-14",
+      "url": "data/archive/2026-09-14.json"
+    },
+    {
+      "label": "Cycle 2026-09-10",
+      "url": "data/archive/2026-09-10.json"
+    },
+    {
+      "label": "Cycle 2026-09-07",
+      "url": "data/archive/2026-09-07.json"
+    },
+    {
+      "label": "Cycle 2026-09-03",
+      "url": "data/archive/2026-09-03.json"
+    }
+  ],
+  "items_considered": 16,
+  "feed_errors": [
+    "Inside Higher Ed: <unknown>:49:72: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

@@ -1,45 +1,52 @@
-# Higher-Ed Intelligence Brief — 2026-10-28
+# Higher-Ed Intelligence Brief — 2026-10-30
 
-_Generated: 2026-10-28 18:51 ET_
+_Generated: 2026-10-30 18:38 ET_
 
 ## Developments Worth Watching
 
-### AI resources and classroom lessons
-- Source: Community College Daily (2026-10-27)
-- Labels: NEW, COMMUNITY COLLEGE, AI
-- Summary: The 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of courses....
-- What caught my attention: The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.
-- Link: https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons
-
-### How college processes shape student experience
-- Source: Community College Daily (2026-10-28)
-- Labels: NEW, COMMUNITY COLLEGE, AFFORDABILITY
-- Summary: A working parent may complete a community college’s online application in minutes yet spend considerably more time navigating the requirements that follow. Submitting transcripts, meeting placement requirements, securing financial aid, meeting with an advisor and...
+### An early look at fall enrollments
+- Source: Community College Daily (2026-10-29)
+- Labels: NEW, COMMUNITY COLLEGE
+- Summary: Community colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research Center....
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.ccdaily.com/2026/10/how-college-processes-shape-student-experience/?utm_source=rss&utm_medium=rss&utm_campaign=how-college-processes-shape-student-experience
+- Link: https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments
+
+### LaGuardia Creates Hub for Immigrant Students
+- Source: Inside Higher Ed (2026-10-30)
+- Labels: NEW, COMMUNITY COLLEGE
+- Summary: LaGuardia Creates Hub for Immigrant Students Joshua.Bay Fri, 10/30/2026 - 03:00 AM Amid growing immigration enforcement concerns, the New York City community college has opened an office connecting students with legal, financial and academic resources. Byline(s) Joshua Bay
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.insidehighered.com/news/student-success/college-experience/2026/10/30/laguardia-creates-hub-immigrant-students
+
+### What if Community Colleges Had Real Endowments?
+- Source: Inside Higher Ed (2026-10-30)
+- Labels: NEW, COMMUNITY COLLEGE
+- Summary: What if Community Colleges Had Real Endowments? Sara Brady Fri, 10/30/2026 - 03:00 AM Should wealthy private universities set aside a portion of their largess for their two-year peers? Byline(s) Matt Reed
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/10/30/what-if-community-colleges-had-real
 
 ## Pattern I’m Seeing
 
-The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.
+The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.
 
 ## Draft LinkedIn Briefs for Editing
 
-### AI resources and classroom lessons
+### An early look at fall enrollments
 - Angle: Best post opportunity this cycle
 
-AI resources and classroom lessons
+An early look at fall enrollments
 
-The 2026 Advanced Technological Education Principal Investigators’ Conference last week showcased numerous free resources to help community college faculty add artificial intelligence (AI) certificate and degree programs and incorporate AI into a range of...
+Community colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research...
 
-The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.
+This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
 
 For community colleges, the question is whether the implementation capacity matches the ambition.
 
-Source: https://www.ccdaily.com/2026/10/ai-resources-and-classroom-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=ai-resources-and-classroom-lessons
+Source: https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments
 
 ## Watch List
 
-- Six colleges show how to scale career and academic planning (Community College Daily, 2026-10-28)
-- Building trust at close range (Community College Daily, 2026-10-27)
-- Fort Hays State Rescinds Natural History Museum Closure (Inside Higher Ed, 2026-10-28)
-- Colleges Embrace Streaming to Advertise Strengths (Inside Higher Ed, 2026-10-28)
+- Students’ Subject Choices ‘Not Matching Up to Workforce Needs’ (Inside Higher Ed, 2026-10-30)
+- 4 in 10 Students Flag Digital Wagering Risks (Inside Higher Ed, 2026-10-30)
+- Undergraduate enrollment inched up this fall, while master’s dips 3.7% (Higher Ed Dive, 2026-10-29)
+- Inside the Data Academy transforming Contra Costa College (Achieving the Dream, 2026-10-29)
