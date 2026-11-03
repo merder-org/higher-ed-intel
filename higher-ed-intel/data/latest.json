@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-10-30 18:38 ET",
-  "cycle_date": "2026-10-30",
-  "week_of": "2026-10-26",
+  "generated_at": "2026-11-02 20:17 ET",
+  "cycle_date": "2026-11-02",
+  "week_of": "2026-11-02",
   "freshness": {
-    "cycle_date": "2026-10-30",
+    "cycle_date": "2026-11-02",
     "days_lookback": 5,
-    "cutoff": "2026-10-25 18:38 ET",
-    "new_count": 3,
+    "cutoff": "2026-10-28 20:17 ET",
+    "new_count": 4,
     "updated_count": 0
   },
   "sections": [
@@ -33,19 +33,22 @@
   ],
   "top_signals": [
     {
-      "id": "e4028b27740681af",
-      "headline": "An early look at fall enrollments",
+      "id": "ecb837cb6c7f26da",
+      "headline": "Community colleges and AI: Learning from past mistakes",
       "source": "Community College Daily",
-      "date": "2026-10-29",
-      "summary": "Community colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research Center....",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments",
+      "date": "2026-11-02",
+      "summary": "Community colleges need to understand how artificial intelligence (AI) impacts them, and they also need to consider how to teach AI within the workforce programs offered to students and employers. Aside from Workforce Pell, no...",
+      "observation": "This is now an implementation story rather than a policy announcement. The useful questions are which programs qualify, how quickly colleges can build compliant offerings, and whether students receive enough guidance to judge short-term credentials well.",
+      "why_it_matters": "This is now an implementation story rather than a policy announcement. The useful questions are which programs qualify, how quickly colleges can build compliant offerings, and whether students receive enough guidance to judge short-term credentials well.",
+      "url": "https://www.ccdaily.com/2026/11/community-colleges-and-ai-learning-from-past-mistakes/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-and-ai-learning-from-past-mistakes",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE"
+        "COMMUNITY COLLEGE",
+        "WORKFORCE",
+        "AFFORDABILITY",
+        "AI"
       ],
-      "score": 31,
+      "score": 42,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -54,19 +57,20 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "757091468a6ef708",
-      "headline": "LaGuardia Creates Hub for Immigrant Students",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-30",
-      "summary": "LaGuardia Creates Hub for Immigrant Students Joshua.Bay Fri, 10/30/2026 - 03:00 AM Amid growing immigration enforcement concerns, the New York City community college has opened an office connecting students with legal, financial and academic resources. Byline(s) Joshua Bay",
+      "id": "5a008078e004ab97",
+      "headline": "Do you really need to spend money on media monitoring services?",
+      "source": "Community College Daily",
+      "date": "2026-10-31",
+      "summary": "Many community colleges spend a significant amount of their marketing budget each year on media monitoring services like Cision or Meltwater, and for several years our institution was no exception. But over time, the weaknesses...",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/10/30/laguardia-creates-hub-immigrant-students",
+      "url": "https://www.ccdaily.com/2026/10/do-you-really-need-to-spend-money-on-media-monitoring-services/?utm_source=rss&utm_medium=rss&utm_campaign=do-you-really-need-to-spend-money-on-media-monitoring-services",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE"
+        "COMMUNITY COLLEGE",
+        "POLICY"
       ],
-      "score": 27,
+      "score": 34,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -75,17 +79,39 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "2bf3e9e3aed54a26",
-      "headline": "What if Community Colleges Had Real Endowments?",
+      "id": "c04df2e0faa4d071",
+      "headline": "What Will Become of America’s Research Institutions?",
       "source": "Inside Higher Ed",
-      "date": "2026-10-30",
-      "summary": "What if Community Colleges Had Real Endowments? Sara Brady Fri, 10/30/2026 - 03:00 AM Should wealthy private universities set aside a portion of their largess for their two-year peers? Byline(s) Matt Reed",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/10/30/what-if-community-colleges-had-real",
+      "date": "2026-11-02",
+      "summary": "What Will Become of America’s Research Institutions? Susan H. Greenberg Mon, 11/02/2026 - 03:00 AM Drawing on his new book, former Boston University President Robert Brown discusses the evolving role of universities in the U.S. research enterprise. Byline(s) Susan H. Greenberg",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/institutions/research-universities/2026/11/02/storied-past-and-murky-future-research",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE"
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 30,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "f0dc12e60c650c76",
+      "headline": "Academic Freedom Protects Politics",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-02",
+      "summary": "Academic Freedom Protects Politics Sara Brady Mon, 11/02/2026 - 03:00 AM Attempts to suppress “political” ideas have no place in a free country or a free university. Byline(s) John K. Wilson",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/opinion/columns/debatable-ideas/2026/11/02/academic-freedom-protects-politics",
+      "labels": [
+        "NEW",
+        "GOVERNANCE"
       ],
       "score": 27,
       "evidence": {
@@ -96,63 +122,125 @@
       "retrieval_method": "rss"
     }
   ],
-  "research_context": [],
+  "research_context": [
+    {
+      "headline": "Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College",
+      "summary": "Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-08",
+      "evidence": {
+        "findings": [
+          "The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college."
+        ],
+        "methods": [
+          "Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "527733d9fbdaeff1",
+      "date": "2026-08",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "EARLY COLLEGE"
+      ],
+      "score": 19,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    },
+    {
+      "headline": "Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement",
+      "summary": "As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-05",
+      "evidence": {
+        "findings": [
+          "The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree.",
+          "And the findings suggest the dual momentum metrics are reliable predictors of subsequent college outcomes across student gender and race/ethnicity, Title I high school status, and high school urbanicity."
+        ],
+        "methods": [
+          "Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "4e80062afa418b64",
+      "date": "2026-05",
+      "labels": [
+        "STUDENT SUCCESS",
+        "EARLY COLLEGE"
+      ],
+      "score": 12,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    }
+  ],
   "priority_coverage": {
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
-  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
   "linkedin_angles": [
     {
-      "hook": "An early look at fall enrollments",
+      "hook": "Community colleges and AI: Learning from past mistakes",
       "angle": "Best post opportunity this cycle",
-      "draft": "An early look at fall enrollments\n\nCommunity colleges remain the strongest-performing sector in higher education enrollment, even as overall undergraduate growth appears to be slowing this fall, according to preliminary data released today by the National Student Clearinghouse (NSC) Research...\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/10/an-early-look-at-fall-enrollments/?utm_source=rss&utm_medium=rss&utm_campaign=an-early-look-at-fall-enrollments"
+      "draft": "Community colleges and AI: Learning from past mistakes\n\nCommunity colleges need to understand how artificial intelligence (AI) impacts them, and they also need to consider how to teach AI within the workforce programs offered to students and employers. Aside from Workforce Pell, no...\n\nThis is now an implementation story rather than a policy announcement. The useful questions are which programs qualify, how quickly colleges can build compliant offerings, and whether students receive enough guidance to judge short-term credentials well.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/community-colleges-and-ai-learning-from-past-mistakes/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-and-ai-learning-from-past-mistakes"
     }
   ],
   "watch_list": [
     {
-      "id": "b10be4999848b70a",
-      "headline": "Students’ Subject Choices ‘Not Matching Up to Workforce Needs’",
-      "source": "Inside Higher Ed",
-      "date": "2026-10-30",
-      "url": "https://www.insidehighered.com/news/students/careers/2026/10/30/students-subject-choices-not-matching-workforce-needs",
+      "id": "e910148f7760cfe7",
+      "headline": "Houston Endowment invests $33M in Gulf Coast colleges",
+      "source": "Community College Daily",
+      "date": "2026-11-01",
+      "url": "https://www.ccdaily.com/2026/11/houston-endowment-invests-33m-in-gulf-coast-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=houston-endowment-invests-33m-in-gulf-coast-colleges",
       "labels": [
-        "WORKFORCE"
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "dda42eb1fc35ec27",
+      "headline": "We are all living on the frontier: Why higher education needs wayfinding leadership",
+      "source": "Community College Daily",
+      "date": "2026-11-01",
+      "url": "https://www.ccdaily.com/2026/11/we-are-all-living-on-the-frontier-why-higher-education-needs-wayfinding-leadership/?utm_source=rss&utm_medium=rss&utm_campaign=we-are-all-living-on-the-frontier-why-higher-education-needs-wayfinding-leadership",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "9f8877e4ac8bc8d6",
+      "headline": "Colleges Prepare for Credit Transfer Regulations",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-02",
+      "url": "https://www.insidehighered.com/news/government/2026/11/02/colleges-prepare-credit-transfer-regulations",
+      "labels": [
+        "TRANSFER"
       ],
       "score": 20
     },
     {
-      "id": "ea0347bb8d5c1906",
-      "headline": "4 in 10 Students Flag Digital Wagering Risks",
+      "id": "e30bfd922583268e",
+      "headline": "Ahead of Midterms, Faculty Report Self-Censoring on DEI, Politics",
       "source": "Inside Higher Ed",
-      "date": "2026-10-30",
-      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/10/30/new-data-digital-wagering-higher-ed",
-      "labels": [
-        "STUDENT SUCCESS"
-      ],
-      "score": 20
-    },
-    {
-      "id": "99d6f9913bf5ee54",
-      "headline": "Undergraduate enrollment inched up this fall, while master’s dips 3.7%",
-      "source": "Higher Ed Dive",
-      "date": "2026-10-29",
-      "url": "https://www.highereddive.com/news/undergraduate-enrollment-inched-up-this-fall-while-masters-dips-37/873114/",
-      "labels": [],
-      "score": 18
-    },
-    {
-      "id": "dd3c6535cec16e70",
-      "headline": "Inside the Data Academy transforming Contra Costa College",
-      "source": "Achieving the Dream",
-      "date": "2026-10-29",
-      "url": "https://achievingthedream.org/inside-the-data-academy-transforming-contra-costa-college/?utm_source=rss&utm_medium=rss&utm_campaign=inside-the-data-academy-transforming-contra-costa-college",
+      "date": "2026-11-02",
+      "url": "https://www.insidehighered.com/news/faculty/academic-freedom/2026/11/02/faculty-report-self-censoring-dei-politics",
       "labels": [],
       "score": 18
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-02",
+      "url": "data/archive/2026-11-02.json"
+    },
     {
       "label": "Cycle 2026-10-30",
       "url": "data/archive/2026-10-30.json"
@@ -232,15 +320,11 @@
     {
       "label": "Cycle 2026-09-07",
       "url": "data/archive/2026-09-07.json"
-    },
-    {
-      "label": "Cycle 2026-09-03",
-      "url": "data/archive/2026-09-03.json"
     }
   ],
   "items_considered": 16,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:49:72: undefined entity",
+    "Inside Higher Ed: <unknown>:153:16: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
