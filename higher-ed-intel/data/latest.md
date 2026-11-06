@@ -1,52 +1,59 @@
-# Higher-Ed Intelligence Brief — 2026-11-04
+# Higher-Ed Intelligence Brief — 2026-11-06
 
-_Generated: 2026-11-04 18:55 ET_
+_Generated: 2026-11-06 18:30 ET_
 
 ## Developments Worth Watching
 
-### Wanted: Vice presidents and middle managers
-- Source: Community College Daily (2026-11-03)
-- Labels: NEW, COMMUNITY COLLEGE, GOVERNANCE, LEADERSHIP
-- Summary: Much has been written about filling the “presidential pipeline” at community colleges. But current presidents also worry about filling the vice president pipeline at their colleges. “I spend a lot of time thinking about the...
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.ccdaily.com/2026/11/wanted-vice-presidents-and-middle-managers/?utm_source=rss&utm_medium=rss&utm_campaign=wanted-vice-presidents-and-middle-managers
+### Unlocking more STEM talent through transfer
+- Source: Community College Daily (2026-11-05)
+- Labels: NEW, COMMUNITY COLLEGE, TRANSFER
+- Summary: Community colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...
+- What caught my attention: This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
+- Link: https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer
 
-### AAC&U president leaves Coalition for the Common Good board
-- Source: Higher Ed Dive (2026-11-04)
-- Labels: NEW, GOVERNANCE, LEADERSHIP
-- Summary: The coalition’s governance dispute with founding member Antioch University could worsen with the departure of its only independent board member.
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.highereddive.com/news/aacu-president-leaves-coalition-for-the-common-good-board/873813/
+### Beyond affordability: The strategic role of community college financial aid
+- Source: Community College Daily (2026-11-05)
+- Labels: NEW, COMMUNITY COLLEGE, AFFORDABILITY
+- Summary: Often tucked away in a student services corridor and fielding referrals from mystified faculty, staff and administrators, the financial aid office is a strategic, yet often overlooked, community college asset. Strategic financial aid design helps...
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.ccdaily.com/2026/11/beyond-affordability-the-strategic-role-of-community-college-financial-aid/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-affordability-the-strategic-role-of-community-college-financial-aid
 
-### Abrupt leadership departures at two private universities
-- Source: Higher Ed Dive (2026-11-03)
-- Labels: NEW, GOVERNANCE, LEADERSHIP
-- Summary: Bard College announced its next leader amid ongoing scrutiny. Plus, a Colorado president will step down after two decades at her university.
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.highereddive.com/news/abrupt-leadership-departures-at-two-private-universities/873483/
+### University of Maine offers buyouts to 158 faculty members as it cuts budget
+- Source: Higher Ed Dive (2026-11-06)
+- Labels: NEW, POLICY
+- Summary: Leaders of the public institution say they are trying to minimize layoffs as they slash away at a $19 million structural deficit.
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.highereddive.com/news/university-of-maine-offers-buyouts-to-158-faculty-members-as-it-cuts-budget/874027/
+
+### DOJ sues Penn State over in-state tuition for undocumented students
+- Source: Higher Ed Dive (2026-11-06)
+- Labels: NEW, AFFORDABILITY, POLICY
+- Summary: The federal agency appears to be turning its sights on individual colleges after filing lawsuits over all such policies at the state level.
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.highereddive.com/news/doj-sues-penn-state-over-in-state-tuition-for-undocumented-students/874039/
 
 ## Pattern I’m Seeing
 
-The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
+The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.
 
 ## Draft LinkedIn Briefs for Editing
 
-### Wanted: Vice presidents and middle managers
+### Unlocking more STEM talent through transfer
 - Angle: Best post opportunity this cycle
 
-Wanted: Vice presidents and middle managers
+Unlocking more STEM talent through transfer
 
-Much has been written about filling the “presidential pipeline” at community colleges. But current presidents also worry about filling the vice president pipeline at their colleges. “I spend a lot of time thinking about the...
+Community colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...
 
-The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
 
-For community colleges, the question is whether the implementation capacity matches the ambition.
+The practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.
 
-Source: https://www.ccdaily.com/2026/11/wanted-vice-presidents-and-middle-managers/?utm_source=rss&utm_medium=rss&utm_campaign=wanted-vice-presidents-and-middle-managers
+Source: https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer
 
 ## Watch List
 
-- Higher Ed Groups Condemn Proposal That Could Ax Private College Tax Exemptions (Inside Higher Ed, 2026-11-04)
-- Helping Students Make It to Year 2 (Inside Higher Ed, 2026-11-04)
-- The 7 Silos of Accountability (Inside Higher Ed, 2026-11-04)
-- The Value of the Fine Arts in the Age of AI (Inside Higher Ed, 2026-11-04)
+- Sticker price increases 2.4% for two-year colleges (Community College Daily, 2026-11-05)
+- How Young Voters Fueled Democratic Victories (Inside Higher Ed, 2026-11-06)
+- Net College Tuition Prices Keep Falling (Inside Higher Ed, 2026-11-06)
+- New College Cancels Russell Brand Appearance (Inside Higher Ed, 2026-11-06)

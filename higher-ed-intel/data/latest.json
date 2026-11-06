@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-04 18:55 ET",
-  "cycle_date": "2026-11-04",
+  "generated_at": "2026-11-06 18:30 ET",
+  "cycle_date": "2026-11-06",
   "week_of": "2026-11-02",
   "freshness": {
-    "cycle_date": "2026-11-04",
+    "cycle_date": "2026-11-06",
     "days_lookback": 5,
-    "cutoff": "2026-10-30 18:55 ET",
-    "new_count": 3,
+    "cutoff": "2026-11-01 18:30 ET",
+    "new_count": 4,
     "updated_count": 0
   },
   "sections": [
@@ -33,21 +33,44 @@
   ],
   "top_signals": [
     {
-      "id": "754554eea035f524",
-      "headline": "Wanted: Vice presidents and middle managers",
+      "id": "6d7a44c8b1c6f68f",
+      "headline": "Unlocking more STEM talent through transfer",
       "source": "Community College Daily",
-      "date": "2026-11-03",
-      "summary": "Much has been written about filling the “presidential pipeline” at community colleges. But current presidents also worry about filling the vice president pipeline at their colleges. “I spend a lot of time thinking about the...",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.ccdaily.com/2026/11/wanted-vice-presidents-and-middle-managers/?utm_source=rss&utm_medium=rss&utm_campaign=wanted-vice-presidents-and-middle-managers",
+      "date": "2026-11-05",
+      "summary": "Community colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...",
+      "observation": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
+      "why_it_matters": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
+      "url": "https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "GOVERNANCE",
-        "LEADERSHIP"
+        "TRANSFER"
       ],
-      "score": 43,
+      "score": 45,
+      "evidence": {
+        "findings": [
+          "New research finds community college students..."
+        ],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "4fcb11652ad14d84",
+      "headline": "Beyond affordability: The strategic role of community college financial aid",
+      "source": "Community College Daily",
+      "date": "2026-11-05",
+      "summary": "Often tucked away in a student services corridor and fielding referrals from mystified faculty, staff and administrators, the financial aid office is a strategic, yet often overlooked, community college asset. Strategic financial aid design helps...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/11/beyond-affordability-the-strategic-role-of-community-college-financial-aid/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-affordability-the-strategic-role-of-community-college-financial-aid",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "AFFORDABILITY"
+      ],
+      "score": 27,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -56,20 +79,19 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "dcd09baccb1a32c2",
-      "headline": "AAC&U president leaves Coalition for the Common Good board",
+      "id": "867f3afae0196e2c",
+      "headline": "University of Maine offers buyouts to 158 faculty members as it cuts budget",
       "source": "Higher Ed Dive",
-      "date": "2026-11-04",
-      "summary": "The coalition’s governance dispute with founding member Antioch University could worsen with the departure of its only independent board member.",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.highereddive.com/news/aacu-president-leaves-coalition-for-the-common-good-board/873813/",
+      "date": "2026-11-06",
+      "summary": "Leaders of the public institution say they are trying to minimize layoffs as they slash away at a $19 million structural deficit.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/university-of-maine-offers-buyouts-to-158-faculty-members-as-it-cuts-budget/874027/",
       "labels": [
         "NEW",
-        "GOVERNANCE",
-        "LEADERSHIP"
+        "POLICY"
       ],
-      "score": 37,
+      "score": 25,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -78,20 +100,20 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "3fd0ce3513167436",
-      "headline": "Abrupt leadership departures at two private universities",
+      "id": "3161e13d95fc9b07",
+      "headline": "DOJ sues Penn State over in-state tuition for undocumented students",
       "source": "Higher Ed Dive",
-      "date": "2026-11-03",
-      "summary": "Bard College announced its next leader amid ongoing scrutiny. Plus, a Colorado president will step down after two decades at her university.",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.highereddive.com/news/abrupt-leadership-departures-at-two-private-universities/873483/",
+      "date": "2026-11-06",
+      "summary": "The federal agency appears to be turning its sights on individual colleges after filing lawsuits over all such policies at the state level.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/doj-sues-penn-state-over-in-state-tuition-for-undocumented-students/874039/",
       "labels": [
         "NEW",
-        "GOVERNANCE",
-        "LEADERSHIP"
+        "AFFORDABILITY",
+        "POLICY"
       ],
-      "score": 30,
+      "score": 18,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -105,54 +127,63 @@
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
-  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
   "linkedin_angles": [
     {
-      "hook": "Wanted: Vice presidents and middle managers",
+      "hook": "Unlocking more STEM talent through transfer",
       "angle": "Best post opportunity this cycle",
-      "draft": "Wanted: Vice presidents and middle managers\n\nMuch has been written about filling the “presidential pipeline” at community colleges. But current presidents also worry about filling the vice president pipeline at their colleges. “I spend a lot of time thinking about the...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/wanted-vice-presidents-and-middle-managers/?utm_source=rss&utm_medium=rss&utm_campaign=wanted-vice-presidents-and-middle-managers"
+      "draft": "Unlocking more STEM talent through transfer\n\nCommunity colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...\n\nThis is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer"
     }
   ],
   "watch_list": [
     {
-      "id": "f41f24e1a89389ff",
-      "headline": "Higher Ed Groups Condemn Proposal That Could Ax Private College Tax Exemptions",
+      "id": "d26cd39b99b4027f",
+      "headline": "Sticker price increases 2.4% for two-year colleges",
+      "source": "Community College Daily",
+      "date": "2026-11-05",
+      "url": "https://www.ccdaily.com/2026/11/sticker-price-increases-2-4-for-two-year-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=sticker-price-increases-2-4-for-two-year-colleges",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "AFFORDABILITY"
+      ],
+      "score": 19
+    },
+    {
+      "id": "c9fe8ffee1fa4bc7",
+      "headline": "How Young Voters Fueled Democratic Victories",
       "source": "Inside Higher Ed",
-      "date": "2026-11-04",
-      "url": "https://www.insidehighered.com/news/institutions/private-nonprofit-colleges/2026/11/04/proposal-could-ax-college-tax-exemptions",
+      "date": "2026-11-06",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/06/how-young-voters-fueled-democratic-victories",
       "labels": [],
+      "score": 18
+    },
+    {
+      "id": "1b2d4403d541b4db",
+      "headline": "Net College Tuition Prices Keep Falling",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-06",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/06/net-college-tuition-prices-keep-falling",
+      "labels": [
+        "AFFORDABILITY"
+      ],
       "score": 14
     },
     {
-      "id": "9ad7422cf25938b6",
-      "headline": "Helping Students Make It to Year 2",
+      "id": "ff66b50195c1d33e",
+      "headline": "New College Cancels Russell Brand Appearance",
       "source": "Inside Higher Ed",
-      "date": "2026-11-04",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/04/helping-students-make-it-year-2",
-      "labels": [],
-      "score": 14
-    },
-    {
-      "id": "e736586e17fe553a",
-      "headline": "The 7 Silos of Accountability",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-04",
-      "url": "https://www.insidehighered.com/opinion/views/2026/11/04/7-silos-accountability-opinion",
-      "labels": [],
-      "score": 14
-    },
-    {
-      "id": "9b8ea11b069e83d0",
-      "headline": "The Value of the Fine Arts in the Age of AI",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-04",
-      "url": "https://www.insidehighered.com/opinion/columns/small-world/2026/11/04/value-fine-arts-age-ai",
+      "date": "2026-11-06",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/06/new-college-cancels-russell-brand-appearance",
       "labels": [],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-06",
+      "url": "data/archive/2026-11-06.json"
+    },
     {
       "label": "Cycle 2026-11-04",
       "url": "data/archive/2026-11-04.json"
@@ -232,14 +263,11 @@
     {
       "label": "Cycle 2026-09-14",
       "url": "data/archive/2026-09-14.json"
-    },
-    {
-      "label": "Cycle 2026-09-10",
-      "url": "data/archive/2026-09-10.json"
     }
   ],
-  "items_considered": 13,
+  "items_considered": 14,
   "feed_errors": [
+    "Inside Higher Ed: <unknown>:179:148: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
