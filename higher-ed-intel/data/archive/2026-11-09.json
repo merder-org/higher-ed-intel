@@ -1,0 +1,266 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-11-09 20:45 ET",
+  "cycle_date": "2026-11-09",
+  "week_of": "2026-11-09",
+  "freshness": {
+    "cycle_date": "2026-11-09",
+    "days_lookback": 5,
+    "cutoff": "2026-11-04 20:45 ET",
+    "new_count": 3,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "2016faf842ee01b8",
+      "headline": "The Untapped Potential of STEM Transfer Students",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "summary": "The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates. Byline(s) Joshua Bay",
+      "observation": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
+      "why_it_matters": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "TRANSFER"
+      ],
+      "score": 37,
+      "evidence": {
+        "findings": [
+          "The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates."
+        ],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "f481eb393b630afa",
+      "headline": "Helping shipbuilders weather a perfect storm",
+      "source": "Community College Daily",
+      "date": "2026-11-07",
+      "summary": "America’s shipbuilding needs are growing faster than the skilled workforce required to fulfill them — and community colleges are rising to meet this challenge by scaling up short-term training programs in response to the demand....",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/11/helping-shipbuilders-weather-a-perfect-storm/?utm_source=rss&utm_medium=rss&utm_campaign=helping-shipbuilders-weather-a-perfect-storm",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 29,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "e3d2248a04eaa7f2",
+      "headline": "Funding roundup",
+      "source": "Community College Daily",
+      "date": "2026-11-09",
+      "summary": "More affordable housing will soon be available for San Diego Community College District (SDCCD) students. The San Diego Regional Housing Finance Authority (SDRHFA), established by SDCCD and San Diego Unified School District, has secured $6.5...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/11/funding-roundup-466/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-466",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 21,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "why_this_matters_now": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "linkedin_angles": [
+    {
+      "hook": "The Untapped Potential of STEM Transfer Students",
+      "angle": "Best post opportunity this cycle",
+      "draft": "The Untapped Potential of STEM Transfer Students\n\nThe Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future...\n\nThis is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "8140a9cb389af1c6",
+      "headline": "As Government Encroaches, Presidents Must ‘Lead the Sector’",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/governance/state-oversight/2026/11/09/government-encroaches-presidents-must-lead-sector",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "384c8b34a5ed12e8",
+      "headline": "The Big Business of HBCU Homecomings",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/11/09/big-business-hbcu-homecomings",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "5042fca5096c3582",
+      "headline": "New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "5666c372e6177706",
+      "headline": "DOJ Sues Penn State Over In-State Tuition for Noncitizens",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/government/courts/2026/11/09/doj-sues-penn-state-over-state-tuition-noncitizens",
+      "labels": [
+        "AFFORDABILITY"
+      ],
+      "score": 14
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-11-09",
+      "url": "data/archive/2026-11-09.json"
+    },
+    {
+      "label": "Cycle 2026-11-06",
+      "url": "data/archive/2026-11-06.json"
+    },
+    {
+      "label": "Cycle 2026-11-04",
+      "url": "data/archive/2026-11-04.json"
+    },
+    {
+      "label": "Cycle 2026-11-02",
+      "url": "data/archive/2026-11-02.json"
+    },
+    {
+      "label": "Cycle 2026-10-30",
+      "url": "data/archive/2026-10-30.json"
+    },
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    },
+    {
+      "label": "Cycle 2026-09-28",
+      "url": "data/archive/2026-09-28.json"
+    },
+    {
+      "label": "Cycle 2026-09-24",
+      "url": "data/archive/2026-09-24.json"
+    },
+    {
+      "label": "Cycle 2026-09-21",
+      "url": "data/archive/2026-09-21.json"
+    },
+    {
+      "label": "Cycle 2026-09-17",
+      "url": "data/archive/2026-09-17.json"
+    }
+  ],
+  "items_considered": 12,
+  "feed_errors": [
+    "Inside Higher Ed: <unknown>:75:27: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "The Mentor: Innovative Scholarship on Academic Advising: robots.txt unavailable; monitoring skipped",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

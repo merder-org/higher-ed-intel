@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-06 18:30 ET",
-  "cycle_date": "2026-11-06",
-  "week_of": "2026-11-02",
+  "generated_at": "2026-11-09 20:45 ET",
+  "cycle_date": "2026-11-09",
+  "week_of": "2026-11-09",
   "freshness": {
-    "cycle_date": "2026-11-06",
+    "cycle_date": "2026-11-09",
     "days_lookback": 5,
-    "cutoff": "2026-11-01 18:30 ET",
-    "new_count": 4,
+    "cutoff": "2026-11-04 20:45 ET",
+    "new_count": 3,
     "updated_count": 0
   },
   "sections": [
@@ -33,23 +33,23 @@
   ],
   "top_signals": [
     {
-      "id": "6d7a44c8b1c6f68f",
-      "headline": "Unlocking more STEM talent through transfer",
-      "source": "Community College Daily",
-      "date": "2026-11-05",
-      "summary": "Community colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...",
+      "id": "2016faf842ee01b8",
+      "headline": "The Untapped Potential of STEM Transfer Students",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "summary": "The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates. Byline(s) Joshua Bay",
       "observation": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
       "why_it_matters": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
-      "url": "https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
         "TRANSFER"
       ],
-      "score": 45,
+      "score": 37,
       "evidence": {
         "findings": [
-          "New research finds community college students..."
+          "The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates."
         ],
         "methods": [],
         "limitations": []
@@ -57,20 +57,20 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "4fcb11652ad14d84",
-      "headline": "Beyond affordability: The strategic role of community college financial aid",
+      "id": "f481eb393b630afa",
+      "headline": "Helping shipbuilders weather a perfect storm",
       "source": "Community College Daily",
-      "date": "2026-11-05",
-      "summary": "Often tucked away in a student services corridor and fielding referrals from mystified faculty, staff and administrators, the financial aid office is a strategic, yet often overlooked, community college asset. Strategic financial aid design helps...",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/11/beyond-affordability-the-strategic-role-of-community-college-financial-aid/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-affordability-the-strategic-role-of-community-college-financial-aid",
+      "date": "2026-11-07",
+      "summary": "America’s shipbuilding needs are growing faster than the skilled workforce required to fulfill them — and community colleges are rising to meet this challenge by scaling up short-term training programs in response to the demand....",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/11/helping-shipbuilders-weather-a-perfect-storm/?utm_source=rss&utm_medium=rss&utm_campaign=helping-shipbuilders-weather-a-perfect-storm",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "AFFORDABILITY"
+        "WORKFORCE"
       ],
-      "score": 27,
+      "score": 29,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -79,41 +79,19 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "867f3afae0196e2c",
-      "headline": "University of Maine offers buyouts to 158 faculty members as it cuts budget",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-06",
-      "summary": "Leaders of the public institution say they are trying to minimize layoffs as they slash away at a $19 million structural deficit.",
+      "id": "e3d2248a04eaa7f2",
+      "headline": "Funding roundup",
+      "source": "Community College Daily",
+      "date": "2026-11-09",
+      "summary": "More affordable housing will soon be available for San Diego Community College District (SDCCD) students. The San Diego Regional Housing Finance Authority (SDRHFA), established by SDCCD and San Diego Unified School District, has secured $6.5...",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/university-of-maine-offers-buyouts-to-158-faculty-members-as-it-cuts-budget/874027/",
+      "url": "https://www.ccdaily.com/2026/11/funding-roundup-466/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-466",
       "labels": [
         "NEW",
-        "POLICY"
+        "COMMUNITY COLLEGE"
       ],
-      "score": 25,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "3161e13d95fc9b07",
-      "headline": "DOJ sues Penn State over in-state tuition for undocumented students",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-06",
-      "summary": "The federal agency appears to be turning its sights on individual colleges after filing lawsuits over all such policies at the state level.",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/doj-sues-penn-state-over-in-state-tuition-for-undocumented-students/874039/",
-      "labels": [
-        "NEW",
-        "AFFORDABILITY",
-        "POLICY"
-      ],
-      "score": 18,
+      "score": 21,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -127,59 +105,60 @@
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
-  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "pattern_this_cycle": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "why_this_matters_now": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
   "linkedin_angles": [
     {
-      "hook": "Unlocking more STEM talent through transfer",
+      "hook": "The Untapped Potential of STEM Transfer Students",
       "angle": "Best post opportunity this cycle",
-      "draft": "Unlocking more STEM talent through transfer\n\nCommunity colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...\n\nThis is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer"
+      "draft": "The Untapped Potential of STEM Transfer Students\n\nThe Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future...\n\nThis is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students"
     }
   ],
   "watch_list": [
     {
-      "id": "d26cd39b99b4027f",
-      "headline": "Sticker price increases 2.4% for two-year colleges",
-      "source": "Community College Daily",
-      "date": "2026-11-05",
-      "url": "https://www.ccdaily.com/2026/11/sticker-price-increases-2-4-for-two-year-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=sticker-price-increases-2-4-for-two-year-colleges",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "AFFORDABILITY"
-      ],
-      "score": 19
-    },
-    {
-      "id": "c9fe8ffee1fa4bc7",
-      "headline": "How Young Voters Fueled Democratic Victories",
+      "id": "8140a9cb389af1c6",
+      "headline": "As Government Encroaches, Presidents Must ‘Lead the Sector’",
       "source": "Inside Higher Ed",
-      "date": "2026-11-06",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/06/how-young-voters-fueled-democratic-victories",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/governance/state-oversight/2026/11/09/government-encroaches-presidents-must-lead-sector",
       "labels": [],
-      "score": 18
-    },
-    {
-      "id": "1b2d4403d541b4db",
-      "headline": "Net College Tuition Prices Keep Falling",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-06",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/06/net-college-tuition-prices-keep-falling",
-      "labels": [
-        "AFFORDABILITY"
-      ],
       "score": 14
     },
     {
-      "id": "ff66b50195c1d33e",
-      "headline": "New College Cancels Russell Brand Appearance",
+      "id": "384c8b34a5ed12e8",
+      "headline": "The Big Business of HBCU Homecomings",
       "source": "Inside Higher Ed",
-      "date": "2026-11-06",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/06/new-college-cancels-russell-brand-appearance",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/11/09/big-business-hbcu-homecomings",
       "labels": [],
+      "score": 14
+    },
+    {
+      "id": "5042fca5096c3582",
+      "headline": "New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "5666c372e6177706",
+      "headline": "DOJ Sues Penn State Over In-State Tuition for Noncitizens",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-09",
+      "url": "https://www.insidehighered.com/news/government/courts/2026/11/09/doj-sues-penn-state-over-state-tuition-noncitizens",
+      "labels": [
+        "AFFORDABILITY"
+      ],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-09",
+      "url": "data/archive/2026-11-09.json"
+    },
     {
       "label": "Cycle 2026-11-06",
       "url": "data/archive/2026-11-06.json"
@@ -259,15 +238,11 @@
     {
       "label": "Cycle 2026-09-17",
       "url": "data/archive/2026-09-17.json"
-    },
-    {
-      "label": "Cycle 2026-09-14",
-      "url": "data/archive/2026-09-14.json"
     }
   ],
-  "items_considered": 14,
+  "items_considered": 12,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:179:148: undefined entity",
+    "Inside Higher Ed: <unknown>:75:27: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",

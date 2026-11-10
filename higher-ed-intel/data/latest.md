@@ -1,59 +1,54 @@
-# Higher-Ed Intelligence Brief — 2026-11-06
+# Higher-Ed Intelligence Brief — 2026-11-09
 
-_Generated: 2026-11-06 18:30 ET_
+_Generated: 2026-11-09 20:45 ET_
 
 ## Developments Worth Watching
 
-### Unlocking more STEM talent through transfer
-- Source: Community College Daily (2026-11-05)
+### The Untapped Potential of STEM Transfer Students
+- Source: Inside Higher Ed (2026-11-09)
 - Labels: NEW, COMMUNITY COLLEGE, TRANSFER
-- Summary: Community colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...
+- Summary: The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates. Byline(s) Joshua Bay
 - What caught my attention: This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
-- Link: https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer
+- Link: https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students
 
-### Beyond affordability: The strategic role of community college financial aid
-- Source: Community College Daily (2026-11-05)
-- Labels: NEW, COMMUNITY COLLEGE, AFFORDABILITY
-- Summary: Often tucked away in a student services corridor and fielding referrals from mystified faculty, staff and administrators, the financial aid office is a strategic, yet often overlooked, community college asset. Strategic financial aid design helps...
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.ccdaily.com/2026/11/beyond-affordability-the-strategic-role-of-community-college-financial-aid/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-affordability-the-strategic-role-of-community-college-financial-aid
+### Helping shipbuilders weather a perfect storm
+- Source: Community College Daily (2026-11-07)
+- Labels: NEW, COMMUNITY COLLEGE, WORKFORCE
+- Summary: America’s shipbuilding needs are growing faster than the skilled workforce required to fulfill them — and community colleges are rising to meet this challenge by scaling up short-term training programs in response to the demand....
+- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
+- Link: https://www.ccdaily.com/2026/11/helping-shipbuilders-weather-a-perfect-storm/?utm_source=rss&utm_medium=rss&utm_campaign=helping-shipbuilders-weather-a-perfect-storm
 
-### University of Maine offers buyouts to 158 faculty members as it cuts budget
-- Source: Higher Ed Dive (2026-11-06)
-- Labels: NEW, POLICY
-- Summary: Leaders of the public institution say they are trying to minimize layoffs as they slash away at a $19 million structural deficit.
+### Funding roundup
+- Source: Community College Daily (2026-11-09)
+- Labels: NEW, COMMUNITY COLLEGE
+- Summary: More affordable housing will soon be available for San Diego Community College District (SDCCD) students. The San Diego Regional Housing Finance Authority (SDRHFA), established by SDCCD and San Diego Unified School District, has secured $6.5...
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/university-of-maine-offers-buyouts-to-158-faculty-members-as-it-cuts-budget/874027/
-
-### DOJ sues Penn State over in-state tuition for undocumented students
-- Source: Higher Ed Dive (2026-11-06)
-- Labels: NEW, AFFORDABILITY, POLICY
-- Summary: The federal agency appears to be turning its sights on individual colleges after filing lawsuits over all such policies at the state level.
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/doj-sues-penn-state-over-in-state-tuition-for-undocumented-students/874039/
+- Link: https://www.ccdaily.com/2026/11/funding-roundup-466/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-466
 
 ## Pattern I’m Seeing
 
-The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.
+Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.
+
+Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.
 
 ## Draft LinkedIn Briefs for Editing
 
-### Unlocking more STEM talent through transfer
+### The Untapped Potential of STEM Transfer Students
 - Angle: Best post opportunity this cycle
 
-Unlocking more STEM talent through transfer
+The Untapped Potential of STEM Transfer Students
 
-Community colleges already play a major role in producing STEM graduates, but a new report suggests their contribution could be much larger if colleges and universities improve transfer pathways. New research finds community college students...
+The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future...
 
 This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
 
 The practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.
 
-Source: https://www.ccdaily.com/2026/11/unlocking-more-stem-talent-through-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=unlocking-more-stem-talent-through-transfer
+Source: https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students
 
 ## Watch List
 
-- Sticker price increases 2.4% for two-year colleges (Community College Daily, 2026-11-05)
-- How Young Voters Fueled Democratic Victories (Inside Higher Ed, 2026-11-06)
-- Net College Tuition Prices Keep Falling (Inside Higher Ed, 2026-11-06)
-- New College Cancels Russell Brand Appearance (Inside Higher Ed, 2026-11-06)
+- As Government Encroaches, Presidents Must ‘Lead the Sector’ (Inside Higher Ed, 2026-11-09)
+- The Big Business of HBCU Homecomings (Inside Higher Ed, 2026-11-09)
+- New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules (Inside Higher Ed, 2026-11-09)
+- DOJ Sues Penn State Over In-State Tuition for Noncitizens (Inside Higher Ed, 2026-11-09)
