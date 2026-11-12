@@ -1,54 +1,59 @@
-# Higher-Ed Intelligence Brief — 2026-11-09
+# Higher-Ed Intelligence Brief — 2026-11-11
 
-_Generated: 2026-11-09 20:45 ET_
+_Generated: 2026-11-11 19:59 ET_
 
 ## Developments Worth Watching
 
-### The Untapped Potential of STEM Transfer Students
-- Source: Inside Higher Ed (2026-11-09)
-- Labels: NEW, COMMUNITY COLLEGE, TRANSFER
-- Summary: The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates. Byline(s) Joshua Bay
-- What caught my attention: This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
-- Link: https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students
+### ‘Beyond the College Walls’: Urging community colleges to think bigger
+- Source: Community College Daily (2026-11-10)
+- Labels: NEW, COMMUNITY COLLEGE, STUDENT SUCCESS, ADVISING
+- Summary: For decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and completion initiatives. Those...
+- What caught my attention: The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?
+- Link: https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger
 
-### Helping shipbuilders weather a perfect storm
-- Source: Community College Daily (2026-11-07)
-- Labels: NEW, COMMUNITY COLLEGE, WORKFORCE
-- Summary: America’s shipbuilding needs are growing faster than the skilled workforce required to fulfill them — and community colleges are rising to meet this challenge by scaling up short-term training programs in response to the demand....
-- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
-- Link: https://www.ccdaily.com/2026/11/helping-shipbuilders-weather-a-perfect-storm/?utm_source=rss&utm_medium=rss&utm_campaign=helping-shipbuilders-weather-a-perfect-storm
-
-### Funding roundup
-- Source: Community College Daily (2026-11-09)
+### Changes aren’t permanent, but change is
+- Source: Community College Daily (2026-11-11)
 - Labels: NEW, COMMUNITY COLLEGE
-- Summary: More affordable housing will soon be available for San Diego Community College District (SDCCD) students. The San Diego Regional Housing Finance Authority (SDRHFA), established by SDCCD and San Diego Unified School District, has secured $6.5...
+- Summary: The American Association of Community Colleges’ (AACC) 2025 report, “Resilient by Design: The Future of America’s Community Colleges,” outlines the top challenges facing two-year colleges and approaches to meeting them. It has rippled through the...
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.ccdaily.com/2026/11/funding-roundup-466/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-466
+- Link: https://www.ccdaily.com/2026/11/changes-arent-permanent-but-change-is/?utm_source=rss&utm_medium=rss&utm_campaign=changes-arent-permanent-but-change-is
+
+### Colleges report declines in international enrollment amid federal restrictions
+- Source: Higher Ed Dive (2026-11-11)
+- Labels: NEW, POLICY
+- Summary: Survey data released Wednesday found that nearly 6 in 10 U.S. colleges lost foreign graduate students this fall, and 45% saw a decline in undergraduates.
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.highereddive.com/news/colleges-report-declines-in-international-enrollment-amid-federal-restricti/874434/
+
+### Baylor stares down $30M deficit after undergraduate enrollment dip
+- Source: Higher Ed Dive (2026-11-11)
+- Labels: NEW, POLICY
+- Summary: The Baptist institution in Texas is pausing hiring and delaying capital spending as it tries to shore up the budget gap.
+- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
+- Link: https://www.highereddive.com/news/baylor-stares-down-30m-deficit-after-undergraduate-enrollment-dip/874449/
 
 ## Pattern I’m Seeing
 
-Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.
-
-Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.
+The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.
 
 ## Draft LinkedIn Briefs for Editing
 
-### The Untapped Potential of STEM Transfer Students
+### ‘Beyond the College Walls’: Urging community colleges to think bigger
 - Angle: Best post opportunity this cycle
 
-The Untapped Potential of STEM Transfer Students
+‘Beyond the College Walls’: Urging community colleges to think bigger
 
-The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future...
+For decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and...
 
-This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.
+The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?
 
 The practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.
 
-Source: https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students
+Source: https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger
 
 ## Watch List
 
-- As Government Encroaches, Presidents Must ‘Lead the Sector’ (Inside Higher Ed, 2026-11-09)
-- The Big Business of HBCU Homecomings (Inside Higher Ed, 2026-11-09)
-- New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules (Inside Higher Ed, 2026-11-09)
-- DOJ Sues Penn State Over In-State Tuition for Noncitizens (Inside Higher Ed, 2026-11-09)
+- College affordability improves, job alignment lags (Community College Daily, 2026-11-10)
+- Apprenticeship’s future runs through community colleges (Community College Daily, 2026-11-11)
+- Childcare Center Closures Spark Backlash on Campus (Inside Higher Ed, 2026-11-11)
+- Bill Supporting College Students With Disabilities Passes Senate (Inside Higher Ed, 2026-11-11)

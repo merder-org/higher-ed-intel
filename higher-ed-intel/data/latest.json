@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-09 20:45 ET",
-  "cycle_date": "2026-11-09",
+  "generated_at": "2026-11-11 19:59 ET",
+  "cycle_date": "2026-11-11",
   "week_of": "2026-11-09",
   "freshness": {
-    "cycle_date": "2026-11-09",
+    "cycle_date": "2026-11-11",
     "days_lookback": 5,
-    "cutoff": "2026-11-04 20:45 ET",
-    "new_count": 3,
+    "cutoff": "2026-11-06 19:59 ET",
+    "new_count": 4,
     "updated_count": 0
   },
   "sections": [
@@ -33,44 +33,21 @@
   ],
   "top_signals": [
     {
-      "id": "2016faf842ee01b8",
-      "headline": "The Untapped Potential of STEM Transfer Students",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-09",
-      "summary": "The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates. Byline(s) Joshua Bay",
-      "observation": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
-      "why_it_matters": "This is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "TRANSFER"
-      ],
-      "score": 37,
-      "evidence": {
-        "findings": [
-          "The Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future STEM graduates."
-        ],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "f481eb393b630afa",
-      "headline": "Helping shipbuilders weather a perfect storm",
+      "id": "705e87525ece6991",
+      "headline": "‘Beyond the College Walls’: Urging community colleges to think bigger",
       "source": "Community College Daily",
-      "date": "2026-11-07",
-      "summary": "America’s shipbuilding needs are growing faster than the skilled workforce required to fulfill them — and community colleges are rising to meet this challenge by scaling up short-term training programs in response to the demand....",
-      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "url": "https://www.ccdaily.com/2026/11/helping-shipbuilders-weather-a-perfect-storm/?utm_source=rss&utm_medium=rss&utm_campaign=helping-shipbuilders-weather-a-perfect-storm",
+      "date": "2026-11-10",
+      "summary": "For decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and completion initiatives. Those...",
+      "observation": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?",
+      "why_it_matters": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?",
+      "url": "https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "WORKFORCE"
+        "STUDENT SUCCESS",
+        "ADVISING"
       ],
-      "score": 29,
+      "score": 53,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -79,19 +56,65 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "e3d2248a04eaa7f2",
-      "headline": "Funding roundup",
+      "id": "26d6870ed52e30c4",
+      "headline": "Changes aren’t permanent, but change is",
       "source": "Community College Daily",
-      "date": "2026-11-09",
-      "summary": "More affordable housing will soon be available for San Diego Community College District (SDCCD) students. The San Diego Regional Housing Finance Authority (SDRHFA), established by SDCCD and San Diego Unified School District, has secured $6.5...",
+      "date": "2026-11-11",
+      "summary": "The American Association of Community Colleges’ (AACC) 2025 report, “Resilient by Design: The Future of America’s Community Colleges,” outlines the top challenges facing two-year colleges and approaches to meeting them. It has rippled through the...",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/11/funding-roundup-466/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-466",
+      "url": "https://www.ccdaily.com/2026/11/changes-arent-permanent-but-change-is/?utm_source=rss&utm_medium=rss&utm_campaign=changes-arent-permanent-but-change-is",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE"
       ],
-      "score": 21,
+      "score": 31,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "7142f4cf58a999fc",
+      "headline": "Colleges report declines in international enrollment amid federal restrictions",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-11",
+      "summary": "Survey data released Wednesday found that nearly 6 in 10 U.S. colleges lost foreign graduate students this fall, and 45% saw a decline in undergraduates.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/colleges-report-declines-in-international-enrollment-amid-federal-restricti/874434/",
+      "labels": [
+        "NEW",
+        "POLICY"
+      ],
+      "score": 26,
+      "evidence": {
+        "findings": [
+          "Survey data released Wednesday found that nearly 6 in 10 U.S."
+        ],
+        "methods": [
+          "Survey data released Wednesday found that nearly 6 in 10 U.S."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "07c3be495fcd5552",
+      "headline": "Baylor stares down $30M deficit after undergraduate enrollment dip",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-11",
+      "summary": "The Baptist institution in Texas is pausing hiring and delaying capital spending as it tries to shore up the budget gap.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/baylor-stares-down-30m-deficit-after-undergraduate-enrollment-dip/874449/",
+      "labels": [
+        "NEW",
+        "POLICY"
+      ],
+      "score": 25,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -102,59 +125,67 @@
   ],
   "research_context": [],
   "priority_coverage": {
-    "ADVISING": 0,
+    "ADVISING": 1,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
-  "why_this_matters_now": "Transfer and advising continue to belong in the same conversation. Pathways do not help much unless someone can explain them clearly to students.\n\nWorkforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
   "linkedin_angles": [
     {
-      "hook": "The Untapped Potential of STEM Transfer Students",
+      "hook": "‘Beyond the College Walls’: Urging community colleges to think bigger",
       "angle": "Best post opportunity this cycle",
-      "draft": "The Untapped Potential of STEM Transfer Students\n\nThe Untapped Potential of STEM Transfer Students Joshua.Bay Mon, 11/09/2026 - 03:00 AM A new Community College Research Center report finds that transfer students face longer paths to STEM degrees, creating barriers that could limit the pipeline of future...\n\nThis is worth watching because transfer reform only becomes real when credits move cleanly, requirements are legible, and advisors have pathways they can actually trust.\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.insidehighered.com/news/student-success/life-after-college/2026/11/09/untapped-potential-stem-transfer-students"
+      "draft": "‘Beyond the College Walls’: Urging community colleges to think bigger\n\nFor decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and...\n\nThe accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger"
     }
   ],
   "watch_list": [
     {
-      "id": "8140a9cb389af1c6",
-      "headline": "As Government Encroaches, Presidents Must ‘Lead the Sector’",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-09",
-      "url": "https://www.insidehighered.com/news/governance/state-oversight/2026/11/09/government-encroaches-presidents-must-lead-sector",
-      "labels": [],
-      "score": 14
-    },
-    {
-      "id": "384c8b34a5ed12e8",
-      "headline": "The Big Business of HBCU Homecomings",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-09",
-      "url": "https://www.insidehighered.com/news/institutions/minority-serving-institutions/2026/11/09/big-business-hbcu-homecomings",
-      "labels": [],
-      "score": 14
-    },
-    {
-      "id": "5042fca5096c3582",
-      "headline": "New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-09",
-      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu",
-      "labels": [],
-      "score": 14
-    },
-    {
-      "id": "5666c372e6177706",
-      "headline": "DOJ Sues Penn State Over In-State Tuition for Noncitizens",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-09",
-      "url": "https://www.insidehighered.com/news/government/courts/2026/11/09/doj-sues-penn-state-over-state-tuition-noncitizens",
+      "id": "560c87ccfebbd710",
+      "headline": "College affordability improves, job alignment lags",
+      "source": "Community College Daily",
+      "date": "2026-11-10",
+      "url": "https://www.ccdaily.com/2026/11/college-affordability-improves-job-alignment-lags/?utm_source=rss&utm_medium=rss&utm_campaign=college-affordability-improves-job-alignment-lags",
       "labels": [
+        "COMMUNITY COLLEGE",
         "AFFORDABILITY"
       ],
+      "score": 31
+    },
+    {
+      "id": "717b3a613e39ec76",
+      "headline": "Apprenticeship’s future runs through community colleges",
+      "source": "Community College Daily",
+      "date": "2026-11-11",
+      "url": "https://www.ccdaily.com/2026/11/apprenticeships-future-runs-through-community-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=apprenticeships-future-runs-through-community-colleges",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "66a752fda0e90f39",
+      "headline": "Childcare Center Closures Spark Backlash on Campus",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-11",
+      "url": "https://www.insidehighered.com/news/faculty/2026/11/11/childcare-center-closures-spark-backlash-campus",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "8e200c2b9bd1959d",
+      "headline": "Bill Supporting College Students With Disabilities Passes Senate",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-11",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/11/bill-supporting-college-students-disabilities-advances",
+      "labels": [],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-11",
+      "url": "data/archive/2026-11-11.json"
+    },
     {
       "label": "Cycle 2026-11-09",
       "url": "data/archive/2026-11-09.json"
@@ -234,15 +265,11 @@
     {
       "label": "Cycle 2026-09-21",
       "url": "data/archive/2026-09-21.json"
-    },
-    {
-      "label": "Cycle 2026-09-17",
-      "url": "data/archive/2026-09-17.json"
     }
   ],
-  "items_considered": 12,
+  "items_considered": 18,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:75:27: undefined entity",
+    "Inside Higher Ed: <unknown>:101:104: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
