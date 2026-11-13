@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-11 19:59 ET",
-  "cycle_date": "2026-11-11",
+  "generated_at": "2026-11-13 18:52 ET",
+  "cycle_date": "2026-11-13",
   "week_of": "2026-11-09",
   "freshness": {
-    "cycle_date": "2026-11-11",
+    "cycle_date": "2026-11-13",
     "days_lookback": 5,
-    "cutoff": "2026-11-06 19:59 ET",
-    "new_count": 4,
+    "cutoff": "2026-11-08 18:52 ET",
+    "new_count": 3,
     "updated_count": 0
   },
   "sections": [
@@ -33,21 +33,21 @@
   ],
   "top_signals": [
     {
-      "id": "705e87525ece6991",
-      "headline": "‘Beyond the College Walls’: Urging community colleges to think bigger",
+      "id": "2cd188a0bb4ecd69",
+      "headline": "The future of higher education is technological. Its leadership must remain human.",
       "source": "Community College Daily",
-      "date": "2026-11-10",
-      "summary": "For decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and completion initiatives. Those...",
-      "observation": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?",
-      "why_it_matters": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?",
-      "url": "https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger",
+      "date": "2026-11-12",
+      "summary": "I have the great honor of serving as the 10th president of the nation’s very first community college. That distinction has afforded me opportunities to participate in fascinating conversations about higher education’s past, present and...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.ccdaily.com/2026/11/the-future-of-higher-education-is-technological-its-leadership-must-remain-human/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-of-higher-education-is-technological-its-leadership-must-remain-human",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "STUDENT SUCCESS",
-        "ADVISING"
+        "GOVERNANCE",
+        "LEADERSHIP"
       ],
-      "score": 53,
+      "score": 43,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -56,19 +56,19 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "26d6870ed52e30c4",
-      "headline": "Changes aren’t permanent, but change is",
-      "source": "Community College Daily",
-      "date": "2026-11-11",
-      "summary": "The American Association of Community Colleges’ (AACC) 2025 report, “Resilient by Design: The Future of America’s Community Colleges,” outlines the top challenges facing two-year colleges and approaches to meeting them. It has rippled through the...",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/11/changes-arent-permanent-but-change-is/?utm_source=rss&utm_medium=rss&utm_campaign=changes-arent-permanent-but-change-is",
+      "id": "7cea27d3f2136c59",
+      "headline": "Trustees Grapple With Changing World of College Athletics",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-13",
+      "summary": "Trustees Grapple With Changing World of College Athletics Josh Moody Fri, 11/13/2026 - 03:00 AM They are facing a complex and costly college athletics landscape and in search of answers from leadership and lawmakers. Here are three takeaways from a recent summit on the issue. Byline(s) Josh Moody Trustees Grapple With Changing World of College Athletics Josh Moody Fri, 11/13/2026 - 03:00 AM They are facing a complex...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/trustees-grapple-changing-world-college-athletics",
       "labels": [
         "NEW",
-        "COMMUNITY COLLEGE"
+        "GOVERNANCE"
       ],
-      "score": 31,
+      "score": 20,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -77,44 +77,19 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "7142f4cf58a999fc",
-      "headline": "Colleges report declines in international enrollment amid federal restrictions",
+      "id": "087e57ef7cb74e49",
+      "headline": "Trump taps DEI opponent to lead DOJ’s civil rights division",
       "source": "Higher Ed Dive",
-      "date": "2026-11-11",
-      "summary": "Survey data released Wednesday found that nearly 6 in 10 U.S. colleges lost foreign graduate students this fall, and 45% saw a decline in undergraduates.",
+      "date": "2026-11-12",
+      "summary": "While at the U.S. Department of Education, Craig Trainor threatened to strip federal funding from colleges over their diversity initiatives.",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/colleges-report-declines-in-international-enrollment-amid-federal-restricti/874434/",
+      "url": "https://www.highereddive.com/news/trump-taps-dei-opponent-to-lead-dojs-civil-rights-division/874577/",
       "labels": [
         "NEW",
         "POLICY"
       ],
-      "score": 26,
-      "evidence": {
-        "findings": [
-          "Survey data released Wednesday found that nearly 6 in 10 U.S."
-        ],
-        "methods": [
-          "Survey data released Wednesday found that nearly 6 in 10 U.S."
-        ],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "07c3be495fcd5552",
-      "headline": "Baylor stares down $30M deficit after undergraduate enrollment dip",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-11",
-      "summary": "The Baptist institution in Texas is pausing hiring and delaying capital spending as it tries to shore up the budget gap.",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/baylor-stares-down-30m-deficit-after-undergraduate-enrollment-dip/874449/",
-      "labels": [
-        "NEW",
-        "POLICY"
-      ],
-      "score": 25,
+      "score": 18,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -125,63 +100,61 @@
   ],
   "research_context": [],
   "priority_coverage": {
-    "ADVISING": 1,
+    "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
-  "why_this_matters_now": "The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.",
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
   "linkedin_angles": [
     {
-      "hook": "‘Beyond the College Walls’: Urging community colleges to think bigger",
+      "hook": "The future of higher education is technological. Its leadership must remain human.",
       "angle": "Best post opportunity this cycle",
-      "draft": "‘Beyond the College Walls’: Urging community colleges to think bigger\n\nFor decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and...\n\nThe accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?\n\nThe practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.\n\nSource: https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger"
+      "draft": "The future of higher education is technological. Its leadership must remain human.\n\nI have the great honor of serving as the 10th president of the nation’s very first community college. That distinction has afforded me opportunities to participate in fascinating conversations about higher education’s past, present and...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/the-future-of-higher-education-is-technological-its-leadership-must-remain-human/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-of-higher-education-is-technological-its-leadership-must-remain-human"
     }
   ],
   "watch_list": [
     {
-      "id": "560c87ccfebbd710",
-      "headline": "College affordability improves, job alignment lags",
-      "source": "Community College Daily",
-      "date": "2026-11-10",
-      "url": "https://www.ccdaily.com/2026/11/college-affordability-improves-job-alignment-lags/?utm_source=rss&utm_medium=rss&utm_campaign=college-affordability-improves-job-alignment-lags",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "AFFORDABILITY"
-      ],
-      "score": 31
-    },
-    {
-      "id": "717b3a613e39ec76",
-      "headline": "Apprenticeship’s future runs through community colleges",
-      "source": "Community College Daily",
-      "date": "2026-11-11",
-      "url": "https://www.ccdaily.com/2026/11/apprenticeships-future-runs-through-community-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=apprenticeships-future-runs-through-community-colleges",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "WORKFORCE"
-      ],
-      "score": 27
-    },
-    {
-      "id": "66a752fda0e90f39",
-      "headline": "Childcare Center Closures Spark Backlash on Campus",
+      "id": "010a0aea5daccfe0",
+      "headline": "Florida University System Punts on Restoring Admission for Some Noncitizens",
       "source": "Inside Higher Ed",
-      "date": "2026-11-11",
-      "url": "https://www.insidehighered.com/news/faculty/2026/11/11/childcare-center-closures-spark-backlash-campus",
+      "date": "2026-11-13",
+      "url": "https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/florida-university-system-punts-admission-noncitizens",
       "labels": [],
       "score": 14
     },
     {
-      "id": "8e200c2b9bd1959d",
-      "headline": "Bill Supporting College Students With Disabilities Passes Senate",
+      "id": "5b2d0f095955270b",
+      "headline": "One City’s Game Plan to Retain International Students",
       "source": "Inside Higher Ed",
-      "date": "2026-11-11",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/11/bill-supporting-college-students-disabilities-advances",
+      "date": "2026-11-13",
+      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/11/13/one-citys-game-plan-retain-international-students",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "a241d50fba427fdc",
+      "headline": "York College to Buy Penn State York Campus, Pending Board Approval",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-13",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/13/york-college-buy-penn-state-york-campus-pending-approval",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "a2010f392aa90cf1",
+      "headline": "‘AI Slop’ Papers Published Under Prominent Academics’ Names",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-13",
+      "url": "https://www.insidehighered.com/news/faculty/books-publishing/2026/11/13/ai-slop-papers-published-under-prominent-academics-names",
       "labels": [],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-13",
+      "url": "data/archive/2026-11-13.json"
+    },
     {
       "label": "Cycle 2026-11-11",
       "url": "data/archive/2026-11-11.json"
@@ -261,15 +234,10 @@
     {
       "label": "Cycle 2026-09-24",
       "url": "data/archive/2026-09-24.json"
-    },
-    {
-      "label": "Cycle 2026-09-21",
-      "url": "data/archive/2026-09-21.json"
     }
   ],
-  "items_considered": 18,
+  "items_considered": 14,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:101:104: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",

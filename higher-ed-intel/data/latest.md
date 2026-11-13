@@ -1,59 +1,52 @@
-# Higher-Ed Intelligence Brief — 2026-11-11
+# Higher-Ed Intelligence Brief — 2026-11-13
 
-_Generated: 2026-11-11 19:59 ET_
+_Generated: 2026-11-13 18:52 ET_
 
 ## Developments Worth Watching
 
-### ‘Beyond the College Walls’: Urging community colleges to think bigger
-- Source: Community College Daily (2026-11-10)
-- Labels: NEW, COMMUNITY COLLEGE, STUDENT SUCCESS, ADVISING
-- Summary: For decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and completion initiatives. Those...
-- What caught my attention: The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?
-- Link: https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger
+### The future of higher education is technological. Its leadership must remain human.
+- Source: Community College Daily (2026-11-12)
+- Labels: NEW, COMMUNITY COLLEGE, GOVERNANCE, LEADERSHIP
+- Summary: I have the great honor of serving as the 10th president of the nation’s very first community college. That distinction has afforded me opportunities to participate in fascinating conversations about higher education’s past, present and...
+- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+- Link: https://www.ccdaily.com/2026/11/the-future-of-higher-education-is-technological-its-leadership-must-remain-human/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-of-higher-education-is-technological-its-leadership-must-remain-human
 
-### Changes aren’t permanent, but change is
-- Source: Community College Daily (2026-11-11)
-- Labels: NEW, COMMUNITY COLLEGE
-- Summary: The American Association of Community Colleges’ (AACC) 2025 report, “Resilient by Design: The Future of America’s Community Colleges,” outlines the top challenges facing two-year colleges and approaches to meeting them. It has rippled through the...
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.ccdaily.com/2026/11/changes-arent-permanent-but-change-is/?utm_source=rss&utm_medium=rss&utm_campaign=changes-arent-permanent-but-change-is
+### Trustees Grapple With Changing World of College Athletics
+- Source: Inside Higher Ed (2026-11-13)
+- Labels: NEW, GOVERNANCE
+- Summary: Trustees Grapple With Changing World of College Athletics Josh Moody Fri, 11/13/2026 - 03:00 AM They are facing a complex and costly college athletics landscape and in search of answers from leadership and lawmakers. Here are three takeaways from a recent summit on the issue. Byline(s) Josh Moody Trustees Grapple With Changing World of College Athletics Josh Moody Fri, 11/13/2026 - 03:00 AM They are facing a complex...
+- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+- Link: https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/trustees-grapple-changing-world-college-athletics
 
-### Colleges report declines in international enrollment amid federal restrictions
-- Source: Higher Ed Dive (2026-11-11)
+### Trump taps DEI opponent to lead DOJ’s civil rights division
+- Source: Higher Ed Dive (2026-11-12)
 - Labels: NEW, POLICY
-- Summary: Survey data released Wednesday found that nearly 6 in 10 U.S. colleges lost foreign graduate students this fall, and 45% saw a decline in undergraduates.
+- Summary: While at the U.S. Department of Education, Craig Trainor threatened to strip federal funding from colleges over their diversity initiatives.
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/colleges-report-declines-in-international-enrollment-amid-federal-restricti/874434/
-
-### Baylor stares down $30M deficit after undergraduate enrollment dip
-- Source: Higher Ed Dive (2026-11-11)
-- Labels: NEW, POLICY
-- Summary: The Baptist institution in Texas is pausing hiring and delaying capital spending as it tries to shore up the budget gap.
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/baylor-stares-down-30m-deficit-after-undergraduate-enrollment-dip/874449/
+- Link: https://www.highereddive.com/news/trump-taps-dei-opponent-to-lead-dojs-civil-rights-division/874577/
 
 ## Pattern I’m Seeing
 
-The useful signal this cycle is not a single dramatic announcement, but the accumulation of pressure on colleges to adapt without much spare capacity.
+The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
 
 ## Draft LinkedIn Briefs for Editing
 
-### ‘Beyond the College Walls’: Urging community colleges to think bigger
+### The future of higher education is technological. Its leadership must remain human.
 - Angle: Best post opportunity this cycle
 
-‘Beyond the College Walls’: Urging community colleges to think bigger
+The future of higher education is technological. Its leadership must remain human.
 
-For decades, community college reform has largely focused on what happens inside campus walls. Institutions have redesigned developmental education, embraced guided pathways, expanded tutoring and advising services, and launched countless retention and...
+I have the great honor of serving as the 10th president of the nation’s very first community college. That distinction has afforded me opportunities to participate in fascinating conversations about higher education’s past, present and...
 
-The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): how would the reported approach affect community college advising capacity, outreach and student outcomes?
+The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
 
-The practical test is whether students experience a clearer path and timely human help—not merely another initiative or platform.
+For community colleges, the question is whether the implementation capacity matches the ambition.
 
-Source: https://www.ccdaily.com/2026/11/beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-college-walls-a-new-book-urges-community-colleges-to-think-bigger
+Source: https://www.ccdaily.com/2026/11/the-future-of-higher-education-is-technological-its-leadership-must-remain-human/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-of-higher-education-is-technological-its-leadership-must-remain-human
 
 ## Watch List
 
-- College affordability improves, job alignment lags (Community College Daily, 2026-11-10)
-- Apprenticeship’s future runs through community colleges (Community College Daily, 2026-11-11)
-- Childcare Center Closures Spark Backlash on Campus (Inside Higher Ed, 2026-11-11)
-- Bill Supporting College Students With Disabilities Passes Senate (Inside Higher Ed, 2026-11-11)
+- Florida University System Punts on Restoring Admission for Some Noncitizens (Inside Higher Ed, 2026-11-13)
+- One City’s Game Plan to Retain International Students (Inside Higher Ed, 2026-11-13)
+- York College to Buy Penn State York Campus, Pending Board Approval (Inside Higher Ed, 2026-11-13)
+- ‘AI Slop’ Papers Published Under Prominent Academics’ Names (Inside Higher Ed, 2026-11-13)
