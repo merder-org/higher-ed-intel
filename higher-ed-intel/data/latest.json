@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-13 18:52 ET",
-  "cycle_date": "2026-11-13",
-  "week_of": "2026-11-09",
+  "generated_at": "2026-11-16 21:05 ET",
+  "cycle_date": "2026-11-16",
+  "week_of": "2026-11-16",
   "freshness": {
-    "cycle_date": "2026-11-13",
+    "cycle_date": "2026-11-16",
     "days_lookback": 5,
-    "cutoff": "2026-11-08 18:52 ET",
-    "new_count": 3,
+    "cutoff": "2026-11-11 21:05 ET",
+    "new_count": 5,
     "updated_count": 0
   },
   "sections": [
@@ -33,21 +33,20 @@
   ],
   "top_signals": [
     {
-      "id": "2cd188a0bb4ecd69",
-      "headline": "The future of higher education is technological. Its leadership must remain human.",
+      "id": "69800aeb77dc26b3",
+      "headline": "Leading with resilience",
       "source": "Community College Daily",
-      "date": "2026-11-12",
-      "summary": "I have the great honor of serving as the 10th president of the nation’s very first community college. That distinction has afforded me opportunities to participate in fascinating conversations about higher education’s past, present and...",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.ccdaily.com/2026/11/the-future-of-higher-education-is-technological-its-leadership-must-remain-human/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-of-higher-education-is-technological-its-leadership-must-remain-human",
+      "date": "2026-11-15",
+      "summary": "When Arizona passed its budget for the 2027 fiscal year, administrators at Maricopa Community Colleges were disheartened to see they wouldn’t be getting any money, despite educating more students than any other college in the...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/11/leading-with-resilience/?utm_source=rss&utm_medium=rss&utm_campaign=leading-with-resilience",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "GOVERNANCE",
-        "LEADERSHIP"
+        "POLICY"
       ],
-      "score": 43,
+      "score": 38,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -56,19 +55,41 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "7cea27d3f2136c59",
-      "headline": "Trustees Grapple With Changing World of College Athletics",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-13",
-      "summary": "Trustees Grapple With Changing World of College Athletics Josh Moody Fri, 11/13/2026 - 03:00 AM They are facing a complex and costly college athletics landscape and in search of answers from leadership and lawmakers. Here are three takeaways from a recent summit on the issue. Byline(s) Josh Moody Trustees Grapple With Changing World of College Athletics Josh Moody Fri, 11/13/2026 - 03:00 AM They are facing a complex...",
+      "id": "7f5f89ecb82339a0",
+      "headline": "International student slump reaches community colleges",
+      "source": "Community College Daily",
+      "date": "2026-11-16",
+      "summary": "Community colleges are weathering the latest decline in international student enrollment better than many sectors of higher education, but new data show significant challenges ahead, particularly for non-degree programs and workforce-oriented offerings. Preliminary findings from...",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/11/international-student-slump-reaches-community-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=international-student-slump-reaches-community-colleges",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 37,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "b576f965d1cba32a",
+      "headline": "Lawsuit alleges chronic underfunding of University of Maryland Eastern Shore",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-16",
+      "summary": "A group of students, faculty and alumni said the historically Black institution has been discriminated against and shortchanged $6 billion since its founding.",
       "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
       "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/trustees-grapple-changing-world-college-athletics",
+      "url": "https://www.highereddive.com/news/lawsuit-alleges-chronic-underfunding-of-university-of-maryland-eastern-shor/874815/",
       "labels": [
         "NEW",
         "GOVERNANCE"
       ],
-      "score": 20,
+      "score": 25,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -77,14 +98,35 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "087e57ef7cb74e49",
-      "headline": "Trump taps DEI opponent to lead DOJ’s civil rights division",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-12",
-      "summary": "While at the U.S. Department of Education, Craig Trainor threatened to strip federal funding from colleges over their diversity initiatives.",
+      "id": "e86c0c9b5df5087e",
+      "headline": "How to Expand Degree Apprenticeships",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-16",
+      "summary": "How to Expand Degree Apprenticeships Joshua.Bay Mon, 11/16/2026 - 03:00 AM A new report from New America outlines 14 policy recommendations to help colleges and employers increase opportunities to earn a degree while gaining paid work experience. Byline(s) Joshua Bay How to Expand Degree Apprenticeships Joshua.Bay Mon, 11/16/2026 - 03:00 AM A new report from New America outlines 14 policy recommendations to help...",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/trump-taps-dei-opponent-to-lead-dojs-civil-rights-division/874577/",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/16/how-expand-degree-apprenticeships",
+      "labels": [
+        "NEW",
+        "POLICY"
+      ],
+      "score": 22,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "7e937db2f56fde0c",
+      "headline": "U of Kentucky Proposes Technology Policy Restricting All ‘Political Activity’",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-16",
+      "summary": "U of Kentucky Proposes Technology Policy Restricting All ‘Political Activity’ Emma Whitford Mon, 11/16/2026 - 03:00 AM The draft policy would prohibit students and employees from posting to personal social media accounts or sending personal messages using university devices, networks or software. Byline(s) Emma Whitford U of Kentucky Proposes Technology Policy Restricting All ‘Political Activity’ Emma Whitford Mon,...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.insidehighered.com/news/faculty/academic-freedom/2026/11/16/kentucky-tech-policy-aims-restrict-political-activity",
       "labels": [
         "NEW",
         "POLICY"
@@ -103,54 +145,60 @@
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
-  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "pattern_this_cycle": "Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "why_this_matters_now": "Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
   "linkedin_angles": [
     {
-      "hook": "The future of higher education is technological. Its leadership must remain human.",
+      "hook": "Leading with resilience",
       "angle": "Best post opportunity this cycle",
-      "draft": "The future of higher education is technological. Its leadership must remain human.\n\nI have the great honor of serving as the 10th president of the nation’s very first community college. That distinction has afforded me opportunities to participate in fascinating conversations about higher education’s past, present and...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/the-future-of-higher-education-is-technological-its-leadership-must-remain-human/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-of-higher-education-is-technological-its-leadership-must-remain-human"
+      "draft": "Leading with resilience\n\nWhen Arizona passed its budget for the 2027 fiscal year, administrators at Maricopa Community Colleges were disheartened to see they wouldn’t be getting any money, despite educating more students than any other college in the...\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/leading-with-resilience/?utm_source=rss&utm_medium=rss&utm_campaign=leading-with-resilience"
     }
   ],
   "watch_list": [
     {
-      "id": "010a0aea5daccfe0",
-      "headline": "Florida University System Punts on Restoring Admission for Some Noncitizens",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-13",
-      "url": "https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/florida-university-system-punts-admission-noncitizens",
-      "labels": [],
-      "score": 14
+      "id": "71a7bd48652cdc97",
+      "headline": "States take varied approaches to identify, fund high-priority programs",
+      "source": "Community College Daily",
+      "date": "2026-11-16",
+      "url": "https://www.ccdaily.com/2026/11/states-steer-funding-to-workforce-programs-but-few-track-graduates-outcomes/?utm_source=rss&utm_medium=rss&utm_campaign=states-steer-funding-to-workforce-programs-but-few-track-graduates-outcomes",
+      "labels": [
+        "WORKFORCE"
+      ],
+      "score": 20
     },
     {
-      "id": "5b2d0f095955270b",
-      "headline": "One City’s Game Plan to Retain International Students",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-13",
-      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/11/13/one-citys-game-plan-retain-international-students",
+      "id": "8a4b63c16d5e63ee",
+      "headline": "Rigorous course participation rose after 2021 law, University of Illinois report finds",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-16",
+      "url": "https://www.highereddive.com/news/rigorous-course-participation-rose-in-illinois-after-2021-law-report-finds/874604/",
       "labels": [],
-      "score": 14
+      "score": 18
     },
     {
-      "id": "a241d50fba427fdc",
-      "headline": "York College to Buy Penn State York Campus, Pending Board Approval",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-13",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/13/york-college-buy-penn-state-york-campus-pending-approval",
+      "id": "7e8d0fa7a13856b5",
+      "headline": "International student enrollment fell 2.7% in 2025-26",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-16",
+      "url": "https://www.highereddive.com/news/international-student-enrollment-fell-27-in-2025-26/874661/",
       "labels": [],
-      "score": 14
+      "score": 18
     },
     {
-      "id": "a2010f392aa90cf1",
-      "headline": "‘AI Slop’ Papers Published Under Prominent Academics’ Names",
+      "id": "e137febb9041913b",
+      "headline": "When Students Are Scattered",
       "source": "Inside Higher Ed",
-      "date": "2026-11-13",
-      "url": "https://www.insidehighered.com/news/faculty/books-publishing/2026/11/13/ai-slop-papers-published-under-prominent-academics-names",
+      "date": "2026-11-16",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/11/16/when-students-are-scattered",
       "labels": [],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-16",
+      "url": "data/archive/2026-11-16.json"
+    },
     {
       "label": "Cycle 2026-11-13",
       "url": "data/archive/2026-11-13.json"
@@ -230,13 +278,9 @@
     {
       "label": "Cycle 2026-09-28",
       "url": "data/archive/2026-09-28.json"
-    },
-    {
-      "label": "Cycle 2026-09-24",
-      "url": "data/archive/2026-09-24.json"
     }
   ],
-  "items_considered": 14,
+  "items_considered": 13,
   "feed_errors": [
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
