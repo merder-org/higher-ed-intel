@@ -1,0 +1,306 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-11-18 19:44 ET",
+  "cycle_date": "2026-11-18",
+  "week_of": "2026-11-16",
+  "freshness": {
+    "cycle_date": "2026-11-18",
+    "days_lookback": 5,
+    "cutoff": "2026-11-13 19:44 ET",
+    "new_count": 5,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "5c845c5fae49f350",
+      "headline": "More students returning, but stopouts rise",
+      "source": "Community College Daily",
+      "date": "2026-11-18",
+      "summary": "Community colleges continue to play a central role in helping millions of Americans return to higher education after leaving without a credential, according to a new report from the National Student Clearinghouse Research Center. The...",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/11/more-students-returning-but-stopouts-rise/?utm_source=rss&utm_medium=rss&utm_campaign=more-students-returning-but-stopouts-rise",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 31,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "eadd985f64321f27",
+      "headline": "Tracking the impact of basic-needs help on retention, completion",
+      "source": "Community College Daily",
+      "date": "2026-11-17",
+      "summary": "Community colleges are expanding efforts to help students meet basic needs, but many don’t know which supports have the greatest impact on keeping students enrolled and helping them graduate. A new guide from Complete College...",
+      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "url": "https://www.ccdaily.com/2026/11/tracking-the-impact-of-basic-needs-help-on-retention-completion/?utm_source=rss&utm_medium=rss&utm_campaign=tracking-the-impact-of-basic-needs-help-on-retention-completion",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "STUDENT SUCCESS"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "26e37caad0fc8a0e",
+      "headline": "Lawsuit: Maryland Owes Its Black Land-Grant University $6B",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "summary": "Lawsuit: Maryland Owes Its Black Land-Grant University $6B Olivia.sanchez Wed, 11/18/2026 - 03:00 AM The state has underfunded the University of Maryland Eastern Shore since its founding, according to lawyers who brought the suit. Byline(s) Olivia Sanchez Lawsuit: Maryland Owes Its Black Land-Grant University $6B Olivia.sanchez Wed, 11/18/2026 - 03:00 AM The state has underfunded the University of Maryland Eastern...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/government/courts/2026/11/18/lawsuit-maryland-owes-its-black-land-grant-university-6b",
+      "labels": [
+        "NEW",
+        "GOVERNANCE"
+      ],
+      "score": 25,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "dfd16b93866a376a",
+      "headline": "Can Colleges Help More Students Maintain Financial Aid Eligibility?",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "summary": "Can Colleges Help More Students Maintain Financial Aid Eligibility? kathryn.palmer… Wed, 11/18/2026 - 06:00 AM In 2025, approximately 960,000 students lost federal financial aid after failing a government-mandated academic progress check, a new report shows. Byline(s) Kathryn Palmer Can Colleges Help More Students Maintain Financial Aid Eligibility? kathryn.palmer… Wed, 11/18/2026 - 06:00 AM In 2025, approximately...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/18/can-colleges-help-more-students-keep-aid-eligibility",
+      "labels": [
+        "NEW",
+        "AFFORDABILITY",
+        "POLICY"
+      ],
+      "score": 22,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "d833b0cdcccfccee",
+      "headline": "Court blocks DHS policy limiting international student training opportunities",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-18",
+      "summary": "The higher education groups suing to strike down new limits on the Curricular Practical Training program are likely to succeed, a federal judge ruled.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/court-blocks-dhs-policy-limiting-international-student-training-opportuniti/875132/",
+      "labels": [
+        "NEW",
+        "POLICY"
+      ],
+      "score": 18,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "why_this_matters_now": "Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
+  "linkedin_angles": [
+    {
+      "hook": "More students returning, but stopouts rise",
+      "angle": "Best post opportunity this cycle",
+      "draft": "More students returning, but stopouts rise\n\nCommunity colleges continue to play a central role in helping millions of Americans return to higher education after leaving without a credential, according to a new report from the National Student Clearinghouse Research Center. The...\n\nThis connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/more-students-returning-but-stopouts-rise/?utm_source=rss&utm_medium=rss&utm_campaign=more-students-returning-but-stopouts-rise"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "283fd3505ec42f89",
+      "headline": "Basic Needs Support Can Be a Completion Strategy",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/18/report-basic-needs-support-can-be-completion",
+      "labels": [
+        "STUDENT SUCCESS"
+      ],
+      "score": 18
+    },
+    {
+      "id": "dfa458371d88291f",
+      "headline": "Faculty, Alumni Rally Against Pepperdine’s New Faith Statement",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "url": "https://www.insidehighered.com/news/institutions/religious-colleges/2026/11/18/faculty-alumni-rally-against-pepperdine-faith",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "14368e41676c7bc8",
+      "headline": "UNC Chapel Hill Fined $5M for Admitting Too Many Out-of-State Students",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/18/unc-fined-5m-admitting-too-many-out-state-students",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "51111b706312e156",
+      "headline": "Supreme Court declines Trump bid to revive DEI research funding cuts",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-16",
+      "url": "https://www.highereddive.com/news/supreme-court-declines-trump-bid-to-revive-dei-research-funding-cuts/874788/",
+      "labels": [],
+      "score": 10
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-11-18",
+      "url": "data/archive/2026-11-18.json"
+    },
+    {
+      "label": "Cycle 2026-11-16",
+      "url": "data/archive/2026-11-16.json"
+    },
+    {
+      "label": "Cycle 2026-11-13",
+      "url": "data/archive/2026-11-13.json"
+    },
+    {
+      "label": "Cycle 2026-11-11",
+      "url": "data/archive/2026-11-11.json"
+    },
+    {
+      "label": "Cycle 2026-11-09",
+      "url": "data/archive/2026-11-09.json"
+    },
+    {
+      "label": "Cycle 2026-11-06",
+      "url": "data/archive/2026-11-06.json"
+    },
+    {
+      "label": "Cycle 2026-11-04",
+      "url": "data/archive/2026-11-04.json"
+    },
+    {
+      "label": "Cycle 2026-11-02",
+      "url": "data/archive/2026-11-02.json"
+    },
+    {
+      "label": "Cycle 2026-10-30",
+      "url": "data/archive/2026-10-30.json"
+    },
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    },
+    {
+      "label": "Cycle 2026-10-01",
+      "url": "data/archive/2026-10-01.json"
+    }
+  ],
+  "items_considered": 9,
+  "feed_errors": [
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "The Mentor: Innovative Scholarship on Academic Advising: robots.txt unavailable; monitoring skipped",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

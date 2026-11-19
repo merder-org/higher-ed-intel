@@ -14,13 +14,13 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-16 21:05 ET",
-  "cycle_date": "2026-11-16",
+  "generated_at": "2026-11-18 19:44 ET",
+  "cycle_date": "2026-11-18",
   "week_of": "2026-11-16",
   "freshness": {
-    "cycle_date": "2026-11-16",
+    "cycle_date": "2026-11-18",
     "days_lookback": 5,
-    "cutoff": "2026-11-11 21:05 ET",
+    "cutoff": "2026-11-13 19:44 ET",
     "new_count": 5,
     "updated_count": 0
   },
@@ -33,42 +33,20 @@
   ],
   "top_signals": [
     {
-      "id": "69800aeb77dc26b3",
-      "headline": "Leading with resilience",
+      "id": "5c845c5fae49f350",
+      "headline": "More students returning, but stopouts rise",
       "source": "Community College Daily",
-      "date": "2026-11-15",
-      "summary": "When Arizona passed its budget for the 2027 fiscal year, administrators at Maricopa Community Colleges were disheartened to see they wouldn’t be getting any money, despite educating more students than any other college in the...",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/11/leading-with-resilience/?utm_source=rss&utm_medium=rss&utm_campaign=leading-with-resilience",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "POLICY"
-      ],
-      "score": 38,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "7f5f89ecb82339a0",
-      "headline": "International student slump reaches community colleges",
-      "source": "Community College Daily",
-      "date": "2026-11-16",
-      "summary": "Community colleges are weathering the latest decline in international student enrollment better than many sectors of higher education, but new data show significant challenges ahead, particularly for non-degree programs and workforce-oriented offerings. Preliminary findings from...",
+      "date": "2026-11-18",
+      "summary": "Community colleges continue to play a central role in helping millions of Americans return to higher education after leaving without a credential, according to a new report from the National Student Clearinghouse Research Center. The...",
       "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
       "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "url": "https://www.ccdaily.com/2026/11/international-student-slump-reaches-community-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=international-student-slump-reaches-community-colleges",
+      "url": "https://www.ccdaily.com/2026/11/more-students-returning-but-stopouts-rise/?utm_source=rss&utm_medium=rss&utm_campaign=more-students-returning-but-stopouts-rise",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
         "WORKFORCE"
       ],
-      "score": 37,
+      "score": 31,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -77,14 +55,36 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "b576f965d1cba32a",
-      "headline": "Lawsuit alleges chronic underfunding of University of Maryland Eastern Shore",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-16",
-      "summary": "A group of students, faculty and alumni said the historically Black institution has been discriminated against and shortchanged $6 billion since its founding.",
+      "id": "eadd985f64321f27",
+      "headline": "Tracking the impact of basic-needs help on retention, completion",
+      "source": "Community College Daily",
+      "date": "2026-11-17",
+      "summary": "Community colleges are expanding efforts to help students meet basic needs, but many don’t know which supports have the greatest impact on keeping students enrolled and helping them graduate. A new guide from Complete College...",
+      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "url": "https://www.ccdaily.com/2026/11/tracking-the-impact-of-basic-needs-help-on-retention-completion/?utm_source=rss&utm_medium=rss&utm_campaign=tracking-the-impact-of-basic-needs-help-on-retention-completion",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "STUDENT SUCCESS"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "26e37caad0fc8a0e",
+      "headline": "Lawsuit: Maryland Owes Its Black Land-Grant University $6B",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "summary": "Lawsuit: Maryland Owes Its Black Land-Grant University $6B Olivia.sanchez Wed, 11/18/2026 - 03:00 AM The state has underfunded the University of Maryland Eastern Shore since its founding, according to lawyers who brought the suit. Byline(s) Olivia Sanchez Lawsuit: Maryland Owes Its Black Land-Grant University $6B Olivia.sanchez Wed, 11/18/2026 - 03:00 AM The state has underfunded the University of Maryland Eastern...",
       "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
       "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.highereddive.com/news/lawsuit-alleges-chronic-underfunding-of-university-of-maryland-eastern-shor/874815/",
+      "url": "https://www.insidehighered.com/news/government/courts/2026/11/18/lawsuit-maryland-owes-its-black-land-grant-university-6b",
       "labels": [
         "NEW",
         "GOVERNANCE"
@@ -98,16 +98,17 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "e86c0c9b5df5087e",
-      "headline": "How to Expand Degree Apprenticeships",
+      "id": "dfd16b93866a376a",
+      "headline": "Can Colleges Help More Students Maintain Financial Aid Eligibility?",
       "source": "Inside Higher Ed",
-      "date": "2026-11-16",
-      "summary": "How to Expand Degree Apprenticeships Joshua.Bay Mon, 11/16/2026 - 03:00 AM A new report from New America outlines 14 policy recommendations to help colleges and employers increase opportunities to earn a degree while gaining paid work experience. Byline(s) Joshua Bay How to Expand Degree Apprenticeships Joshua.Bay Mon, 11/16/2026 - 03:00 AM A new report from New America outlines 14 policy recommendations to help...",
+      "date": "2026-11-18",
+      "summary": "Can Colleges Help More Students Maintain Financial Aid Eligibility? kathryn.palmer… Wed, 11/18/2026 - 06:00 AM In 2025, approximately 960,000 students lost federal financial aid after failing a government-mandated academic progress check, a new report shows. Byline(s) Kathryn Palmer Can Colleges Help More Students Maintain Financial Aid Eligibility? kathryn.palmer… Wed, 11/18/2026 - 06:00 AM In 2025, approximately...",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/16/how-expand-degree-apprenticeships",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/18/can-colleges-help-more-students-keep-aid-eligibility",
       "labels": [
         "NEW",
+        "AFFORDABILITY",
         "POLICY"
       ],
       "score": 22,
@@ -119,14 +120,14 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "7e937db2f56fde0c",
-      "headline": "U of Kentucky Proposes Technology Policy Restricting All ‘Political Activity’",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-16",
-      "summary": "U of Kentucky Proposes Technology Policy Restricting All ‘Political Activity’ Emma Whitford Mon, 11/16/2026 - 03:00 AM The draft policy would prohibit students and employees from posting to personal social media accounts or sending personal messages using university devices, networks or software. Byline(s) Emma Whitford U of Kentucky Proposes Technology Policy Restricting All ‘Political Activity’ Emma Whitford Mon,...",
+      "id": "d833b0cdcccfccee",
+      "headline": "Court blocks DHS policy limiting international student training opportunities",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-18",
+      "summary": "The higher education groups suing to strike down new limits on the Curricular Practical Training program are likely to succeed, a federal judge ruled.",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.insidehighered.com/news/faculty/academic-freedom/2026/11/16/kentucky-tech-policy-aims-restrict-political-activity",
+      "url": "https://www.highereddive.com/news/court-blocks-dhs-policy-limiting-international-student-training-opportuniti/875132/",
       "labels": [
         "NEW",
         "POLICY"
@@ -149,52 +150,56 @@
   "why_this_matters_now": "Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.",
   "linkedin_angles": [
     {
-      "hook": "Leading with resilience",
+      "hook": "More students returning, but stopouts rise",
       "angle": "Best post opportunity this cycle",
-      "draft": "Leading with resilience\n\nWhen Arizona passed its budget for the 2027 fiscal year, administrators at Maricopa Community Colleges were disheartened to see they wouldn’t be getting any money, despite educating more students than any other college in the...\n\nThis seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/leading-with-resilience/?utm_source=rss&utm_medium=rss&utm_campaign=leading-with-resilience"
+      "draft": "More students returning, but stopouts rise\n\nCommunity colleges continue to play a central role in helping millions of Americans return to higher education after leaving without a credential, according to a new report from the National Student Clearinghouse Research Center. The...\n\nThis connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/more-students-returning-but-stopouts-rise/?utm_source=rss&utm_medium=rss&utm_campaign=more-students-returning-but-stopouts-rise"
     }
   ],
   "watch_list": [
     {
-      "id": "71a7bd48652cdc97",
-      "headline": "States take varied approaches to identify, fund high-priority programs",
-      "source": "Community College Daily",
-      "date": "2026-11-16",
-      "url": "https://www.ccdaily.com/2026/11/states-steer-funding-to-workforce-programs-but-few-track-graduates-outcomes/?utm_source=rss&utm_medium=rss&utm_campaign=states-steer-funding-to-workforce-programs-but-few-track-graduates-outcomes",
-      "labels": [
-        "WORKFORCE"
-      ],
-      "score": 20
-    },
-    {
-      "id": "8a4b63c16d5e63ee",
-      "headline": "Rigorous course participation rose after 2021 law, University of Illinois report finds",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-16",
-      "url": "https://www.highereddive.com/news/rigorous-course-participation-rose-in-illinois-after-2021-law-report-finds/874604/",
-      "labels": [],
-      "score": 18
-    },
-    {
-      "id": "7e8d0fa7a13856b5",
-      "headline": "International student enrollment fell 2.7% in 2025-26",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-16",
-      "url": "https://www.highereddive.com/news/international-student-enrollment-fell-27-in-2025-26/874661/",
-      "labels": [],
-      "score": 18
-    },
-    {
-      "id": "e137febb9041913b",
-      "headline": "When Students Are Scattered",
+      "id": "283fd3505ec42f89",
+      "headline": "Basic Needs Support Can Be a Completion Strategy",
       "source": "Inside Higher Ed",
-      "date": "2026-11-16",
-      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/11/16/when-students-are-scattered",
+      "date": "2026-11-18",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/18/report-basic-needs-support-can-be-completion",
+      "labels": [
+        "STUDENT SUCCESS"
+      ],
+      "score": 18
+    },
+    {
+      "id": "dfa458371d88291f",
+      "headline": "Faculty, Alumni Rally Against Pepperdine’s New Faith Statement",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "url": "https://www.insidehighered.com/news/institutions/religious-colleges/2026/11/18/faculty-alumni-rally-against-pepperdine-faith",
       "labels": [],
       "score": 14
+    },
+    {
+      "id": "14368e41676c7bc8",
+      "headline": "UNC Chapel Hill Fined $5M for Admitting Too Many Out-of-State Students",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-18",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/18/unc-fined-5m-admitting-too-many-out-state-students",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "51111b706312e156",
+      "headline": "Supreme Court declines Trump bid to revive DEI research funding cuts",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-16",
+      "url": "https://www.highereddive.com/news/supreme-court-declines-trump-bid-to-revive-dei-research-funding-cuts/874788/",
+      "labels": [],
+      "score": 10
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-18",
+      "url": "data/archive/2026-11-18.json"
+    },
     {
       "label": "Cycle 2026-11-16",
       "url": "data/archive/2026-11-16.json"
@@ -274,13 +279,9 @@
     {
       "label": "Cycle 2026-10-01",
       "url": "data/archive/2026-10-01.json"
-    },
-    {
-      "label": "Cycle 2026-09-28",
-      "url": "data/archive/2026-09-28.json"
     }
   ],
-  "items_considered": 13,
+  "items_considered": 9,
   "feed_errors": [
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
