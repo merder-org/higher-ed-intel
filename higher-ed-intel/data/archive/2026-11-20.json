@@ -1,0 +1,316 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-11-20 19:13 ET",
+  "cycle_date": "2026-11-20",
+  "week_of": "2026-11-16",
+  "freshness": {
+    "cycle_date": "2026-11-20",
+    "days_lookback": 5,
+    "cutoff": "2026-11-15 19:13 ET",
+    "new_count": 5,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "a27633e1d7074f1d",
+      "headline": "Voicing opposition to EDGAR changes",
+      "source": "Community College Daily",
+      "date": "2026-11-19",
+      "summary": "The community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "LEADERSHIP",
+        "POLICY"
+      ],
+      "score": 36,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "e3fa81372f33a497",
+      "headline": "Community colleges: Key to America’s next tech boom",
+      "source": "Community College Daily",
+      "date": "2026-11-19",
+      "summary": "The way Rachel Lipson sees it, America’s ability to compete in emerging technologies will depend as much on workforce development as on scientific innovation. And much of it will depend on community colleges providing the...",
+      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
+      "url": "https://www.ccdaily.com/2026/11/community-colleges-key-to-americas-next-tech-boom/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-key-to-americas-next-tech-boom",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "WORKFORCE"
+      ],
+      "score": 33,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "af8c7137614d65db",
+      "headline": "M State’s Detroit Lakes campus to close amid systemwide budget woes",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-19",
+      "summary": "System leaders voted to shutter the location, which enrolls just over 100 students, as soon as summer 2028.",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.highereddive.com/news/m-states-detroit-lakes-campus-to-close-amid-systemwide-budget-woes/875256/",
+      "labels": [
+        "NEW",
+        "POLICY"
+      ],
+      "score": 25,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "3edc939ed4657dc2",
+      "headline": "New Rule Changes the Future of Programmatic Accreditation",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-20",
+      "summary": "New Rule Changes the Future of Programmatic Accreditation jessica.blake@… Fri, 11/20/2026 - 03:00 AM Policy experts largely agree trade groups have too much influence over certain accreditors, driving up the time and money students spend on higher education. But not all believe Trump’s new regulations will ease the antitrust concerns. Byline(s) Jessica Blake",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/11/20/how-will-trumps-new-rule-change-programmatic-accreditation",
+      "labels": [
+        "NEW",
+        "GOVERNANCE",
+        "POLICY"
+      ],
+      "score": 24,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "16f4a7c3760e1d75",
+      "headline": "Student Success and Public Trust",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-20",
+      "summary": "Student Success and Public Trust sara.custer@in… Fri, 11/20/2026 - 03:00 AM The people closest to struggling students may be higher ed’s best trust-building asset—but they can’t do it alone. Byline(s) Sara Custer",
+      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
+      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/11/20/student-success-and-public-trust",
+      "labels": [
+        "NEW",
+        "STUDENT SUCCESS"
+      ],
+      "score": 20,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "linkedin_angles": [
+    {
+      "hook": "Voicing opposition to EDGAR changes",
+      "angle": "Best post opportunity this cycle",
+      "draft": "Voicing opposition to EDGAR changes\n\nThe community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "81a38c9cf3ebec73",
+      "headline": "Over 1M community college students risk losing financial aid",
+      "source": "Community College Daily",
+      "date": "2026-11-18",
+      "url": "https://www.ccdaily.com/2026/11/more-than-1m-community-college-students-risk-losing-financial-aid/?utm_source=rss&utm_medium=rss&utm_campaign=more-than-1m-community-college-students-risk-losing-financial-aid",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "AFFORDABILITY",
+        "POLICY"
+      ],
+      "score": 31
+    },
+    {
+      "id": "4374ea14d92e5594",
+      "headline": "Funding roundup",
+      "source": "Community College Daily",
+      "date": "2026-11-19",
+      "url": "https://www.ccdaily.com/2026/11/funding-roundup-467/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-467",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "STUDENT SUCCESS"
+      ],
+      "score": 27
+    },
+    {
+      "id": "1c90dc4c91c28073",
+      "headline": "Latest Law School Data Shows Lowest Acceptance Rate Since 2006",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-20",
+      "url": "https://www.insidehighered.com/news/admissions/graduate/2026/11/20/latest-law-school-data-shows-20-year-low-acceptance-rate",
+      "labels": [],
+      "score": 18
+    },
+    {
+      "id": "f049ddbae96fde07",
+      "headline": "Texas Democrats propose bills to nix state DEI ban at public colleges",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-20",
+      "url": "https://www.highereddive.com/news/texas-democrats-propose-bills-to-nix-state-dei-ban-at-public-colleges/875414/",
+      "labels": [
+        "POLICY"
+      ],
+      "score": 18
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-11-20",
+      "url": "data/archive/2026-11-20.json"
+    },
+    {
+      "label": "Cycle 2026-11-18",
+      "url": "data/archive/2026-11-18.json"
+    },
+    {
+      "label": "Cycle 2026-11-16",
+      "url": "data/archive/2026-11-16.json"
+    },
+    {
+      "label": "Cycle 2026-11-13",
+      "url": "data/archive/2026-11-13.json"
+    },
+    {
+      "label": "Cycle 2026-11-11",
+      "url": "data/archive/2026-11-11.json"
+    },
+    {
+      "label": "Cycle 2026-11-09",
+      "url": "data/archive/2026-11-09.json"
+    },
+    {
+      "label": "Cycle 2026-11-06",
+      "url": "data/archive/2026-11-06.json"
+    },
+    {
+      "label": "Cycle 2026-11-04",
+      "url": "data/archive/2026-11-04.json"
+    },
+    {
+      "label": "Cycle 2026-11-02",
+      "url": "data/archive/2026-11-02.json"
+    },
+    {
+      "label": "Cycle 2026-10-30",
+      "url": "data/archive/2026-10-30.json"
+    },
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    },
+    {
+      "label": "Cycle 2026-10-05",
+      "url": "data/archive/2026-10-05.json"
+    }
+  ],
+  "items_considered": 14,
+  "feed_errors": [
+    "Mass DHE News Clips: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)>",
+    "Inside Higher Ed: <unknown>:75:10: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "The Mentor: Innovative Scholarship on Academic Advising: robots.txt unavailable; monitoring skipped",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

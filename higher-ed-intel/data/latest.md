@@ -1,66 +1,66 @@
-# Higher-Ed Intelligence Brief — 2026-11-18
+# Higher-Ed Intelligence Brief — 2026-11-20
 
-_Generated: 2026-11-18 19:44 ET_
+_Generated: 2026-11-20 19:13 ET_
 
 ## Developments Worth Watching
 
-### More students returning, but stopouts rise
-- Source: Community College Daily (2026-11-18)
-- Labels: NEW, COMMUNITY COLLEGE, WORKFORCE
-- Summary: Community colleges continue to play a central role in helping millions of Americans return to higher education after leaving without a credential, according to a new report from the National Student Clearinghouse Research Center. The...
-- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
-- Link: https://www.ccdaily.com/2026/11/more-students-returning-but-stopouts-rise/?utm_source=rss&utm_medium=rss&utm_campaign=more-students-returning-but-stopouts-rise
-
-### Tracking the impact of basic-needs help on retention, completion
-- Source: Community College Daily (2026-11-17)
-- Labels: NEW, COMMUNITY COLLEGE, STUDENT SUCCESS
-- Summary: Community colleges are expanding efforts to help students meet basic needs, but many don’t know which supports have the greatest impact on keeping students enrolled and helping them graduate. A new guide from Complete College...
-- What caught my attention: The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
-- Link: https://www.ccdaily.com/2026/11/tracking-the-impact-of-basic-needs-help-on-retention-completion/?utm_source=rss&utm_medium=rss&utm_campaign=tracking-the-impact-of-basic-needs-help-on-retention-completion
-
-### Lawsuit: Maryland Owes Its Black Land-Grant University $6B
-- Source: Inside Higher Ed (2026-11-18)
-- Labels: NEW, GOVERNANCE
-- Summary: Lawsuit: Maryland Owes Its Black Land-Grant University $6B Olivia.sanchez Wed, 11/18/2026 - 03:00 AM The state has underfunded the University of Maryland Eastern Shore since its founding, according to lawyers who brought the suit. Byline(s) Olivia Sanchez Lawsuit: Maryland Owes Its Black Land-Grant University $6B Olivia.sanchez Wed, 11/18/2026 - 03:00 AM The state has underfunded the University of Maryland Eastern...
+### Voicing opposition to EDGAR changes
+- Source: Community College Daily (2026-11-19)
+- Labels: NEW, COMMUNITY COLLEGE, LEADERSHIP, POLICY
+- Summary: The community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...
 - What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.insidehighered.com/news/government/courts/2026/11/18/lawsuit-maryland-owes-its-black-land-grant-university-6b
+- Link: https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes
 
-### Can Colleges Help More Students Maintain Financial Aid Eligibility?
-- Source: Inside Higher Ed (2026-11-18)
-- Labels: NEW, AFFORDABILITY, POLICY
-- Summary: Can Colleges Help More Students Maintain Financial Aid Eligibility? kathryn.palmer… Wed, 11/18/2026 - 06:00 AM In 2025, approximately 960,000 students lost federal financial aid after failing a government-mandated academic progress check, a new report shows. Byline(s) Kathryn Palmer Can Colleges Help More Students Maintain Financial Aid Eligibility? kathryn.palmer… Wed, 11/18/2026 - 06:00 AM In 2025, approximately...
-- What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.insidehighered.com/news/student-success/academic-life/2026/11/18/can-colleges-help-more-students-keep-aid-eligibility
+### Community colleges: Key to America’s next tech boom
+- Source: Community College Daily (2026-11-19)
+- Labels: NEW, COMMUNITY COLLEGE, WORKFORCE
+- Summary: The way Rachel Lipson sees it, America’s ability to compete in emerging technologies will depend as much on workforce development as on scientific innovation. And much of it will depend on community colleges providing the...
+- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
+- Link: https://www.ccdaily.com/2026/11/community-colleges-key-to-americas-next-tech-boom/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-key-to-americas-next-tech-boom
 
-### Court blocks DHS policy limiting international student training opportunities
-- Source: Higher Ed Dive (2026-11-18)
+### M State’s Detroit Lakes campus to close amid systemwide budget woes
+- Source: Higher Ed Dive (2026-11-19)
 - Labels: NEW, POLICY
-- Summary: The higher education groups suing to strike down new limits on the Curricular Practical Training program are likely to succeed, a federal judge ruled.
+- Summary: System leaders voted to shutter the location, which enrolls just over 100 students, as soon as summer 2028.
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/court-blocks-dhs-policy-limiting-international-student-training-opportuniti/875132/
+- Link: https://www.highereddive.com/news/m-states-detroit-lakes-campus-to-close-amid-systemwide-budget-woes/875256/
+
+### New Rule Changes the Future of Programmatic Accreditation
+- Source: Inside Higher Ed (2026-11-20)
+- Labels: NEW, GOVERNANCE, POLICY
+- Summary: New Rule Changes the Future of Programmatic Accreditation jessica.blake@… Fri, 11/20/2026 - 03:00 AM Policy experts largely agree trade groups have too much influence over certain accreditors, driving up the time and money students spend on higher education. But not all believe Trump’s new regulations will ease the antitrust concerns. Byline(s) Jessica Blake
+- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+- Link: https://www.insidehighered.com/news/governance/accreditation/2026/11/20/how-will-trumps-new-rule-change-programmatic-accreditation
+
+### Student Success and Public Trust
+- Source: Inside Higher Ed (2026-11-20)
+- Labels: NEW, STUDENT SUCCESS
+- Summary: Student Success and Public Trust sara.custer@in… Fri, 11/20/2026 - 03:00 AM The people closest to struggling students may be higher ed’s best trust-building asset—but they can’t do it alone. Byline(s) Sara Custer
+- What caught my attention: The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
+- Link: https://www.insidehighered.com/opinion/columns/editors-note/2026/11/20/student-success-and-public-trust
 
 ## Pattern I’m Seeing
 
-Workforce alignment keeps showing up as a policy ambition. The harder question is whether colleges are being funded for the complexity of delivering it.
+The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
 
 ## Draft LinkedIn Briefs for Editing
 
-### More students returning, but stopouts rise
+### Voicing opposition to EDGAR changes
 - Angle: Best post opportunity this cycle
 
-More students returning, but stopouts rise
+Voicing opposition to EDGAR changes
 
-Community colleges continue to play a central role in helping millions of Americans return to higher education after leaving without a credential, according to a new report from the National Student Clearinghouse Research Center. The...
+The community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...
 
-This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
+The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
 
 For community colleges, the question is whether the implementation capacity matches the ambition.
 
-Source: https://www.ccdaily.com/2026/11/more-students-returning-but-stopouts-rise/?utm_source=rss&utm_medium=rss&utm_campaign=more-students-returning-but-stopouts-rise
+Source: https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes
 
 ## Watch List
 
-- Basic Needs Support Can Be a Completion Strategy (Inside Higher Ed, 2026-11-18)
-- Faculty, Alumni Rally Against Pepperdine’s New Faith Statement (Inside Higher Ed, 2026-11-18)
-- UNC Chapel Hill Fined $5M for Admitting Too Many Out-of-State Students (Inside Higher Ed, 2026-11-18)
-- Supreme Court declines Trump bid to revive DEI research funding cuts (Higher Ed Dive, 2026-11-16)
+- Over 1M community college students risk losing financial aid (Community College Daily, 2026-11-18)
+- Funding roundup (Community College Daily, 2026-11-19)
+- Latest Law School Data Shows Lowest Acceptance Rate Since 2006 (Inside Higher Ed, 2026-11-20)
+- Texas Democrats propose bills to nix state DEI ban at public colleges (Higher Ed Dive, 2026-11-20)
