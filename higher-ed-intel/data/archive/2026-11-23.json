@@ -1,0 +1,300 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-11-23 23:05 ET",
+  "cycle_date": "2026-11-23",
+  "week_of": "2026-11-23",
+  "freshness": {
+    "cycle_date": "2026-11-23",
+    "days_lookback": 5,
+    "cutoff": "2026-11-18 23:05 ET",
+    "new_count": 2,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [
+    {
+      "id": "845620f1a792eddc",
+      "headline": "AI shrinks first-rung jobs, but opportunities exist",
+      "source": "Community College Daily",
+      "date": "2026-11-23",
+      "summary": "Artificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...",
+      "observation": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "why_it_matters": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "url": "https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "AI"
+      ],
+      "score": 31,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "a6f13f40c7a42274",
+      "headline": "A recruitment strategy hiding in plain sight",
+      "source": "Community College Daily",
+      "date": "2026-11-23",
+      "summary": "You can tell a lot about a school by its trophy case. Who set a record and which teams won championships. I visit a lot of community colleges that choose to showcase an even more...",
+      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
+      "url": "https://www.ccdaily.com/2026/11/a-recruitment-strategy-hiding-in-plain-sight/?utm_source=rss&utm_medium=rss&utm_campaign=a-recruitment-strategy-hiding-in-plain-sight",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    }
+  ],
+  "research_context": [
+    {
+      "headline": "Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College",
+      "summary": "Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-08",
+      "evidence": {
+        "findings": [
+          "The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college."
+        ],
+        "methods": [
+          "Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "527733d9fbdaeff1",
+      "date": "2026-08",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "EARLY COLLEGE"
+      ],
+      "score": 19,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    },
+    {
+      "headline": "Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement",
+      "summary": "As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-05",
+      "evidence": {
+        "findings": [
+          "The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree.",
+          "And the findings suggest the dual momentum metrics are reliable predictors of subsequent college outcomes across student gender and race/ethnicity, Title I high school status, and high school urbanicity."
+        ],
+        "methods": [
+          "Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "4e80062afa418b64",
+      "date": "2026-05",
+      "labels": [
+        "STUDENT SUCCESS",
+        "EARLY COLLEGE"
+      ],
+      "score": 12,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    }
+  ],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "why_this_matters_now": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "linkedin_angles": [
+    {
+      "hook": "AI shrinks first-rung jobs, but opportunities exist",
+      "angle": "Best post opportunity this cycle",
+      "draft": "AI shrinks first-rung jobs, but opportunities exist\n\nArtificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...\n\nThe AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist"
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "eb9bd1da549a5086",
+      "headline": "Onward and upward",
+      "source": "Community College Daily",
+      "date": "2026-11-22",
+      "url": "https://www.ccdaily.com/2026/11/onward-and-upward/?utm_source=rss&utm_medium=rss&utm_campaign=onward-and-upward",
+      "labels": [
+        "COMMUNITY COLLEGE"
+      ],
+      "score": 27
+    },
+    {
+      "id": "37a8314ea916ab04",
+      "headline": "Reporter’s notebook",
+      "source": "Community College Daily",
+      "date": "2026-11-22",
+      "url": "https://www.ccdaily.com/2026/11/reporters-notebook-250/?utm_source=rss&utm_medium=rss&utm_campaign=reporters-notebook-250",
+      "labels": [
+        "WORKFORCE",
+        "AFFORDABILITY"
+      ],
+      "score": 25
+    },
+    {
+      "id": "c77a3e788333975d",
+      "headline": "Arizona Universities Push Rush to Spring Semester",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-23",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/23/arizona-universities-defer-rush-spring-semester",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "02fee6896d0730f1",
+      "headline": "It Is a Small Math Program. Yet There Are Those Who Love It.",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-23",
+      "url": "https://www.insidehighered.com/opinion/columns/public-scholar/2026/11/23/it-small-math-program-yet-there-are-those-who-love-it",
+      "labels": [],
+      "score": 14
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-11-23",
+      "url": "data/archive/2026-11-23.json"
+    },
+    {
+      "label": "Cycle 2026-11-20",
+      "url": "data/archive/2026-11-20.json"
+    },
+    {
+      "label": "Cycle 2026-11-18",
+      "url": "data/archive/2026-11-18.json"
+    },
+    {
+      "label": "Cycle 2026-11-16",
+      "url": "data/archive/2026-11-16.json"
+    },
+    {
+      "label": "Cycle 2026-11-13",
+      "url": "data/archive/2026-11-13.json"
+    },
+    {
+      "label": "Cycle 2026-11-11",
+      "url": "data/archive/2026-11-11.json"
+    },
+    {
+      "label": "Cycle 2026-11-09",
+      "url": "data/archive/2026-11-09.json"
+    },
+    {
+      "label": "Cycle 2026-11-06",
+      "url": "data/archive/2026-11-06.json"
+    },
+    {
+      "label": "Cycle 2026-11-04",
+      "url": "data/archive/2026-11-04.json"
+    },
+    {
+      "label": "Cycle 2026-11-02",
+      "url": "data/archive/2026-11-02.json"
+    },
+    {
+      "label": "Cycle 2026-10-30",
+      "url": "data/archive/2026-10-30.json"
+    },
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    },
+    {
+      "label": "Cycle 2026-10-09",
+      "url": "data/archive/2026-10-09.json"
+    },
+    {
+      "label": "Cycle 2026-10-08",
+      "url": "data/archive/2026-10-08.json"
+    }
+  ],
+  "items_considered": 11,
+  "feed_errors": [
+    "Inside Higher Ed: <unknown>:179:51: undefined entity",
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

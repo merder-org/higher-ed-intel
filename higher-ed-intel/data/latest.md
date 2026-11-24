@@ -1,66 +1,59 @@
-# Higher-Ed Intelligence Brief — 2026-11-20
+# Higher-Ed Intelligence Brief — 2026-11-23
 
-_Generated: 2026-11-20 19:13 ET_
+_Generated: 2026-11-23 23:05 ET_
 
 ## Developments Worth Watching
 
-### Voicing opposition to EDGAR changes
-- Source: Community College Daily (2026-11-19)
-- Labels: NEW, COMMUNITY COLLEGE, LEADERSHIP, POLICY
-- Summary: The community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes
+### AI shrinks first-rung jobs, but opportunities exist
+- Source: Community College Daily (2026-11-23)
+- Labels: NEW, COMMUNITY COLLEGE, AI
+- Summary: Artificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...
+- What caught my attention: The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.
+- Link: https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist
 
-### Community colleges: Key to America’s next tech boom
-- Source: Community College Daily (2026-11-19)
-- Labels: NEW, COMMUNITY COLLEGE, WORKFORCE
-- Summary: The way Rachel Lipson sees it, America’s ability to compete in emerging technologies will depend as much on workforce development as on scientific innovation. And much of it will depend on community colleges providing the...
-- What caught my attention: This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.
-- Link: https://www.ccdaily.com/2026/11/community-colleges-key-to-americas-next-tech-boom/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-key-to-americas-next-tech-boom
-
-### M State’s Detroit Lakes campus to close amid systemwide budget woes
-- Source: Higher Ed Dive (2026-11-19)
-- Labels: NEW, POLICY
-- Summary: System leaders voted to shutter the location, which enrolls just over 100 students, as soon as summer 2028.
+### A recruitment strategy hiding in plain sight
+- Source: Community College Daily (2026-11-23)
+- Labels: NEW, COMMUNITY COLLEGE
+- Summary: You can tell a lot about a school by its trophy case. Who set a record and which teams won championships. I visit a lot of community colleges that choose to showcase an even more...
 - What caught my attention: This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.
-- Link: https://www.highereddive.com/news/m-states-detroit-lakes-campus-to-close-amid-systemwide-budget-woes/875256/
+- Link: https://www.ccdaily.com/2026/11/a-recruitment-strategy-hiding-in-plain-sight/?utm_source=rss&utm_medium=rss&utm_campaign=a-recruitment-strategy-hiding-in-plain-sight
 
-### New Rule Changes the Future of Programmatic Accreditation
-- Source: Inside Higher Ed (2026-11-20)
-- Labels: NEW, GOVERNANCE, POLICY
-- Summary: New Rule Changes the Future of Programmatic Accreditation jessica.blake@… Fri, 11/20/2026 - 03:00 AM Policy experts largely agree trade groups have too much influence over certain accreditors, driving up the time and money students spend on higher education. But not all believe Trump’s new regulations will ease the antitrust concerns. Byline(s) Jessica Blake
-- What caught my attention: The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
-- Link: https://www.insidehighered.com/news/governance/accreditation/2026/11/20/how-will-trumps-new-rule-change-programmatic-accreditation
+## Older Research for Context
 
-### Student Success and Public Trust
-- Source: Inside Higher Ed (2026-11-20)
-- Labels: NEW, STUDENT SUCCESS
-- Summary: Student Success and Public Trust sara.custer@in… Fri, 11/20/2026 - 03:00 AM The people closest to struggling students may be higher ed’s best trust-building asset—but they can’t do it alone. Byline(s) Sara Custer
-- What caught my attention: The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.
-- Link: https://www.insidehighered.com/opinion/columns/editors-note/2026/11/20/student-success-and-public-trust
+### Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College
+- Background research, published 2026-08 — CCRC Dual Enrollment
+- Summary: Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.
+- Evidence and implications: Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?
+- Link: https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html
+
+### Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement
+- Background research, published 2026-05 — CCRC Dual Enrollment
+- Summary: As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.
+- Evidence and implications: Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?
+- Link: https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html
 
 ## Pattern I’m Seeing
 
-The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.
+The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.
 
 ## Draft LinkedIn Briefs for Editing
 
-### Voicing opposition to EDGAR changes
+### AI shrinks first-rung jobs, but opportunities exist
 - Angle: Best post opportunity this cycle
 
-Voicing opposition to EDGAR changes
+AI shrinks first-rung jobs, but opportunities exist
 
-The community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...
+Artificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...
 
-The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.
+The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.
 
 For community colleges, the question is whether the implementation capacity matches the ambition.
 
-Source: https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes
+Source: https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist
 
 ## Watch List
 
-- Over 1M community college students risk losing financial aid (Community College Daily, 2026-11-18)
-- Funding roundup (Community College Daily, 2026-11-19)
-- Latest Law School Data Shows Lowest Acceptance Rate Since 2006 (Inside Higher Ed, 2026-11-20)
-- Texas Democrats propose bills to nix state DEI ban at public colleges (Higher Ed Dive, 2026-11-20)
+- Onward and upward (Community College Daily, 2026-11-22)
+- Reporter’s notebook (Community College Daily, 2026-11-22)
+- Arizona Universities Push Rush to Spring Semester (Inside Higher Ed, 2026-11-23)
+- It Is a Small Math Program. Yet There Are Those Who Love It. (Inside Higher Ed, 2026-11-23)

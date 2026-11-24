@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-20 19:13 ET",
-  "cycle_date": "2026-11-20",
-  "week_of": "2026-11-16",
+  "generated_at": "2026-11-23 23:05 ET",
+  "cycle_date": "2026-11-23",
+  "week_of": "2026-11-23",
   "freshness": {
-    "cycle_date": "2026-11-20",
+    "cycle_date": "2026-11-23",
     "days_lookback": 5,
-    "cutoff": "2026-11-15 19:13 ET",
-    "new_count": 5,
+    "cutoff": "2026-11-18 23:05 ET",
+    "new_count": 2,
     "updated_count": 0
   },
   "sections": [
@@ -33,21 +33,20 @@
   ],
   "top_signals": [
     {
-      "id": "a27633e1d7074f1d",
-      "headline": "Voicing opposition to EDGAR changes",
+      "id": "845620f1a792eddc",
+      "headline": "AI shrinks first-rung jobs, but opportunities exist",
       "source": "Community College Daily",
-      "date": "2026-11-19",
-      "summary": "The community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes",
+      "date": "2026-11-23",
+      "summary": "Artificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...",
+      "observation": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "why_it_matters": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
+      "url": "https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "LEADERSHIP",
-        "POLICY"
+        "AI"
       ],
-      "score": 36,
+      "score": 31,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -56,84 +55,19 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "e3fa81372f33a497",
-      "headline": "Community colleges: Key to America’s next tech boom",
+      "id": "a6f13f40c7a42274",
+      "headline": "A recruitment strategy hiding in plain sight",
       "source": "Community College Daily",
-      "date": "2026-11-19",
-      "summary": "The way Rachel Lipson sees it, America’s ability to compete in emerging technologies will depend as much on workforce development as on scientific innovation. And much of it will depend on community colleges providing the...",
-      "observation": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "why_it_matters": "This connects to a familiar tension: colleges are being asked to respond quickly to workforce needs, but the staffing and support infrastructure often lags behind the rhetoric.",
-      "url": "https://www.ccdaily.com/2026/11/community-colleges-key-to-americas-next-tech-boom/?utm_source=rss&utm_medium=rss&utm_campaign=community-colleges-key-to-americas-next-tech-boom",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "WORKFORCE"
-      ],
-      "score": 33,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "af8c7137614d65db",
-      "headline": "M State’s Detroit Lakes campus to close amid systemwide budget woes",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-19",
-      "summary": "System leaders voted to shutter the location, which enrolls just over 100 students, as soon as summer 2028.",
+      "date": "2026-11-23",
+      "summary": "You can tell a lot about a school by its trophy case. Who set a record and which teams won championships. I visit a lot of community colleges that choose to showcase an even more...",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/m-states-detroit-lakes-campus-to-close-amid-systemwide-budget-woes/875256/",
+      "url": "https://www.ccdaily.com/2026/11/a-recruitment-strategy-hiding-in-plain-sight/?utm_source=rss&utm_medium=rss&utm_campaign=a-recruitment-strategy-hiding-in-plain-sight",
       "labels": [
         "NEW",
-        "POLICY"
+        "COMMUNITY COLLEGE"
       ],
-      "score": 25,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "3edc939ed4657dc2",
-      "headline": "New Rule Changes the Future of Programmatic Accreditation",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-20",
-      "summary": "New Rule Changes the Future of Programmatic Accreditation jessica.blake@… Fri, 11/20/2026 - 03:00 AM Policy experts largely agree trade groups have too much influence over certain accreditors, driving up the time and money students spend on higher education. But not all believe Trump’s new regulations will ease the antitrust concerns. Byline(s) Jessica Blake",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/11/20/how-will-trumps-new-rule-change-programmatic-accreditation",
-      "labels": [
-        "NEW",
-        "GOVERNANCE",
-        "POLICY"
-      ],
-      "score": 24,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "16f4a7c3760e1d75",
-      "headline": "Student Success and Public Trust",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-20",
-      "summary": "Student Success and Public Trust sara.custer@in… Fri, 11/20/2026 - 03:00 AM The people closest to struggling students may be higher ed’s best trust-building asset—but they can’t do it alone. Byline(s) Sara Custer",
-      "observation": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
-      "why_it_matters": "The part that caught my attention is the operational burden. Student success work does not scale by aspiration alone.",
-      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/11/20/student-success-and-public-trust",
-      "labels": [
-        "NEW",
-        "STUDENT SUCCESS"
-      ],
-      "score": 20,
+      "score": 27,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -142,68 +76,124 @@
       "retrieval_method": "rss"
     }
   ],
-  "research_context": [],
+  "research_context": [
+    {
+      "headline": "Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College",
+      "summary": "Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-08",
+      "evidence": {
+        "findings": [
+          "The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college."
+        ],
+        "methods": [
+          "Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "527733d9fbdaeff1",
+      "date": "2026-08",
+      "labels": [
+        "COMMUNITY COLLEGE",
+        "EARLY COLLEGE"
+      ],
+      "score": 19,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    },
+    {
+      "headline": "Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement",
+      "summary": "As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.",
+      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html",
+      "source": "CCRC Dual Enrollment",
+      "date_precision": "month",
+      "publication_date": "2026-05",
+      "evidence": {
+        "findings": [
+          "The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree.",
+          "And the findings suggest the dual momentum metrics are reliable predictors of subsequent college outcomes across student gender and race/ethnicity, Title I high school status, and high school urbanicity."
+        ],
+        "methods": [
+          "Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school."
+        ],
+        "limitations": []
+      },
+      "retrieval_method": "public_html",
+      "id": "4e80062afa418b64",
+      "date": "2026-05",
+      "labels": [
+        "STUDENT SUCCESS",
+        "EARLY COLLEGE"
+      ],
+      "score": 12,
+      "context_status": "Older research — background, not a new development",
+      "observation": "Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
+    }
+  ],
   "priority_coverage": {
     "ADVISING": 0,
     "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
-  "why_this_matters_now": "The most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "pattern_this_cycle": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "why_this_matters_now": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
   "linkedin_angles": [
     {
-      "hook": "Voicing opposition to EDGAR changes",
+      "hook": "AI shrinks first-rung jobs, but opportunities exist",
       "angle": "Best post opportunity this cycle",
-      "draft": "Voicing opposition to EDGAR changes\n\nThe community college sector this week expressed its concerns during a congressional briefing about a proposed U.S. Education Department rule that would significantly change how federal grants are awarded and managed. Brenda Hellyer, chancellor of...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/voicing-opposition-to-edgar-changes/?utm_source=rss&utm_medium=rss&utm_campaign=voicing-opposition-to-edgar-changes"
+      "draft": "AI shrinks first-rung jobs, but opportunities exist\n\nArtificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...\n\nThe AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist"
     }
   ],
   "watch_list": [
     {
-      "id": "81a38c9cf3ebec73",
-      "headline": "Over 1M community college students risk losing financial aid",
+      "id": "eb9bd1da549a5086",
+      "headline": "Onward and upward",
       "source": "Community College Daily",
-      "date": "2026-11-18",
-      "url": "https://www.ccdaily.com/2026/11/more-than-1m-community-college-students-risk-losing-financial-aid/?utm_source=rss&utm_medium=rss&utm_campaign=more-than-1m-community-college-students-risk-losing-financial-aid",
+      "date": "2026-11-22",
+      "url": "https://www.ccdaily.com/2026/11/onward-and-upward/?utm_source=rss&utm_medium=rss&utm_campaign=onward-and-upward",
       "labels": [
-        "COMMUNITY COLLEGE",
-        "AFFORDABILITY",
-        "POLICY"
-      ],
-      "score": 31
-    },
-    {
-      "id": "4374ea14d92e5594",
-      "headline": "Funding roundup",
-      "source": "Community College Daily",
-      "date": "2026-11-19",
-      "url": "https://www.ccdaily.com/2026/11/funding-roundup-467/?utm_source=rss&utm_medium=rss&utm_campaign=funding-roundup-467",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "STUDENT SUCCESS"
+        "COMMUNITY COLLEGE"
       ],
       "score": 27
     },
     {
-      "id": "1c90dc4c91c28073",
-      "headline": "Latest Law School Data Shows Lowest Acceptance Rate Since 2006",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-20",
-      "url": "https://www.insidehighered.com/news/admissions/graduate/2026/11/20/latest-law-school-data-shows-20-year-low-acceptance-rate",
-      "labels": [],
-      "score": 18
+      "id": "37a8314ea916ab04",
+      "headline": "Reporter’s notebook",
+      "source": "Community College Daily",
+      "date": "2026-11-22",
+      "url": "https://www.ccdaily.com/2026/11/reporters-notebook-250/?utm_source=rss&utm_medium=rss&utm_campaign=reporters-notebook-250",
+      "labels": [
+        "WORKFORCE",
+        "AFFORDABILITY"
+      ],
+      "score": 25
     },
     {
-      "id": "f049ddbae96fde07",
-      "headline": "Texas Democrats propose bills to nix state DEI ban at public colleges",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-20",
-      "url": "https://www.highereddive.com/news/texas-democrats-propose-bills-to-nix-state-dei-ban-at-public-colleges/875414/",
-      "labels": [
-        "POLICY"
-      ],
-      "score": 18
+      "id": "c77a3e788333975d",
+      "headline": "Arizona Universities Push Rush to Spring Semester",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-23",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/23/arizona-universities-defer-rush-spring-semester",
+      "labels": [],
+      "score": 14
+    },
+    {
+      "id": "02fee6896d0730f1",
+      "headline": "It Is a Small Math Program. Yet There Are Those Who Love It.",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-23",
+      "url": "https://www.insidehighered.com/opinion/columns/public-scholar/2026/11/23/it-small-math-program-yet-there-are-those-who-love-it",
+      "labels": [],
+      "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-23",
+      "url": "data/archive/2026-11-23.json"
+    },
     {
       "label": "Cycle 2026-11-20",
       "url": "data/archive/2026-11-20.json"
@@ -283,16 +273,11 @@
     {
       "label": "Cycle 2026-10-08",
       "url": "data/archive/2026-10-08.json"
-    },
-    {
-      "label": "Cycle 2026-10-05",
-      "url": "data/archive/2026-10-05.json"
     }
   ],
-  "items_considered": 14,
+  "items_considered": 11,
   "feed_errors": [
-    "Mass DHE News Clips: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)>",
-    "Inside Higher Ed: <unknown>:75:10: undefined entity",
+    "Inside Higher Ed: <unknown>:179:51: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
@@ -306,7 +291,6 @@
     "Massachusetts DESE Early College: no matching publication links in accessible HTML",
     "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
     "Massachusetts DHE Early College: no matching publication links in accessible HTML",
-    "The Mentor: Innovative Scholarship on Academic Advising: robots.txt unavailable; monitoring skipped",
     "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
   ],
   "site": {
