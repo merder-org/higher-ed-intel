@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-23 23:05 ET",
-  "cycle_date": "2026-11-23",
+  "generated_at": "2026-11-25 20:56 ET",
+  "cycle_date": "2026-11-25",
   "week_of": "2026-11-23",
   "freshness": {
-    "cycle_date": "2026-11-23",
+    "cycle_date": "2026-11-25",
     "days_lookback": 5,
-    "cutoff": "2026-11-18 23:05 ET",
-    "new_count": 2,
+    "cutoff": "2026-11-20 20:56 ET",
+    "new_count": 5,
     "updated_count": 0
   },
   "sections": [
@@ -33,20 +33,21 @@
   ],
   "top_signals": [
     {
-      "id": "845620f1a792eddc",
-      "headline": "AI shrinks first-rung jobs, but opportunities exist",
-      "source": "Community College Daily",
-      "date": "2026-11-23",
-      "summary": "Artificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...",
-      "observation": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
-      "why_it_matters": "The AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.",
-      "url": "https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist",
+      "id": "5c67e58ea6544011",
+      "headline": "Mott Community College Removes President",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-25",
+      "summary": "Mott Community College Removes President Josh Moody Wed, 11/25/2026 - 03:00 AM Trustees at the Michigan college abruptly removed President Shaunda Richardson-Snell with no public explanation. Byline(s) Josh Moody Mott Community College Removes President Josh Moody Wed, 11/25/2026 - 03:00 AM Trustees at the Michigan college abruptly removed President Shaunda Richardson-Snell with no public explanation. Byline(s) Josh...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.insidehighered.com/news/governance/executive-leadership/2026/11/25/mott-community-college-removes-president",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE",
-        "AI"
+        "GOVERNANCE",
+        "LEADERSHIP"
       ],
-      "score": 31,
+      "score": 43,
       "evidence": {
         "findings": [],
         "methods": [],
@@ -55,141 +56,157 @@
       "retrieval_method": "rss"
     },
     {
-      "id": "a6f13f40c7a42274",
-      "headline": "A recruitment strategy hiding in plain sight",
+      "id": "3596dd571a16766f",
+      "headline": "Why a college’s communications leader is a president’s first ally",
       "source": "Community College Daily",
-      "date": "2026-11-23",
-      "summary": "You can tell a lot about a school by its trophy case. Who set a record and which teams won championships. I visit a lot of community colleges that choose to showcase an even more...",
+      "date": "2026-11-24",
+      "summary": "Calling the modern community college presidency “demanding” undersells the challenge. The expectations of the role are relentless, and new campus CEOs usually arrive under several charges. It’s why the relationship between a president and the...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.ccdaily.com/2026/11/why-a-colleges-communications-leader-is-a-presidents-first-ally/?utm_source=rss&utm_medium=rss&utm_campaign=why-a-colleges-communications-leader-is-a-presidents-first-ally",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "GOVERNANCE",
+        "LEADERSHIP"
+      ],
+      "score": 43,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "892d4101f945c292",
+      "headline": "How colleges and schools can grow career-focused dual enrollment",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-25",
+      "summary": "Career and technical education and dual enrollment are “powerful levers” together, said a researcher at the Community College Research Center.",
+      "observation": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "why_it_matters": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
+      "url": "https://www.highereddive.com/news/how-colleges-and-schools-can-grow-career-focused-dual-enrollment/875769/",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "EARLY COLLEGE"
+      ],
+      "score": 39,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "15337f782008390c",
+      "headline": "The dialectical dance of human progress",
+      "source": "Community College Daily",
+      "date": "2026-11-24",
+      "summary": "On November 21, I delivered the closing keynote at the Community College League of California’s Fall Conference in Riverside to trustees, student trustees and chief executive officers. My talk, “What We Hand Off, What We...",
+      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
+      "url": "https://www.ccdaily.com/2026/11/the-dialectical-dance-of-human-progress/?utm_source=rss&utm_medium=rss&utm_campaign=the-dialectical-dance-of-human-progress",
+      "labels": [
+        "NEW",
+        "COMMUNITY COLLEGE",
+        "GOVERNANCE"
+      ],
+      "score": 33,
+      "evidence": {
+        "findings": [],
+        "methods": [],
+        "limitations": []
+      },
+      "retrieval_method": "rss"
+    },
+    {
+      "id": "129eeb3e9dfd7795",
+      "headline": "Alabama lawmaker eyes 3-year bachelor’s degrees for public colleges",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-24",
+      "summary": "The forthcoming proposal would allow the state’s universities and community colleges to create reduced-credit programs in high-demand fields.",
       "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
       "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.ccdaily.com/2026/11/a-recruitment-strategy-hiding-in-plain-sight/?utm_source=rss&utm_medium=rss&utm_campaign=a-recruitment-strategy-hiding-in-plain-sight",
+      "url": "https://www.highereddive.com/news/alabama-lawmaker-eyes-3-year-bachelors-degrees-for-public-colleges/875537/",
       "labels": [
         "NEW",
         "COMMUNITY COLLEGE"
       ],
       "score": 27,
       "evidence": {
-        "findings": [],
+        "findings": [
+          "The forthcoming proposal would allow the state’s universities and community colleges to create reduced-credit programs in high-demand fields."
+        ],
         "methods": [],
         "limitations": []
       },
       "retrieval_method": "rss"
     }
   ],
-  "research_context": [
-    {
-      "headline": "Dual Enrollment as an Interorganizational Field: Defining and Redefining Organizational Boundaries Between High School and College",
-      "summary": "Dual enrollment, in which students earn college credit during high school, is shifting the higher education landscape, particularly at community colleges, where dual enrollment students now represent one fifth of enrollees. To facilitate dual enrollment programming, actors from a partner high school and college must navigate decisions for staffing courses, supporting students, and investing resources.",
-      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-interorganizational-field.html",
-      "source": "CCRC Dual Enrollment",
-      "date_precision": "month",
-      "publication_date": "2026-08",
-      "evidence": {
-        "findings": [
-          "The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college."
-        ],
-        "methods": [
-          "Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses."
-        ],
-        "limitations": []
-      },
-      "retrieval_method": "public_html",
-      "id": "527733d9fbdaeff1",
-      "date": "2026-08",
-      "labels": [
-        "COMMUNITY COLLEGE",
-        "EARLY COLLEGE"
-      ],
-      "score": 19,
-      "context_status": "Older research — background, not a new development",
-      "observation": "Source finding: The paper finds that legitimizing and supporting the dual enrollment partnership requires some actors to expand or reenvision their roles, while others redefine boundaries between the high school and college. Method reported: Drawing on organizational theory and data from 81 interviews and site visits at three community colleges and their partner high schools in Texas, this working paper examines how school and college actors navigate boundaries between their organizations and make decisions about resources to support dual enrollment students and courses. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
-    },
-    {
-      "headline": "Dual Enrollment Momentum Metrics: Leading Indicators for Program Improvement",
-      "summary": "As dual enrollment participation grows—reaching an estimated 2.8 million students in 2023-24—practitioners and policymakers require validated, timely student success metrics to support the improvement of dual enrollment programming as an effective on-ramp to college and career.",
-      "url": "https://ccrc.tc.columbia.edu/publications/dual-enrollment-momentum-metrics.html",
-      "source": "CCRC Dual Enrollment",
-      "date_precision": "month",
-      "publication_date": "2026-05",
-      "evidence": {
-        "findings": [
-          "The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree.",
-          "And the findings suggest the dual momentum metrics are reliable predictors of subsequent college outcomes across student gender and race/ethnicity, Title I high school status, and high school urbanicity."
-        ],
-        "methods": [
-          "Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school."
-        ],
-        "limitations": []
-      },
-      "retrieval_method": "public_html",
-      "id": "4e80062afa418b64",
-      "date": "2026-05",
-      "labels": [
-        "STUDENT SUCCESS",
-        "EARLY COLLEGE"
-      ],
-      "score": 12,
-      "context_status": "Older research — background, not a new development",
-      "observation": "Source finding: The authors find that dual enrollment momentum metrics are strong predictors of postsecondary outcomes, though the strength varies depending on the metric and outcome: Lower credit thresholds and gateway English completion are stronger predictors of college enrollment, whereas higher credit thresholds and gateway math completion are stronger predictors of college completion and reduced time to a bachelor’s degree. Method reported: Drawing on longitudinal data from four states, analysis in the report tests three types of metrics capturing college coursetaking in high school: credit accumulation (e.g., 6+ or 15+ credits completed), completion of college math or English, and completion of a college credential in high school. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?"
-    }
-  ],
+  "research_context": [],
   "priority_coverage": {
     "ADVISING": 0,
-    "EARLY COLLEGE": 0
+    "EARLY COLLEGE": 1
   },
-  "pattern_this_cycle": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
-  "why_this_matters_now": "The AI stories worth keeping are not really about tools. They are about institutional judgment, governance, workload, and trust.",
+  "pattern_this_cycle": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "why_this_matters_now": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
   "linkedin_angles": [
     {
-      "hook": "AI shrinks first-rung jobs, but opportunities exist",
+      "hook": "Mott Community College Removes President",
       "angle": "Best post opportunity this cycle",
-      "draft": "AI shrinks first-rung jobs, but opportunities exist\n\nArtificial intelligence is beginning to reshape the labor market, potentially making it harder for young workers to start professional careers and increasing the urgency for community colleges to connect students with work-based learning opportunities and...\n\nThe AI conversation is starting to move from novelty toward implementation: governance, training, workload, equity, and the points where human judgment still matters.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.ccdaily.com/2026/11/ai-shrinks-first-rung-jobs-but-opportunities-exist/?utm_source=rss&utm_medium=rss&utm_campaign=ai-shrinks-first-rung-jobs-but-opportunities-exist"
+      "draft": "Mott Community College Removes President\n\nMott Community College Removes President Josh Moody Wed, 11/25/2026 - 03:00 AM Trustees at the Michigan college abruptly removed President Shaunda Richardson-Snell with no public explanation. Byline(s) Josh Moody Mott Community College Removes President Josh...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.insidehighered.com/news/governance/executive-leadership/2026/11/25/mott-community-college-removes-president"
     }
   ],
   "watch_list": [
     {
-      "id": "eb9bd1da549a5086",
-      "headline": "Onward and upward",
-      "source": "Community College Daily",
-      "date": "2026-11-22",
-      "url": "https://www.ccdaily.com/2026/11/onward-and-upward/?utm_source=rss&utm_medium=rss&utm_campaign=onward-and-upward",
-      "labels": [
-        "COMMUNITY COLLEGE"
-      ],
-      "score": 27
-    },
-    {
-      "id": "37a8314ea916ab04",
-      "headline": "Reporter’s notebook",
-      "source": "Community College Daily",
-      "date": "2026-11-22",
-      "url": "https://www.ccdaily.com/2026/11/reporters-notebook-250/?utm_source=rss&utm_medium=rss&utm_campaign=reporters-notebook-250",
-      "labels": [
-        "WORKFORCE",
-        "AFFORDABILITY"
-      ],
-      "score": 25
-    },
-    {
-      "id": "c77a3e788333975d",
-      "headline": "Arizona Universities Push Rush to Spring Semester",
+      "id": "22526b7a284790ff",
+      "headline": "Revenue Shares and a Seat at the Table: Mamdani Reimagines Tech Transfer",
       "source": "Inside Higher Ed",
-      "date": "2026-11-23",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/23/arizona-universities-defer-rush-spring-semester",
+      "date": "2026-11-25",
+      "url": "https://www.insidehighered.com/news/tech-innovation/2026/11/25/mamdani-unveils-new-model-tech-transfer",
+      "labels": [
+        "TRANSFER"
+      ],
+      "score": 20
+    },
+    {
+      "id": "0a7c768574d49322",
+      "headline": "What Students Want From Student Success Leaders",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-25",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/25/what-students-want-student-success-leaders",
+      "labels": [
+        "STUDENT SUCCESS"
+      ],
+      "score": 20
+    },
+    {
+      "id": "4ade2491a27e5c45",
+      "headline": "Global Higher Education Enrollments ‘to Peak by 2036’",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-25",
+      "url": "https://www.insidehighered.com/news/global/2026/11/25/global-higher-education-enrollments-peak-2036",
       "labels": [],
-      "score": 14
+      "score": 18
     },
     {
-      "id": "02fee6896d0730f1",
-      "headline": "It Is a Small Math Program. Yet There Are Those Who Love It.",
+      "id": "b263e4744bcaf7d0",
+      "headline": "Tennessee University Fires Transgender Professor Over Restroom Use",
       "source": "Inside Higher Ed",
-      "date": "2026-11-23",
-      "url": "https://www.insidehighered.com/opinion/columns/public-scholar/2026/11/23/it-small-math-program-yet-there-are-those-who-love-it",
+      "date": "2026-11-25",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/25/tennessee-university-fires-trans-professor-over-restroom-use",
       "labels": [],
       "score": 14
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-25",
+      "url": "data/archive/2026-11-25.json"
+    },
     {
       "label": "Cycle 2026-11-23",
       "url": "data/archive/2026-11-23.json"
@@ -269,15 +286,10 @@
     {
       "label": "Cycle 2026-10-09",
       "url": "data/archive/2026-10-09.json"
-    },
-    {
-      "label": "Cycle 2026-10-08",
-      "url": "data/archive/2026-10-08.json"
     }
   ],
-  "items_considered": 11,
+  "items_considered": 13,
   "feed_errors": [
-    "Inside Higher Ed: <unknown>:179:51: undefined entity",
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
