@@ -1,0 +1,194 @@
+{
+  "schema_version": "6.2",
+  "product": "Higher-Ed Intelligence Brief",
+  "focus": [
+    "Massachusetts higher education",
+    "Community colleges",
+    "Academic Advising research and practice",
+    "Early College and dual enrollment",
+    "Transfer",
+    "Student success",
+    "Affordability",
+    "Workforce policy",
+    "Governance and leadership",
+    "Practical AI in teaching/advising"
+  ],
+  "cadence": "Monday / Wednesday / Friday",
+  "generated_at": "2026-11-27 20:40 ET",
+  "cycle_date": "2026-11-27",
+  "week_of": "2026-11-23",
+  "freshness": {
+    "cycle_date": "2026-11-27",
+    "days_lookback": 5,
+    "cutoff": "2026-11-22 20:40 ET",
+    "new_count": 0,
+    "updated_count": 0
+  },
+  "sections": [
+    "developments_worth_watching",
+    "pattern_im_seeing",
+    "draft_linkedin_briefs_for_editing",
+    "watch_list",
+    "archive"
+  ],
+  "top_signals": [],
+  "research_context": [],
+  "priority_coverage": {
+    "ADVISING": 0,
+    "EARLY COLLEGE": 0
+  },
+  "pattern_this_cycle": "I did not find enough fresh, high-signal items in the current feed window. That is better than recycling old stories and pretending they are new.",
+  "why_this_matters_now": "I did not find enough fresh, high-signal items in the current feed window. That is better than recycling old stories and pretending they are new.",
+  "linkedin_angles": [
+    {
+      "hook": "No strong post this cycle",
+      "angle": "Signal quality check",
+      "draft": "I did not see enough fresh, high-signal material this cycle to justify forcing a LinkedIn post.\n\nThat is preferable to recycling old stories or pretending routine updates are more significant than they are.\n\nFor now, I would treat this as a cycle for watching rather than posting."
+    }
+  ],
+  "watch_list": [
+    {
+      "id": "c60d1637a9e119a6",
+      "headline": "Students Say They Don’t Use AI in ‘Harmful’ Ways, but Their Peers Do",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-25",
+      "url": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do",
+      "labels": [],
+      "score": 10
+    },
+    {
+      "id": "f46891f728de44ec",
+      "headline": "Part 1: Who Counts as a Citizen in the University Polity?",
+      "source": "Inside Higher Ed",
+      "date": "2026-11-25",
+      "url": "https://www.insidehighered.com/opinion/columns/just-explain-it-me/2026/11/25/part-1-who-counts-citizen-university-polity",
+      "labels": [],
+      "score": 10
+    },
+    {
+      "id": "b5c8c9512978de2b",
+      "headline": "Syracuse University adds AI review to undergraduate admissions",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-24",
+      "url": "https://www.highereddive.com/news/syracuse-university-adds-ai-review-to-undergraduate-admissions/875674/",
+      "labels": [],
+      "score": 10
+    },
+    {
+      "id": "7d69293b38903419",
+      "headline": "Court approves $5.4M bankruptcy sale of Bacone College assets",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-24",
+      "url": "https://www.highereddive.com/news/court-approves-54m-bankruptcy-sale-of-bacone-college-assets/875691/",
+      "labels": [],
+      "score": 10
+    }
+  ],
+  "archive": [
+    {
+      "label": "Cycle 2026-11-27",
+      "url": "data/archive/2026-11-27.json"
+    },
+    {
+      "label": "Cycle 2026-11-25",
+      "url": "data/archive/2026-11-25.json"
+    },
+    {
+      "label": "Cycle 2026-11-23",
+      "url": "data/archive/2026-11-23.json"
+    },
+    {
+      "label": "Cycle 2026-11-20",
+      "url": "data/archive/2026-11-20.json"
+    },
+    {
+      "label": "Cycle 2026-11-18",
+      "url": "data/archive/2026-11-18.json"
+    },
+    {
+      "label": "Cycle 2026-11-16",
+      "url": "data/archive/2026-11-16.json"
+    },
+    {
+      "label": "Cycle 2026-11-13",
+      "url": "data/archive/2026-11-13.json"
+    },
+    {
+      "label": "Cycle 2026-11-11",
+      "url": "data/archive/2026-11-11.json"
+    },
+    {
+      "label": "Cycle 2026-11-09",
+      "url": "data/archive/2026-11-09.json"
+    },
+    {
+      "label": "Cycle 2026-11-06",
+      "url": "data/archive/2026-11-06.json"
+    },
+    {
+      "label": "Cycle 2026-11-04",
+      "url": "data/archive/2026-11-04.json"
+    },
+    {
+      "label": "Cycle 2026-11-02",
+      "url": "data/archive/2026-11-02.json"
+    },
+    {
+      "label": "Cycle 2026-10-30",
+      "url": "data/archive/2026-10-30.json"
+    },
+    {
+      "label": "Cycle 2026-10-28",
+      "url": "data/archive/2026-10-28.json"
+    },
+    {
+      "label": "Cycle 2026-10-26",
+      "url": "data/archive/2026-10-26.json"
+    },
+    {
+      "label": "Cycle 2026-10-23",
+      "url": "data/archive/2026-10-23.json"
+    },
+    {
+      "label": "Cycle 2026-10-21",
+      "url": "data/archive/2026-10-21.json"
+    },
+    {
+      "label": "Cycle 2026-10-19",
+      "url": "data/archive/2026-10-19.json"
+    },
+    {
+      "label": "Cycle 2026-10-16",
+      "url": "data/archive/2026-10-16.json"
+    },
+    {
+      "label": "Cycle 2026-10-14",
+      "url": "data/archive/2026-10-14.json"
+    },
+    {
+      "label": "Cycle 2026-10-12",
+      "url": "data/archive/2026-10-12.json"
+    }
+  ],
+  "items_considered": 4,
+  "feed_errors": [
+    "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Connectivism-A-Learning-Theory-for-Todays-Academic-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising-101-How-to-be-Intrusive-Without-Intruding",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Intrusive-Advising",
+    "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Key-Theories-of-Lev-Vygotsky-and-John-Dewey-Implications-for-Academic-Advising-Theory",
+    "CCRC Advising and Student Supports: no exact publication date: https://ccrc.tc.columbia.edu/publications/advising-student-supports-community-colleges.html",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-announces-historic-early-college-expansion-creating-nearly-1700-additional-seats-for-high-school-students: robots.txt unavailable; monitoring skipped",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/healey-driscoll-administration-awards-82-million-to-expand-early-college-programs-across-massachusetts: robots.txt disallows this resource",
+    "Massachusetts DESE Announcements: https://www.mass.gov/news/governor-healey-sets-goal-of-enrolling-100000-early-college-students-by-2036: robots.txt disallows this resource",
+    "Massachusetts DESE Early College: no matching publication links in accessible HTML",
+    "Massachusetts DHE News Releases: no matching publication links in accessible HTML",
+    "Massachusetts DHE Early College: no matching publication links in accessible HTML",
+    "MassINC Early College Research and Policy: no matching publication links in accessible HTML"
+  ],
+  "site": {
+    "public_base_url": "https://merder.org/higher-ed-intel/",
+    "title": "Massachusetts Higher-Ed Intelligence Brief"
+  }
+}

@@ -14,14 +14,14 @@
     "Practical AI in teaching/advising"
   ],
   "cadence": "Monday / Wednesday / Friday",
-  "generated_at": "2026-11-25 20:56 ET",
-  "cycle_date": "2026-11-25",
+  "generated_at": "2026-11-27 20:40 ET",
+  "cycle_date": "2026-11-27",
   "week_of": "2026-11-23",
   "freshness": {
-    "cycle_date": "2026-11-25",
+    "cycle_date": "2026-11-27",
     "days_lookback": 5,
-    "cutoff": "2026-11-20 20:56 ET",
-    "new_count": 5,
+    "cutoff": "2026-11-22 20:40 ET",
+    "new_count": 0,
     "updated_count": 0
   },
   "sections": [
@@ -31,178 +31,64 @@
     "watch_list",
     "archive"
   ],
-  "top_signals": [
-    {
-      "id": "5c67e58ea6544011",
-      "headline": "Mott Community College Removes President",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-25",
-      "summary": "Mott Community College Removes President Josh Moody Wed, 11/25/2026 - 03:00 AM Trustees at the Michigan college abruptly removed President Shaunda Richardson-Snell with no public explanation. Byline(s) Josh Moody Mott Community College Removes President Josh Moody Wed, 11/25/2026 - 03:00 AM Trustees at the Michigan college abruptly removed President Shaunda Richardson-Snell with no public explanation. Byline(s) Josh...",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.insidehighered.com/news/governance/executive-leadership/2026/11/25/mott-community-college-removes-president",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "GOVERNANCE",
-        "LEADERSHIP"
-      ],
-      "score": 43,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "3596dd571a16766f",
-      "headline": "Why a college’s communications leader is a president’s first ally",
-      "source": "Community College Daily",
-      "date": "2026-11-24",
-      "summary": "Calling the modern community college presidency “demanding” undersells the challenge. The expectations of the role are relentless, and new campus CEOs usually arrive under several charges. It’s why the relationship between a president and the...",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.ccdaily.com/2026/11/why-a-colleges-communications-leader-is-a-presidents-first-ally/?utm_source=rss&utm_medium=rss&utm_campaign=why-a-colleges-communications-leader-is-a-presidents-first-ally",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "GOVERNANCE",
-        "LEADERSHIP"
-      ],
-      "score": 43,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "892d4101f945c292",
-      "headline": "How colleges and schools can grow career-focused dual enrollment",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-25",
-      "summary": "Career and technical education and dual enrollment are “powerful levers” together, said a researcher at the Community College Research Center.",
-      "observation": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
-      "why_it_matters": "The accessible source does not report a measurable effectiveness finding. Study methods are not specified in the accessible text. Study limitations are not specified in the accessible text; applicability needs checking. Practical question (editorial): what do the reported changes require of high school/college partners, credit alignment and student supports?",
-      "url": "https://www.highereddive.com/news/how-colleges-and-schools-can-grow-career-focused-dual-enrollment/875769/",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "EARLY COLLEGE"
-      ],
-      "score": 39,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "15337f782008390c",
-      "headline": "The dialectical dance of human progress",
-      "source": "Community College Daily",
-      "date": "2026-11-24",
-      "summary": "On November 21, I delivered the closing keynote at the Community College League of California’s Fall Conference in Riverside to trustees, student trustees and chief executive officers. My talk, “What We Hand Off, What We...",
-      "observation": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "why_it_matters": "The larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.",
-      "url": "https://www.ccdaily.com/2026/11/the-dialectical-dance-of-human-progress/?utm_source=rss&utm_medium=rss&utm_campaign=the-dialectical-dance-of-human-progress",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE",
-        "GOVERNANCE"
-      ],
-      "score": 33,
-      "evidence": {
-        "findings": [],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    },
-    {
-      "id": "129eeb3e9dfd7795",
-      "headline": "Alabama lawmaker eyes 3-year bachelor’s degrees for public colleges",
-      "source": "Higher Ed Dive",
-      "date": "2026-11-24",
-      "summary": "The forthcoming proposal would allow the state’s universities and community colleges to create reduced-credit programs in high-demand fields.",
-      "observation": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "why_it_matters": "This seems less like a one-off story than a small sign of the pressure now being placed on colleges to do more, explain more, and absorb more complexity.",
-      "url": "https://www.highereddive.com/news/alabama-lawmaker-eyes-3-year-bachelors-degrees-for-public-colleges/875537/",
-      "labels": [
-        "NEW",
-        "COMMUNITY COLLEGE"
-      ],
-      "score": 27,
-      "evidence": {
-        "findings": [
-          "The forthcoming proposal would allow the state’s universities and community colleges to create reduced-credit programs in high-demand fields."
-        ],
-        "methods": [],
-        "limitations": []
-      },
-      "retrieval_method": "rss"
-    }
-  ],
+  "top_signals": [],
   "research_context": [],
   "priority_coverage": {
     "ADVISING": 0,
-    "EARLY COLLEGE": 1
+    "EARLY COLLEGE": 0
   },
-  "pattern_this_cycle": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
-  "why_this_matters_now": "Early College coverage this cycle includes a dated development. Its implications should be read against the reported partnership, credit and support arrangements.\n\nThe most interesting thread this cycle is governance: how decisions get made, who gets heard, and how institutional authority is being tested.",
+  "pattern_this_cycle": "I did not find enough fresh, high-signal items in the current feed window. That is better than recycling old stories and pretending they are new.",
+  "why_this_matters_now": "I did not find enough fresh, high-signal items in the current feed window. That is better than recycling old stories and pretending they are new.",
   "linkedin_angles": [
     {
-      "hook": "Mott Community College Removes President",
-      "angle": "Best post opportunity this cycle",
-      "draft": "Mott Community College Removes President\n\nMott Community College Removes President Josh Moody Wed, 11/25/2026 - 03:00 AM Trustees at the Michigan college abruptly removed President Shaunda Richardson-Snell with no public explanation. Byline(s) Josh Moody Mott Community College Removes President Josh...\n\nThe larger issue here is how power is being exercised inside higher education institutions, especially when boards, presidents, politics, donors, faculty, and public scrutiny collide.\n\nFor community colleges, the question is whether the implementation capacity matches the ambition.\n\nSource: https://www.insidehighered.com/news/governance/executive-leadership/2026/11/25/mott-community-college-removes-president"
+      "hook": "No strong post this cycle",
+      "angle": "Signal quality check",
+      "draft": "I did not see enough fresh, high-signal material this cycle to justify forcing a LinkedIn post.\n\nThat is preferable to recycling old stories or pretending routine updates are more significant than they are.\n\nFor now, I would treat this as a cycle for watching rather than posting."
     }
   ],
   "watch_list": [
     {
-      "id": "22526b7a284790ff",
-      "headline": "Revenue Shares and a Seat at the Table: Mamdani Reimagines Tech Transfer",
+      "id": "c60d1637a9e119a6",
+      "headline": "Students Say They Don’t Use AI in ‘Harmful’ Ways, but Their Peers Do",
       "source": "Inside Higher Ed",
       "date": "2026-11-25",
-      "url": "https://www.insidehighered.com/news/tech-innovation/2026/11/25/mamdani-unveils-new-model-tech-transfer",
-      "labels": [
-        "TRANSFER"
-      ],
-      "score": 20
-    },
-    {
-      "id": "0a7c768574d49322",
-      "headline": "What Students Want From Student Success Leaders",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-25",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/25/what-students-want-student-success-leaders",
-      "labels": [
-        "STUDENT SUCCESS"
-      ],
-      "score": 20
-    },
-    {
-      "id": "4ade2491a27e5c45",
-      "headline": "Global Higher Education Enrollments ‘to Peak by 2036’",
-      "source": "Inside Higher Ed",
-      "date": "2026-11-25",
-      "url": "https://www.insidehighered.com/news/global/2026/11/25/global-higher-education-enrollments-peak-2036",
+      "url": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do",
       "labels": [],
-      "score": 18
+      "score": 10
     },
     {
-      "id": "b263e4744bcaf7d0",
-      "headline": "Tennessee University Fires Transgender Professor Over Restroom Use",
+      "id": "f46891f728de44ec",
+      "headline": "Part 1: Who Counts as a Citizen in the University Polity?",
       "source": "Inside Higher Ed",
       "date": "2026-11-25",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/25/tennessee-university-fires-trans-professor-over-restroom-use",
+      "url": "https://www.insidehighered.com/opinion/columns/just-explain-it-me/2026/11/25/part-1-who-counts-citizen-university-polity",
       "labels": [],
-      "score": 14
+      "score": 10
+    },
+    {
+      "id": "b5c8c9512978de2b",
+      "headline": "Syracuse University adds AI review to undergraduate admissions",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-24",
+      "url": "https://www.highereddive.com/news/syracuse-university-adds-ai-review-to-undergraduate-admissions/875674/",
+      "labels": [],
+      "score": 10
+    },
+    {
+      "id": "7d69293b38903419",
+      "headline": "Court approves $5.4M bankruptcy sale of Bacone College assets",
+      "source": "Higher Ed Dive",
+      "date": "2026-11-24",
+      "url": "https://www.highereddive.com/news/court-approves-54m-bankruptcy-sale-of-bacone-college-assets/875691/",
+      "labels": [],
+      "score": 10
     }
   ],
   "archive": [
+    {
+      "label": "Cycle 2026-11-27",
+      "url": "data/archive/2026-11-27.json"
+    },
     {
       "label": "Cycle 2026-11-25",
       "url": "data/archive/2026-11-25.json"
@@ -282,13 +168,9 @@
     {
       "label": "Cycle 2026-10-12",
       "url": "data/archive/2026-10-12.json"
-    },
-    {
-      "label": "Cycle 2026-10-09",
-      "url": "data/archive/2026-10-09.json"
     }
   ],
-  "items_considered": 13,
+  "items_considered": 4,
   "feed_errors": [
     "EDUCAUSE Student Success: <unknown>:2:1326: not well-formed (invalid token)",
     "NACADA Academic Advising Today: no exact publication date: https://nacada.ksu.edu/Resources/Academic-Advising-Today/View-Articles/Applying-Career-and-Identity-Development-Theories-in-Advising",
